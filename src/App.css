@@ -1,0 +1,133 @@
+nav ul li .navLink,
+nav ul li .navLink:after {
+  transition: all 0.5s;
+}
+
+nav ul li .navLink:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  color: transparent;
+  background: #911515;
+  height: 1.2px;
+}
+
+nav ul li .navLink:hover:after {
+  width: 100%;
+}
+
+.primaryButton {
+  background-image: linear-gradient(to right,
+      #941616 0%,
+      #ad3806 51%,
+      #b11616 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.primaryButton:hover {
+  background-position: right center;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(255, 77, 46, 0.4);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(255, 77, 46, 0.4);
+  box-shadow: 0px 0px 10px 2px rgba(255, 77, 46, 0.4);
+}
+
+/* Secondary button */
+.secondaryButton::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* background: linear-gradient(#eeeeee, #2d2d2d); */
+  left: 0;
+  top: -100%;
+  border-radius: 100%;
+  transition: all 0.2s ease-in-out;
+  z-index: -10;
+}
+
+.secondaryButton:hover::after {
+  top: 0;
+  border-radius: 0%;
+}
+
+.heroBg {
+  background-image: url("./assets/heroBg.png");
+}
+
+.scrollAnim::after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  border-radius: 100px;
+  background: rgb(29, 29, 29);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: animeScroll 2s linear infinite;
+}
+
+@keyframes animeScroll {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+
+  to {
+    top: 80%;
+    opacity: 0.1;
+  }
+}
+
+
+
+/* CSS HEX */
+/* --carmine: #911515ff;
+--black-bean: #3D0909ff;
+--black: #000000ff;
+--jonquil: #FDCC28ff;
+--orange-wheel: #F58634ff; */
+
+/* CSS HSL */
+/* --carmine: hsla(0, 75%, 33%, 1);
+--black-bean: hsla(0, 74%, 14%, 1);
+--black: hsla(0, 0%, 0%, 1);
+--jonquil: hsla(46, 98%, 57%, 1);
+--orange-wheel: hsla(25, 91%, 58%, 1); */
+
+/* SCSS HEX */
+/* $carmine: #911515ff;
+$black-bean: #3D0909ff;
+$black: #000000ff;
+$jonquil: #FDCC28ff;
+$orange-wheel: #F58634ff; */
+
+/* SCSS HSL */
+/* $carmine: hsla(0, 75%, 33%, 1);
+$black-bean: hsla(0, 74%, 14%, 1);
+$black: hsla(0, 0%, 0%, 1);
+$jonquil: hsla(46, 98%, 57%, 1);
+$orange-wheel: hsla(25, 91%, 58%, 1); */
+
+/* SCSS RGB */
+/* $carmine: rgba(145, 21, 21, 1);
+$black-bean: rgba(61, 9, 9, 1);
+$black: rgba(0, 0, 0, 1);
+$jonquil: rgba(253, 204, 40, 1);
+$orange-wheel: rgba(245, 134, 52, 1); */
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #911515ff, #3D0909ff, #000000ff, #FDCC28ff, #F58634ff);
+$gradient-right: linear-gradient(90deg, #911515ff, #3D0909ff, #000000ff, #FDCC28ff, #F58634ff);
+$gradient-bottom: linear-gradient(180deg, #911515ff, #3D0909ff, #000000ff, #FDCC28ff, #F58634ff);
+$gradient-left: linear-gradient(270deg, #911515ff, #3D0909ff, #000000ff, #FDCC28ff, #F58634ff);
+$gradient-top-right: linear-gradient(45deg, #911515ff, #3D0909ff, #000000ff, #FDCC28ff, #F58634ff);
+$gradient-bottom-right: linear-gradient(135deg, #911515ff, #3D0909ff, #000000ff, #FDCC28ff, #F58634ff);
+$gradient-top-left: linear-gradient(225deg, #911515ff, #3D0909ff, #000000ff, #FDCC28ff, #F58634ff);
+$gradient-bottom-left: linear-gradient(315deg, #911515ff, #3D0909ff, #000000ff, #FDCC28ff, #F58634ff);
+$gradient-radial: radial-gradient(#911515ff, #3D0909ff, #000000ff, #FDCC28ff, #F58634ff); */

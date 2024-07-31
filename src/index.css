@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  .btn-primary {
+    @apply py-2 px-5 bg-blue-500 text-white font-semibold rounded-full shadow-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-75;
+  }
+
+  p {
+    @apply text-base
+  }
+
+  @layer utilities {
+    .paused {
+      animation-play-state: paused;
+    }
+  }
+
+  /* .text-stroke-3 {
+    -webkit-text-stroke: 3px black;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  } */
+}
+
+.text-stroke {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-shadow: -1px -1px 0 rgb(157, 157, 157), 1px -1px 0 rgb(134, 134, 134), -1px 1px 0 slategray, 1px 1px 0 slategray;
+}
+
+/* .infinityScrollBg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(9, 9, 121, 0) 5%, rgba(123, 123, 183, 0) 95%, rgba(255, 255, 255, 1) 100%);
+  border: 2px solid red;
+} */
