@@ -1094,12 +1094,172 @@ export const otc = [
   },
   {
     productName: "Anticold Herbal Granules Sachet",
-    strengths:
-      "Pudina ka phool (Mentha sylvestris) 10.00 mg, Extract of Mulethi (Glycyrrhiza glabra) 150.00 mg, Sunth (Zingiber officinale) 100.00 mg, Vasaka (Adhatoda vasica) 0.25 mg, Sucrose base Q.S.",
+    // strengths:
+    //   "Pudina ka phool (Mentha sylvestris) 10.00 mg, Extract of Mulethi (Glycyrrhiza glabra) 150.00 mg, Sunth (Zingiber officinale) 100.00 mg, Vasaka (Adhatoda vasica) 0.25 mg, Sucrose base Q.S.",
   },
   {
     productName: "Anticough Lozenges",
-    strengths:
-      "Honey: Camphor 0.16 mg, Mint Flavour 6.47 mg, Eucalyptus Oil 1.61 mg, Honey 0.27 mg; Lemon: Sat Pudinah (Menthol) 6.5 mg, Extract of Yasthtimadhu (Glycyrrhiza Glabra) 9.5 mg, Ginger (Zingiber Officinale) 4.5 mg, Kantkari (Solanum Xanthocarpum) 1.9 mg, Tulsi (Ociumum Sanctum) 1.9 mg, Amla (Phyllanthus Emblica) 4.5 mg, Dalchini (Cinnamomum Zeylanicum)",
+    // strengths:
+    //   "Honey: Camphor 0.16 mg, Mint Flavour 6.47 mg, Eucalyptus Oil 1.61 mg, Honey 0.27 mg; Lemon: Sat Pudinah (Menthol) 6.5 mg, Extract of Yasthtimadhu (Glycyrrhiza Glabra) 9.5 mg, Ginger (Zingiber Officinale) 4.5 mg, Kantkari (Solanum Xanthocarpum) 1.9 mg, Tulsi (Ociumum Sanctum) 1.9 mg, Amla (Phyllanthus Emblica) 4.5 mg, Dalchini (Cinnamomum Zeylanicum)",
+  },
+];
+
+export const pediatrics = [
+  {
+    productName: "Ibuprofen + Paracetamol",
+    composition:
+      "Each 5 ml contains: Ibuprofen IP 100mg, Paracetamol IP 162.5mg",
+    pack: "60 ml / 100 ml",
+  },
+  {
+    productName: "Mefenamic Acid",
+    composition: "Each 5 ml contains: Mefenamic Acid IP 100mg",
+    pack: "60 ml",
+  },
+  {
+    productName: "Drotaverine",
+    composition: "Each 5 ml contains: Drotaverine HCl IP 10mg",
+    pack: "100 ml",
+  },
+  {
+    productName: "Drotaverine",
+    composition: "Each 5 ml contains: Drotaverine HCl IP 20mg",
+    pack: "30 ml / 60 ml",
+  },
+  {
+    productName: "Ondansetron",
+    composition: "Each 5 ml contains: Ondansetron HCl 2mg",
+    pack: "30 ml",
+  },
+  {
+    productName: "Domperidone",
+    composition: "Each ml contains: Domperidone IP 1mg",
+    pack: "30 ml",
+  },
+  {
+    productName: "Amoxicillin",
+    composition: "Each 5 ml contains: Amoxicillin Trihydrate IP 125mg",
+    pack: "30 ml / 60 ml",
+  },
+  {
+    productName: "Amoxicillin + Clavulanic Acid",
+    composition:
+      "Each 5 ml contains: Amoxicillin Trihydrate IP 200mg, Clavulanic Acid 28.50mg",
+    pack: "30 ml",
+  },
+  {
+    productName: "Cefalexin",
+    composition: "Each 5 ml contains: Cefalexin IP 125mg",
+    pack: "30 ml",
+  },
+  {
+    productName: "Ofloxacin + Ornidazole",
+    composition: "Each 5 ml contains: Ofloxacin 50mg, Ornidazole 125mg",
+    pack: "30 ml / 60 ml",
+  },
+  {
+    productName: "Azithromycin",
+    composition: "Each 5 ml contains: Azithromycin IP 200mg",
+    pack: "15 ml / 30 ml",
+  },
+  {
+    productName: "Cefixime",
+    composition: "Each 5 ml contains: Cefixime IP 100mg",
+    pack: "30 ml",
+  },
+  {
+    productName: "Clarithromycin",
+    composition: "Each 5 ml contains: Clarithromycin IP 125mg",
+    pack: "30 ml",
+  },
+  {
+    productName: "Cefpodoxime Proxetil",
+    composition: "Each 5 ml contains: Cefpodoxime Proxetil IP 50mg",
+    pack: "30 ml",
+  },
+  {
+    productName: "Cefpodoxime Proxetil + Clavulanic Acid",
+    composition:
+      "Each 5 ml contains: Cefpodoxime Proxetil IP 50mg, Clavulanic Acid 31.25mg",
+    pack: "30 ml",
+  },
+  {
+    productName: "Cetirizine",
+    composition: "Each 5 ml contains: Cetirizine HCl IP 5mg",
+    pack: "60 ml",
+  },
+  {
+    productName: "Fexofenadine",
+    composition: "Each 5 ml contains: Fexofenadine HCl IP 30mg",
+    pack: "100 ml",
+  },
+  {
+    productName: "Levocetirizine + Montelukast",
+    composition:
+      "Each 5 ml contains: Levocetirizine DiHCl IP 2.5mg, Montelukast Sodium IP 4mg",
+    pack: "60 ml",
+  },
+  {
+    productName: "Montelukast",
+    composition: "Each tablet contains: Montelukast Sodium IP 5mg",
+    pack: "1 x 10 tabs",
+  },
+  {
+    productName: "Paracetamol",
+    composition: "Each 5 ml contains: Paracetamol IP 120mg",
+    pack: "60 ml",
+  },
+  {
+    productName: "Paracetamol",
+    composition: "Each 5 ml contains: Paracetamol IP 250mg",
+    pack: "60 ml / 100 ml",
+  },
+  {
+    productName: "Iron Syrup",
+    composition:
+      "Each 5 ml contains: Ferrous Ascorbate 30mg, Folic Acid IP 500mcg, Methycobalamin IP 500mcg",
+    pack: "150 ml",
+  },
+  {
+    productName: "Vitamin D3",
+    composition: "Each 0.5 ml contains: Cholecalciferol IP 400iu",
+    pack: "15 ml",
+  },
+  {
+    productName: "Multivitamin, Multimineral & Antioxidant Suspension",
+    composition:
+      "Each 5 ml contains: Cholecalciferol IP 200iu, Pyridoxine HCl IP 1mg, Niacinamide IP 15mg, Cynocobalamin IP 1mcg, Zinc 3mg, Beta-Carotene Dispersion 2.5% (38mg), Manganese 0.8mg, Molybdenum 8mcg, Selenium 10mcg, Lysine HCl BP 30mcg, Iodine 50mcg, Biotin USP 10mcg, Chromium 10mcg, Inositol 10mg",
+    pack: "200 ml",
+  },
+  {
+    productName: "Chlorpheniramine Maleate + Phenylephrine",
+    composition:
+      "Each 5 ml contains: Phenylephrine HCl IP 5mg, Chlorpheniramine Maleate IP 2 mg",
+    pack: "60 ml",
+  },
+  {
+    productName: "Chlorpheniramine Maleate + Paracetamol + Phenylephrine",
+    composition:
+      "Each 5 ml contains: Paracetamol IP 125mg, Phenylephrine HCl IP 5mg, Chlorpheniramine Maleate IP 1 mg",
+    pack: "60 ml",
+  },
+  {
+    productName:
+      "Phenylephrine + Chlorpheniramine Maleate + Dextromethorphan Hydrobromide",
+    composition:
+      "Each 5 ml contains: Dextromethorphan Hydrobromide IP 10mg, Chlorpheniramine Maleate IP 2 mg, Phenylephrine IP 5mg",
+    pack: "60 ml / 100 ml",
+  },
+  {
+    productName: "Guaifenesin + Terbutaline + Bromhexine",
+    composition:
+      "Each 5 ml contains: Terbutaline Sulfate IP 1.25 mg, Bromhexine HCl IP 2 mg, Guaifenesin IP 50mg",
+    pack: "60 ml",
+  },
+  {
+    productName: "Chlorpheniramine Maleate + Codeine",
+    composition:
+      "Each 5 ml contains: Codeine Phosphate IP 10mg, Chlorpheniramine Maleate IP 4mg",
+    pack: "60 ml / 100 ml",
   },
 ];

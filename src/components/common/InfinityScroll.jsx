@@ -1,14 +1,14 @@
 import who from "../../assets/infinityScroll/who.png";
 import bolivia from "../../assets/infinityScroll/bolivia.png";
 import Ecuador from "../../assets/infinityScroll/Ecuador.jpg";
-import Kyrgyzstan from "../../assets/infinityScroll/Kyrgyzstan.png";
+// import Kyrgyzstan from "../../assets/infinityScroll/Kyrgyzstan.png";
 import uzbek from "../../assets/infinityScroll/uzbek.png";
 import tazkistan from "../../assets/infinityScroll/tazkistan.png";
 import frn from "../../assets/infinityScroll/frn.jpg";
 import ukraine from "../../assets/infinityScroll/ukraine.jpg";
 import pics from "../../assets/infinityScroll/pics.jpg";
 import COSTRICA from "../../assets/infinityScroll/COSTRICA.png";
-import DominicanRepublic from "../../assets/infinityScroll/DominicanRepublic.png";
+// import DominicanRepublic from "../../assets/infinityScroll/DominicanRepublic.png";
 import eaeu from "../../assets/infinityScroll/eaeu.jpg";
 import nigeria from "../../assets/infinityScroll/nigeria.jpg";
 import agemed from "../../assets/infinityScroll/agemed.png";
@@ -26,12 +26,12 @@ const images = [
   { img: eaeu },
   { img: bolivia },
   { img: Ecuador },
-  { img: Kyrgyzstan },
+  // { img: Kyrgyzstan },
   { img: uzbek },
   { img: tazkistan },
   { img: frn },
   { img: COSTRICA },
-  { img: DominicanRepublic },
+  // { img: DominicanRepublic },
   { img: nigeria },
   { img: agemed },
   { img: ppbKenya },

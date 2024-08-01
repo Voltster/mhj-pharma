@@ -7,7 +7,7 @@ const links = [
   { path: "/", label: "Home" },
   { path: "/about", label: "About Us" },
   { path: "/oncology", label: "Oncology" },
-  { path: "", label: `Products` },
+  { path: "/products", label: `Products` },
   { path: "/technology", label: `Technology` },
   { path: "/globalPresence", label: "Global Presence" },
 ];
@@ -21,15 +21,14 @@ const technology = [
 ];
 
 const exports = [
-  { label: "Injections",},
+  { label: "Injections" },
   { label: "Oral Solids", subcategories: ["Tablets", "Capsules"] },
   { label: "Oral Liquids" },
   { label: "Infusions" },
-  { label: "Food and OTC" },
-  { label: "Pediatric" },
+  { label: "OTC" },
 ];
 
-const domestic = [{ label: "Pediatrics" }, { label: "General" }];
+const domestic = [{ label: "Pediatrics" }];
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);

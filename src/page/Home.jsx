@@ -6,7 +6,7 @@ import ourDedication from "../assets/ourDedication.png";
 import SectionCard from "../components/common/SectionCard";
 import ourMission from "../assets/ourMission.png";
 import Contact from "../components/home/Contact";
-// import InfinityScroll from "../components/common/InfinityScroll";
+import InfinityScroll from "../components/common/InfinityScroll";
 
 const Home = () => {
   return (

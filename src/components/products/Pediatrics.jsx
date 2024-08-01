@@ -1,15 +1,15 @@
 import React from "react";
-import { otc } from "../../utils/ProductData";
+import { pediatrics } from "../../utils/ProductData";
 
-const OTC = () => {
+const Pediatrics = () => {
   return (
     <section className="min-h-screen relative w-full mx-auto ">
       <div className="py-20 h-screen  relative">
-        <h2 className="text-4xl text-center mt-10 font-bold mb-8 text-[#941616]">
-          OTC
+        <h2 className="text-4xl text-center mt-10 font-bold mb-8 text-[#941616] uppercase">
+          Pediatrics
         </h2>
         <div class="relative overflow-x-auto border   sm:rounded-lg overflow-y-scroll h-[80%] w-11/12 mx-auto ">
-          <table class="w-full md:w-1/2 mx-auto text-sm text-left rtl:text-right text-gray-500 h-[80%]">
+          <table class="w-full md:w-1/2 mx-auto text-sm text-left rtl:text-right text-gray-500   h-[80%]">
             <thead class="text-xs text-[#ffffff] uppercase bg-[#941616] w-full">
               <tr>
                 <th scope="col" class="px-6 py-3 w-full">
@@ -21,10 +21,13 @@ const OTC = () => {
                 <th scope="col" class="px-6 py-3">
                   Strengths Available
                 </th>
+                <th scope="col" class="px-6 py-3">
+                  Pack
+                </th>
               </tr>
             </thead>
             <tbody className="w-[200px]">
-              {otc.map((e, i) => (
+              {pediatrics.map((e, i) => (
                 <tr
                   class=" even:bg-orange-100 even:dark:bg-orange-800 border-b  "
                   key={i}
@@ -40,7 +43,13 @@ const OTC = () => {
                     scope="row"
                     class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white "
                   >
-                    {e.strengths}
+                    {e.composition}
+                  </th>
+                  <th
+                    scope="row"
+                    class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white "
+                  >
+                    {e.pack}
                   </th>
                 </tr>
               ))}
@@ -52,4 +61,4 @@ const OTC = () => {
   );
 };
 
-export default OTC;
+export default Pediatrics;

@@ -15,6 +15,7 @@ const Capsules = lazy(() => import("./components/products/Capsules"));
 const OralLiquids = lazy(() => import("./components/products/OralLiquids"));
 const Infusions = lazy(() => import("./components/products/Infusions"));
 const OTC = lazy(() => import("./components/products/OTC"));
+const Pediatrics = lazy(() => import("./components/products/Pediatrics"));
 const OncologyProducts = lazy(() =>
   import("./components/oncology/OncologyProducts")
 );
@@ -49,13 +50,11 @@ function App() {
               path="/products/exports/oral-liquids"
               element={<OralLiquids />}
             />
+            <Route path="/products/exports/infusions" element={<Infusions />} />
+            <Route path="/products/exports/otc" element={<OTC />} />
             <Route
-              path="/products/exports/infusions"
-              element={<Infusions />}
-            />
-            <Route
-              path="/products/exports/food-and-otc"
-              element={<OTC />}
+              path="/products/domestic/pediatrics"
+              element={<Pediatrics />}
             />
             <Route
               path="/technology/research-and-development"
