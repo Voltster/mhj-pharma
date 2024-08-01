@@ -10,6 +10,11 @@ const QualityControls = lazy(() => import("./page/QualityControls"));
 const Exports = lazy(() => import("./page/Exports"));
 const GlobalPresence = lazy(() => import("./page/GlobalPresence"));
 const Injections = lazy(() => import("./components/products/Injections"));
+const Tablets = lazy(() => import("./components/products/Tablets"));
+const Capsules = lazy(() => import("./components/products/Capsules"));
+const OralLiquids = lazy(() => import("./components/products/OralLiquids"));
+const Infusions = lazy(() => import("./components/products/Infusions"));
+const OTC = lazy(() => import("./components/products/OTC"));
 const OncologyProducts = lazy(() =>
   import("./components/oncology/OncologyProducts")
 );
@@ -28,7 +33,30 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/oncology" element={<Oncology />} />
             <Route path="/oncology-products" element={<OncologyProducts />} />
-            <Route path="/injections" element={<Injections />} />
+            <Route
+              path="/products/exports/injections"
+              element={<Injections />}
+            />
+            <Route
+              path="/products/exports/oral-solids/tablets"
+              element={<Tablets />}
+            />
+            <Route
+              path="/products/exports/oral-solids/capsules"
+              element={<Capsules />}
+            />
+            <Route
+              path="/products/exports/oral-liquids"
+              element={<OralLiquids />}
+            />
+            <Route
+              path="/products/exports/infusions"
+              element={<Infusions />}
+            />
+            <Route
+              path="/products/exports/food-and-otc"
+              element={<OTC />}
+            />
             <Route
               path="/technology/research-and-development"
               element={<Research />}

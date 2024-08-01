@@ -1,12 +1,12 @@
 import React from "react";
-import { injections, tablets } from "../../utils/ProductData";
+import { capsules  } from "../../utils/ProductData";
 
-const Injections = () => {
+const Capsules = () => {
   return (
     <section className="min-h-screen relative w-full mx-auto ">
       <div className="py-20 h-screen  relative">
         <h2 className="text-4xl text-center mt-10 font-bold mb-8 text-[#e93d1e]">
-          Injections
+          Capsules
         </h2>
         <div class="relative overflow-x-auto border py-2  sm:rounded-lg overflow-y-scroll h-[80%] w-11/12 mx-auto ">
           <table class="w-full md:w-1/2 mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400  h-[80%]">
@@ -24,7 +24,7 @@ const Injections = () => {
               </tr>
             </thead>
             <tbody>
-              {injections.map((e, i) => (
+              {capsules.map((e, i) => (
                 <tr
                   class="odd:bg-white odd:dark:bg-gray-900 even:bg-orange-100 even:dark:bg-orange-800 border-b dark:border-pink-700 "
                   key={i}
@@ -52,4 +52,6 @@ const Injections = () => {
   );
 };
 
-export default Injections;
+export default Capsules;
+
+

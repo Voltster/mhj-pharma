@@ -1,23 +1,23 @@
-import who from "../../assets/infinity scroll/who.png";
-import bolivia from "../../assets/infinity scroll/bolivia.png";
-import Ecuador from "../../assets/infinity scroll/Ecuador.jpg";
-import Kyrgyzstan from "../../assets/infinity scroll/Kyrgyzstan.png";
-import uzbek from "../../assets/infinity scroll/uzbek.png";
-import tazkistan from "../../assets/infinity scroll/tazkistan.png";
-import frn from "../../assets/infinity scroll/frn.jpg";
-import ukraine from "../../assets/infinity scroll/ukraine.jpg";
-import pics from "../../assets/infinity scroll/pics.jpg";
-import COSTRICA from "../../assets/infinity scroll/COSTRICA.png";
-import DominicanRepublic from "../../assets/infinity scroll/DominicanRepublic.png";
-import eaeu from "../../assets/infinity scroll/eaeu.jpg";
-import nigeria from "../../assets/infinity scroll/nigeria.jpg";
-import agemed from "../../assets/infinity scroll/agemed.png";
-import ppbKenya from "../../assets/infinity scroll/ppbKenya.png";
-import agenica from "../../assets/infinity scroll/agenica.png";
-import gobiero from "../../assets/infinity scroll/gobiero.png";
-import mspas from "../../assets/infinity scroll/mspas.png";
-import peru from "../../assets/infinity scroll/peru.png";
-import honduras from "../../assets/infinity scroll/honduras.png";
+import who from "../../assets/infinityScroll/who.png";
+import bolivia from "../../assets/infinityScroll/bolivia.png";
+import Ecuador from "../../assets/infinityScroll/Ecuador.jpg";
+import Kyrgyzstan from "../../assets/infinityScroll/Kyrgyzstan.png";
+import uzbek from "../../assets/infinityScroll/uzbek.png";
+import tazkistan from "../../assets/infinityScroll/tazkistan.png";
+import frn from "../../assets/infinityScroll/frn.jpg";
+import ukraine from "../../assets/infinityScroll/ukraine.jpg";
+import pics from "../../assets/infinityScroll/pics.jpg";
+import COSTRICA from "../../assets/infinityScroll/COSTRICA.png";
+import DominicanRepublic from "../../assets/infinityScroll/DominicanRepublic.png";
+import eaeu from "../../assets/infinityScroll/eaeu.jpg";
+import nigeria from "../../assets/infinityScroll/nigeria.jpg";
+import agemed from "../../assets/infinityScroll/agemed.png";
+import ppbKenya from "../../assets/infinityScroll/ppbKenya.png";
+import agenica from "../../assets/infinityScroll/agenica.png";
+import gobiero from "../../assets/infinityScroll/gobiero.png";
+import mspas from "../../assets/infinityScroll/mspas.png";
+import peru from "../../assets/infinityScroll/peru.png";
+import honduras from "../../assets/infinityScroll/honduras.png";
 
 const images = [
   { img: who },

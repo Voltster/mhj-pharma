@@ -15,7 +15,7 @@ const Home = () => {
       <div className="w-11/12 container mx-auto my-20">
         <Card />
         <CompanyDetails />
-        {/* <InfinityScroll /> */}
+        <InfinityScroll />
         <SectionLayout
           title={
             "OUR DEDICATION TO SCIENCE STEMS FROM OUR DESIRE TO IMPROVE SOCIETY"

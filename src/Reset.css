@@ -62,11 +62,11 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #550505;
+    background: #941616;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #b81c1c;
 }
 
 html {

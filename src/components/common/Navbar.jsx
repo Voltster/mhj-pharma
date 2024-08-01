@@ -7,7 +7,7 @@ const links = [
   { path: "/", label: "Home" },
   { path: "/about", label: "About Us" },
   { path: "/oncology", label: "Oncology" },
-  { path: "/products", label: `Products` },
+  { path: "", label: `Products` },
   { path: "/technology", label: `Technology` },
   { path: "/globalPresence", label: "Global Presence" },
 ];
@@ -25,7 +25,7 @@ const exports = [
   { label: "Oral Solids", subcategories: ["Tablets", "Capsules"] },
   { label: "Oral Liquids" },
   { label: "Infusions" },
-  { label: "Foot and OTC" },
+  { label: "Food and OTC" },
   { label: "Pediatric" },
 ];
 
@@ -78,7 +78,7 @@ const Navbar = () => {
                       <li className="relative group">
                         <NavLink
                           to="/products/exports"
-                          className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                          className="block px-4 py-2 text-gray-800 hover:bg-red-100"
                         >
                           Exports
                         </NavLink>
@@ -89,7 +89,7 @@ const Navbar = () => {
                                 to={`/products/exports/${product.label
                                   .toLowerCase()
                                   .replace(/ /g, "-")}`}
-                                className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                                className="block px-4 py-2 text-gray-800 hover:bg-red-100"
                               >
                                 {product.label}
                               </NavLink>
@@ -103,7 +103,7 @@ const Navbar = () => {
                                           .replace(/ /g, "-")}/${subcategory
                                           .toLowerCase()
                                           .replace(/ /g, "-")}`}
-                                        className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                                        className="block px-4 py-2 text-gray-800 hover:bg-red-100"
                                       >
                                         {subcategory}
                                       </NavLink>
@@ -118,7 +118,7 @@ const Navbar = () => {
                       <li className="relative group">
                         <NavLink
                           to="/products/domestic"
-                          className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                          className="block px-4 py-2 text-gray-800 hover:bg-red-100"
                         >
                           Domestic
                         </NavLink>
@@ -129,7 +129,7 @@ const Navbar = () => {
                                 to={`/products/domestic/${product.label
                                   .toLowerCase()
                                   .replace(/ /g, "-")}`}
-                                className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                                className="block px-4 py-2 text-gray-800 hover:bg-red-100"
                               >
                                 {product.label}
                               </NavLink>
@@ -152,7 +152,7 @@ const Navbar = () => {
                         <li key={tech.label}>
                           <NavLink
                             to={tech.path}
-                            className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                            className="block px-4 py-2 text-gray-800 hover:bg-red-100"
                           >
                             {tech.label}
                           </NavLink>

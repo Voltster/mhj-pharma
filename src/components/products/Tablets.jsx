@@ -1,12 +1,12 @@
 import React from "react";
-import { injections, tablets } from "../../utils/ProductData";
+import { tablets } from "../../utils/ProductData";
 
-const Injections = () => {
+const Tablets = () => {
   return (
     <section className="min-h-screen relative w-full mx-auto ">
       <div className="py-20 h-screen  relative">
         <h2 className="text-4xl text-center mt-10 font-bold mb-8 text-[#e93d1e]">
-          Injections
+          Tablets
         </h2>
         <div class="relative overflow-x-auto border py-2  sm:rounded-lg overflow-y-scroll h-[80%] w-11/12 mx-auto ">
           <table class="w-full md:w-1/2 mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400  h-[80%]">
@@ -21,10 +21,13 @@ const Injections = () => {
                 <th scope="col" class="px-6 py-3">
                   Strengths Available
                 </th>
+                <th scope="col" class="px-6 py-3">
+                  Coating
+                </th>
               </tr>
             </thead>
             <tbody>
-              {injections.map((e, i) => (
+              {tablets.map((e, i) => (
                 <tr
                   class="odd:bg-white odd:dark:bg-gray-900 even:bg-orange-100 even:dark:bg-orange-800 border-b dark:border-pink-700 "
                   key={i}
@@ -42,6 +45,12 @@ const Injections = () => {
                   >
                     {e.strengths}
                   </th>
+                  <th
+                    scope="row"
+                    class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  >
+                    {e.coating}
+                  </th>
                 </tr>
               ))}
             </tbody>
@@ -52,4 +61,4 @@ const Injections = () => {
   );
 };
 
-export default Injections;
+export default Tablets;

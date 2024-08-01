@@ -25,7 +25,7 @@ const Hero = () => {
           <PrimaryButton
             to={"/oncology-products"}
             className={
-              "mt-10 bg-gradient-to-r from-[#e91e63] via-pink-400 to-pink-600 animate-custom-bounce hover:animate-none"
+              "mt-10 bg-gradient-to-r from-[#e91e63] via-pink-400 to-pink-600 animate-custom-bounce hover:animate-none transition-all"
             }
           >
             Products
