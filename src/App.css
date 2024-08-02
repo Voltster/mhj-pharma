@@ -21,12 +21,10 @@ nav ul li .navLink:hover:after {
 }
 
 .primaryButton {
-  background-image: linear-gradient(
-    to right,
-    #941616 0%,
-    #ad3806 51%,
-    #b11616 100%
-  );
+  background-image: linear-gradient(to right,
+      #941616 0%,
+      #ad3806 51%,
+      #b11616 100%);
   transition: 0.5s;
   background-size: 200% auto;
 }
@@ -59,13 +57,13 @@ nav ul li .navLink:hover:after {
 
 .heroBg {
   background: rgb(255, 255, 255);
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(255, 255, 255, 1) 0%,
       rgba(170, 69, 11, 0.062) 35%,
-      rgba(250, 85, 35, 0) 100%
-    ),
-    url("https://img.freepik.com/premium-vector/hexagons-pattern-gray-background-genetic-research-molecular-structure-chemical-engineering-concept-innovation-technology-used-design-healthcare-science-medicine-background_322958-1088.jpg?w=826");
+      rgba(250, 85, 35, 0) 100%),
+    url("./assets/heroBg1.JPG");
+  background-size: contain;
+
 }
 
 .scrollAnim::after {
@@ -92,6 +90,7 @@ nav ul li .navLink:hover:after {
     opacity: 0.1;
   }
 }
+
 .subcategorys {
   display: none;
 }

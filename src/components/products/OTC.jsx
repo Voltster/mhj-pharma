@@ -1,4 +1,3 @@
-import React from "react";
 import { otc } from "../../utils/ProductData";
 
 const OTC = () => {
@@ -8,17 +7,17 @@ const OTC = () => {
         <h2 className="text-4xl text-center mt-10 font-bold mb-8 text-[#941616]">
           OTC
         </h2>
-        <div class="relative overflow-x-auto border   sm:rounded-lg overflow-y-scroll h-[80%] w-11/12 mx-auto ">
-          <table class="w-full md:w-1/2 mx-auto text-sm text-left rtl:text-right text-gray-500 h-[80%]">
-            <thead class="text-xs text-[#ffffff] uppercase bg-[#941616] w-full">
+        <div className="relative w-10/12 overflow-x-auto border   sm:rounded-lg overflow-y-scroll h-[80%] w- mx-auto ">
+          <table className=" mx-auto text-sm text-left rtl:text-right text-gray-500 h-[80%]">
+            <thead className="text-xs text-[#ffffff] uppercase bg-[#941616] w-full">
               <tr>
-                <th scope="col" class="px-6 py-3 w-full">
+                <th scope="col" className="px-6 py-3 w-full whitespace-nowrap">
                   S. no.
                 </th>
-                <th scope="col" class="px-6 py-3">
+                <th scope="col" className="px-6 py-3">
                   Product name
                 </th>
-                <th scope="col" class="px-6 py-3">
+                <th scope="col" className="px-6 py-3 whitespace-nowrap">
                   Strengths Available
                 </th>
               </tr>
@@ -26,19 +25,19 @@ const OTC = () => {
             <tbody className="w-[200px]">
               {otc.map((e, i) => (
                 <tr
-                  class=" even:bg-orange-100 even:dark:bg-orange-800 border-b  "
+                  className=" even:bg-red-100  border-b border-red-300 "
                   key={i}
                 >
-                  <td class="px-6  text-gray-900">{i + 1}</td>
+                  <td className="px-6  text-gray-800">{i + 1}</td>
                   <th
                     scope="row"
-                    class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-2 font-medium text-gray-800 whitespace-nowrap"
                   >
                     {e.productName}
                   </th>
                   <th
                     scope="row"
-                    class="px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white "
+                    className="px-6 py-2 font-medium text-gray-800  "
                   >
                     {e.strengths}
                   </th>
