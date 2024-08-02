@@ -3,7 +3,7 @@ import { injections } from "../../utils/ProductData";
 const Injections = () => {
   return (
     <section className="min-h-screen relative w-full mx-auto ">
-      <div className="py-20 h-screen  relative heroBg">
+      <div className="py-20 h-screen  relative tableBg">
         <h2 className="text-4xl text-center mt-10 font-bold mb-8 text-[#941616] uppercase">
           Injections
         </h2>

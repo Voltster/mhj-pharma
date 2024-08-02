@@ -66,6 +66,17 @@ nav ul li .navLink:hover:after {
 
 }
 
+.tableBg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(170, 69, 11, 0.062) 35%,
+      rgba(250, 85, 35, 0) 100%),
+    url("./assets/tableBg1.png");
+  background-size: contain;
+
+}
+
 .scrollAnim::after {
   content: "";
   height: 8px;
