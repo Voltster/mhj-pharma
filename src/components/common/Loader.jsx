@@ -1,11 +1,30 @@
-import React from 'react'
+import loader from "../../assets/loader.mp4";
 
 const Loader = () => {
   return (
-    <div>
-      
+    // <div className="w-screen h-screen rounded-xl overflow-hidden relative z-10">
+    //   <video src={loader} autoPlay loop muted  className="w-full"/>
+    // </div>
+    <div className="main w-screen h-[90vh] fixed z-50 bg-white flex justify-center items-center">
+      <div className="loaderPil text-center">
+        <div className="loaderAnim h-[160px] relative -z-10 mb-2">
+          <div className="loader-anime-bounce">
+            <div className="loaderPill-anim-flop">
+              <div className="loaderPill-Pill inline-block box-border w-[80px] h-[30px] border border-red-500 rounded-[15px] overflow-hidden">
+                <div className="bg-red-500 h-full w-1/2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="loaderPill-floor block ">
+          <div className="loaderPill-shadow inline-block w-[70px] h-[7px] rounded-[50%] bg-gray-500/40 transform translate-y-[-15px]"></div>
+        </div>
+        <h2 className="uppercase md:text-lg font-semibold bg-gradient-to-r from-[#db3700] to-[#fe5628] text-transparent bg-clip-text">
+          MHJ Pharmaconcepts Private Limited
+        </h2>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Loader
+export default Loader;

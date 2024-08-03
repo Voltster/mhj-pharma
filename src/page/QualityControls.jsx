@@ -8,7 +8,7 @@ import SectionLayout from "../components/common/SectionLayout";
 const QualityControls = () => {
   return (
     <main className="min-h-screen relative w-full mx-auto ">
-      <MainSection imgSrc={QualityControlText} videoSrc={video} />
+      <MainSection title={"Quality"} videoSrc={video} />
       <SectionLayout
         title={"Quality Control"}
         description={`MHJ Pharmaconcepts is a pharmaceutical company that is committed to maintaining a high standard in their manufacturing process. They have a well-equipped laboratory that conducts a thorough examination of all raw materials including Active Pharmaceutical Ingredients (APIs), Excipients, and packaging materials. The examination involves rigorous physical, microbiological and instrumental testing, as well as feasible interface control to ensure the quality of their products.
@@ -31,7 +31,7 @@ const QualityControls = () => {
         to quality extends beyond the products we make, as we strive to deliver
         exceptional customer service every step of the way.`}
         src={QualityControl2}
-        className={"w-11/12 mx-auto container flex-row-reverse"}
+        className={"w-11/12 mx-auto container xl:flex-row-reverse"}
       />
     </main>
   );

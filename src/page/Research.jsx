@@ -8,7 +8,7 @@ const Research = () => {
   return (
     <main className="min-h-screen relative w-full mx-auto ">
       <MainSection
-        imgSrc={ResearchText}
+        title={"Research"}
         videoSrc={video}
         className={"flex-row-reverse"}
       />
@@ -24,9 +24,9 @@ const Research = () => {
         description={`At MHJ PHARMACONCEPTS, we take great care to ensure that our manufacturing division operates with reliability and excellence. Our priority is to produce stable and high-quality pharmaceutical products, while maintaining safety measures for both our workers and the environment. Our state-of-the-art manufacturing facilities are equipped with modern equipment that is built on robust principles, allowing us to produce accurate results at a faster pace than ever before, without compromising on quality.<br />
         To enhance the quality assurance of our products, we have established procedures that minimize human touch, thus reducing the potential for errors. We continually strive to improve our infrastructure and equipment to deliver the highest quality products. Through the implementation of automation in various stages of the manufacturing process, we have vastly improved both the quality of our products, and the efficiency of our operations.`}
         src={ManufacturingUnit}
-        className={"w-11/12 mx-auto container flex-row-reverse"}
+        className={"w-11/12 mx-auto container xl:flex-row-reverse"}
       />
-      <p className="w-11/12 mx-auto text-center mb-20">
+      <p className="w-11/12 mx-auto text-center mb-20 text-gray-800">
         Our staff are highly trained professionals who are dedicated to
         delivering the best possible results while maintaining our high-quality
         standards. At MHJ PHARMACONCEPTS, we believe that by investing in our

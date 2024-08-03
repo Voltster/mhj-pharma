@@ -4,18 +4,14 @@ export default {
   theme: {
     extend: {
       animation: {
-        "loop-scroll": "loop-scroll 25s infinite linear",
+        "loop-scroll": "loop-scroll 35s infinite linear",
+        "custom-bounce": "customBounce 1s infinite"
       },
       keyframes: {
         "loop-scroll": {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(-35%)" },
         },
-      },
-      animation: {
-        "custom-bounce": "customBounce 1s infinite",
-      },
-      keyframes: {
         customBounce: {
           "0%, 100%": {
             transform: "translateY(-35%)",
@@ -25,8 +21,11 @@ export default {
             transform: "translateY(0)",
             "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
           },
-        },
+
+        }
       },
+
+
     },
   },
   plugins: [],

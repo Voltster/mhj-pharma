@@ -2,13 +2,14 @@ import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import logo from "../../assets/mhjlogo.svg";
 import PrimaryButton from "./PrimaryButton";
+import { FaBars } from "react-icons/fa";
 
 const links = [
   { path: "/", label: "Home" },
   { path: "/about", label: "About Us" },
   { path: "/oncology", label: "Oncology" },
-  { path: "/products", label: `Products` },
-  { path: "/technology", label: `Technology` },
+  { path: "products/exports/injections", label: `Products` },
+  { path: "/technology/research-and-development", label: `Technology` },
   { path: "/globalPresence", label: "Global Presence" },
 ];
 
@@ -35,13 +36,13 @@ const Navbar = () => {
   const [technologyDropdownOpen, setTechnologyDropdownOpen] = useState(false);
 
   return (
-    <header className="w-full px-20 py-2 fixed z-[40] shadow-sm bg-white">
-      <div className="container mx-auto px-4 py-2 flex justify-between items-center">
+    <header className="w-full xl:px-20 px-4 p-1 xl:py-2 fixed z-[40] shadow-sm bg-white">
+      <div className="w-full xl:container mx-auto px-4 py-2 flex justify-between items-center">
         <Link to="/" exact className="text-xl font-bold">
-          <img src={logo} alt="MJH Pharma logo" width={85} />
+          <img src={logo} alt="MJH Pharmaconcepts logo" width={85} />
         </Link>
-        <nav className="stroke">
-          <ul className="flex space-x-4 md:space-x-8">
+        <nav className="stroke hidden xl:block">
+          <ul className="flex space-x-4 md:space-x-4  xl:space-x-8">
             {links.map((link) => (
               <li
                 key={link.path}
@@ -60,7 +61,7 @@ const Navbar = () => {
                 <NavLink
                   to={link.path}
                   className={({ isActive }) =>
-                    `text-xl block relative navLink hover:text-[#911515] ${
+                    `md:text-base xl:text-xl block relative navLink hover:text-[#911515] text-nowrap ${
                       isActive && "text-[#911515]"
                     }`
                   }
@@ -164,7 +165,15 @@ const Navbar = () => {
             ))}
           </ul>
         </nav>
-        <PrimaryButton to={"/#contact"}>Contact Us</PrimaryButton>
+        <PrimaryButton
+          to={"/#contact "}
+          className={"ml-2 xl:ml-0 hidden xl:block"}
+        >
+          Contact Us
+        </PrimaryButton>
+        {/* Mobile */}
+        <div></div>
+        <FaBars className="text-xl cursor-pointer block xl:hidden" />
       </div>
     </header>
   );

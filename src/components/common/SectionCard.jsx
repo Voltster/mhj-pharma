@@ -13,17 +13,27 @@ const SectionCard = ({
 
   return (
     <div
-      className={`flex flex-col lg:flex-row items-center text-white h-[30rem] ${className}`}
+      className={`w-full  flex flex-col-reverse lg:flex-row items-center text-white xl:h-[30rem] ${className}`}
     >
-      <div className="w-1/2 h-full overflow-hidden">
+      <div className="w-full xl:w-1/2 h-full overflow-hidden">
         <img src={image} alt={title} className="w-[100%] h-[100%]" />
       </div>
       <div
-        className={`bg-[#941616] w-1/2 h-full flex justify-center items-center flex-col ${customClass}`}
+        className={`bg-[#941616] p-4 xl:w-1/2 h-full flex justify-center items-center flex-col ${customClass}`}
       >
-        <div className={`w-[80%]`}>
-          <h2 className={`text-4xl font-bold mb-4 ${titleColor}`}>{title}</h2>
-          <p className={`${paraColor}`}>{formattedDescription}</p>
+        <div className={`xl:w-[80%]`}>
+          <h2 className={`text-4xl font-semibold mb-4 ${titleColor}`}>
+            {title}
+          </h2>
+          <p
+            className={`  ${
+              paraColor == "invert"
+                ? "text-gray-800 font-normal"
+                : "text-gray-100 "
+            } font-light`}
+          >
+            {formattedDescription}
+          </p>
         </div>
       </div>
     </div>

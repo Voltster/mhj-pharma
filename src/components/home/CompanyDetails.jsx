@@ -1,4 +1,3 @@
-import React from "react";
 import hero2 from "../../assets/hero2.jpg";
 import Authenticity from "../../assets/Authenticity.png";
 import QualityCredibility from "../../assets/Quality&Credibility.png";
@@ -24,13 +23,13 @@ const cards = [
 
 const CompanyDetails = () => {
   return (
-    <section className="flex justify-center items-center gap-x-16  mb-28">
+    <section className="flex flex-col-reverse xl:flex-row justify-center items-center xl:gap-x-16  mb-28">
       {/* left */}
-      <div className="w-1/2">
-        <h2 className="uppercase text-4xl mb-2 font-semibold">
+      <div className=" xl:w-1/2">
+        <h2 className="uppercase  text-xl xl:text-4xl mb-2 font-semibold text-gray-900">
           OFFERING EXCEPTIONAL EMINENCE AND PROTECTION FOR WELL-BEING
         </h2>
-        <p className="text-justify">
+        <p className="text-justify text-gray-800">
           MHJ PHARMACONCEPTS is a company that has been accredited by WHO-GMP,
           and is involved in fulfilling medical requirements across the world by
           offering a range of top-grade medical products that are aimed at
@@ -48,17 +47,17 @@ const CompanyDetails = () => {
         </p>
       </div>
       {/* right */}
-      <div className="w-1/2 rounded-lg relative">
+      <div className="xl:w-1/2 rounded-lg relative">
         <img src={hero2} alt="MHJ PHARMACONCEPTS is a company" />
-        <div className="flex justify-center items-center gap-4 absolute -bottom-20">
+        <div className="flex flex-col xl:flex-row justify-center items-center gap-4 xl:absolute -bottom-20 mt-2 xl:mt-0 mb-2 xl:mb-0">
           {cards.map((e, i) => (
             <div
               key={i}
               className="text-center border backdrop-blur-md rounded-lg p-1"
             >
-              <img src={e.image} alt={e.image} className=" mx-auto" />
-              <p className="font-bold font-gray-950 ">{e.title}</p>
-              <p className="text-gray-900">{e.description}</p>
+              <img src={e.image} alt={e.image} className="mx-auto" />
+              <p className="font-bold font-gray-900 ">{e.title}</p>
+              <p className="text-gray-800">{e.description}</p>
             </div>
           ))}
         </div>

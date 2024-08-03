@@ -1,4 +1,3 @@
-import React from "react";
 import ContactForm from "./ContactForm";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -8,12 +7,14 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="flex justify-center items-center  h-screen" id="#contact">
-      {/* left */}
-      <div className="bg-[#941616] h-full w-1/2 flex justify-center items-center">
-        <div className="w-[80%] mx-auto">
-          <h2 className="text-2xl text-white">Contact Us</h2>
-          <p className="text-gray-100 mt-4">
+    <div
+      className="flex flex-col xl:flex-row justify-center items-center  xl:h-screen"
+      id="#contact"
+    >
+      <div className="bg-[#941616] p-4 h-full xl:w-1/2 flex justify-center items-center">
+        <div className="xl:w-[80%] mx-auto">
+          <h2 className="text-4xl font-semibold mb-4 text-white">Contact Us</h2>
+          <p className="text-gray-100 mt-4 font-light">
             Please fill out the form below to get in touch with us. Whether you
             have a question about our products, services, pricing, or anything
             else, our team is ready to answer all your queries.
@@ -30,17 +31,17 @@ const Contact = () => {
             referrerPolicy="no-referrer-when-downgrade"
             title="MHJ PHARMACONCEPTS Location"
           ></iframe>
-          <ul className="text-gray-100 flex gap-2 flex-col">
+          <ul className="text-gray-100 flex gap-2 flex-col ">
             <li className="flex  items-center gap-2">
               <FaLocationDot className="text-xl " />
               New Delhi, India
             </li>
             <li className="flex  items-center gap-2">
-              <FaPhoneVolume className="text-xl" />
+              <FaPhoneVolume className="text-xl cursor-pointer" />
               +91 12345 67890
             </li>
             <li className="flex  items-center gap-2">
-              <IoIosMail className="text-xl" />
+              <IoIosMail className="text-xl cursor-pointer" />
               info@mhjpharma.com
             </li>
           </ul>
@@ -65,7 +66,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      {/* Right */}
       <ContactForm />
     </div>
   );

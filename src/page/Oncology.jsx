@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "../components/oncology/Hero";
 import OncologyProductRange from "../components/oncology/OncologyProductRange";
 import SectionCard from "../components/common/SectionCard";
@@ -22,7 +21,7 @@ const Oncology = () => {
           image={Innovative}
           customClass={"bg-[#f8bbd0]"}
           titleColor={"text-[#E91E63]"}
-          paraColor={"text-[#595566]"}
+          paraColor={"invert"}
         />
         <SectionCard
           title={"Customized Patient Care"}
@@ -33,7 +32,7 @@ const Oncology = () => {
           className={"lg:flex-row-reverse"}
           customClass={"bg-[#f8bbd0]"}
           titleColor={"text-[#E91E63]"}
-          paraColor={"text-[#595566]"}
+          paraColor={"invert"}
         />
         <SectionCard
           title={"Quality and Safety"}
@@ -43,7 +42,7 @@ const Oncology = () => {
           image={QualitySafety}
           customClass={"bg-[#f8bbd0]"}
           titleColor={"text-[#E91E63]"}
-          paraColor={"text-[#595566]"}
+          paraColor={"invert"}
         />
         <SectionCard
           title={"Research & Development"}
@@ -54,7 +53,7 @@ const Oncology = () => {
           className={"lg:flex-row-reverse"}
           customClass={"bg-[#f8bbd0]"}
           titleColor={"text-[#E91E63]"}
-          paraColor={"text-[#595566]"}
+          paraColor={"invert"}
         />
       </section>
       <GlobalReach />

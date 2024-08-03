@@ -1,4 +1,3 @@
-import React from 'react';
 import CardData from './CardData';
 
 import contract from '../../assets/card1.jfif';
@@ -28,8 +27,8 @@ const cardsData = [
 
 const Card = () => {
   return (
-    <div className="w-full py-[8vw] ">
-      <div className="w-[95%]  mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 overflow-x-hidden ">
+    <div className="w-full py-[8vw]">
+      <div className=" mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 overflow-x-hidden ">
         {cardsData.map((card, index) => (
           <CardData
             key={index}

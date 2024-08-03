@@ -2,7 +2,7 @@ import MainSection from "../components/common/MainSection";
 import SectionLayout from "../components/common/SectionLayout";
 import companyOverview from "../assets/companyOverview.png";
 import companyOverview2 from "../assets/companyOverview2.png";
-// import InfinityScroll from "../components/common/InfinityScroll";
+import InfinityScroll from "../components/common/InfinityScroll";
 import ourMission from "../assets/ourMission1.png";
 import ourVision from "../assets/ourVision.png";
 import ourGoal from "../assets/ourGoal.png";
@@ -14,7 +14,7 @@ import about from "../assets/About Us.png";
 const About = () => {
   return (
     <main className="min-h-screen relative w-full mx-auto ">
-      <MainSection imgSrc={about} videoSrc={video} />
+      <MainSection title={"About Us"} videoSrc={video} />
       <SectionLayout
         title={"Company Overview"}
         description={`MHJ PHARMACONCEPTS is an Indian pharmaceutical company with an International existence, its founder, Mr. Mohitt Jaen, established it in 2017 with the" visualization to formulate India autonomous in healthcare. Since then, it has come out as one of India's leading pharmaceutical companies.<br /> 
@@ -29,10 +29,10 @@ const About = () => {
           "MHJ PHARMACONCEPTS today symbolizes a name – maintaining health judiciously.<br /> MHJ PHARMACONCEPTS has comprehensive its scope of services towards the artery of global market. It established exports of medicines from India to the world and has been exporting antibiotics and other pharmaceutical products. We are focusing to extend our export market to over 50+ countries.<br /> Our company is a WHO recognized organization which has certification for GMP and ISO 9001: 2000 for productive management in developing, quality control and other business operations. This expansion in business and services has marked the credibility of MHJ PHARMACONCEPTS."
         }
         src={companyOverview2}
-        className={"w-11/12 mx-auto container flex-row-reverse"}
+        className={"w-11/12 mx-auto container xl:flex-row-reverse"}
       />
       <section className="my-20 mx-auto w-11/12">
-        {/* <InfinityScroll /> */}
+        <InfinityScroll />
         <SectionCard
           title={"Our Mission"}
           description={

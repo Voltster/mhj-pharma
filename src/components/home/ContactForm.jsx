@@ -42,7 +42,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-1/2">
+    <div className="xl:w-1/2">
       <div className="container w-5/6 mx-auto mt-12 md:mt-0">
         <div className="max-w-xl mx-auto rounded-md ">
           <div>

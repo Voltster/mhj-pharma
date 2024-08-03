@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <main className="min-h-screen relative w-full mx-auto ">
       <Hero />
-      <div className="w-11/12 container mx-auto my-20">
+      <div className=" w-11/12 container mx-auto my-20 ">
         <Card />
         <CompanyDetails />
         <InfinityScroll />
@@ -24,7 +24,7 @@ const Home = () => {
             "An extensive range of prescription drugs and over the counter medications are manufactured at our manufacturing plant, with an outsized product portfolio of over 500 molecules in Tablets, Capsules (Soft & Hard Gelatin), Injections (Dry Powders, Liquid & PFS), Oral Liquids, Ointments, and Sachets. MHJ PHARMACONCEPTS is also based in the United States and United Kingdom, and has overseas branches in Delaware and London respectively. We have prolonged our presence in key markets of AFRICA, CIS and LATAM, among other rising economies to make healthcare more affordable globally."
           }
           src={ourDedication}
-          className={"flex-row-reverse"}
+          className={"xl:flex-row-reverse"}
         />
         <SectionCard
           image={ourMission}

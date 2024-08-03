@@ -7,7 +7,6 @@ const About = lazy(() => import("./page/About"));
 const Oncology = lazy(() => import("./page/Oncology"));
 const Research = lazy(() => import("./page/Research"));
 const QualityControls = lazy(() => import("./page/QualityControls"));
-const Exports = lazy(() => import("./page/Exports"));
 const GlobalPresence = lazy(() => import("./page/GlobalPresence"));
 const Injections = lazy(() => import("./components/products/Injections"));
 const Tablets = lazy(() => import("./components/products/Tablets"));
@@ -20,13 +19,15 @@ const OncologyProducts = lazy(() =>
   import("./components/oncology/OncologyProducts")
 );
 
+import Loader from "./components/common/Loader";
+
 import "./Reset.css";
 import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loader />}>
         <div className="bg-gray-50 h-screen relative w-screen">
           <Navbar />
           <Routes>
@@ -65,10 +66,7 @@ function App() {
               element={<QualityControls />}
             />
             <Route path="/globalPresence" element={<GlobalPresence />} />
-            {/* <Route
-              path="/products/exports/:category/:subcategory?"
-              element={<Exports />}
-            /> */}
+            <Route path="/loader" element={<Loader />} />
           </Routes>
           <Footer />
         </div>

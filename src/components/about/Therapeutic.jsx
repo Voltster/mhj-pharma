@@ -6,10 +6,6 @@ import Otalaryngology from "../../assets/Otalaryngology.png";
 import Pediatrics from "../../assets/Pediatrics.png";
 import AntiInfectives from "../../assets/AntiInfectives.png";
 
-
-
-
-
 const cardsData = [
   {
     id: 1,
@@ -107,16 +103,15 @@ const cardComponents = cardsData.map((card) => {
   return (
     <div
       key={card.id}
-      className={`p-10 flex flex-col items-center text-center group md:lg:xl:border-r md:lg:xl:border-b hover:bg-slate-100 cursor-pointer`}
+      className={`p-10 flex flex-col items-center text-center group md:lg:xl:border-r md:lg:xl:border-b hover:bg-gray-200  cursor-pointer transition-all`}
     >
       <span
-        className={`p-5  rounded-full  text-white shadow-lg shadow-[${card.bgColor}] `}
+        className={`p-5  rounded-full  text-white shadow-lg transition-all shadow-[${card.bgColor}] `}
         style={styles}
       >
         {card.icon}
       </span>
-      <p className="text-xl font-medium text-slate-700 mt-3">{card.title}</p>
-      <p className="mt-2 text-sm text-slate-500">{card.description}</p>
+      <p className="text-xl font-medium text-gray-800 mt-3">{card.title}</p>
     </div>
   );
 });
@@ -124,7 +119,7 @@ const cardComponents = cardsData.map((card) => {
 const Therapeutic = () => {
   return (
     <div className="py-[2vw]">
-      <h3 className="uppercase text-4xl mb-2 font-semibold text-center">
+      <h3 className="uppercase text-4xl mb-2 font-semibold text-center text-gray-900">
         The Therapeutic Segments Covers
       </h3>
 
