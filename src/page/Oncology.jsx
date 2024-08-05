@@ -6,6 +6,7 @@ import Customized from "../assets/Customized.png";
 import ResearchDevelopment from "../assets/ResearchDevelopment.png";
 import QualitySafety from "../assets/QualitySafety.png";
 import GlobalReach from "../components/common/GlobalReach";
+import Packshot from "../components/oncology/Packshot";
 
 const Oncology = () => {
   return (
@@ -56,6 +57,7 @@ const Oncology = () => {
           paraColor={"invert"}
         />
       </section>
+      <Packshot />
       <GlobalReach />
     </main>
   );

@@ -41,7 +41,7 @@ const OncologyProductRange = () => {
           {products.map((product, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-lg p-4 w-full group hover:cursor-pointer"
+              className="bg-pink-200 rounded-lg shadow-lg p-4 w-full group hover:cursor-pointer relative   outerContainer  overflow-hidden"
             >
               <div className="rounded-t-lg h-48 overflow-hidden w-full">
                 <img

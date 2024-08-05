@@ -74,7 +74,7 @@ nav ul li .navLink:hover:after {
 
 }
 
-.strokeText{
+.strokeText {
   -webkit-text-stroke: 1px gray;
   color: white;
   font-weight: 800;
@@ -180,31 +180,61 @@ nav ul li .navLink:hover:after {
   }
 }
 
-  @keyframes loaderPillScale {
-    0% {
-      transform: translateY(-15px) scale(1.1);
-      animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
-
-    25% {
-      transform: translateY(-15px) scale(0.7, 1);
-      animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
-
-    50% {
-      transform: translateY(-15px) scale(1, 1);
-      animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
-
-    75% {
-      transform: translateY(-15px) scale(0.6, 1);
-      animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
-
-    100% {
-      transform: translateY(-15) scale(1, 1);
-    }
+@keyframes loaderPillScale {
+  0% {
+    transform: translateY(-15px) scale(1.1);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
+
+  25% {
+    transform: translateY(-15px) scale(0.7, 1);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  50% {
+    transform: translateY(-15px) scale(1, 1);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  75% {
+    transform: translateY(-15px) scale(0.6, 1);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  100% {
+    transform: translateY(-15) scale(1, 1);
+  }
+}
+
+
+.outerContainer::after {
+  content: '';
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: hsla(329, 50%, 48%, 1);
+  background: linear-gradient(90deg, hsla(329, 50%, 48%, 1) 0%, rgb(75, 17, 56) 100%);
+  animation: borderAnime 2s linear infinite;
+
+}
+
+@keyframes borderAnime {
+  0% {
+    filter: hue-rotate(0);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+
+
+
+
 
 
 /* .bgLog::before {
