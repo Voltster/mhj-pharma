@@ -20,11 +20,37 @@ nav ul li .navLink:hover:after {
   width: 100%;
 }
 
+/* Navbar */
+
+.products:hover .subNav {
+  display: block;
+}
+
+.export:hover ul {
+  display: block;
+}
+
+.domestic:hover ul {
+  display: block;
+}
+.oralSolids:hover span {
+  display: block;
+}
+/* .RD {
+  display: none;
+} */
+
+.technology:hover ul {
+  display: block;
+}
+
 .primaryButton {
-  background-image: linear-gradient(to right,
-      #941616 0%,
-      #fb4e04 51%,
-      #b11616 100%);
+  background-image: linear-gradient(
+    to right,
+    #941616 0%,
+    #fb4e04 51%,
+    #b11616 100%
+  );
   transition: 0.5s;
   background-size: 200% auto;
 }
@@ -54,31 +80,32 @@ nav ul li .navLink:hover:after {
 
 .heroBg {
   background: rgb(255, 255, 255);
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 1) 0%,
       rgba(170, 69, 11, 0.062) 35%,
-      rgba(250, 85, 35, 0) 100%),
+      rgba(250, 85, 35, 0) 100%
+    ),
     url("./assets/heroBg1.JPG");
   background-size: contain;
-
 }
 
 .tableBg {
   background: rgb(255, 255, 255);
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(255, 255, 255, 1) 0%,
       rgba(194, 194, 194, 0.062) 35%,
-      rgba(241, 241, 241, 0) 100%),
+      rgba(241, 241, 241, 0) 100%
+    ),
     url("./assets/tableBg1.png");
   background-size: contain;
-
 }
 
 .strokeText {
   -webkit-text-stroke: 1px gray;
   color: white;
   font-weight: 800;
-
 }
 
 .scrollAnim::after {
@@ -128,19 +155,18 @@ nav ul li .navLink:hover:after {
 
 .loaderPill-shadow {
   -webkit-animation: loaderPillScale 1800ms linear infinite;
-  animation: loaderPillScale 1800ms linear infinite
+  animation: loaderPillScale 1800ms linear infinite;
 }
 
 @keyframes loaderPillBounce {
   0% {
     transform: translateY(123px);
-    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
 
   23% {
     transform: translateY(40px);
     animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
-
   }
 
   50% {
@@ -206,9 +232,8 @@ nav ul li .navLink:hover:after {
   }
 }
 
-
 .outerContainer::after {
-  content: '';
+  content: "";
   width: 102%;
   height: 102%;
   position: absolute;
@@ -216,9 +241,12 @@ nav ul li .navLink:hover:after {
   left: 0;
   z-index: -1;
   background: hsla(329, 50%, 48%, 1);
-  background: linear-gradient(90deg, hsla(329, 50%, 48%, 1) 0%, rgb(75, 17, 56) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(329, 50%, 48%, 1) 0%,
+    rgb(75, 17, 56) 100%
+  );
   animation: borderAnime 2s linear infinite;
-
 }
 
 @keyframes borderAnime {
@@ -230,12 +258,6 @@ nav ul li .navLink:hover:after {
     filter: hue-rotate(360deg);
   }
 }
-
-
-
-
-
-
 
 /* .bgLog::before {
   content: "";

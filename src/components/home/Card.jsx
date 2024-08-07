@@ -1,27 +1,30 @@
-import CardData from './CardData';
+import CardData from "./CardData";
 
-import contract from '../../assets/card1.jfif';
-import Accredited from '../../assets/card2.jfif';
-import Highly from '../../assets/card3.jfif';
+import contract from "../../assets/card1.jfif";
+import Accredited from "../../assets/card2.jfif";
+import Highly from "../../assets/card3.jfif";
 
 const cardsData = [
   {
     image: contract,
-    title: 'Contract Manufacturing',
+    title: "Contract Manufacturing",
     description:
-      'Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling.',
+      "Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling.",
+    link: "/technology/research-and-development",
   },
   {
     image: Accredited,
-    title: 'Accredited Contract Development',
+    title: "Accredited Contract Development",
     description:
-      'Professional business coach with advanced experience on growth and business scaling.',
+      "Professional business coach with advanced experience on growth and business scaling.",
+    link: "/technology/research-and-development",
   },
   {
     image: Highly,
-    title: 'Highly Qualified Team',
+    title: "Highly Qualified Team",
     description:
-      'Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling.',
+      "Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling.",
+    link: "/technology/quality-control",
   },
 ];
 
@@ -35,6 +38,8 @@ const Card = () => {
             image={card.image}
             title={card.title}
             description={card.description}
+            link={card.link}
+            
           />
         ))}
       </div>
