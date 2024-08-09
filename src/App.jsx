@@ -62,7 +62,7 @@ function App() {
               element={<Pediatrics />}
             />
             <Route
-              path="/technology/research-and-development"
+              path="/technology/research-development"
               element={<Research />}
             />
             <Route
@@ -78,5 +78,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;

@@ -9,7 +9,7 @@ import ukraine from "../../assets/infinityScroll/ukraine.jpg";
 import pics from "../../assets/infinityScroll/pics.jpg";
 import COSTRICA from "../../assets/infinityScroll/COSTRICA.png";
 import DominicanRepublic from "../../assets/infinityScroll/dominicanRepublic.png";
-import eaeu from "../../assets/infinityScroll/eaeu.jpg";
+import eaeu from "../../assets/infinityScroll/eaeu.png";
 // import nigeria from "../../assets/infinityScroll/nigeria.jpg";
 import agemed from "../../assets/infinityScroll/agemed.png";
 import ppbKenya from "../../assets/infinityScroll/ppbKenya.png";

@@ -1,6 +1,6 @@
 // import pulmonology from "../../assets/pulmonology.png";
 // import Gastro from "../../assets/Gastro.png";
-// import Otc from "../../assets/Otc.png";
+import Otc from "../../assets/Otc.png";
 // import PainKiller from "../../assets/PainKiller.png";
 // import Otalaryngology from "../../assets/Otalaryngology.png";
 // import Pediatrics from "../../assets/Pediatrics.png";
@@ -143,7 +143,8 @@ const cardsData = [
   {
     id: 1,
     bgColor: "#F92316",
-    icon: "https://img.freepik.com/free-photo/close-up-variety-colorful-painkillers-table_23-2148430057.jpg?t=st=1723034225~exp=1723037825~hmac=3b49f66e3dccb57925862dcfbf7ecd2a210004648ca3f8c06c4da5557313c93f&w=740",
+    icon: "https://img.freepik.com/free-photo/flat-lay-hand-holding-assortment-pills_23-2148530956.jpg?t=st=1723100687~exp=1723104287~hmac=934541f5c81e06e437bffb502e591699d9013decb7bd9022e76eae5d49a4e893&w=360",
+    // icon: "https://img.freepik.com/free-photo/close-up-variety-colorful-painkillers-table_23-2148430057.jpg?t=st=1723034225~exp=1723037825~hmac=3b49f66e3dccb57925862dcfbf7ecd2a210004648ca3f8c06c4da5557313c93f&w=740",
     title: "Antibiotics",
   },
   {
@@ -161,8 +162,10 @@ const cardsData = [
   {
     id: 4,
     bgColor: "#20CD2A ",
-    icon: "https://img.freepik.com/free-photo/high-angle-shot-person-holding-capsules-with-keyboard_181624-12026.jpg?t=st=1723035010~exp=1723038610~hmac=b11fd06caa3b53383820251ccf0e0255015181eeb58fb459b0ac1f268fc9d83f&w=740",
-    title: "OTC- Antacids",
+    icon: Otc,
+    // icon: "https://media.istockphoto.com/id/1421469160/photo/round-pills-or-tablets-arranged-in-heart-shape.jpg?s=1024x1024&w=is&k=20&c=rVb8J-heesLgFTUi4CAyiyzJS0yFvdxkRT3X4jP_jo4=",
+    // icon: "https://img.freepik.com/free-photo/high-angle-shot-person-holding-capsules-with-keyboard_181624-12026.jpg?t=st=1723035010~exp=1723038610~hmac=b11fd06caa3b53383820251ccf0e0255015181eeb58fb459b0ac1f268fc9d83f&w=740",
+    title: "OTC",
   },
   {
     id: 5,
@@ -173,13 +176,14 @@ const cardsData = [
   {
     id: 6,
     bgColor: "#4970CD",
-    icon: "https://img.freepik.com/premium-photo/human-ear-anatomy-image_669954-48199.jpg?w=740",
+    icon: "https://plus.unsplash.com/premium_photo-1661499672602-ea63fc5d3fb4?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // icon: "https://img.freepik.com/free-photo/person-having-hearing-issues_23-2150038482.jpg?w=360&t=st=1723100600~exp=1723101200~hmac=24763a0d66bb3eb89c596903734cf96d39c1490d0ea88e2deca0ce4e8ed8cfb4",
     title: "Otalaryngology",
   },
   {
     id: 7,
     bgColor: "#2320aD",
-    icon: "https://img.freepik.com/premium-photo/3d-render-medical-with-virus-cells-bacteria-multiple-realistic-coronavirus-particles-floating_1252149-61831.jpg?w=826",
+    icon: "https://img.freepik.com/free-photo/portrait-woman-working-healthcare-system-as-pediatrician_23-2151686825.jpg?t=st=1723100402~exp=1723104002~hmac=88164bb66865d5afc56a305d319470f363e993fc2e3fde5a445be6c9672556e1&w=360",
     title: "Pediatrics",
   },
   {
@@ -206,7 +210,7 @@ const cardComponents = cardsData.map((card) => {
       <img
         src={card.icon}
         alt={card.icon}
-        className="object-cover w-full h-full"
+        className="object-cover w-full h-[15rem] "
       />
       <p className="text-xl font-medium text-gray-100 mt-3 absolute bottom-0  py-2 w-full bg-gradient-to-b from-gray-500/0 via-black/50 via-40% to-gray-950">
         {card.title}
@@ -216,6 +220,7 @@ const cardComponents = cardsData.map((card) => {
 });
 
 import React from "react";
+import { otc } from "../../utils/ProductData";
 
 const Therapeutic = () => {
   return (
