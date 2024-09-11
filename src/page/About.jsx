@@ -8,7 +8,7 @@ import ourGoal from "../assets/ourGoal.png";
 import SectionCard from "../components/common/SectionCard";
 import Therapeutic from "../components/about/Therapeutic";
 import MainSection from "../components/about/MainSection";
-import smart from "../assets/smart1.png";
+import smart from "../assets/smart3.png";
 import { motion as m } from "framer-motion";
 const About = () => {
   return (

@@ -163,7 +163,8 @@ const ContactForm = () => {
 
     try {
       const response = await axios.post(
-        "https://contact-api-delta.vercel.app/send-email",
+        // "https://contact-api-delta.vercel.app/send-email",
+        "https://contact-api-iota.vercel.app/send-email",
         formData
       );
       if (response.status === 200) {
@@ -245,7 +246,6 @@ const ContactForm = () => {
               className="w-full px-3 py-2 placeholder-gray-300 border border-gray-400 rounded-md focus:outline-none focus:border-red-500"
             />
           </div>
-
           <div className="w-full mb-6">
             <label
               htmlFor="number"
