@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="flex flex-wrap lg:justify-around ">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
-                <h2 className=" mb-6 text-[32px] font-semibold uppercase text-[#B71B15] sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+                <h2 className=" mb-6 text-2xl  font-semibold uppercase text-[#B71B15] sm:text-4xl">
                   Contact Us
                 </h2>
 
@@ -46,7 +46,7 @@ const Contact = () => {
                       to={"tel:+999-943-6570"}
                       className="flex  items-center gap-2 text-sm"
                     >
-                      <FaPhoneVolume className="text-xl cursor-pointer text-[#941616]" />
+                      <FaPhoneVolume className="text-2xl md:text-xl cursor-pointer text-[#941616]" />
                       +91 9999 436 570
                     </Link>
                   </li>
@@ -55,13 +55,13 @@ const Contact = () => {
                       to={"mailto:info@mhjpharma.com"}
                       className="flex  items-center gap-2 text-sm"
                     >
-                      <IoIosMail className="text-xl cursor-pointer text-[#941616]" />
+                      <IoIosMail className="text-2xl md:text-xl cursor-pointer text-[#941616]" />
                       info@mhjpharma.com
                     </Link>
                   </li>
                 </ul>
                 <div className="flex md:justify-end mt-4">
-                  <ul className="flex text-red-800 gap-8 text-2xl hover:text-red-800">
+                  <ul className="flex text-red-800 gap-x-2  md:gap-x-8 text-2xl hover:text-red-800">
                     <li className="hover:scale-[1.2] transition-all">
                       <Link
                         to={"https://www.instagram.com/mhjpharmaconcepts/"}

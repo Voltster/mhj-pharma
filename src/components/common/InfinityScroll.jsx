@@ -46,8 +46,8 @@ const images = [
 
 const InfinityScroll = () => {
   return (
-    <div className="my-24">
-      <h2 className="text-xl text-nowrap xl:text-4xl text-[#B71B15] uppercase py-2 text-center  font-semibold">
+    <div className="my-12 md:my-24">
+      <h2 className="text-2xl text-nowrap xl:text-4xl text-[#B71B15] uppercase py-2 text-center  font-semibold">
         Endorsed Certifications
       </h2>
       <div className="w-full xl:w-[90vw] overflow-hidden group mx-auto scroll-smooth">

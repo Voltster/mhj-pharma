@@ -44,7 +44,9 @@ const Home = () => {
           description={
             "An extensive range of Prescription Drugs and Over The Counter medications are manufactured at our manufacturing plant, with an outsized product portfolio of over 600 molecules in Tablets, Capsules (Soft & Hard Gelatin), Injections (Dry Powders, Liquid & PFS), Oral Liquids. MHJ Pharmaconcepts has its International existence with its branches in USA and UK .We have prolonged our presence in key markets of LATAM , CIS and  AFRICA, among other rising economies to make healthcare more affordable globally."
           }
-          src={'https://img.freepik.com/premium-photo/healthcare-medicine-covid19-doctor-holding-tablet-electronic-medical-record-graph-statistics-infection-outbreak-with-coronavirus-pandemic-spread-global-network_1028938-124417.jpg?w=900'}
+          src={
+            "https://img.freepik.com/premium-photo/healthcare-medicine-covid19-doctor-holding-tablet-electronic-medical-record-graph-statistics-infection-outbreak-with-coronavirus-pandemic-spread-global-network_1028938-124417.jpg?w=900"
+          }
           className={"xl:flex-row-reverse"}
         />
         <Contact />
@@ -78,7 +80,7 @@ const Home = () => {
             </p>
           </m.div>
           <m.div
-            className="mb-2 "
+            className="mb-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}

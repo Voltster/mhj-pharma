@@ -54,8 +54,7 @@ function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.2 }}
-              className="ml-10 flex items-baseline space-x-4 
-              "
+              className="ml-10 flex items-baseline space-x-4"
             >
               <NavLinks
                 openDropdown={openDropdown}

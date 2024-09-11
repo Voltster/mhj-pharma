@@ -24,14 +24,14 @@ const cards = [
 
 const CompanyDetails = () => {
   return (
-    <section className="flex flex-col-reverse xl:flex-row justify-center items-center xl:gap-x-16 mb-28">
+    <section className="flex flex-col-reverse xl:flex-row justify-center items-center xl:gap-x-16 mb-8 md:mb-28">
       <m.div
         initial={{ x: [0], opacity: 0 }}
         whileInView={{ x: [-150, 0], opacity: 1 }}
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
         className="w-full xl:w-1/2"
       >
-        <h2 className="uppercase text-xl xl:text-4xl mb-2 mt-10 md:-mt-20 font-semibold text-[#BE2013] text-center">
+        <h2 className="uppercase text-2xl xl:text-4xl mb-2 mt-10 md:-mt-20 font-semibold text-[#BE2013] text-center">
           ENSURING EXCELLENCE AND INTEGRITY
         </h2>
         <p className="text-justify text-gray-800 mt-10">
@@ -41,8 +41,8 @@ const CompanyDetails = () => {
           formulations adhering to the stringent standards of EU-GMP, US-FDA,
           PIC/s, and TGA-Australia, MHJ Pharmaconcepts has earned the trust of
           healthcare professionals and patients alike. Our mission is to provide
-          affordable, top-grade pharmaceutical products to patients with critical
-          ailments, enhancing the quality of life across the globe.
+          affordable, top-grade pharmaceutical products to patients with
+          critical ailments, enhancing the quality of life across the globe.
         </p>
       </m.div>
       <m.div

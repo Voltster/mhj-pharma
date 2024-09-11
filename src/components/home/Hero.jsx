@@ -33,7 +33,7 @@ const Hero = () => {
         animate="visible"
         className="md:h-[75%] w-full flex-col-reverse flex xl:flex-row justify-center items-center gap-x-16 mt-24 xl:mt-10  mx-auto  relative"
       >
-        <h1 className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20  text-xl md:text-5xl font-bold text-white text-center w-11/12 mx-auto md:w-auto">
+        <h1 className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20  text-2xl md:text-5xl font-bold text-white text-center w-11/12 mx-auto md:w-auto">
           Leading the Way in Healthcare Innovation
         </h1>
         <m.div

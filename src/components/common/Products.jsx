@@ -14,7 +14,7 @@ const Products = ({ imageData, customClass }) => {
         whileInView={{ y: [50, 0], opacity: 1 }}
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
         viewport={{ once: true, amount: 0.5 }}
-        className={`text-xl xl:text-4xl uppercase font-semibold mb-4 text-center  pb-2 text-[#B71B15] pt-4 ${customClass}`}
+        className={`text-2xl xl:text-4xl uppercase font-semibold mb-4 text-center  pb-2 text-[#B71B15] pt-4 ${customClass}`}
       >
         Our Products
       </m.h2>
