@@ -254,7 +254,7 @@ const Regulatory = () => {
           <m.img
             src="https://img.freepik.com/premium-photo/fda-text-written-wooden-cubes-light-colored-background_392339-1603.jpg?w=826"
             alt=""
-            className="rounded-md  w-[80%] mx-auto"
+            className="rounded-md  w-[80%] mx-auto mt-6 md:mt-0"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [150, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
@@ -262,7 +262,7 @@ const Regulatory = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center md:flex-row flex-col-reverse  items-center w-11/12 mx-auto gap-4 my-20">
+      <div className="flex justify-center md:flex-row flex-col-reverse  items-center w-11/12 mx-auto gap-4 my-5 md:my-20">
         <div className="md:w-1/2 mx-auto">
           <m.img
             src={regulatoryBg}

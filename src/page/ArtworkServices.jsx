@@ -6,7 +6,7 @@ const ArtworkServices = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
       <SectionLayout
-        customClass={"py-20"}
+        customClass={"pt-20 pb-10 md:pb-20"}
         heading={"Why Choose Our Regulatory Management Services?"}
         title={"Exceptional Regulatory Artwork Management Services"}
         description={`At MHJ Pharmaconcepts, we pride ourselves on delivering exceptional regulatory artwork management services to our clients. With our extensive expertise in pharmaceutical regulatory consulting and pharmaceutical artwork management, we have successfully submitted new product authorization applications to over 20+ countries and responded to related inquiries.<br /> Expertise in Package Artwork Management<br />Our team specializes in mitigating the risks associated with package artwork, ensuring that all labeling and packaging comply with regulatory requirements. We understand the importance of accuracy and attention to detail, and our services are designed to minimize the likelihood of errors or labelling inconsistencies.`}
@@ -25,7 +25,7 @@ const ArtworkServices = () => {
         review to submission and maintenance, ensuring that your products are
         compliant with regulatory requirements.
       </p> */}
-      <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 py-8 px-4">
+      <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 md:py-8 px-4">
         <div className="md:w-1/2 ">
           <m.img
             src="https://img.freepik.com/premium-photo/concept-service-main-connections-with-it-wooden-blocks_102583-1992.jpg?w=740"

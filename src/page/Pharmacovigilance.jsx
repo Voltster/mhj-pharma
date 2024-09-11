@@ -8,7 +8,7 @@ const Pharmacovigilance = () => {
       <SectionLayout
         heading={"Pharmacovigilance Consulting Services"}
         title={"Pharmacovigilance"}
-        customClass={"py-20"}
+        customClass={"pt-20 pb-10 md:pb-20"}
         description={`At MHJ Pharmaconcepts, we prioritize innovation, quality, and customer-centricity. We integrate cutting-edge technology to optimize pharmacovigilance processes, ensuring compliance and timely responses to safety and regulatory challenges. Our seasoned pharmacovigilance teams, comprising regulatory affairs and pharmacovigilance experts, guarantee meticulous adherence to global standards. We foster strong client relationships through transparency, collaboration, and regular updates, empowering clients with insights and expertise.
 `}
         src={
@@ -26,7 +26,7 @@ const Pharmacovigilance = () => {
         Risk Management
       </m.h4>
 
-      <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 py-8 px-4">
+      <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 md:py-8 px-4">
         <div className="md:w-1/2 ">
           <m.img
             src="https://img.freepik.com/premium-photo/risk-management-text-words-typography-written-with-paper-life-business-concept_21336-5159.jpg?w=740"

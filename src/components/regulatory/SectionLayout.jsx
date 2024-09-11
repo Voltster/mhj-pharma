@@ -5,7 +5,6 @@ const SectionLayout = ({
   src,
   alt,
   className,
-  display,
   subheading,
   heading,
   id,
@@ -17,7 +16,7 @@ const SectionLayout = ({
 
   return (
     <section id={id} className={` mt-10 w-11/12 mx-auto ${customClass}`}>
-      <h2 className=" text-xl xl:text-4xl  font-semibold text-[#B51915] text-center mb-12">
+      <h2 className=" text-2xl xl:text-4xl  font-semibold text-[#B51915] text-center mb-12">
         {heading}
       </h2>
       <div

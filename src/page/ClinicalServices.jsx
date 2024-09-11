@@ -18,7 +18,7 @@ const ClinicalServices = () => {
         className={"w-11/12 mx-auto container"}
       /> */}
       <m.h2
-        className="pt-20 mt-10 text-xl xl:text-4xl  font-semibold text-[#B51915] text-center mb-12 w-11/12 mx-auto"
+        className="pt-20 mt-10 text-2xl md:text-4xl  font-semibold text-[#B51915] text-center md:mb-12 w-11/12 mx-auto"
         initial={{ y: [0], opacity: 0 }}
         whileInView={{ y: [25, 0], opacity: 1 }}
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
@@ -27,7 +27,7 @@ const ClinicalServices = () => {
         MHJ Pharmaconcepts Expertise in Clinical Regulatory Affairs Services
         Includes
       </m.h2>
-      <div className="w-11/12 mx-auto pb-20 flex flex-col-reverse xl:flex-row justify-center items-center gap-12 xl:gap-x-16">
+      <div className="w-11/12 mx-auto pb-10 md:pb-20 flex flex-col-reverse xl:flex-row justify-center items-center gap-y-4 gap-x-12 xl:gap-x-16">
         <m.div
           className="md:w-1/2"
           initial={{ x: [0], opacity: 0 }}
@@ -36,7 +36,7 @@ const ClinicalServices = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <h2 className="text-xl font-semibold mx-auto text-[#B51915]  mb-2 ">
-            Regulatory Compliance Services"
+            Regulatory Compliance Services
           </h2>
           <p className="text-justify text-gray-800">
             We provide expert support in clinical study report writing, ensuring
@@ -75,7 +75,7 @@ const ClinicalServices = () => {
         applications and early phase clinical protocols, ensuring compliance
         with relevant regulations and guidelines.
       </p> */}
-      <div className="w-11/12 mx-auto  flex justify-center items-center md:flex-row flex-col gap-12 xl:gap-x-16 py-8 px-4">
+      <div className="w-11/12 mx-auto  flex justify-center items-center md:flex-row flex-col gap-y-4 gap-x-12 xl:gap-x-16 md:py-8 px-4">
         <div className="md:w-1/2">
           <m.img
             src="https://img.freepik.com/free-photo/document-marketing-strategy-business-concept_53876-132234.jpg?t=st=1725521797~exp=1725525397~hmac=4567fed617ebf44c7e927c81f4a7acbfcba45c40de3d4d5c27c2bc00d3b27526&w=826"
