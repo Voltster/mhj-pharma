@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Zain:wght@200;300;400;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p,
+ul {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Moderustic", sans-serif;
+  font-family: "Exo", sans-serif; */
+  /* font-family: "Oswald", sans-serif; */
+  /* font-family: "Cairo", sans-serif; */
+  /* font-family: "Playfair Display", serif; */
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Unbounded", sans-serif; */
+  /* font-family: "Zain", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Mulish", sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Play", sans-serif; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* text-transform: uppercase; */
+}
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-5 bg-blue-500 text-white font-semibold rounded-full shadow-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-75;
+  }
+
+  p {
+    @apply text-base;
+  }
+
+  @layer utilities {
+    .paused {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.text-stroke {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-shadow: -1px -1px 0 rgb(157, 157, 157), 1px -1px 0 rgb(134, 134, 134),
+    -1px 1px 0 slategray, 1px 1px 0 slategray;
+}
+
+/* .infinityScrollBg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(9, 9, 121, 0) 5%, rgba(123, 123, 183, 0) 95%, rgba(255, 255, 255, 1) 100%);
+  border: 2px solid red;
+} */
