@@ -63,7 +63,7 @@ const SectionCard = ({
       >
         <div className={`xl:w-[80%]`}>
           <m.h2
-            className={`text-4xl font-semibold mb-4 ${titleColor}`}
+            className={`text-2xl md:text-4xl font-semibold mb-4 ${titleColor}`}
             variants={itemVariants}
           >
             {title}
@@ -73,7 +73,7 @@ const SectionCard = ({
               paraColor === "invert"
                 ? "text-gray-800 font-normal"
                 : "text-gray-100 "
-            } font-light text-justify`}
+            } font-light md:text-justify`}
             variants={itemVariants}
           >
             {formattedDescription}

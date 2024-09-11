@@ -8,7 +8,7 @@ import { motion as m } from "framer-motion";
 
 const Products = ({ imageData, customClass }) => {
   return (
-    <div className="w-full h-full mb-10">
+    <div className="w-full  md:h-full mb-10">
       <m.h2
         initial={{ y: 0, opacity: 0 }}
         whileInView={{ y: [50, 0], opacity: 1 }}
@@ -28,7 +28,7 @@ const Products = ({ imageData, customClass }) => {
         navigation={true}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         modules={[Pagination, Navigation, Autoplay]}
-        className="mySwiper md:h-full w-full"
+        className="mySwiper md:h-full w-full md:py-10"
         breakpoints={{
           450: {
             slidesPerView: 1,
@@ -41,14 +41,14 @@ const Products = ({ imageData, customClass }) => {
         }}
       >
         {imageData.map((e, index) => (
-          <SwiperSlide key={index} className="bg-cover bg-center h-[18rem]  ">
+          <SwiperSlide key={index} className="bg-cover bg-center h-[18rem] ">
             <m.img
               initial={{ scale: 0.8, opacity: 0.3 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
               src={e.img}
               alt={e}
-              className="aspect-square object-contain block h-[80%] w-[80%]  mix-blend-multiply"
+              className="aspect-square object-contain block h-[80%] w-[80%] mx-auto mix-blend-multiply"
               loading="lazy"
             />
           </SwiperSlide>

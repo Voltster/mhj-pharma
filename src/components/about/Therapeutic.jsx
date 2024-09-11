@@ -91,12 +91,12 @@ import React from "react";
 
 const Therapeutic = () => {
   return (
-    <div className="py-[2vw]">
-      <h3 className="uppercase text-4xl mb-2 font-semibold text-center text-[#B71B15]">
+    <div className="pt-10 pb-20 md:py-20">
+      <h3 className="uppercase text-2xl md:text-4xl mb-2 font-semibold text-center text-[#B71B15]">
         Therapeutic Divisions
       </h3>
 
-      <div className="px-3 md:lg:xl:px-40 py-20 bg-opacity-10">
+      <div className="px-3 md:lg:xl:px-40  pt-5 bg-opacity-10">
         <div className="grid grid-cols-1 lg:md:grid-cols-4 gap-4 group bg-[#fefefe] ">
           {cardComponents}
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import regulatoryBg from "../assets/RegulatoryBg.jpg";
-import SectionLayout from "../components/common/SectionLayout";
 import { FaCheck } from "react-icons/fa6";
 import { motion as m } from "framer-motion";
 
@@ -11,7 +10,7 @@ const Regulatory = () => {
         className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${regulatoryBg})` }}
       >
-        <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[100vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
+        <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
           Regulatory Services
         </h2>
       </div>
@@ -54,7 +53,7 @@ const Regulatory = () => {
           />
         </div>
       </div>
-      <div className="w-11/12 mx-auto flex  flex-col-reverse items-center justify-center gap-4 py-10 md:flex-row-reverse">
+      <div className="w-11/12 mx-auto flex  flex-col-reverse items-center justify-center gap-4 md:flex-row-reverse">
         <m.div
           className="md:w-1/2  text-justify"
           initial={{ x: [0], opacity: 0 }}

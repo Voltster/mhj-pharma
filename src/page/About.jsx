@@ -7,7 +7,6 @@ import ourVision from "../assets/Vision.png";
 import ourGoal from "../assets/ourGoal.png";
 import SectionCard from "../components/common/SectionCard";
 import Therapeutic from "../components/about/Therapeutic";
-import video from "../assets/Aboutus.webm";
 import MainSection from "../components/about/MainSection";
 import smart from "../assets/smart1.png";
 import { motion as m } from "framer-motion";
@@ -15,7 +14,6 @@ const About = () => {
   return (
     <main className="min-h-screen relative w-full mx-auto bg-inherit">
       <MainSection />
-      {/* <MainSection title={"About Us"} videoSrc={video} /> */}
       <div className="flex flex-col lg:flex-row items-center justify-between p-10  md:pt-20  mt-10">
         <div className="md:w-1/2">
           <m.img
@@ -25,11 +23,9 @@ const About = () => {
             viewport={{ once: true, amount: 0.5 }}
             src={smart}
             alt="smart"
-            className="mix-blend-multiply hue-rotate-[1deg]"
+            className="mix-blend-multiply"
           />
         </div>
-
-        {/* Right Section: Content */}
         <m.div
           className="lg:w-1/2 mt-10 lg:mt-0 lg:pl-10"
           initial={{ x: [0], opacity: 0 }}
@@ -55,26 +51,6 @@ const About = () => {
           </p>
         </m.div>
       </div>
-      {/* <div className="md:pt-20  mt-10 flex flex-col md:flex-row justify-center item-center w-9/12 mx-auto gap-4  ">
-        <h2 className="md:w-1/2 text-2xl md:text-4xl font-semibold leading-normal text-[#B51915] my-auto">
-          S - Serving <br />
-          M - Medications <br />
-          A - And <br />
-          R - Remedies <br />
-          T - Throughout the world <br />
-        </h2>
-        <p className="md:w-1/2">
-          We have a diverse portfolio of over 150 registered products worldwide,
-          catering to various therapeutic areas. Our products are designed to
-          address the unmet medical needs of patients and healthcare
-          professionals, and we are committed to ongoing innovation and
-          development to stay ahead of the curve in the industry. <br />
-          We take pride in our robust COPPs program, which has resulted in over
-          200 certificates till date. Our COPPs program ensures the authenticity
-          and integrity of our products, and we are committed to maintaining the
-          highest standards of quality control and compliance.
-        </p>
-      </div> */}
       <SectionLayout
         title={"Overview"}
         description={`Established in 2017 by our visionary leader, Mr. Mohiiit Jaiin, MHJ Pharmaconcepts has been driven by a mission to empower global health through excellence and shape the future with innovative strategies. Our goal is to make the world self-reliant in healthcare, and we have quickly become one of India's leading pharmaceutical companies. <br /> We offer a wide range of products, including generic branded formulations, advanced drug delivery systems (ADDS), and biotechnology products, catering to the global market. Our comprehensive portfolio includes generics, biosimilars, and differentiated formulations, which we market as both generics and branded generics in India and major international markets.<br />Our commitment to excellence in pharmaceutical innovation and quality has earned us a reputation as a trusted partner in healthcare, both in India and globally. Through our custom pharmaceutical services, we continue to drive advancements in medicines, making high-quality healthcare accessible to all.

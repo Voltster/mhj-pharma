@@ -46,14 +46,14 @@ const images = [
 
 const InfinityScroll = () => {
   return (
-    <div className="my-12 md:my-24">
+    <div className="my-12 md:my-24 ">
       <h2 className="text-2xl text-nowrap xl:text-4xl text-[#B71B15] uppercase py-2 text-center  font-semibold">
         Endorsed Certifications
       </h2>
       <div className="w-full xl:w-[90vw] overflow-hidden group mx-auto scroll-smooth">
         <div className="flex space-x-6 animate-loop-scroll  w-[700%] shadow-2xl shadow-gray-300/30 group-hover:paused hover:cursor-pointer scroll-smooth">
           {images.map((e, i) => (
-            <div key={i} className="my-8">
+            <div key={i} className=" mt-8 md:my-8">
               <img
                 src={e.img}
                 alt={e.img}
@@ -66,7 +66,7 @@ const InfinityScroll = () => {
             </div>
           ))}
           {images.map((e, i) => (
-            <div key={i} className="my-8">
+            <div key={i} className="mt-8 md:my-8 ">
               <img
                 src={e.img}
                 alt={e.img}

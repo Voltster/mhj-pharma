@@ -5,22 +5,16 @@ const Manufacture = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
       <div
-        className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover bg-no-repeat bg-center"
+        className="mt-16 w-full md:h-full relative text-gray-900 bg-cover bg-no-repeat bg-center"
         style={{
           backgroundImage: `url('https://img.freepik.com/premium-photo/worker-filling-bottles-with-water-factory-generative-ai_843410-3620.jpg?w=740')`,
         }}
       >
-        <m.h2
-          className=" text-xl md:text-6xl font-semibold text-white w-full min-h-[100vw] md:min-h-[90vh]  text-center flex justify-center items-center bg-black/60"
-          // initial={{ scale: .5, opacity: 0 }}
-          // whileInView={{ scale: 1, opacity: 1 }}
-          // transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
-          // viewport={{ once: true, amount: 0.5 }}
-        >
+        <m.h2 className=" text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[100vh] text-center flex justify-center items-center bg-black/60">
           Manufacturing Unit
         </m.h2>
       </div>
-      <div className="w-11/12 mx-auto  flex-col-reverse md:flex-row flex items-center justify-center gap-8 py-10 ">
+      <div className="w-11/12 mx-auto flex-col-reverse md:flex-row flex items-center justify-center gap-8 py-10">
         <m.div
           className="md:w-1/2  text-justify"
           initial={{ x: [0], opacity: 0 }}
@@ -28,7 +22,7 @@ const Manufacture = () => {
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          <h2 className="text-xl md:text-2xl  mb-4 mx-auto text-[#B51915] font-medium">
+          <h2 className="text-2xl md:text-4xl mb-4 mx-auto text-[#B51915] font-semibold">
             Pharmaceutical Manufacturing
           </h2>
           <p>
@@ -41,7 +35,7 @@ const Manufacture = () => {
             accurate and efficient results without compromising quality.
           </p>
         </m.div>
-        <div className="md:w-1/2">
+        <div className="w-full md:w-1/2">
           <m.img
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [150, 0], opacity: 1 }}
@@ -76,7 +70,7 @@ const Manufacture = () => {
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          <h3 className="text-xl  mb-4 mx-auto text-[#B51915] font-medium">
+          <h3 className="text-xl md:text-2xl  mb-4 mx-auto text-[#B51915] font-medium">
             To further enhance our quality assurance, we have implemented
             procedures that minimize human touch, reducing the potential for
             errors. This includes:
@@ -113,7 +107,7 @@ const Manufacture = () => {
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          <p className="text-xl text-[#B51915] font-medium ">
+          <p className="text-xl md:text-2xl font-semibold text-[#B51915]">
             Our focus on automation has enabled us to:
           </p>
           <ul className="mt-2 list-disc w-11/12 mx-auto">

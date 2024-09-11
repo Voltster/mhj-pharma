@@ -25,7 +25,7 @@ const SectionLayout = ({
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <h2 className="uppercase text-2xl xl:text-4xl mb-2 font-semibold text-[#B51915] text-center ">
+        <h2 className="uppercase text-2xl md:text-4xl mb-2 font-semibold text-[#B51915] text-center ">
           {title}
         </h2>
         <p className="text-base text-center text-[#B51915]  mb-4">

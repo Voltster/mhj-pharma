@@ -12,11 +12,11 @@ const tableData = [
 
 const Hero = () => {
   return (
-    <div className="py-1 xl:h-screen  relative bg-gradient-to-t from-[#FFD4DF] to-[#EE8FA7] mb-[10%]">
+    <div className="py-1 xl:h-screen  relative bg-gradient-to-t from-[#FFD4DF] to-[#EE8FA7]  mb-[10%]  ">
       <div className="h-[82%] w-11/12 flex flex-col-reverse xl:flex-row justify-center items-center gap-x-16 mt-20 container mx-auto">
         <div className=" xl:w-1/2 ">
           <m.h1
-            className="text-[2.3rem] leading-[2.4rem] xl:text-[3rem]  xl:leading-[4.3rem]  font-bold mb-2 text-[#e91e63] mt-4"
+            className="text-3xl md:text-5xl    font-bold mb-2 text-[#e91e63] mt-4"
             initial={{ x: 0, opacity: 0 }}
             whileInView={{ y: [50, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
@@ -52,26 +52,13 @@ const Hero = () => {
           <m.img
             src={oncologyHeroImg}
             alt="oncology section"
-            className="w-[100%] h-[80%] mx-auto rounded-lg aspect-video"
+            className="w-[100%] h-[80%] mx-auto rounded-lg aspect-video mt-5 md:mt-0"
             initial={{ x: 0, opacity: 0 }}
             whileInView={{ y: [50, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
           />
         </div>
       </div>
-      {/* <div className="xl:w-9/12 mx-auto rounded-sm shadow-md relative bg-white grid grid-cols-2 xl:flex xl:items-center xl:justify-center xl:h-40 mt-10 xl:mt-0">
-        {tableData.map((e, i) => (
-          <span
-            key={i}
-            className={`flex justify-center items-center flex-col w-60 h-28 border-gray-400 border-r border-b xl:border-b-0  ${
-              (i == 3 && "border-none ") || (i == 2 && "border-b-0")
-            }`}
-          >
-            <p className="text-[#e91e63] text-4xl font-semibold">{e.number}</p>
-            <h4 className="text-[#363636] font-medium">{e.title}</h4>
-          </span>
-        ))}
-      </div> */}
       <OncologyTable tableData={tableData} />
     </div>
   );

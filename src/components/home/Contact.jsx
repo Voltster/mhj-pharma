@@ -10,7 +10,7 @@ const Contact = () => {
     <>
       <m.section
         className="relative z-10 overflow-hidden bg-white py-10 lg:py-[60px]"
-        initial={{ scale: 0.5, opacity: 0 }}
+        initial={{ scale: 0.8, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
         viewport={{ once: true, amount: 0.5 }}

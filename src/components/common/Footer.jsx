@@ -163,7 +163,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="md:absolute md:bottom-14 right-12 z-10 rounded-lg">
+        <div className="md:absolute md:bottom-14 right-12 z-10 rounded-lg hidden md:block">
           <img
             src={qr}
             alt="QR Code"
