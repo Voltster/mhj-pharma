@@ -47,15 +47,15 @@ const ArtworkServices = () => {
           <h3 className="text-xl font-semibold mb-4 mx-auto text-[#B51915] ">
             Benefits of Our Services
           </h3>
-          <ul>
-            <li className="font-semibold">
+          <ul className="list-disc">
+            <li className="font-semibold list-none">
               By partnering with MHJ Pharmaconcepts, you can expect
             </li>
-            <li>• Accurate and compliant packaging artwork</li>
-            <li>• Efficient submission process</li>
-            <li>• Minimized risk of errors or labelling inconsistencies</li>
+            <li>Accurate and compliant packaging artwork</li>
+            <li>Efficient submission process</li>
+            <li>Minimized risk of errors or labelling inconsistencies</li>
             <li>
-              • Compliance with regulatory requirements for over 20+ countries
+              Compliance with regulatory requirements for over 20+ countries
             </li>
           </ul>
           <h3 className="font-semibold mt-4">

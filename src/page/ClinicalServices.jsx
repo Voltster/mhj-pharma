@@ -97,13 +97,13 @@ const ClinicalServices = () => {
           <h3 className="text-xl font-semibold mb-4 mx-auto text-[#B51915]">
             Clinical Documentation Development and Review
           </h3>
-          <ul>
-            <li className="font-semibold">
+          <ul className="list-disc">
+            <li className="font-semibold list-none">
               Our team develops and reviews clinical documentation, including:
             </li>
             <li>• Investigator's Brochure (IB)</li>
             <li>• Information Consent Form (ICF)</li>
-            <li>
+            <li className="list-none">
               We also author, compile, review, and submit clinical trial
               application packages, ensuring that all necessary documents are
               complete and accurate.
