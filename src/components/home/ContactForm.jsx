@@ -163,8 +163,7 @@ const ContactForm = () => {
 
     try {
       const response = await axios.post(
-        // "https://contact-api-delta.vercel.app/send-email",
-        "https://contact-api-iota.vercel.app/send-email",
+        "https://contactapis.vercel.app/send-email",
         formData
       );
       if (response.status === 200) {

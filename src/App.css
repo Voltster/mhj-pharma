@@ -288,3 +288,95 @@ footer a:hover:after {
   opacity: 10%;
   z-index: 1;
 }
+
+svg text {
+  /* color: rgb(170, 50, 50) !important; */
+  fill: hsl(0, 75%, 33%);
+  font-weight: 800;
+  stroke-width: 5px;
+  stroke: rgb(104, 3, 3);
+  stroke-linejoin: round;
+  stroke-dasharray: 100;
+  animation: animate 5s linear infinite alternate;
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+  /* color: transparent; */
+  /* background-clip: text; */
+  /* -webkit-background-clip: text; */
+}
+
+@keyframes animate {
+  100% {
+    stroke-dashoffset: 160;
+  }
+}
+
+/* new */
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #ca4246;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #987f62 50%,
+    #987162 66.666%,
+    #984752 66.666%,
+    #984a47 83.333%,
+    #a74848 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.gradient-text{
+  animation: rainbow-text-simple-animation 5s ease-in forwards infinite alternate;
+}
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+  0% {
+    background-size: 100%;
+  }
+  80% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 650%;
+  }
+}
+
+.shadow-letters {
+  text-shadow: 4px 4px #b51915;
+}

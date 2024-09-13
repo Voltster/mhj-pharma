@@ -9,19 +9,30 @@ import SectionCard from "../components/common/SectionCard";
 import Therapeutic from "../components/about/Therapeutic";
 import MainSection from "../components/about/MainSection";
 import smart from "../assets/smart3.png";
+import smartBg from "../assets/smartBg2.png";
 import { motion as m } from "framer-motion";
 const About = () => {
   return (
     <main className="min-h-screen relative w-full mx-auto bg-inherit">
       <MainSection />
       <div className="flex flex-col lg:flex-row items-center justify-between p-10  md:pt-20  mt-10">
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 relative">
+          {/* <svg id="text" width="200" height="100" className="absolute top-[50%] left-[50%] w-full h-[250px] translate-x-[-50%] translate-y-[-50%]">
+
+            <text x="52%" y="55%" text-anchor="middle" dominant-baseline="middle" fill="url(#gradient1)" className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent text-[7.4rem]">
+              SMART
+            </text>
+          </svg>
+
+          <use clink:href="#text"></use> */}
+          <h1 className="gradient-text text-[5rem] md:text-[8rem] font-bold absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20 cursor-pointer shadow-letters ">SMART</h1>
+
           <m.img
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [-150, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
             viewport={{ once: true, amount: 0.5 }}
-            src={smart}
+            src={smartBg}
             alt="smart"
             className="mix-blend-multiply"
           />
@@ -33,7 +44,7 @@ const About = () => {
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-600 text-lg ">
             We have a diverse portfolio of over 150 registered products
             worldwide, catering to various therapeutic areas. Our products are
             designed to address the unmet medical needs of patients and
