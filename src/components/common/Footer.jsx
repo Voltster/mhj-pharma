@@ -46,9 +46,8 @@ const Footer = () => {
   return (
     <>
       <m.footer
-        className={`relative z-10 bg-white  w-full 2xl:w-11/12 bg-no-repeat bg-bottom md:border-2 border-[#941616] md:rounded-full overflow-hidden ${
-          isOncology ? "border-[#F38DA9]" : "border-[#941616]"
-        }`}
+        className={`relative z-10 bg-white  w-full 2xl:w-11/12 bg-no-repeat bg-bottom md:border-2 border-[#941616] md:rounded-full overflow-hidden ${isOncology ? "border-[#F38DA9]" : "border-[#941616]"
+          }`}
         initial={{ y: 0, opacity: 0 }}
         whileInView={{ y: [10, 0], opacity: 1 }}
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
@@ -74,9 +73,8 @@ const Footer = () => {
                   <p className="flex items-center text-sm font-medium">
                     <span className="mr-3 text-primary">
                       <FaPhone
-                        className={`${
-                          isOncology ? "text-[#F38DA9]" : "text-[#941616]"
-                        }`}
+                        className={`${isOncology ? "text-[#F38DA9]" : "text-[#941616]"
+                          }`}
                       />
                     </span>
                     <span>+011-430-16300</span>
@@ -86,9 +84,8 @@ const Footer = () => {
               <div className="mx-4">
                 <div className="w-full ">
                   <h4
-                    className={`text-lg font-semibold ${
-                      isOncology ? "text-[#F38DA9]" : "text-red-700 "
-                    }`}
+                    className={`text-lg font-semibold ${isOncology ? "text-[#F38DA9]" : "text-red-700 "
+                      }`}
                   >
                     Company
                   </h4>
@@ -97,11 +94,10 @@ const Footer = () => {
                       <li key={index}>
                         <Link
                           to={item.link}
-                          className={`inline-block text-base leading-loose text-body-color  hover:ml-2 transition-all ${
-                            isOncology
-                              ? "hover:text-[#F38DA9]"
-                              : "hover:text-red-700"
-                          }`}
+                          className={`inline-block text-base leading-loose text-body-color  hover:ml-2 transition-all ${isOncology
+                            ? "hover:text-[#F38DA9]"
+                            : "hover:text-red-700"
+                            }`}
                         >
                           {item.title}
                         </Link>
@@ -113,9 +109,8 @@ const Footer = () => {
             </div>
 
             <div
-              className={`flex justify-center md:w-1/2 pt-4 ${
-                isOncology ? "bg-[#F38DA9]" : "bg-[#941616]"
-              }`}
+              className={`flex justify-center md:w-1/2 pt-4 ${isOncology ? "bg-[#F38DA9]" : "bg-[#941616]"
+                }`}
             >
               <div className="md:w-1/2 px-4">
                 <div className="mb-10 w-full">
@@ -163,7 +158,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="md:absolute md:bottom-14 right-12 z-10 rounded-lg hidden md:block">
+        {/* <div className="md:absolute md:bottom-14 right-12 z-10 rounded-lg hidden md:block">
           <img
             src={qr}
             alt="QR Code"
@@ -173,7 +168,7 @@ const Footer = () => {
             Scan to Download
             <br /> Products List
           </p>
-        </div>
+        </div> */}
       </m.footer>
 
       <div className="w-full sm:h-8 flex relative">

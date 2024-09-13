@@ -101,8 +101,8 @@ const ClinicalServices = () => {
             <li className="font-semibold list-none">
               Our team develops and reviews clinical documentation, including:
             </li>
-            <li>• Investigator's Brochure (IB)</li>
-            <li>• Information Consent Form (ICF)</li>
+            <li>Investigator's Brochure (IB)</li>
+            <li>Information Consent Form (ICF)</li>
             <li className="list-none">
               We also author, compile, review, and submit clinical trial
               application packages, ensuring that all necessary documents are

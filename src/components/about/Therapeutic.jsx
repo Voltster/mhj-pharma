@@ -71,7 +71,7 @@ const cardComponents = cardsData.map((card, i) => {
       key={card.id}
       viewport={{ once: true, amount: 0.5 }}
     >
-      <Tilt
+      <div
         className={` flex flex-col items-center text-center group hover:bg-gray-200 cursor-pointer transition-all relative rounded-md overflow-hidden`}
       >
         <img
@@ -82,7 +82,7 @@ const cardComponents = cardsData.map((card, i) => {
         <p className="text-xl font-medium text-gray-100 mt-3 absolute bottom-0  py-2 w-full bg-gradient-to-b from-gray-500/0 via-black/50 via-40% to-gray-950">
           {card.title}
         </p>
-      </Tilt>
+      </div>
     </m.div>
   );
 });

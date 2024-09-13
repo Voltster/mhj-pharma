@@ -8,7 +8,7 @@ const OncologyProducts = () => {
           Oncology Products
         </h2>
         <div className="relative overflow-x-auto border  sm:rounded-lg overflow-y-scroll h-[80%] w-[53vw] mx-auto bg-transparent border-none">
-          <table className="w-full md:w-1/2 mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400  h-[80%]">
+          <table className="w-full mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400  h-[80%] productBg ">
             <thead className="text-xs text-[#E91E63] uppercase bg-[#F8BBD0] ">
               <tr>
                 <th scope="col" className="px-6 py-3 w-full text-nowrap">
@@ -20,9 +20,9 @@ const OncologyProducts = () => {
               </tr>
             </thead>
             <tbody >
-              {oncologyData.map((e,i) => (
+              {oncologyData.map((e, i) => (
                 <tr className="odd:bg-white  even:bg-pink-100 border-b  border-pink-300" key={i}>
-                    <td className="px-6  text-gray-800">{i+1}</td>
+                  <td className="px-6  text-gray-800">{i + 1}</td>
                   <th
                     scope="row"
                     className="px-6 py-2 font-medium text-gray-800 whitespace-nowrap"

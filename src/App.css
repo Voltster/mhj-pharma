@@ -337,6 +337,7 @@ svg text {
 
   /* Use the text as a mask for the background. */
   /* This will show the gradient as a text color rather than element bg. */
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -345,8 +346,9 @@ svg text {
   animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
 }
 
-.gradient-text{
-  animation: rainbow-text-simple-animation 5s ease-in forwards infinite alternate;
+.gradient-text {
+  animation: rainbow-text-simple-animation 5s ease-in forwards infinite
+    alternate;
 }
 
 /* Move the background and make it smaller. */
