@@ -67,7 +67,7 @@ function App() {
               <Route path="/oncology" element={<Oncology />} />
               <Route path="/oncology-products" element={<OncologyProducts />} />
               <Route
-                path="/products/exports/injections"
+                path="/products/exports/injectable"
                 element={<Injections />}
               />
               <Route

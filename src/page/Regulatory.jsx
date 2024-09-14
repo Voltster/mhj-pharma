@@ -62,16 +62,15 @@ const Regulatory = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <p>
-            At MHJ Pharmaconcepts, our regulatory affairs services in the USA
+            At MHJ Pharmaconcepts, our regulatory affairs services
             include a wide range of activities, such as dossier preparation
-            (ACTD, CTD, CMC, and regional-specific formats), analytical method
+            (regional-specific formats), analytical method
             validation (assay validation, RS, cleaning validation, etc.),
-            technical packaging (DMF, PDR, stability raw data, audit trials,
-            PVPR, etc.), stability chromatograms, artwork designs, bioequivalent
-            studies (bio waiver/BE study/PSUR data), clinical and non-clinical
-            data, and more.
+            Drug Master File(DMF),Product Development Report (PDR), Anayltical method validation Reports (AMV)
+            Process Validation protocol And Report (PVPR), stability studies, etc., Artwork designs, bioequivalent
+            studies (bio waiver/BE study/PSUR data), Non-clinical and Clinical Studies.
             <br />
-            Our regulatory affairs services in the USA help pharmaceutical
+            Our regulatory affairs services help pharmaceutical
             companies launch new products to the desired market by ensuring
             compliance with regulations, regardless of their complexity. Our
             services include developing strategic plans, compiling and
@@ -122,10 +121,6 @@ const Regulatory = () => {
             </li>
             <li className="flex items-center gap-2">
               <FaCheck className="text-red-600" />
-              Product Filing and Variation strategies
-            </li>
-            <li className="flex items-center gap-2">
-              <FaCheck className="text-red-600" />
               Change Control Strategies
             </li>
             <li className="flex items-center gap-2">
@@ -134,18 +129,9 @@ const Regulatory = () => {
             </li>
             <li className="flex items-center gap-2">
               <FaCheck className="text-red-600" />
-              Registration Strategy in Emerging Markets and European Union{" "}
+              Registration Strategy in Emerging Markets{" "}
             </li>
-            <li>
-              MHJ Pharmaconcepts offers specialized strategic expertise to
-              pharmaceutical companies seeking to enter unfamiliar markets.
-              Their consulting services in regulatory affairs strategies provide
-              valuable insights, interpret complex regulations, and develop
-              tailored approaches for a range of pharmaceutical products. By
-              leveraging their expertise, clients can effectively navigate the
-              dynamic regulatory landscape and successfully penetrate new
-              markets.
-            </li>
+
           </ul>
         </m.div>
         <div className="md:w-1/2">
@@ -162,106 +148,7 @@ const Regulatory = () => {
           />
         </div>
       </div>
-      {/* <p className="w-11/12 mx-auto">
-        MHJ Pharmaconcepts offers specialized strategic expertise to
-        pharmaceutical companies seeking to enter unfamiliar markets. Their
-        consulting services in regulatory affairs strategies provide valuable
-        insights, interpret complex regulations, and develop tailored approaches
-        for a range of pharmaceutical products. By leveraging their expertise,
-        clients can effectively navigate the dynamic regulatory landscape and
-        successfully penetrate new markets.
-      </p> */}
-      <div className="w-11/12 mx-auto flex flex-col items-center justify-center gap-4 md:flex-row-reverse">
-        <m.div
-          className="md:w-1/2  text-justify"
-          initial={{ x: [0], opacity: 0 }}
-          whileInView={{ x: [150, 0], opacity: 1 }}
-          transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
-          viewport={{ once: true, amount: 0.5 }}
-        >
-          <h3 className="text-2xl md:text-4xl text-[#B51915] font-semibold">
-            New Product Authorizations{" "}
-          </h3>
-          <p className="my-2">
-            MHJ Pharmaconcepts has been providing high-quality regulatory
-            services for over a decade, leveraging the expertise of its
-            experienced team. With extensive experience in pharmaceutical
-            regulatory consulting, the company has successfully filed new
-            product authorization applications to over 20 countries and
-            responded to related queries.
-            <br />
-            The firm offers a range of services to support pharmaceutical
-            organizations, including:
-            <ul className="list-disc mt-2 w-11/12 mx-auto">
-              <li>Pre-submission technical data reviews</li>
-              <li>
-                Regulatory Content authoring (CTD sections, non-clinical and
-                clinical overviews, and summaries)
-              </li>
-              <li>
-                Dossier compilation, validation, and electronic publishing
-              </li>
-              <li>
-                New Product Authorization advisory services, including hands-on
-                support
-              </li>
-            </ul>
-          </p>
-        </m.div>
-        <div className="md:w-1/2">
-          <m.img
-            initial={{ x: [0], opacity: 0 }}
-            whileInView={{ x: [-150, 0], opacity: 1 }}
-            transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
-            viewport={{ once: true, amount: 0.5 }}
-            src={
-              "https://img.freepik.com/premium-vector/gmp-good-manufacturing-practice-certified-round-stamp-vector_690789-22.jpg?w=740"
-            }
-            className="w-[80%] mx-auto rounded-md"
-            loading="lazy"
-          />
-        </div>
-      </div>
-      <div className="flex md:flex-row flex-col w-11/12   mx-auto items-center justify-center gap-4">
-        <m.div
-          className="md:w-1/2 mx-auto"
-          initial={{ x: [0], opacity: 0 }}
-          whileInView={{ x: [-150, 0], opacity: 1 }}
-          transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
-          viewport={{ once: true, amount: 0.5 }}
-        >
-          <h4 className="mt-6 w-11/12 mx-auto text-2xl md:text-4xl text-[#B51915] font-semibold mb-2">
-            ANDA and MA Holder Services
-          </h4>
-          <p className=" w-11/12  mx-auto">
-            Pharmaceutical companies seeking to navigate the complex ANDA filing
-            process often prefer to partner with experts who possess technical
-            expertise and local infrastructure. MHJ Pharmaconcepts offers a
-            range of services to support seamless ANDA filings, including:
-          </p>
-          <ul className="list-disc mt-4 w-11/12 mx-auto">
-            <li>
-              Facilitating communication and correspondence with the US FDA
-            </li>
-            <li>
-              Scheduling pre-submission meetings and submitting citizen
-              petitions
-            </li>
-            <li>Enabling GMP audits and inspections</li>
-          </ul>
-        </m.div>
-        <div className="md:w-1/2 mx-auto">
-          <m.img
-            src="https://img.freepik.com/premium-photo/fda-text-written-wooden-cubes-light-colored-background_392339-1603.jpg?w=826"
-            alt=""
-            className="rounded-md  w-[80%] mx-auto mt-6 md:mt-0"
-            initial={{ x: [0], opacity: 0 }}
-            whileInView={{ x: [150, 0], opacity: 1 }}
-            transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
-            viewport={{ once: true, amount: 0.5 }}
-          />
-        </div>
-      </div>
+    
       <div className="flex justify-center md:flex-row flex-col-reverse  items-center w-11/12 mx-auto gap-4 my-5 md:my-20">
         <div className="md:w-1/2 mx-auto">
           <m.img

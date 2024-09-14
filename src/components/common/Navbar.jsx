@@ -143,8 +143,8 @@ function NavLinks({ mobile, closeMenu, openDropdown, onDropdownToggle }) {
       >
         <NestedDropdown label="Exports" mobile={mobile}>
           <NavItem
-            to="/products/exports/injections"
-            label="Injections"
+            to="/products/exports/injectable"
+            label="Injectable"
             mobile={mobile}
             closeMenu={closeMenu}
           />
@@ -181,14 +181,14 @@ function NavLinks({ mobile, closeMenu, openDropdown, onDropdownToggle }) {
             closeMenu={closeMenu}
           />
         </NestedDropdown>
-        <NestedDropdown label="Domestic" mobile={mobile}>
+        {/* <NestedDropdown label="Domestic" mobile={mobile}>
           <NavItem
             to="/products/domestic/pediatrics"
             label="Pediatrics"
             mobile={mobile}
             closeMenu={closeMenu}
           />
-        </NestedDropdown>
+        </NestedDropdown> */}
       </DropdownNavItem>
       <DropdownNavItem
         label="Technology"
@@ -299,9 +299,8 @@ function DropdownNavItem({
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className={`${
-              mobile ? "mt-2" : "absolute left-0 mt-2 w-48"
-            } bg-white rounded-md shadow-lg py-1`}
+            className={`${mobile ? "mt-2" : "absolute left-0 mt-2 w-48"
+              } bg-white rounded-md shadow-lg py-1`}
           >
             {children}
           </m.div>
@@ -334,9 +333,8 @@ function NestedDropdown({ label, children, mobile }) {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className={`${
-              mobile ? "ml-4" : "absolute left-full top-0 w-48"
-            } bg-white rounded-md shadow-lg py-1`}
+            className={`${mobile ? "ml-4" : "absolute left-full top-0 w-48"
+              } bg-white rounded-md shadow-lg py-1`}
           >
             {children}
           </m.div>

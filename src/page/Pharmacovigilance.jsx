@@ -23,7 +23,7 @@ const Pharmacovigilance = () => {
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        Risk Management
+        Risk Management Plan (RMP)
       </m.h4>
 
       <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 md:py-8 px-4">

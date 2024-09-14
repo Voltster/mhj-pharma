@@ -7,24 +7,13 @@ const ArtworkServices = () => {
     <div className="min-h-screen relative w-full mx-auto pt-1">
       <SectionLayout
         customClass={"pt-20 pb-10 md:pb-20"}
-        heading={"Why Choose Our Regulatory Management Services?"}
         title={"Exceptional Regulatory Artwork Management Services"}
-        description={`At MHJ Pharmaconcepts, we pride ourselves on delivering exceptional regulatory artwork management services to our clients. With our extensive expertise in pharmaceutical regulatory consulting and pharmaceutical artwork management, we have successfully submitted new product authorization applications to over 20+ countries and responded to related inquiries.<br /> Expertise in Package Artwork Management<br />Our team specializes in mitigating the risks associated with package artwork, ensuring that all labeling and packaging comply with regulatory requirements. We understand the importance of accuracy and attention to detail, and our services are designed to minimize the likelihood of errors or labelling inconsistencies.`}
+        description={`At MHJ Pharmaconcepts, we pride ourselves on delivering exceptional regulatory artwork management services to our clients. With our extensive expertise in pharmaceutical regulatory consulting and pharmaceutical artwork management, we have successfully submitted new product authorization applications to over 23+ countries and responded to related inquiries.<br /> Expertise in Package Artwork Management<br />Our team specializes in mitigating the risks associated with package artwork, ensuring that all labeling and packaging comply with regulatory requirements. We understand the importance of accuracy and attention to detail, and our services are designed to minimize the likelihood of errors or labelling inconsistencies.`}
         src={
           "https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595850.jpg?t=st=1725523193~exp=1725526793~hmac=97b20404e315f92c919e8077640f0d2860ff55c3346d6ac286d65f8572dc0112&w=740"
         }
         className={"w-11/12 mx-auto container"}
       />
-      {/* <h4 className="text-2xl md:text-4xl font-semibold w-10/12 mx-auto text-center text-[#B51915] ">
-        Streamlining the Process
-      </h4>
-      <p className="w-11/12 md:w-8/12 mt-2 mx-auto text-center">
-        Our regulatory artwork management services are designed to enhance the
-        efficiency of the process, saving you time and resources. We take care
-        of every aspect of the artwork management process, from design and
-        review to submission and maintenance, ensuring that your products are
-        compliant with regulatory requirements.
-      </p> */}
       <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 md:py-8 px-4">
         <div className="md:w-1/2 ">
           <m.img
@@ -55,7 +44,7 @@ const ArtworkServices = () => {
             <li>Efficient submission process</li>
             <li>Minimized risk of errors or labelling inconsistencies</li>
             <li>
-              Compliance with regulatory requirements for over 20+ countries
+              Compliance with regulatory requirements for over 23+ countries
             </li>
           </ul>
           <h3 className="font-semibold mt-4">
