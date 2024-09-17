@@ -5,10 +5,18 @@ import { motion as m } from "framer-motion";
 const Pharmacovigilance = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
+      <div
+        className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
+        style={{ backgroundImage: `url('https://img.freepik.com/free-photo/young-man-wearing-protective-face-mask-while-holding-online-classes-computer-coronavirus-epidemic_637285-6141.jpg?t=st=1726491250~exp=1726494850~hmac=22ef1ddf0638828f3695c0c75fb65673aa1c20f71a30aea32953b8fde25d107c&w=740')` }}
+      >
+        <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
+          Pharmacovigilance
+        </h2>
+      </div>
       <SectionLayout
-        heading={"Pharmacovigilance Consulting Services"}
-        title={"Pharmacovigilance"}
-        customClass={"pt-20 pb-10 md:pb-20"}
+        // heading={"Pharmacovigilance Consulting Services"}
+        // title={"Pharmacovigilance"}
+        customClass={"pt-0 pb-10 md:pb-20"}
         description={`At MHJ Pharmaconcepts, we prioritize innovation, quality, and customer-centricity. We integrate cutting-edge technology to optimize pharmacovigilance processes, ensuring compliance and timely responses to safety and regulatory challenges. Our seasoned pharmacovigilance teams, comprising regulatory affairs and pharmacovigilance experts, guarantee meticulous adherence to global standards. We foster strong client relationships through transparency, collaboration, and regular updates, empowering clients with insights and expertise.
 `}
         src={
@@ -47,7 +55,7 @@ const Pharmacovigilance = () => {
         >
           <h3 className="text-xl font-semibold mb-4 mx-auto text-[#B51915] ">
             MHJ Pharmaconcepts Risk Management Pharmacovigilance Expertise
-            includes
+            Includes
           </h3>
           <ul className="text-justify list-disc">
             <li>
@@ -76,7 +84,7 @@ const Pharmacovigilance = () => {
             </li>
           </ul>
 
-          <p>
+          <p className="text-justify"> 
             We respond to queries from regulatory agencies regarding clinical
             trial application submissions, ensuring timely resolution and
             minimizing the risk of delays or rejects.
@@ -95,7 +103,7 @@ const Pharmacovigilance = () => {
         customClass={"mt-0"}
       />
       <SectionLayout
-        title={"Regulations and Post Marketing Safety Requirements"}
+        title={"Regulations And Post Marketing Safety Requirements"}
         description={`At MHJ Pharmaconcepts, our PV & drug safety team supports clients in navigating complex PV regulations and post-marketing safety requirements for regulated and emerging markets. Our global network of local partners and physicians enables us to conduct post-market safety surveillance in accordance with the latest regulations.<br />We offer regulatory consulting services to help clients understand and interpret diverse PV regulations, conduct compliance audits to identify gaps and discrepancies, and provide real-time updates on changing PV regulations. Our team combines its deep understanding of product portfolios and requirements to ensure compliance with healthcare authority regulations.<br />With experience in 20+ markets, including working with stringent authorities, we are the preferred partner for compliant solutions in global drug safety. Our expertise spans a broad range of products, including generics, biologics, biosimilars, medical devices, cosmetics, over-the-counters, and dietary supplements.
 `}
         src={

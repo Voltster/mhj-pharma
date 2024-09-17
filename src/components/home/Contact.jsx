@@ -23,12 +23,10 @@ const Contact = () => {
                 <h2 className=" mb-6 text-2xl  font-semibold uppercase text-[#B71B15] sm:text-4xl">
                   Contact Us
                 </h2>
-
                 <div className="relative">
                   <p className="font-semibold uppercase ">
                     Head Office Address
                   </p>
-
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875.202179102035!2d77.15817927804135!3d28.665445602364084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d038897063403%3A0xb2521ab27b90e4cc!2sMHJ%20PHARMACONCEPTS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1722246084453!5m2!1sen!2sin"
                     width="450"
@@ -80,21 +78,31 @@ const Contact = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="flex flex-col gap-4 sm:flex-row justify-around mt-6">
+                <div className="grid grid-cols-2 gap-4 sm:flex-row justify-around mt-6">
                   <div className="uppercase text-base flex-col flex text-gray-800 w-1/2">
                     <span className="font-semibold flex items-center text-[#941616] gap-2">
                       <FaBuilding />
                       Unit-1
                     </span>
-                    <p className="text-sm">
+                    <p className="text-sm text-nowrap">
                       440/3, Katha, Baddi, <br />
-                      Himachal Pradesh - 173205,India
+                      Himachal Pradesh, India
                     </p>
                   </div>
                   <div className="uppercase text-base flex-col flex text-gray-800">
                     <span className="font-semibold flex items-center text-[#941616] gap-2">
                       <FaBuilding />
-                      Unit-2 (Oncology Division)
+                      Unit-2
+                    </span>
+                    <p className="text-sm text-nowrap">
+                      Plot No. 61, Sector-6A, IIE, Sidcul
+                      <br /> Ranipur, Haridwar Uttarakhand, India
+                    </p>
+                  </div>
+                  <div className="uppercase text-base flex-col flex text-gray-800">
+                    <span className="font-semibold flex items-center text-[#941616] gap-2">
+                      <FaBuilding />
+                      Unit-3 (Oncology Division)
                     </span>
                     <p className="text-sm text-nowrap">
                       Plot no 107, EPIP Phase 1, jharmajri,

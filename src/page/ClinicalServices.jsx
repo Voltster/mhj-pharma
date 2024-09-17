@@ -5,18 +5,14 @@ import { motion as m } from "framer-motion";
 const ClinicalServices = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
-      {/* <SectionLayout
-        customClass={"py-20"}
-        heading={
-          "MHJ Pharmaconcepts Expertise in Clinical Regulatory Affairs Services Includes"
-        }
-        title={"Regulatory Compliance Services"}
-        description={`We provide expert support in clinical study report writing, ensuring compliance with country-specific regulations and guidelines. Our team also offers strategic advice on clinical trial applications for target markets, helping to minimize agency queries and ensure a smoother submission process.`}
-        src={
-          "https://img.freepik.com/free-photo/medical-banner-with-doctor-wearing-stethoscope_23-2149611228.jpg?t=st=1725520547~exp=1725524147~hmac=69e9322c173439f10469c08c9b716b695c4a874f381754fe189ba06e8f9651fc&w=740"
-        }
-        className={"w-11/12 mx-auto container"}
-      /> */}
+      <div
+        className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
+        style={{ backgroundImage: `url('https://img.freepik.com/free-photo/portrait-scientist-nurse-looking-tired-camera-sitting-modern-equipped-laboratory-late-night-team-specialists-examining-virus-evolution-using-high-tech-research-vaccine-development_482257-13616.jpg?t=st=1726491655~exp=1726495255~hmac=9f6df225761ac45e03bd7331de45e8904dde76bb63752fd7c54c922f641693cb&w=826')` }}
+      >
+        <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
+          Clinical Regulatory  Affairs 
+        </h2>
+      </div>
       <m.h2
         className="pt-20 mt-10 text-2xl md:text-4xl  font-semibold text-[#B51915] text-center md:mb-12 w-11/12 mx-auto"
         initial={{ y: [0], opacity: 0 }}
@@ -46,7 +42,7 @@ const ClinicalServices = () => {
             smoother submission process.
           </p>
           <h2 className="text-xl font-semibold mx-auto text-[#B51915]  mb-2 mt-8 ">
-            Regulatory Due Diligence and Protocol Support
+            Regulatory Due Diligence And Protocol Support
           </h2>
           <p className="text-justify text-gray-800">
             We conduct meticulous regulatory due diligence for clinical trial
@@ -95,7 +91,7 @@ const ClinicalServices = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <h3 className="text-xl font-semibold mb-4 mx-auto text-[#B51915]">
-            Clinical Documentation Development and Review
+            Clinical Documentation Development And Review
           </h3>
           <ul className="list-disc">
             <li className="font-semibold list-none">

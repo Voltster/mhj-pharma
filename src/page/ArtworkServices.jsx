@@ -5,6 +5,14 @@ import { motion as m } from "framer-motion";
 const ArtworkServices = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
+      <div
+        className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
+        style={{ backgroundImage: `url('https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595847.jpg?t=st=1726491458~exp=1726495058~hmac=90c013434df2e4da571482b5062082deb4c1035106cbbc626b9113d4538c6679&w=740')` }}
+      >
+        <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
+          Artwork Management
+        </h2>
+      </div>
       <SectionLayout
         customClass={"pt-20 pb-10 md:pb-20"}
         title={"Exceptional Regulatory Artwork Management Services"}
@@ -34,12 +42,12 @@ const ArtworkServices = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <h3 className="text-xl font-semibold mb-4 mx-auto text-[#B51915] ">
-            Benefits of Our Services
+            Benefits Of Our Services
           </h3>
-          <ul className="list-disc">
-            <li className="font-semibold list-none">
-              By partnering with MHJ Pharmaconcepts, you can expect
-            </li>
+          <p className="font-semibold list-none">
+            By partnering with MHJ Pharmaconcepts, you can expect
+          </p>
+          <ul className="list-disc w-11/12 mx-auto">
             <li>Accurate and compliant packaging artwork</li>
             <li>Efficient submission process</li>
             <li>Minimized risk of errors or labelling inconsistencies</li>
@@ -51,7 +59,7 @@ const ArtworkServices = () => {
             Trust MHJ Pharmaconcepts for Your Regulatory Artwork Management
             Needs
           </h3>
-          <p>
+          <p className="text-justify">
             With our expertise in pharmaceutical regulatory consulting and
             pharmaceutical artwork management, we are your trusted partner for
             regulatory artwork management services. Contact us today to learn

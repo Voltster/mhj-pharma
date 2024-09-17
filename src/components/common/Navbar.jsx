@@ -141,10 +141,10 @@ function NavLinks({ mobile, closeMenu, openDropdown, onDropdownToggle }) {
         isOpen={openDropdown === "Products"}
         onToggle={() => onDropdownToggle("Products")}
       >
-        <NestedDropdown label="Exports" mobile={mobile}>
+        <NestedDropdown label="General" mobile={mobile}>
           <NavItem
-            to="/products/exports/injectable"
-            label="Injectable"
+            to="/products/exports/injectables"
+            label="Injectables"
             mobile={mobile}
             closeMenu={closeMenu}
           />
@@ -175,20 +175,34 @@ function NavLinks({ mobile, closeMenu, openDropdown, onDropdownToggle }) {
             closeMenu={closeMenu}
           />
           <NavItem
-            to="/products/exports/otc"
-            label="OTC"
+            to="/products/exports/nutraceutical"
+            label="Nutraceutical"
             mobile={mobile}
             closeMenu={closeMenu}
           />
         </NestedDropdown>
-        {/* <NestedDropdown label="Domestic" mobile={mobile}>
+        <NestedDropdown label="Oncology" mobile={mobile}>
           <NavItem
-            to="/products/domestic/pediatrics"
-            label="Pediatrics"
+            to="/products/oncology/injectables"
+            label="Injectables"
             mobile={mobile}
             closeMenu={closeMenu}
           />
-        </NestedDropdown> */}
+          <NestedDropdown label="Oral Solids" mobile={mobile}>
+            <NavItem
+              to="/oncology/oral-solid/tablets"
+              label="Tablets"
+              mobile={mobile}
+              closeMenu={closeMenu}
+            />
+            <NavItem
+              to="/oncology/oral-solid/capsules"
+              label="Capsules"
+              mobile={mobile}
+              closeMenu={closeMenu}
+            />
+          </NestedDropdown>
+        </NestedDropdown>
       </DropdownNavItem>
       <DropdownNavItem
         label="Technology"

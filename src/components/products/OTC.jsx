@@ -4,8 +4,8 @@ const OTC = () => {
   return (
     <section className="min-h-screen relative w-full mx-auto ">
       <div className="py-20 h-screen  relative ">
-        <h2 className="text-4xl text-center mt-10 font-bold mb-8 text-[#B31815]">
-          OTC
+        <h2 className="text-4xl text-center mt-10 font-bold mb-8 text-[#B31815] uppercase">
+          Nutraceutical
         </h2>
         <div className="relative w-10/12 overflow-x-auto     sm:rounded-lg overflow-y-scroll h-[80%] w- mx-auto ">
           <table className=" mx-auto text-sm text-left rtl:text-right text-gray-500 h-[80%] productBg overflow-auto">

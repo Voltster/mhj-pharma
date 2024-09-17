@@ -48,7 +48,7 @@ const InfinityScroll = () => {
   return (
     <div className="my-12 md:my-24 ">
       <h2 className="text-2xl text-nowrap xl:text-4xl text-[#B71B15] uppercase py-2 text-center  font-semibold">
-        Endorsed Certifications
+        Endorsed Approvals
       </h2>
       <div className="w-full xl:w-[90vw] overflow-hidden group mx-auto scroll-smooth">
         <div className="flex space-x-6 animate-loop-scroll  w-[700%] shadow-2xl shadow-gray-300/30 group-hover:paused hover:cursor-pointer scroll-smooth">

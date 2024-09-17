@@ -24,7 +24,7 @@ const Footer = () => {
     { title: "Oral Solid", link: "/products/exports/oral-solids/tablets" },
     { title: "Oral Liquid", link: "/products/exports/oral-liquids" },
     { title: "Infusions", link: "/products/exports/infusions" },
-    { title: "OTC", link: "/products/exports/otc" },
+    { title: "Nutraceutical", link: "/products/exports/nutraceutical" },
     { title: "Pediatrics", link: "/products/domestic/pediatrics" },
   ];
 

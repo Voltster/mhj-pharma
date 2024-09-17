@@ -148,7 +148,7 @@ const Regulatory = () => {
           />
         </div>
       </div>
-    
+
       <div className="flex justify-center md:flex-row flex-col-reverse  items-center w-11/12 mx-auto gap-4 my-5 md:my-20">
         <div className="md:w-1/2 mx-auto">
           <m.img
@@ -168,7 +168,7 @@ const Regulatory = () => {
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          <p>
+          <p className="text-justify">
             With extensive experience in ANDA submissions, MHJ Pharmaconcepts
             has successfully supported customers through the entire process,
             from submission to post-approval lifecycle management. Our team has
@@ -176,17 +176,17 @@ const Regulatory = () => {
             behalf of pharmaceutical companies.
             <br />
           </p>
-          <h4>
+          <p className="text-justify">
             In addition to ANDA services, MHJ Pharmaconcepts provides MAH
             services to support pharmaceutical companies seeking to enter the
             European market. We offer expertise in:
-          </h4>
+          </p>
           <ul className="mt-4 list-disc w-11/12 mx-auto">
-            <li>
+            <li className="text-justify">
               GMP-compliant Pharmacovigilance (PV) and quality management system
               (QMS) implementation
             </li>
-            <li>
+            <li className="text-justify">
               Obtaining MA through mutual recognition procedure (MRP) and
               decentralized procedure (DP)
             </li>
@@ -195,7 +195,7 @@ const Regulatory = () => {
               Providing Qualified Person for Pharmacovigilance (QPPV) services
             </li>
           </ul>
-          <p>
+          <p className="text-justify">
             Our expertise helps pharmaceutical companies overcome regulatory
             hurdles and successfully navigate the complexities of the European
             market.

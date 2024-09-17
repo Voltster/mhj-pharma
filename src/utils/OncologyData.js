@@ -1,4 +1,4 @@
-const oncologyData = [
+export const oncologyData = [
   { productName: "Capecitabine Tablets USP 150/500 mg" },
   { productName: "Gefitinib Tablets 250 mg" },
   { productName: "Erlotinib Tablets 100/150 mg" },
@@ -151,4 +151,448 @@ const oncologyData = [
   { productName: "Cabazitaxel Injection BP 60 mg/ml (As Liposomal)" },
 ];
 
-export default oncologyData;
+export const tabletData = [
+  { productName: "Capecitabine Tablets USP", strength: "150 mg" },
+  { productName: "Capecitabine Tablets USP", strength: "500 mg" },
+  { productName: "Gefitinib Tablets", strength: "250 mg" },
+  { productName: "Erlotinib Tablets", strength: "100 mg" },
+  { productName: "Erlotinib Tablets", strength: "150 mg" },
+  { productName: "Anastrozole Tablets", strength: "1.0 mg" },
+  { productName: "Imatinib Tablets", strength: "100 mg" },
+  { productName: "Imatinib Tablets", strength: "400 mg" },
+  { productName: "Methotrexate Tablets BP", strength: "2.5 mg" },
+  { productName: "Methotrexate Tablets BP", strength: "7.5 mg" },
+  { productName: "Methotrexate Tablets BP", strength: "15 mg" },
+  { productName: "Everolimus Tablets", strength: "5.0 mg" },
+  { productName: "Everolimus Tablets", strength: "10 mg" },
+  {
+    productName: "Abiraterone Acetate Tablets USP",
+    strength: "250 mg",
+  },
+  {
+    productName: "Abiraterone Acetate Tablets USP",
+    strength: "500 mg",
+  },
+  { productName: "Lapatinib Tablets", strength: "250 mg" },
+  { productName: "Sorafenib Tablets", strength: "250 mg" },
+  { productName: "Letrozole Tablets USP", strength: "2.5 mg" },
+  { productName: "Tamoxifen Tablets BP", strength: "10 mg" },
+  { productName: "Tamoxifen Tablets BP", strength: "20 mg" },
+  { productName: "Tamoxifen Tablets BP", strength: "40 mg" },
+  { productName: "Mercaptopurine Tablets BP", strength: "50 mg" },
+  { productName: "Dasatinib Tablets", strength: "50 mg" },
+  { productName: "Dasatinib Tablets", strength: "70 mg" },
+  { productName: "Dasatinib Tablets", strength: "100 mg" },
+  { productName: "Nilutamide Tablets", strength: "150 mg" },
+  { productName: "Letrozole Tablet USP", strength: "2.5 mg" },
+  { productName: "Flutamide Tablet", strength: "250 mg" },
+  { productName: "Exemestane Tablet", strength: "25 mg" },
+  { productName: "Fludarabine Phosphate Tablet", strength: "10 mg" },
+  { productName: "Melphalan Tablets BP", strength: "2.0 mg" },
+  { productName: "Melphalan Tablets BP", strength: "4.0 mg" },
+  { productName: "Mitotane Tablet USP", strength: "500 mg" },
+  { productName: "Megestrol Acetate Tablet USP", strength: "40 mg" },
+  { productName: "Megestrol Acetate Tablet USP", strength: "160 mg" },
+  { productName: "Axitinib Tablet", strength: "1.0 mg" },
+  { productName: "Axitinib Tablet", strength: "5.0 mg" },
+  { productName: "Pazopanib Tablet", strength: "200 mg" },
+  { productName: "Pazopanib Tablet", strength: "400 mg" },
+  { productName: "Valganciclovir Tablets USP", strength: "450 mg" },
+  { productName: "Deferasirox Tablets", strength: "125 mg" },
+  { productName: "Deferasirox Tablets", strength: "250 mg" },
+  { productName: "Deferasirox Tablets", strength: "500 mg" },
+  { productName: "Regorafenib Tablets", strength: "40 mg" },
+  { productName: "Osimertinib Tablets", strength: "40 mg" },
+  { productName: "Osimertinib Tablets", strength: "80 mg" },
+  {
+    productName: "Mycophenolate Mofetil Tablets USP",
+    strength: "500 mg",
+  },
+];
+
+export const capsuleData = [
+  { productName: "Etoposide Capsules USP", strength: "50 mg" },
+  { productName: "Etoposide Capsules USP", strength: "100 mg" },
+  { productName: "Thalidomide Capsules USP", strength: "50 mg" },
+  { productName: "Thalidomide Capsules USP", strength: "100 mg" },
+  { productName: "Thalidomide Capsules USP", strength: "200 mg" },
+  { productName: "Temozolomide Capsules", strength: "100 mg" },
+  { productName: "Imatinib Capsules", strength: "" }, // No strength provided
+  { productName: "Lenalidomide Capsules", strength: "5.0 mg" },
+  { productName: "Lenalidomide Capsules", strength: "10 mg" },
+  { productName: "Lenalidomide Capsules", strength: "15 mg" },
+  { productName: "Lenalidomide Capsules", strength: "25 mg" },
+  { productName: "Sunitinib Malate Capsules", strength: "12.5 mg" },
+  { productName: "Sunitinib Malate Capsules", strength: "25 mg" },
+  { productName: "Sunitinib Malate Capsules", strength: "50 mg" },
+  { productName: "Ganciclovir Capsules USP", strength: "250 mg" },
+  { productName: "Ganciclovir Capsules USP", strength: "500 mg" },
+  { productName: "Crizotinib Capsules", strength: "200 mg" },
+  { productName: "Crizotinib Capsules", strength: "250 mg" },
+  { productName: "Tacrolimus Capsules USP", strength: "0.5 mg" },
+  {
+    productName: "Tacrolimus Capsules USP 0.5/1.0 mg",
+    strength: "1.0 mg",
+  },
+  { productName: "Nilotinib Capsules", strength: "200 mg" },
+  { productName: "Palbociclib Capsules", strength: "75 mg" },
+  { productName: "Palbociclib Capsules", strength: "100 mg" },
+  { productName: "Palbociclib Capsules", strength: "125 mg" },
+  { productName: "Aprepitant Capsules BP", strength: "80/125 mg" },
+  { productName: "Ibrutinib Capsules", strength: "140 mg" },
+  { productName: "Hydroxyurea Capsules USP", strength: "500 mg" },
+  {
+    productName: "Procarbazine Hydrochloride Capsules USP",
+    strength: "50 mg",
+  },
+  { productName: "Enzalutamide Capsules", strength: "40 mg" },
+  { productName: "Danazol Capsules USP", strength: "200 mg" },
+  { productName: "Tretinoin Capsules", strength: "10 mg" },
+  { productName: "Lenvatinib Capsules", strength: "4.0 mg" },
+  { productName: "Lenvatinib Capsules", strength: "10 mg" },
+];
+
+export const injections = [
+  {
+    productName: "Amifostine For Injection USP",
+    strengths: "500 mg (As Lyophilized)",
+  },
+  {
+    productName: "Amphotericin B For Injection USP",
+    strengths: "50 mg (As Lyophilized)",
+  },
+  { productName: "Amphotericin B Liposomal Injection", strengths: "50 mg" },
+  { productName: "Arsenic Trioxide Injection", strengths: "1.0 mg/ml" },
+  { productName: "Azacitadine Injection", strengths: "200 mg" },
+  {
+    productName: "Azacitidine For Injection",
+    strengths: "100 mg / Vial (As Lyophilized)",
+  },
+  {
+    productName: "Bendamustin For Injection",
+    strengths: "100 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Bleomycin Sulfate For Injection IP",
+    strengths: "15 IU/ vial (As Lyophilized)",
+  },
+  {
+    productName: "Bortezomib For Injection",
+    strengths: "2.0 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Bortezomib For Injection",
+    strengths: "3.5 mg/vial (As Lyophilized)",
+  },
+  { productName: "Busulfan Injection", strengths: "60 mg/10 ml" },
+  { productName: "Cabazitaxel Injection", strengths: "60 mg/1.5 ml" },
+  {
+    productName: "Carboplatin For Injection",
+    strengths: "50 mg (As Lyophilized)",
+  },
+  {
+    productName: "Carboplatin For Injection",
+    strengths: "150 mg (As Lyophilized)",
+  },
+  {
+    productName: "Carboplatin For Injection",
+    strengths: "450 mg (As Lyophilized)",
+  },
+  { productName: "Carboplatin Injection BP", strengths: "450 mg/45 ml" },
+  { productName: "Carboplatin Injection BP", strengths: "150 mg/15 ml" },
+  {
+    productName: "Carmustine For Injection USP",
+    strengths: "100 mg/vial (As Lyophilized)",
+  },
+  { productName: "Cisplatin Injection BP", strengths: "10 mg/20 ml" },
+  { productName: "Cisplatin Injection BP", strengths: "10 mg/10 ml" },
+  { productName: "Cisplatin Injection BP", strengths: "50 mg/50 ml" },
+  {
+    productName: "Cisplatin Liposomal Injection",
+    strengths: "150 mg/50 ml (As Nanoparticle Suspension)",
+  },
+  {
+    productName: "Cyclophosphamide Injection BP",
+    strengths: "200 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Cyclophosphamide Injection BP",
+    strengths: "500 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Cyclophosphamide Injection BP",
+    strengths: "1000 mg/vial (As Lyophilized)",
+  },
+  { productName: "Cytarabine Injection BP", strengths: "100 mg/ml" },
+  { productName: "Cytarabine Injection BP", strengths: "500 mg/5 ml" },
+  { productName: "Cytarabine Injection BP", strengths: "1000 mg/10 ml" },
+  {
+    productName: "Dacarbazine For Injection BP",
+    strengths: "200 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Dacarbazine For Injection BP",
+    strengths: "500 mg/vial (As Lyophilized)",
+  },
+  { productName: "Dactinomycin Injection", strengths: "0.5 mg" },
+  {
+    productName: "Daunorubicin For Injection USP",
+    strengths: "20 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Daunorubicin Injection",
+    strengths: "50 mg/25 ml (As Liposomal)",
+  },
+  {
+    productName: "Decitabine For Injection",
+    strengths: "50 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Degarelix For Injection",
+    strengths: "120 mg (As Lyophilized)",
+  },
+  {
+    productName: "Degarelix For Injection",
+    strengths: "80 mg (As Lyophilized)",
+  },
+  {
+    productName: "Diluent For Cabazitaxel Injection",
+    strengths: "60 mg/1.5 ml",
+  },
+  { productName: "Docetaxel Injection USP", strengths: "20 mg/0.5 ml" },
+  { productName: "Docetaxel Injection USP", strengths: "80 mg/2.0 ml" },
+  { productName: "Docetaxel Injection USP", strengths: "120 mg/3.0 ml" },
+  { productName: "Docetaxel Injection USP", strengths: "80 mg/8 ml RTU" },
+  { productName: "Docetaxel Injection USP", strengths: "20 mg/2.0 ml RTU" },
+  {
+    productName: "Doxorubicin Hydrochloride For Injection BP",
+    strengths: "10/50 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Doxorubicin Hydrochloride Liposome Injection",
+    strengths: "20 mg/10 ml",
+  },
+  {
+    productName: "Doxorubicin Hydrochloride Liposome Injection",
+    strengths: "10 mg/5 ml (As Pegylated Liposome)",
+  },
+  {
+    productName: "Doxorubicin Injection",
+    strengths: "10 mg/10 ml (As Liposomal)",
+  },
+  {
+    productName: "Doxorubicin Injection",
+    strengths: "20 mg/20 ml (As Liposomal)",
+  },
+  { productName: "Doxorubicin Injection BP", strengths: "10 mg/5 ml" },
+  { productName: "Doxorubicin Injection BP", strengths: "50 mg/25 ml" },
+  {
+    productName: "Epirubicin Hydrochloride For Injection",
+    strengths: "100 mg/vial (As Lyophilized)",
+  },
+  { productName: "Epirubicin Injection BP", strengths: "10 mg/5 ml" },
+  { productName: "Epirubicin Injection BP", strengths: "50 mg/25 ml" },
+  {
+    productName: "Eribulin Mesylate Solution For Injection",
+    strengths: "0.88 mg/2 ml",
+  },
+  { productName: "Etoposide Injection USP", strengths: "100 mg/5 ml" },
+  { productName: "Etoposide Injection USP", strengths: "250 mg/12.5 ml" },
+  { productName: "Etoposide Injection USP", strengths: "500 mg/25 ml" },
+  { productName: "Etoposide Injection USP", strengths: "1000 mg/50 ml" },
+  { productName: "Filgrastim Injection Solution", strengths: "300 mcg/ml" },
+  {
+    productName: "Fludarabine Phosphate For Injection USP",
+    strengths: "50 mg/vial (As Lyophilized)",
+  },
+  { productName: "Fluorouracil Injection BP", strengths: "250 mg/10 ml/5 ml" },
+  { productName: "Fosaprepitant Injection", strengths: "150 mg" },
+  { productName: "Fulvestrant Injection", strengths: "250 mg/5 ml" },
+  {
+    productName: "Ganciclovir For Injection USP",
+    strengths: "500 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Ganciclovir For Injection USP",
+    strengths: "250 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Gemcitabine For Injection USP",
+    strengths: "200 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Gemcitabine For Injection USP",
+    strengths: "1000 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Gemcitabine For Injection USP",
+    strengths: "1400 mg/vial (As Lyophilized)",
+  },
+  { productName: "Ibandronic Acid Injection", strengths: "1.0 mg/ml" },
+  {
+    productName: "Idarubicin Hydrochloride For Injection USP",
+    strengths: "5.0 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Idarubicin Hydrochloride For Injection USP",
+    strengths: "20 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Idarubicin Hydrochloride For Injection USP",
+    strengths: "10 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Ifosfamide For Injection USP",
+    strengths: "1.0 gm/vial (As Lyophilized)",
+  },
+  {
+    productName: "Ifosfamide For Injection USP",
+    strengths: "2.0 gm/vial (As Lyophilized)",
+  },
+  { productName: "Irinotecan Injection USP", strengths: "40 mg / 2.0 ml" },
+  { productName: "Irinotecan Injection USP", strengths: "100 mg/5 ml" },
+  {
+    productName: "Ixabepilone For Injection",
+    strengths: "15 mg (As Lyophilized)",
+  },
+  {
+    productName: "Ixabepilone For Injection",
+    strengths: "45 mg (As Lyophilized)",
+  },
+  {
+    productName: "L-Asparaginase For Injection",
+    strengths: "750 IU/ml (As Liposomal)",
+  },
+  {
+    productName: "L-Asparaginase For Injection",
+    strengths: "5000 IU/vial (As Lyophilized)",
+  },
+  {
+    productName: "L-Asparaginase For Injection",
+    strengths: "10,000 IU/vial (As Lyophilized)",
+  },
+  {
+    productName: "Leucovorin Calcium Injection USP",
+    strengths: "50 mg / 5 ml",
+  },
+  {
+    productName: "Leuprolide Acetate For Injection",
+    strengths: "3.75 mg (1 month depot) (As Lyophilized)",
+  },
+  {
+    productName: "Leuprolide Acetate For Injection",
+    strengths: "11.25 mg (3 month depot) (As Lyophilized)",
+  },
+  {
+    productName: "Leuprolide Acetate For Injection",
+    strengths: "22.5 mg (3 month depot) (As Lyophilized)",
+  },
+  {
+    productName: "Melphalan For Injection BP",
+    strengths: "50 mg/vial (As Lyophilized)",
+  },
+  { productName: "Mesna Injection", strengths: "100 mg/ml" },
+  {
+    productName: "Methotrexate For Injection USP",
+    strengths: "250 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Methotrexate For Injection USP",
+    strengths: "500 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Methotrexate For Injection USP",
+    strengths: "50 mg/vial (As Lyophilized)",
+  },
+  { productName: "Methotrexate Injection BP", strengths: "5.0 gm/50 ml" },
+  { productName: "Methotrexate Injection BP", strengths: "50 mg/2 ml" },
+  { productName: "Methotrexate Injection BP", strengths: "500 mg/20 ml" },
+  { productName: "Methotrexate Injection BP", strengths: "1000 mg/40 ml" },
+  {
+    productName: "Mitomycin For Injection USP",
+    strengths: "10 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Mitomycin For Injection USP",
+    strengths: "5.0 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Mitomycin For Injection USP",
+    strengths: "20 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Mitomycin For Injection USP",
+    strengths: "40 mg/vial (As Lyophilized)",
+  },
+  { productName: "Mitoxantrone Injection USP", strengths: "20 mg / 10 ml" },
+  {
+    productName: "Octreotide Acetate Injection",
+    strengths: "1000 mcg/5 ml (0.2 mg/ml)",
+  },
+  {
+    productName: "Oxaliplatin For Injection USP",
+    strengths: "50 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Oxaliplatin For Injection USP",
+    strengths: "100 mg/vial (As Lyophilized)",
+  },
+  { productName: "Oxaliplatin Injection USP", strengths: "50 mg/25 ml" },
+  { productName: "Oxaliplatin Injection USP", strengths: "100 mg/50 ml" },
+  {
+    productName: "Paclitaxel (Protein Bound Particle) For Injection Suspension",
+    strengths: "100 mg / vial",
+  },
+  { productName: "Paclitaxel Injection USP", strengths: "100/16.7 ml" },
+  { productName: "Paclitaxel Injection USP", strengths: "30 mg/5 ml" },
+  { productName: "Paclitaxel Injection USP", strengths: "260/43.4 ml" },
+  { productName: "Paclitaxel Injection USP", strengths: "300/50 ml" },
+  {
+    productName: "Pamidronate Disodium For Injection USP",
+    strengths: "30 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Pamidronate Disodium For Injection USP",
+    strengths: "60 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Pamidronate Disodium For Injection USP",
+    strengths: "90 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Pemetrexed For Injection USP",
+    strengths: "100 mg/vial (As Lyophilized)",
+  },
+  {
+    productName: "Pemetrexed For Injection USP",
+    strengths: "500 mg/vial (As Lyophilized)",
+  },
+  { productName: "Tacrolimus Injection", strengths: "5 mg/ml" },
+  { productName: "Temoporfin Injection", strengths: "2.0 mg/ml" },
+  {
+    productName: "Topotecan Hydrochloride For Injection",
+    strengths: "4 mg (As Lyophilized)",
+  },
+  { productName: "Topotecan Injection", strengths: "2.5 mg" },
+  { productName: "Treosulfan For Injection", strengths: "1.0 gm" },
+  { productName: "Treosulfan For Injection", strengths: "5.0 gm" },
+  {
+    productName: "Triptorelin For Injection",
+    strengths: "3.75 mg (As Lyophilized)",
+  },
+  {
+    productName: "Triptorelin For Injection",
+    strengths: "11.25 mg (As Lyophilized)",
+  },
+  {
+    productName: "Triptorelin For Injection",
+    strengths: "22.5 mg (As Lyophilized)",
+  },
+  { productName: "Vincristine Sulfate Injection USP", strengths: "1.0 mg/ml" },
+  { productName: "Vinorelbine Injection USP", strengths: "10 mg/ml" },
+  { productName: "Vinorelbine Injection USP", strengths: "50 mg/5 ml" },
+  {
+    productName: "Zoledronic Acid For Injection",
+    strengths: "4.0 mg/vial (As Lyophilized)",
+  },
+];

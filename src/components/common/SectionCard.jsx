@@ -63,7 +63,7 @@ const SectionCard = ({
       >
         <div className={`xl:w-[80%]`}>
           <m.h2
-            className={`text-2xl md:text-4xl font-semibold mb-4 ${titleColor}`}
+            className={`text-2xl md:text-4xl font-semibold mb-4 uppercase ${titleColor}`}
             variants={itemVariants}
           >
             {title}

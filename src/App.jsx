@@ -17,7 +17,10 @@ const Capsules = lazy(() => import("./components/products/Capsules"));
 const OralLiquids = lazy(() => import("./components/products/OralLiquids"));
 const Infusions = lazy(() => import("./components/products/Infusions"));
 const OTC = lazy(() => import("./components/products/OTC"));
-const Pediatrics = lazy(() => import("./components/products/Pediatrics"));
+const Injection = lazy(() => import("./components/oncology/Injection"));
+const OralCapsules = lazy(() => import("./components/oncology/Capsules"));
+const OralTables = lazy(() => import("./components/oncology/OncoTables"));
+// const Pediatrics = lazy(() => import("./components/products/Pediatrics"));
 const Regulatory = lazy(() => import("./page/Regulatory"));
 const ClinicalServices = lazy(() => import("./page/ClinicalServices"));
 const ArtworkServices = lazy(() => import("./page/ArtworkServices"));
@@ -66,8 +69,11 @@ function App() {
               />
               <Route path="/oncology" element={<Oncology />} />
               <Route path="/oncology-products" element={<OncologyProducts />} />
+              <Route path="/products/oncology/injectables" element={<Injection />} />
+              <Route path="/oncology/oral-solid/capsules" element={<OralCapsules />} />
+              <Route path="/oncology/oral-solid/tablets" element={<OralTables />} />
               <Route
-                path="/products/exports/injectable"
+                path="/products/exports/injectables"
                 element={<Injections />}
               />
               <Route
@@ -86,11 +92,11 @@ function App() {
                 path="/products/exports/infusions"
                 element={<Infusions />}
               />
-              <Route path="/products/exports/otc" element={<OTC />} />
-              <Route
+              <Route path="/products/exports/nutraceutical" element={<OTC />} />
+              {/* <Route
                 path="/products/domestic/pediatrics"
                 element={<Pediatrics />}
-              />
+              /> */}
               <Route
                 path="/technology/research-development"
                 element={<Research />}

@@ -77,9 +77,9 @@ const cardComponents = cardsData.map((card, i) => {
         <img
           src={card.icon}
           alt={card.icon}
-          className="object-cover w-full h-[15rem] "
+          className="object-cover w-full h-[20rem]"
         />
-        <p className="text-xl font-medium text-gray-100 mt-3 absolute bottom-0  py-2 w-full bg-gradient-to-b from-gray-500/0 via-black/50 via-40% to-gray-950">
+        <p className="text-xl font-medium text-gray-100 mt-3 absolute bottom-0  py-2 w-full bg-gradient-to-b from-gray-500/0 via-black/10 via-10% to-gray-950">
           {card.title}
         </p>
       </div>

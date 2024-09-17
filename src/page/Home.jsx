@@ -9,25 +9,23 @@ import Products from "../components/common/Products";
 import indiaFlag from "../assets/IndianFlag.png";
 import usaFlag from "../assets/UsaFlag.png";
 import UkFlag from "../assets/UkFlag.png";
-// import sample2 from "../assets/Packshot/Mhj/gapine.png";
-import sample3 from "../assets/Packshot/Mhj/icene.png";
-// import sample4 from "../assets/Packshot/Mhj/merrin.png";
-// import sample5 from "../assets/Packshot/Mhj/minvox.png";
-// import sample6 from "../assets/Packshot/Mhj/sildenafil.png";
-import sample7 from "../assets/Packshot/Mhj/TIMOC.png";
-import sample8 from "../assets/Packshot/Mhj/Valpoc.png";
-import sample9 from "../assets/Packshot/Mhj/zatron.png";
+import sample2 from "../assets/Packshot/Mhj/gapine.png";
+import sample3 from "../assets/Packshot/Mhj/ICENE.png";
+import sample4 from "../assets/Packshot/Mhj/merrin.png";
+import sample5 from "../assets/Packshot/Mhj/timoc.png";
+import sample6 from "../assets/Packshot/Mhj/valpoc.png";
+import sample7 from "../assets/Packshot/Mhj/ZATRON.png";
+
 import { motion as m } from "framer-motion";
 
 const imageData = [
-  // { img: sample2 },
+  { img: sample2 },
   { img: sample3 },
-  // { img: sample4 },
-  // { img: sample5 },
-  // { img: sample6 },
+  { img: sample4 },
+  { img: sample5 },
+  { img: sample6 },
   { img: sample7 },
-  { img: sample8 },
-  { img: sample9 },
+
 ];
 
 const Home = () => {

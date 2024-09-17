@@ -34,13 +34,13 @@ const Infusions = () => {
                     scope="row"
                     className="px-6 py-2 font-medium text-gray-800 whitespace-nowrap"
                   >
-                    {e.productName}
+                    {e.name}
                   </th>
                   <th
                     scope="row"
                     className="px-6 py-2 font-medium text-gray-800 whitespace-nowrap "
                   >
-                    {e.strengths}
+                    {e.strength}
                   </th>
                 </tr>
               ))}

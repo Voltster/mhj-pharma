@@ -257,6 +257,7 @@ footer a:hover:after {
 .goog-te-gadget {
   font-family: "Open Sans", sans-serif !important;
   text-transform: uppercase;
+  color: transparent;
 }
 .goog-te-gadget-simple {
   background-color: rgba(255, 255, 255, 0.2) !important;
@@ -271,6 +272,11 @@ footer a:hover:after {
 
 .goog-te-gadget-icon {
   display: none;
+}
+
+.googleDropdown select {
+  background-color: #911515;
+  border: none;
 }
 
 .productBg::after {
@@ -309,8 +315,6 @@ svg text {
     stroke-dashoffset: 160;
   }
 }
-
-/* new */
 
 .gradient-text {
   /* Fallback: Set a background color. */

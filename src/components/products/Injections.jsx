@@ -5,7 +5,7 @@ const Injections = () => {
     <section className="min-h-screen relative w-full mx-auto ">
       <div className="py-20 h-screen  relative ">
         <h2 className="text-4xl text-center mt-10 font-bold mb-8 text-[#B31815] uppercase">
-          Injectable
+          Injectables
         </h2>
         <div className="relative overflow-x-auto sm:rounded-lg overflow-y-scroll h-[80%] mx-auto ">
           <table className="mx-auto text-sm text-left rtl:text-right text-gray-500  h-[80%] productBg overflow-auto ">

@@ -39,14 +39,14 @@ const Hero = () => {
             researchers in the field, we're driven to make a meaningful
             difference in the fight against evil.
           </m.p>
-          <PrimaryButton
+          {/* <PrimaryButton
             to={"/oncology-products"}
             className={
               "mt-10 bg-gradient-to-r from-[#e91e63] via-pink-400 to-pink-600 animate-custom-bounce hover:animate-none transition-all"
             }
           >
             Products
-          </PrimaryButton>
+          </PrimaryButton> */}
         </div>
         <div className="xl:w-1/2 rounded-md overflow-hidden ">
           <m.img
