@@ -9,7 +9,7 @@ import indiaFlag from "../assets/IndianFlag.png";
 import usaFlag from "../assets/UsaFlag.png";
 import UkFlag from "../assets/UkFlag.png";
 import sample2 from "../assets/Packshot/Mhj/gapine.png";
-// import sample3 from "../assets/Packshot/Mhj/icane.png";
+import sample3 from "../assets/Packshot/Mhj/icane.png";
 import sample4 from "../assets/Packshot/Mhj/merrin.png";
 import sample5 from "../assets/Packshot/Mhj/timoc.png";
 import sample6 from "../assets/Packshot/Mhj/valpoc.png";
@@ -19,7 +19,7 @@ import { motion as m } from "framer-motion";
 
 const imageData = [
   { img: sample2 },
-  // { img: sample3 },
+  { img: sample3 },
   { img: sample4 },
   { img: sample5 },
   { img: sample6 },
