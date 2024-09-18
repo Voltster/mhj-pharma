@@ -1,19 +1,11 @@
 import Hero from "../components/oncology/Hero";
-import OncologyProductRange from "../components/oncology/OncologyProductRange";
 import SectionCard from "../components/common/SectionCard";
-import oncoSolution from "../assets/oncoSolution.jpg";
-// import Customized from "https://img.freepik.com/premium-vector/realistic-security-protection-different-icons-set_1286368-13667.jpg?w=740";
-import ResearchDevelopment from "../assets/ResearchDevelopment.png";
-import QualitySafety from "../assets/QualitySafety.png";
 import Products from "../components/common/Products";
-
 import sample1 from "../assets/Packshot/cisplatin.png";
 import sample2 from "../assets/Packshot/EPRIBIN.png";
 import sample3 from "../assets/Packshot/itonik.png";
 import sample5 from "../assets/Packshot/PACKTAC.png";
 import sample6 from "../assets/Packshot/PALCIL.png";
-// import sample7 from "../assets/Packshot/palcil.png";
-// import sample8 from "../assets/Packshot/talumide.png";
 
 const imageData = [
   { img: sample1 },
@@ -21,8 +13,7 @@ const imageData = [
   { img: sample3 },
   { img: sample5 },
   { img: sample6 },
-  // { img: sample7 },
-  // { img: sample8 },
+
 ];
 
 const Oncology = () => {

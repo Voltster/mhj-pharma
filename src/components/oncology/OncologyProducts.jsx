@@ -1,4 +1,4 @@
-import oncologyData from "../../utils/OncologyData";
+import { oncologyData } from "../../utils/OncologyData";
 
 const OncologyProducts = () => {
   return (
