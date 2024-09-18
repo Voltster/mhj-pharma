@@ -8,12 +8,12 @@ import Products from "../components/common/Products";
 import indiaFlag from "../assets/IndianFlag.png";
 import usaFlag from "../assets/UsaFlag.png";
 import UkFlag from "../assets/UkFlag.png";
-import sample2 from "../assets/Packshot/Mhj/gapine.png";
-import sample3 from "../assets/Packshot/Mhj/icane.png";
-import sample4 from "../assets/Packshot/Mhj/merrin.png";
-import sample5 from "../assets/Packshot/Mhj/timoc.png";
-import sample6 from "../assets/Packshot/Mhj/valpoc.png";
-import sample7 from "../assets/Packshot/Mhj/ZATRON.png";
+import sample2 from "../assets/Packshot/Mhj/gapine.PNG";
+import sample3 from "../assets/Packshot/Mhj/icane.PNG";
+import sample4 from "../assets/Packshot/Mhj/merrin.PNG";
+import sample5 from "../assets/Packshot/Mhj/timoc.PNG";
+import sample6 from "../assets/Packshot/Mhj/valpoc.PNG";
+import sample7 from "../assets/Packshot/Mhj/ZATRON.PNG";
 
 import { motion as m } from "framer-motion";
 
