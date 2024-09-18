@@ -84,17 +84,17 @@ const Pharmacovigilance = () => {
             </li>
           </ul>
 
-          <p className="text-justify"> 
+          <p className="text-justify">
             We respond to queries from regulatory agencies regarding clinical
             trial application submissions, ensuring timely resolution and
             minimizing the risk of delays or rejects.
           </p>
+
         </m.div>
       </div>
       <SectionLayout
         title={"Global Pharmacovigilance "}
         description={`At MHJ Pharmaconcepts, we utilize a strategic approach to global adverse event reporting, ensuring compliance with international regulations and post-market safety requirements. Our team has expertise in working with reporting systems that facilitate timely and compliant reporting across various jurisdictions, adhering to stringent regulatory standards worldwide.<br />We are capable of working with global adverse event reporting systems, international pharmacovigilance databases, and regulatory platforms, enabling real-time information dissemination and proactive responses to emerging safety concerns. Our commitment to compliance spans regions, addressing diverse regulatory landscapes and reporting nuances.<br />
-
 `}
         src={
           "https://img.freepik.com/premium-photo/male-doctor-looks-display-unaccepted-messages-emails_102583-2702.jpg?w=740"
@@ -115,5 +115,4 @@ const Pharmacovigilance = () => {
     </div>
   );
 };
-
 export default Pharmacovigilance;

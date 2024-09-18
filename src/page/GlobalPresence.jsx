@@ -4,7 +4,7 @@ import Test from "../components/common/Test"
 
 const GlobalPresence = () => {
   return (
-    <div className="py-20  text-center bg-gray-50">
+    <div className="py-20 mt-10  text-center bg-gray-50">
       <h2 className="text-5xl font-bold mb-4 text-[#B31815] mt-4">
         Global Footprint
       </h2>
