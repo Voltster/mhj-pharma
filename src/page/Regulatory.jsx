@@ -42,7 +42,7 @@ const Regulatory = () => {
         <div className="md:w-1/2">
           <m.img
             src={
-              "https://img.freepik.com/premium-photo/regulations-business-condition-legal-protocol-concept_53876-121844.jpg?w=740"
+              "https://img.freepik.com/premium-photo/skilled-multicultural-businesspeople-discuss-about-business-idea-tracery_31965-477024.jpg?w=740"
             }
             className="w-[80%] mx-auto rounded-md "
             loading="lazy"
@@ -137,7 +137,7 @@ const Regulatory = () => {
         <div className="md:w-1/2">
           <m.img
             src={
-              "https://img.freepik.com/free-photo/top-view-strategy-written-note-with-stickers-notepad-colored-background-copybook-color-salary-job-money-office-college-school_179666-18287.jpg?t=st=1725534830~exp=1725538430~hmac=d5671162b34909be2f57911514f621517323dd88e98656f95301329099d3b411&w=740"
+              "https://img.freepik.com/free-photo/person-office-analyzing-checking-finance-graphs_23-2150377128.jpg?t=st=1726659514~exp=1726663114~hmac=61b1d8f5767de2d747d69f365eb88f2faaeca2e28567d2eb154c96c4cb00fdbc&w=740"
             }
             className="w-[80%] mx-auto rounded-md"
             loading="lazy"

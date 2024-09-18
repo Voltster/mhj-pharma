@@ -1,5 +1,6 @@
 import React from "react";
 import SectionLayout from "./../components/regulatory/SectionLayout";
+import globalPharmacovigilance from "../assets/GlobalPharmacovigilance.jpeg"
 import { motion as m } from "framer-motion";
 
 const Pharmacovigilance = () => {
@@ -20,7 +21,7 @@ const Pharmacovigilance = () => {
         description={`At MHJ Pharmaconcepts, we prioritize innovation, quality, and customer-centricity. We integrate cutting-edge technology to optimize pharmacovigilance processes, ensuring compliance and timely responses to safety and regulatory challenges. Our seasoned pharmacovigilance teams, comprising regulatory affairs and pharmacovigilance experts, guarantee meticulous adherence to global standards. We foster strong client relationships through transparency, collaboration, and regular updates, empowering clients with insights and expertise.
 `}
         src={
-          "https://img.freepik.com/free-photo/border-from-stethoscope-pills_23-2147796533.jpg?t=st=1725527955~exp=1725531555~hmac=f4ffce39143a089f9065f6ea0ac8777d2b50ce85d22734d3ee8ed988f1685b67&w=740"
+          "https://img.freepik.com/free-photo/medical-banner-with-doctor-wearing-goggles_23-2149611193.jpg?t=st=1726660784~exp=1726664384~hmac=dd631d7b66358f0cce833a7351823f6208516b1b8f3f7a271e8933fa7da079ad&w=740"
         }
         className={"w-11/12 mx-auto container"}
       />
@@ -37,7 +38,7 @@ const Pharmacovigilance = () => {
       <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 md:py-8 px-4">
         <div className="md:w-1/2 ">
           <m.img
-            src="https://img.freepik.com/premium-photo/risk-management-text-words-typography-written-with-paper-life-business-concept_21336-5159.jpg?w=740"
+            src="https://img.freepik.com/free-photo/man-wooden-cubes-table-management-concept_155003-13881.jpg?t=st=1726659731~exp=1726663331~hmac=fec565db9ec9594c3f51770225b254f0a76e5f692250a6166bcee436559e0b9b&w=740"
             alt=""
             className="rounded-md"
             initial={{ x: [0], opacity: 0 }}
@@ -97,7 +98,7 @@ const Pharmacovigilance = () => {
         description={`At MHJ Pharmaconcepts, we utilize a strategic approach to global adverse event reporting, ensuring compliance with international regulations and post-market safety requirements. Our team has expertise in working with reporting systems that facilitate timely and compliant reporting across various jurisdictions, adhering to stringent regulatory standards worldwide.<br />We are capable of working with global adverse event reporting systems, international pharmacovigilance databases, and regulatory platforms, enabling real-time information dissemination and proactive responses to emerging safety concerns. Our commitment to compliance spans regions, addressing diverse regulatory landscapes and reporting nuances.<br />
 `}
         src={
-          "https://img.freepik.com/premium-photo/male-doctor-looks-display-unaccepted-messages-emails_102583-2702.jpg?w=740"
+          globalPharmacovigilance
         }
         className={"w-11/12 mx-auto container flex-row-reverse "}
         customClass={"mt-0"}

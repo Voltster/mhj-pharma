@@ -45,7 +45,7 @@ const About = () => {
   return (
     <main className="min-h-screen relative w-full mx-auto bg-inherit">
       <MainSection />
-      <h1 className="p-10  md:pt-20  mt-10 text-4xl text-center text-[#B51915] font-semibold">We Do SMART</h1>
+      <h1 className="p-10  md:pt-20  mt-10 text-4xl text-center text-[#B51915] font-semibold">We Work SMART</h1>
       <div className="flex flex-col lg:flex-row  justify-between w-11/12 mx-auto ">
 
         <m.div className="md:w-1/2 relative" initial={{ x: [0], opacity: 0 }}

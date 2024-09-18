@@ -10,7 +10,7 @@ const ClinicalServices = () => {
         style={{ backgroundImage: `url('https://img.freepik.com/free-photo/portrait-scientist-nurse-looking-tired-camera-sitting-modern-equipped-laboratory-late-night-team-specialists-examining-virus-evolution-using-high-tech-research-vaccine-development_482257-13616.jpg?t=st=1726491655~exp=1726495255~hmac=9f6df225761ac45e03bd7331de45e8904dde76bb63752fd7c54c922f641693cb&w=826')` }}
       >
         <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
-          Clinical Regulatory  Affairs 
+          Clinical Regulatory  Affairs
         </h2>
       </div>
       <m.h2
@@ -74,7 +74,7 @@ const ClinicalServices = () => {
       <div className="w-11/12 mx-auto  flex justify-center items-center md:flex-row flex-col gap-y-4 gap-x-12 xl:gap-x-16 md:py-8 px-4">
         <div className="md:w-1/2">
           <m.img
-            src="https://img.freepik.com/free-photo/document-marketing-strategy-business-concept_53876-132234.jpg?t=st=1725521797~exp=1725525397~hmac=4567fed617ebf44c7e927c81f4a7acbfcba45c40de3d4d5c27c2bc00d3b27526&w=826"
+            src="https://img.freepik.com/premium-photo/documents-concept-doctor-use-computer-connection-server-data-base-patient-technology-treatment-hospitalin-documents-concept-management_10541-13611.jpg?w=740"
             alt=""
             className="rounded-md"
             initial={{ x: [0], opacity: 0 }}
