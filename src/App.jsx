@@ -26,9 +26,9 @@ const ClinicalServices = lazy(() => import("./page/ClinicalServices"));
 const ArtworkServices = lazy(() => import("./page/ArtworkServices"));
 const Pharmacovigilance = lazy(() => import("./page/Pharmacovigilance"));
 const Error404 = lazy(() => import("./components/common/Error404"));
-const OncologyProducts = lazy(() =>
-  import("./components/oncology/OncologyProducts")
-);
+// const OncologyProducts = lazy(() =>
+//   import("./components/oncology/OncologyProducts")
+// );
 import whatsappIcon from "./assets/whatsapp.svg";
 import Loader from "./components/common/Loader";
 import "./Reset.css";
@@ -68,7 +68,7 @@ function App() {
                 element={<Pharmacovigilance />}
               />
               <Route path="/oncology" element={<Oncology />} />
-              <Route path="/oncology-products" element={<OncologyProducts />} />
+              {/* <Route path="/oncology-products" element={<OncologyProducts />} /> */}
               <Route path="/products/oncology/injectables" element={<Injection />} />
               <Route path="/oncology/oral-solid/capsules" element={<OralCapsules />} />
               <Route path="/oncology/oral-solid/tablets" element={<OralTables />} />
