@@ -26,6 +26,7 @@ const ClinicalServices = lazy(() => import("./page/ClinicalServices"));
 const ArtworkServices = lazy(() => import("./page/ArtworkServices"));
 const Pharmacovigilance = lazy(() => import("./page/Pharmacovigilance"));
 const Error404 = lazy(() => import("./components/common/Error404"));
+import ScrollToTop from "./hook/ScrollToTop"
 // const OncologyProducts = lazy(() =>
 //   import("./components/oncology/OncologyProducts")
 // );
@@ -45,8 +46,9 @@ function App() {
     <>
       <Suspense fallback={<Loader />}>
         <AnimatePresence mode="wait">
-          <div className="bg-[#fefefe] h-screen relative w-screen">
+          <div className="bg-[#fefefe]  relative w-screen">
             <ScrollToHashElement />
+            <ScrollToTop />
             <OncologyModal />
             <Navbar />
             <Routes>

@@ -5,6 +5,7 @@ import logo from "../../assets/mhjlogo.png";
 import PrimaryButton from "./PrimaryButton";
 import { AnimatePresence, motion as m } from "framer-motion";
 import GoogleTranslate from "./GoogleTranslate ";
+// import LanguageSwitcher from "./LanguageSwitcher";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -69,6 +70,7 @@ function Navbar() {
               </PrimaryButton>
             </div>
             <GoogleTranslate />
+            {/* <LanguageSwitcher /> */}
           </div>
           <div className="md:hidden">
             <button
