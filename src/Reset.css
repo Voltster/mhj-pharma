@@ -1,15 +1,15 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 #root {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 /* Remove default margin */
@@ -27,49 +27,48 @@ figure,
 blockquote,
 dl,
 dd {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 /* Remove outline */
 a,
 button {
-    outline: none;
+  outline: none;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    font-style: italic;
-    background-repeat: no-repeat;
-    background-size: cover;
-    shape-margin: 1rem;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
 }
-
 
 /* scrollbar.css */
 ::-webkit-scrollbar {
-    width: 2px;
+  width: 2px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(119, 153, 119, 0.167)79;
+  background: rgba(119, 153, 119, 0.167) 79;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #b81c1c;
+  background: #b81c1c;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }

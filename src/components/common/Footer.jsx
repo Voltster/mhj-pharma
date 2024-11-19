@@ -1,11 +1,10 @@
 import logo from "../../assets/mhjlogo.png";
 import oncologo from "../../assets/oncoMHJ.png";
 import { FaSquareInstagram } from "react-icons/fa6";
-import { FaPhone, FaFacebookF, FaLinkedin } from "react-icons/fa";
+import { FaPhone, FaLinkedin } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import { motion as m } from "framer-motion";
-import qr from "../../assets/qr.png";
-import Products from "./Products";
+
 
 const Footer = () => {
   const company = [
@@ -20,12 +19,11 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { title: "Injections", link: "/products/exports/injections" },
+    { title: "Injectables", link: "/products/exports/injectables" },
     { title: "Oral Solid", link: "/products/exports/oral-solids/tablets" },
     { title: "Oral Liquid", link: "/products/exports/oral-liquids" },
     { title: "Infusions", link: "/products/exports/infusions" },
     { title: "Nutraceutical", link: "/products/exports/nutraceutical" },
-    { title: "Pediatrics", link: "/products/domestic/pediatrics" },
   ];
 
   const socialLinks = [
@@ -46,7 +44,7 @@ const Footer = () => {
   return (
     <>
       <m.footer
-        className={`relative z-10 bg-white  w-full 2xl:w-11/12 bg-no-repeat bg-bottom md:border-2 border-[#941616] md:rounded-full overflow-hidden ${isOncology ? "border-[#F38DA9]" : "border-[#941616]"
+        className={`relative z-10 bg-white  w-full 2xl:w-11/12 mx-auto bg-no-repeat bg-bottom md:border-2 border-[#941616] md:rounded-full overflow-hidden ${isOncology ? "border-[#F38DA9]" : "border-[#941616]"
           }`}
         initial={{ y: 0, opacity: 0 }}
         whileInView={{ y: [10, 0], opacity: 1 }}
@@ -135,7 +133,7 @@ const Footer = () => {
               <div className="w-1/2 md:mr-4">
                 <div className="mb-10 w-full">
                   <h4 className=" text-lg font-medium text-gray-50">
-                    Opening hours
+                    Opening Hours
                   </h4>
                   <p className="mb-6 text-gray-100">10:00 AM to 07:00 PM</p>
                   <h4 className=" text-lg font-medium text-gray-50">
@@ -158,17 +156,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* <div className="md:absolute md:bottom-14 right-12 z-10 rounded-lg hidden md:block">
-          <img
-            src={qr}
-            alt="QR Code"
-            className="w-28 md:w-24 md:h-24 rounded-md mx-auto"
-          />
-          <p className="md:text-white text-center">
-            Scan to Download
-            <br /> Products List
-          </p>
-        </div> */}
       </m.footer>
 
       <div className="w-full sm:h-8 flex relative">

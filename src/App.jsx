@@ -7,6 +7,13 @@ const Export = lazy(() => import("./page/Export"));
 const QualifiedTeam = lazy(() => import("./page/QualifiedTeam"));
 const About = lazy(() => import("./page/About"));
 const Oncology = lazy(() => import("./page/Oncology"));
+const Kids = lazy(() => import("./page/Kids"));
+const PediatricProducts = lazy(
+  () => import("./components/products/PediatricProducts")
+);
+const ProductsDetails = lazy(
+  () => import("./components/products/ProductsDetails")
+);
 const Research = lazy(() => import("./page/Research"));
 const Manufacture = lazy(() => import("./page/Manufacture"));
 const QualityControls = lazy(() => import("./page/QualityControls"));
@@ -20,16 +27,12 @@ const OTC = lazy(() => import("./components/products/OTC"));
 const Injection = lazy(() => import("./components/oncology/Injection"));
 const OralCapsules = lazy(() => import("./components/oncology/Capsules"));
 const OralTables = lazy(() => import("./components/oncology/OncoTables"));
-// const Pediatrics = lazy(() => import("./components/products/Pediatrics"));
 const Regulatory = lazy(() => import("./page/Regulatory"));
 const ClinicalServices = lazy(() => import("./page/ClinicalServices"));
 const ArtworkServices = lazy(() => import("./page/ArtworkServices"));
 const Pharmacovigilance = lazy(() => import("./page/Pharmacovigilance"));
 const Error404 = lazy(() => import("./components/common/Error404"));
-import ScrollToTop from "./hook/ScrollToTop"
-// const OncologyProducts = lazy(() =>
-//   import("./components/oncology/OncologyProducts")
-// );
+import ScrollToTop from "./hook/ScrollToTop";
 import whatsappIcon from "./assets/whatsapp.svg";
 import Loader from "./components/common/Loader";
 import "./Reset.css";
@@ -39,7 +42,6 @@ import OncologyModal from "./components/oncology/OncologyModal";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
-import QRCodeSection from "./components/common/QRCodeSection";
 
 function App() {
   return (
@@ -56,6 +58,15 @@ function App() {
               <Route path="/export" element={<Export />} />
               <Route path="/qualified-team" element={<QualifiedTeam />} />
               <Route path="/about" element={<About />} />
+              <Route path="/kids" element={<Kids />} />
+              <Route
+                path="/pediatric-products"
+                element={<PediatricProducts />}
+              />
+              <Route
+                path="/pediatric-products/:id"
+                element={<ProductsDetails />}
+              />
               <Route path="/regulatory-services" element={<Regulatory />} />
               <Route
                 path="regulatory/clinical-services"
@@ -70,10 +81,18 @@ function App() {
                 element={<Pharmacovigilance />}
               />
               <Route path="/oncology" element={<Oncology />} />
-              {/* <Route path="/oncology-products" element={<OncologyProducts />} /> */}
-              <Route path="/products/oncology/injectables" element={<Injection />} />
-              <Route path="/oncology/oral-solid/capsules" element={<OralCapsules />} />
-              <Route path="/oncology/oral-solid/tablets" element={<OralTables />} />
+              <Route
+                path="/products/oncology/injectables"
+                element={<Injection />}
+              />
+              <Route
+                path="/oncology/oral-solid/capsules"
+                element={<OralCapsules />}
+              />
+              <Route
+                path="/oncology/oral-solid/tablets"
+                element={<OralTables />}
+              />
               <Route
                 path="/products/exports/injectables"
                 element={<Injections />}
@@ -123,6 +142,7 @@ function App() {
       <Link
         to="https://api.whatsapp.com/send?phone=919100018000"
         target="_blank"
+        rel="noopener noreferrer"
         className="bottom-8 right-4 sm:right-8 md:right-16 fixed z-50 cursor-pointer transition-all duration-400 ease-in-out animate-bounce"
       >
         <img

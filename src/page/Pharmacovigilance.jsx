@@ -1,6 +1,6 @@
 import React from "react";
 import SectionLayout from "./../components/regulatory/SectionLayout";
-import globalPharmacovigilance from "../assets/GlobalPharmacovigilance.jpeg"
+import globalPharmacovigilance from "../assets/GlobalPharmacovigilance.jpeg";
 import { motion as m } from "framer-motion";
 
 const Pharmacovigilance = () => {
@@ -8,7 +8,9 @@ const Pharmacovigilance = () => {
     <div className="min-h-screen relative w-full mx-auto pt-1">
       <div
         className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
-        style={{ backgroundImage: `url('https://img.freepik.com/free-photo/young-man-wearing-protective-face-mask-while-holding-online-classes-computer-coronavirus-epidemic_637285-6141.jpg?t=st=1726491250~exp=1726494850~hmac=22ef1ddf0638828f3695c0c75fb65673aa1c20f71a30aea32953b8fde25d107c&w=740')` }}
+        style={{
+          backgroundImage: `url('https://img.freepik.com/free-photo/young-man-wearing-protective-face-mask-while-holding-online-classes-computer-coronavirus-epidemic_637285-6141.jpg?t=st=1726491250~exp=1726494850~hmac=22ef1ddf0638828f3695c0c75fb65673aa1c20f71a30aea32953b8fde25d107c&w=740')`,
+        }}
       >
         <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
           Pharmacovigilance
@@ -34,7 +36,7 @@ const Pharmacovigilance = () => {
       >
         Risk Management Plan (RMP)
       </m.h4>
-      
+
       <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 md:py-8 px-4">
         <div className="md:w-1/2 ">
           <m.img
@@ -90,16 +92,13 @@ const Pharmacovigilance = () => {
             trial application submissions, ensuring timely resolution and
             minimizing the risk of delays or rejects.
           </p>
-
         </m.div>
       </div>
       <SectionLayout
         title={"Global Pharmacovigilance "}
         description={`At MHJ Pharmaconcepts, we utilize a strategic approach to global adverse event reporting, ensuring compliance with international regulations and post-market safety requirements. Our team has expertise in working with reporting systems that facilitate timely and compliant reporting across various jurisdictions, adhering to stringent regulatory standards worldwide.<br />We are capable of working with global adverse event reporting systems, international pharmacovigilance databases, and regulatory platforms, enabling real-time information dissemination and proactive responses to emerging safety concerns. Our commitment to compliance spans regions, addressing diverse regulatory landscapes and reporting nuances.<br />
 `}
-        src={
-          globalPharmacovigilance
-        }
+        src={globalPharmacovigilance}
         className={"w-11/12 mx-auto container flex-row-reverse "}
         customClass={"mt-0"}
       />

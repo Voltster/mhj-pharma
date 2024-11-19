@@ -24,7 +24,6 @@ const imageData = [
   { img: sample5 },
   { img: sample6 },
   { img: sample7 },
-
 ];
 
 const Home = () => {

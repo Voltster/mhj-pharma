@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaTimes, FaBars, FaCaretDown } from "react-icons/fa";
 import logo from "../../assets/mhjlogo.png";
 import PrimaryButton from "./PrimaryButton";
@@ -8,6 +8,18 @@ import GoogleTranslate from "./GoogleTranslate ";
 // import LanguageSwitcher from "./LanguageSwitcher";
 
 function Navbar() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/");
+    setTimeout(() => {
+      const element = document.getElementById("contact");
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
+  };
+
   const [isOpen, setIsOpen] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -65,7 +77,11 @@ function Navbar() {
           </div>
           <div className="flex justify-center items-center">
             <div className="hidden md:block ">
-              <PrimaryButton to="/#contact" className="ml-4">
+              <PrimaryButton
+                to="/#contact"
+                className="ml-4"
+                onClick={handleClick}
+              >
                 Contact Us
               </PrimaryButton>
             </div>
@@ -104,13 +120,12 @@ function Navbar() {
             <div className="pt-4 pb-3 border-t border-gray-200">
               {/* <GoogleTranslate /> */}
               <div className="px-2 flex">
-                <PrimaryButton
-                  to="#contact"
-                  className="w-full text-center"
-                  onClick={closeMenu}
+                <button
+                  onClick={handleClick}
+                  className={`inline-block text-white uppercase px-4 py-2 xl:py-3 xl:px-6 transition-all duration-500 rounded-[30px] focus:outline-none primaryButton bg-transparent hover:shadow-lg text-nowrap text-sm hover:scale-[1.02] active:scale-[0.9] ${className}`}
                 >
-                  Contact Us
-                </PrimaryButton>
+                  {children}
+                </button>
               </div>
             </div>
           </m.div>
@@ -136,6 +151,33 @@ function NavLinks({ mobile, closeMenu, openDropdown, onDropdownToggle }) {
         mobile={mobile}
         closeMenu={closeMenu}
       />
+      <NavItem to="/kids" label="Kids" mobile={mobile} closeMenu={closeMenu} />
+      {/* <DropdownNavItem
+        label="Kids"
+        mobile={mobile}
+        closeMenu={closeMenu}
+        isOpen={openDropdown === "Technology"}
+        onToggle={() => onDropdownToggle("kids")}
+      >
+        <NavItem
+          to="/technology/research-development"
+          label="Kids Jumi"
+          mobile={mobile}
+          closeMenu={closeMenu}
+        />
+        <NavItem
+          to="/technology/manufacture-unit"
+          label="Kids gummies"
+          mobile={mobile}
+          closeMenu={closeMenu}
+        />
+        <NavItem
+          to="/technology/quality-control"
+          label="Quality Control"
+          mobile={mobile}
+          closeMenu={closeMenu}
+        />
+      </DropdownNavItem> */}
       <DropdownNavItem
         label="Products"
         mobile={mobile}
@@ -315,8 +357,9 @@ function DropdownNavItem({
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className={`${mobile ? "mt-2" : "absolute left-0 mt-2 w-48"
-              } bg-white rounded-md shadow-lg py-1`}
+            className={`${
+              mobile ? "mt-2" : "absolute left-0 mt-2 w-48"
+            } bg-white rounded-md shadow-lg py-1`}
           >
             {children}
           </m.div>
@@ -335,7 +378,7 @@ function NestedDropdown({ label, children, mobile }) {
     <div className={mobile ? "ml-4" : "relative group"}>
       <button
         onClick={toggleDropdown}
-        className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:text-red-900 flex items-center justify-between"
+        className="w-full text-left px-4 py-2 text-sm text-gray-700 font-semibold hover:text-red-900 flex items-center justify-between"
       >
         {label}
         <FaCaretDown
@@ -349,8 +392,9 @@ function NestedDropdown({ label, children, mobile }) {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className={`${mobile ? "ml-4" : "absolute left-full top-0 w-48"
-              } bg-white rounded-md shadow-lg py-1`}
+            className={`${
+              mobile ? "ml-4" : "absolute left-full top-0 w-48"
+            } bg-white rounded-md shadow-lg py-1`}
           >
             {children}
           </m.div>

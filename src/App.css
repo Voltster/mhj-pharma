@@ -87,18 +87,6 @@ nav ul li .navLink:hover:after {
   background-size: contain;
 }
 
-/* .tableBg {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(194, 194, 194, 0.062) 35%,
-      rgba(241, 241, 241, 0) 100%
-    ),
-    url("./assets/tableBg1.png");
-  background-size: contain;
-} */
-
 .strokeText {
   -webkit-text-stroke: 1px gray;
   color: white;
@@ -262,7 +250,7 @@ footer a:hover:after {
   left: 50%;
   top: 60%;
   transform: translate(-50%, -50%) rotate(-45deg);
-  background: url("./assets/mhjlogo.png");
+  /* background: url("./assets/mhjlogo.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -271,7 +259,6 @@ footer a:hover:after {
 }
 
 svg text {
-  /* color: rgb(170, 50, 50) !important; */
   fill: hsl(0, 75%, 33%);
   font-weight: 800;
   stroke-width: 5px;
@@ -279,10 +266,6 @@ svg text {
   stroke-linejoin: round;
   stroke-dasharray: 100;
   animation: animate 5s linear infinite alternate;
-  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
-  /* color: transparent; */
-  /* background-clip: text; */
-  /* -webkit-background-clip: text; */
 }
 
 @keyframes animate {
@@ -362,21 +345,6 @@ svg text {
   text-shadow: 4px 4px #b51915;
 }
 
-/* .googleDropdown,
-.goog-te-gadget-simple,
-.VIpgJd-ZVi9od-xl07Ob-lTBxed {
-  background-color: #911515;
-} */
-
-/* .goog-te-combo {
-  background-color: #911515;
-} */
-
-/* .goog-te-gadget-simple a {
-  background-color: #911515;
-  color: #911515;
-} */
-
 .goog-te-combo {
   background-color: #1e3a8a !important;
   color: #ffffff !important;
@@ -418,9 +386,18 @@ body iframe {
   background: none !important;
 }
 
-/* body iframe {
-  display: none !important;
-} */
+.pediatric {
+  animation: pediatricAnimate 1.5s linear infinite alternate;
+}
 
-
-
+@keyframes pediatricAnimate {
+  0% {
+    transform: translateX(0);
+  }
+  /* 50% {
+    transform: translateX(10%);
+  } */
+  100% {
+    transform: translateX(20%);
+  }
+}

@@ -9,9 +9,10 @@ const Injections = () => {
         </h2>
         <div className="relative overflow-x-auto sm:rounded-lg overflow-y-scroll h-[80%] mx-auto ">
           <table className="mx-auto text-sm text-left rtl:text-right text-gray-500  h-[80%] productBg overflow-auto ">
-            <thead className="text-xs text-[#ffffff] uppercase bg-[#B31815] w-full ">
+            <thead className="text-xs text-[#ffffff] uppercase bg-[#B31815] w-full  sticky top-0 z-50 ">
               <tr>
-                <th scope="col" className="px-6 py-3 whitespace-nowrap  ">
+                
+                <th scope="col" className="px-6 py-3 whitespace-nowrap ">
                   S. no.
                 </th>
                 <th scope="col" className="px-6 py-3">

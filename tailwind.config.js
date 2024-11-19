@@ -5,7 +5,7 @@ export default {
     extend: {
       animation: {
         "loop-scroll": "loop-scroll 35s infinite linear",
-        "custom-bounce": "customBounce 1s infinite"
+        "custom-bounce": "customBounce 1s infinite",
       },
       keyframes: {
         "loop-scroll": {
@@ -21,12 +21,13 @@ export default {
             transform: "translateY(0)",
             "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
           },
-
-        }
+        },
       },
-
-
     },
   },
-  plugins: [],
+  plugins: [
+    {
+      plugins: ["prettier-plugin-tailwindcss"],
+    },
+  ],
 };

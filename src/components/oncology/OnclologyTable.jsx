@@ -56,9 +56,9 @@ const YourComponent = ({ tableData, color }) => {
           >
             <CountingNumber target={parseInt(e.number)} />+
           </p>
-          <h4 className="text-[#363636] font-medium text-sm sm:text-base">
+          <motion.h4 className="text-[#363636] font-medium text-sm sm:text-base">
             {e.title}
-          </h4>
+          </motion.h4>
         </motion.span>
       ))}
     </motion.div>

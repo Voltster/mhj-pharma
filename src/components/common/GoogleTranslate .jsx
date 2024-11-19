@@ -27,7 +27,7 @@ const GoogleTranslate = () => {
 
 
   return (
-    <div className="ml-6 w-[50px] overflow-hidden relative  ">
+    <div className="ml-6 w-[50px] overflow-hidden relative  hidden md:block">
       <span className="absolute top-[50%] translate-y-[-50%] left-0 bg-white z-10  pointer-events-none">
         English
       </span>

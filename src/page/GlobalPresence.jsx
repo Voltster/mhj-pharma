@@ -12,9 +12,7 @@ const GlobalPresence = () => {
         We are proud to supply our high-quality products to customers worldwide through our overseas private market and institutional business, connecting healthcare professionals and patients across the globe. With a global presence in 23+ countries, we have established a strong network of distributors, partners, and customers who trust our products to meet the evolving needs of the healthcare industry. Our global reach enables us to cater to the diverse needs of healthcare professionals and patients, from urban hospitals to rural clinics, and from emerging markets to developed economies.
       </p>
       <GlobalReach />
-      {/* <div className="absolute top-[50%] left-[50%] z-50 border-2 border-red-600 w-[500px]">
-        <Test />
-      </div> */}
+    
     </div>
   );
 };

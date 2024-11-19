@@ -1329,3 +1329,391 @@ export const pediatrics = [
     pack: "60 ml / 100 ml",
   },
 ];
+
+export const pediatricsProducts = [
+  {
+    isOTC: true,
+    brandName: "Paramol",
+    genericeName: "Paracetamol 120mg/5ml",
+    packSize: "60ml",
+    ageGroup: "1-5 years",
+    dosage: "5 ml",
+    composition: "Paracetamol 120mg/5ml",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Paramol Tablet helps relieve pain and fever by blocking the release of certain chemical messengers responsible for fever and pain. It is used to treat headaches, migraine, toothaches, sore throats, period (menstrual) pains, arthritis, muscle aches, and the common cold. Paramol Tablet has been one of the most widely prescribed paracetamol-based medications during the COVID-19 pandemic. It should be taken regularly as per the doctor’s advice. Take it with food to avoid an upset stomach. It may be taken alone or in combination with other medications. However, no more than four doses of Paramol Tablet can be taken in 24 hours with a gap of at least 4 hours between two doses. Please do not take it for longer than recommended",
+    uses: "Pain Relief, Treatment of Fever",
+    benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "Paramol Tablet is a common painkiller for treating aches and pains. It is widely used and rarely causes any side effects if taken properly. To get the most benefits, take it as prescribed. Do not take more or for longer than needed as that can be dangerous.",
+    sideEffectsHeading:
+      "Side Effects of Paracetamol Oral Suspension on Children",
+    sideEffects:
+      "Paracetamol 250mg. 60 ml. Suspension has no harmful side effects and is well handled by kids. If any adverse effect does develop, they will most likely fade as the body adjusts to the medication. If these side effects continue to affect your kid, consult the doctor. The following are the most common side effects Nausea,Stomach pain, Vomiting, Allergic reactions, Dizziness, Fatigue, Loss of appetite.",
+    note: "This medication Paracetamol 250mg. 60 ml Suspension.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. ",
+    disclaimer:
+      "Please consult your healthcare provider before using Paracetamol 250mg 60 ml. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: true,
+    brandName: "Paramol",
+    genericeName: "Paracetamol 240mg/5ml",
+    packSize: "60ml",
+    ageGroup: "5-12 years",
+    dosage: "5 ml",
+    composition: "Paracetamol 240mg/5ml",
+    img: "https://img.freepik.com/free-vector/realistic-cough-syrup-illustration-with-spoon_52683-78259.jpg?t=st=1729497478~exp=1729501078~hmac=44370ae6c9ed9a4b979c5608a25b6e6ba6abfe30c7bbecdbfbeac9db65ab307d&w=826",
+    productInto:
+      "Paramol Tablet helps relieve pain and fever by blocking the release of certain chemical messengers responsible for fever and pain. It is used to treat headaches, migraine, toothaches, sore throats, period (menstrual) pains, arthritis, muscle aches, and the common cold.  Paramol Tablet has been one of the most widely prescribed paracetamol-based medications during the COVID-19 pandemic. It should be taken regularly as per the doctor’s advice. Take it with food to avoid an upset stomach. It may be taken alone or in combination with other medications. However, no more than four doses of Paramol Tablet can be taken in 24 hours with a gap of at least 4 hours between two doses. Please do not take it for longer than recommended.",
+    uses: "Pain Relief, Treatment of Fever",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "Paramol Tablet is a common painkiller for treating aches and pains. It is widely used and rarely causes any side effects if taken properly. To get the most benefits, take it as prescribed. Do not take more or for longer than needed as that can be dangerous.",
+    sideEffectsHeading:
+      "Side Effects of Paracetamol Oral Suspension on Children",
+    sideEffects:
+      "Paracetamol 250mg. 60 ml. Suspension has no harmful side effects and is well handled by kids. If any adverse effect does develop, they will most likely fade as the body adjusts to the medication. If these side effects continue to affect your kid, consult the doctor. The following are the most common side effects Nausea,Stomach pain, Vomiting, Allergic reactions, Dizziness, Fatigue, Loss of appetite.",
+    note: "This medication Paracetamol 250mg. 60 ml Suspension.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. ",
+    disclaimer:
+      "Please consult your healthcare provider before using Paracetamol 250mg 60 ml. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: true,
+    brandName: "Chlorpheniramine",
+    genericeName:
+      "Chlorpheniramine Maleate (1mg/5ml) + Paracetamol (125mg/5ml) + phenylephrine (5mg/5ml)",
+    packSize: "60ml",
+    ageGroup: "5-12 years, 6-11 years, 11-12 years",
+    dosage: "2.5 ml,5 ml, 10 ml",
+    composition:
+      "Chlorpheniramine Maleate (1mg/5ml) + Paracetamol (125mg/5ml) + phenylephrine (5mg/5ml)",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Chlorpheniramine New Tablet is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat, runny nose, muscular pain, and fever. Chlorpheniramine New Tablet can be taken with or without food. The dose and duration will depend on the severity of your condition. You should keep taking the medicine even if you feel better until the doctor says it is alright to stop using it.Using this medicine may cause a few common side effects such as nausea, vomiting, sleepiness, dizziness, and headache. If any of these side effects do not resolve with time or get worse, you should let your doctor know. Your doctor may be able to suggest ways of preventing or reducing the side effects. In general, you should try to use the smallest amount necessary to control your symptoms.",
+    uses: "Treatment of Common cold",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "In Treatment of Common cold Chlorpheniramine New Tablet is a combination medicine that effectively relieves symptoms of common cold such as blocked nose, runny nose, watery eyes, sneezing, and congestion or stuffiness. It helps to loosen thick mucus, making it easier to cough out. This makes it easier for air to move in and out. It shrinks the blood vessels and provides rapid relief that lasts for several hours.Chlorpheniramine New Tablet usually starts to work within a few minutes and the effects can last up to several hours. Take it as prescribed by the doctor. Do not stop using it unless you are advised to by your doctor. Taking this medicine enables you to live your life more freely without worrying so much about things that set off your symptoms.",
+    sideEffectsHeading: "Side Effects of Chlorpheniramine ",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Dizziness, Nausea, Headache, Insomnia (difficulty in sleeping), Tachycardia, Palpitations, Fear, Anxiety, Restlessness, Tremors, Weakness.",
+    note: "It is important to take this medicine before consulting with doctors.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Chlorpheniramine 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: true,
+    brandName: "Chlorpheniramine",
+    genericeName:
+      "Chlorpheniramine Maleate (1mg/5ml) + Paracetamol (125mg/5ml) + phenylephrine (5mg/5ml)",
+    packSize: "15 ml",
+    ageGroup: "6-12 years",
+    dosage: "2.5 ml,5 ml, 10 ml",
+    composition:
+      "Chlorpheniramine Maleate (1mg) + Paracetamol (125mg) + phenylephrine (2.5mg)",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Chlorpheniramine New Tablet is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat, runny nose, muscular pain, and fever. Chlorpheniramine New Tablet can be taken with or without food. The dose and duration will depend on the severity of your condition. You should keep taking the medicine even if you feel better until the doctor says it is alright to stop using it.Using this medicine may cause a few common side effects such as nausea, vomiting, sleepiness, dizziness, and headache. If any of these side effects do not resolve with time or get worse, you should let your doctor know. Your doctor may be able to suggest ways of preventing or reducing the side effects. In general, you should try to use the smallest amount necessary to control your symptoms.",
+    uses: "Treatment of Common cold",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "In Treatment of Common cold Chlorpheniramine New Tablet is a combination medicine that effectively relieves symptoms of common cold such as blocked nose, runny nose, watery eyes, sneezing, and congestion or stuffiness. It helps to loosen thick mucus, making it easier to cough out. This makes it easier for air to move in and out. It shrinks the blood vessels and provides rapid relief that lasts for several hours.Chlorpheniramine New Tablet usually starts to work within a few minutes and the effects can last up to several hours. Take it as prescribed by the doctor. Do not stop using it unless you are advised to by your doctor. Taking this medicine enables you to live your life more freely without worrying so much about things that set off your symptoms.",
+    sideEffectsHeading: "Side Effects of Chlorpheniramine ",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Dizziness, Nausea, Headache, Insomnia (difficulty in sleeping), Tachycardia, Palpitations, Fear, Anxiety, Restlessness, Tremors, Weakness.",
+    note: "It is important to take this medicine before consulting with doctors.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Chlorpheniramine 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: true,
+    brandName: "Phenylephrin",
+    genericeName:
+      "Phenylephrin (2.5ml/5ml) + Chlorphenirame Maleate (1mg / 5mg) + Dextromethorphan hydrobromide (5mg/5ml)",
+    packSize: "60 ml",
+    ageGroup: "above 12 years",
+    dosage: "2.5 ml,5 ml, 10 ml",
+    composition:
+      "Phenylephrin (2.5ml/5ml)+Chlorphenirame Maleate (1mg / 5mg)+Dextromethorphan hydrobromide (5mg/5ml)",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Phenylephrin New Tablet is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat, runny nose, muscular pain, and fever. Phenylephrin New Tablet can be taken with or without food. The dose and duration will depend on the severity of your condition. You should keep taking the medicine even if you feel better until the doctor says it is alright to stop using it.Using this medicine may cause a few common side effects such as nausea, vomiting, sleepiness, dizziness, and headache. If any of these side effects do not resolve with time or get worse, you should let your doctor know. Your doctor may be able to suggest ways of preventing or reducing the side effects. In general, you should try to use the smallest amount necessary to control your symptoms.",
+    uses: "Treatment of Common cold",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "In Treatment of Common cold Sinarest New Tablet is a combination medicine that effectively relieves symptoms of common cold such as blocked nose, runny nose, watery eyes, sneezing, and congestion or stuffiness. It helps to loosen thick mucus, making it easier to cough out. This makes it easier for air to move in and out. It shrinks the blood vessels and provides rapid relief that lasts for several hours.Sinarest New Tablet usually starts to work within a few minutes and the effects can last up to several hours. Take it as prescribed by the doctor. Do not stop using it unless you are advised to by your doctor. Taking this medicine enables you to live your life more freely without worrying so much about things that set off your symptoms.",
+    sideEffectsHeading: "Side Effects of Phenylephrin",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Dizziness, Nausea, Headache, Insomnia (difficulty in sleeping), Tachycardia, Palpitations, Fear, Anxiety, Restlessness, Tremors, Weakness",
+    note: "It is important to take this medicine before consulting with doctors.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Phenylephrin 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: true,
+    brandName: "Ambroxol",
+    genericeName:
+      "Ambroxol (15mg/5ml) + Levosalbutamol (0.5mg/5ml) + Guaifenesin (50mg/5ml)",
+    packSize: "60 ml",
+    ageGroup: "above 6 years",
+    dosage: "2.5 ml,5 ml, 10 ml",
+    composition:
+      "Ambroxol (15mg/5ml) + Levosalbutamol (0.5mg/5ml) + Guaifenesin (50mg/5ml)",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Ambroxol LS Syrup is a combination medicine used in the treatment of cough with mucus. It thins mucus in the nose, windpipe, and lungs, making it easier to cough out. It also provides relief from runny nose, sneezing, itching, and watery eyes.Ambroxol LS Syrup is taken with or without food in a dose and duration as advised by the doctor. The dose you are given will depend on your condition and how you respond to the medicine. You should keep taking this medicine for as long as your doctor recommends. If you stop treatment too early your symptoms may come back and your condition may worsen. Let your healthcare team know about all other medications you are taking as some may affect, or be affected by this medicine.The most common side effects are nausea, diarrhea, stomach pain, vomiting, muscle cramp, headache, skin rash, and increased heart rate. Most of these are temporary and usually resolve with time. Contact your doctor straight away if you are at all concerned about any of these side effects. This medicine can also cause sleepiness, so do not drive or do anything that requires mental focus until you know how this medicine affects you. Avoid drinking alcohol while taking this medicine as it can make sleepiness worse.",
+    uses: "Treatment of Common cold",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "In Treatment of Cough with mucus Ambroxol LS Syrup gives relief from cough with mucus. It helps to loosen thick mucus, making it easier to cough out. This makes breathing easy and reduces the frequency of coughing. Ambroxol LS Syrup will also relieve allergy symptoms like watery eyes, sneezing, runny nose or throat irritation. Along with medications, drink enough luke warm water and gargle with warm salt water to ease the symptoms.",
+    sideEffectsHeading: "Side Effects of Phenylephrin",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Nausea, Vomiting, Diarrhea, Upset stomach, Stomach pain, Allergic reaction, Dizziness, Headache, Rash, Hives, Tremors, Palpitations, Muscle cramp, Increased heart rate.",
+    note: "It is important to take this medicine before consulting with doctors.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Phenylephrin 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: true,
+    brandName: "Ibuprofen",
+    genericeName: "Ibuprofen 100mg +  Paracetamol 162mg",
+    packSize: "60 ml",
+    ageGroup: "6 months - 1 years, 1 - 4 years, 4 - 7 years, 7 - 12 years",
+    dosage: "2.5 ml,5 ml, 7.5ml, 10 ml",
+    composition: "Ibuprofen 100mg+Paracetamol 162mg",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Combiflam Tablet contains two painkiller medicines. They work together to reduce pain, fever, and inflammation. It is used to treat many conditions such as headache, muscle pain, pain during periods, toothache, and joint pain. Combiflam Tablet is best taken with food to reduce side effects. The dose and how often you need it will be decided by your doctor. You should take it regularly as advised by your doctor. Medicines used to treat pain are usually best taken at the first sign of pain. It is meant for short-term use only. Consult your doctor if the symptoms persist or worsen or if the medicine is required for use beyond 3 days. Side effects are rare if this medicine is used correctly but it may cause heartburn, indigestion, nausea, vomiting, headache, and stomach pain. Consult your doctor if any of these bother you or do not go away.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "In Pain relief Combiflam Tablet contains two medicines: Paracetamol and Ibuprofen both of which are widely used as pain killers. They work in different ways to reduce pain, swelling, and inflammation. This medicine is very effective in treating mild to moderate pain associated with migraine, headache, backache, period (menstrual) pain, dental pain, and rheumatic and muscular pain. The anti-inflammatory component makes this medicine more effective in treating strains, sprains, and muscle pains. Take it as it is prescribed to get the most benefit. Do not take too much as this can be dangerous and do not take it for longer than you need it. In general, you should take the lowest dose that works, for the shortest possible time.",
+    sideEffectsHeading: "Side Effects of Ibuprofen",
+    sideEffects:
+      "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Heartburn, Indigestion, Nausea, Stomach pain, Vomiting, Headache, Sleepiness.",
+    note: "It is important to take this medicine before consulting with doctors.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Ibuprofen 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: true,
+    brandName: "Ondansentron",
+    genericeName: "Ondansentron (2mg/5ml)",
+    packSize: "30 ml",
+    ageGroup: "6 months - 12 years",
+    dosage: "2.5 ml,5 ml, 7.5ml, 10 ml",
+    composition: "Ondansentron (2mg/5ml)",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Ondansentron Ondansetron 2mg Syrup is a medicine given to children to help treat nausea and vomiting. It is mainly given to treat nausea and vomiting associated with surgery, chemotherapy, radiotherapy, and stomach/intestinal infection. It also helps treat vomiting that is caused as a side effect of medicines like painkillers. Ondansentron Ondansetron 2mg Syrup may be given before or after meals. To control vomiting caused due to chemotherapy, give this medicine to your child 30 minutes before the procedure. Give it 1 to 2 hours before a radiotherapy session and 1 hour before surgery to prevent your child from vomiting post these procedures. If your child expels out the medicine within 30 minutes of the intake, help your child calm down and repeat the dose. Do not double dose if it is already time for the next dose. Ondansentron Ondansetron 2mg Syrup may cause some temporary side effects such as headache, constipation, diarrhea, and fatigue. These side effects usually subside once your child’s body adapts to the medicine. In case these side effects persist or become bothersome, do reach out to the doctor on a priority basis.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "In Treatment of Nausea Ondansentron Ondansetron 2mg Syrup blocks the action of chemicals in the body that can make you feel or be sick. It is often used to prevent nausea and vomiting that may be caused by cancer chemotherapy and radiation treatment (in adults and children aged 4 years and older). It is usually taken both before and after chemotherapy or radiation. This medicine helps you recover more comfortably from these treatments. It is also effective at preventing nausea and vomiting after an operation (in adults only). The dose will depend on what you are being treated for but always take this medicine as it is prescribed.",
+    sideEffectsHeading: "Side Effects of Ondansentron",
+    sideEffects:
+      "StayHappi Ondansetron 2mg Syrup does not pose serious side effects and is well-tolerated by children. In case the side effects do occur, they’re likely to subside once the body adapts to the medicine. Consult your child’s doctor if these side effects persist or bother your child. The most common side effects include- Constipation, Diarrhea, Fatigue,Headache.",
+    note: "It is important to take this medicine before consulting with doctors.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Ondansentron 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: true,
+    brandName: "Xylometazoline",
+    genericeName:
+      "Xylometazoline Hydrochloride I.P (0.05% w/v) in isotonic water. It also includes a preservative; Benzalkonium Chloride I.P (0.01% w/v)",
+    packSize: "30 ml",
+    ageGroup: "1 - 5 years, 6 - 11 years",
+    dosage: "1-2 drops, 2-3 drops (max 3 times)",
+    composition:
+      "Xylometazoline Hydrochloride I.P (0.05% w/v) in isotonic water. It also includes a preservative; Benzalkonium Chloride I.P (0.01% w/v)",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Ondansentron Ondansetron 2mg Syrup is a medicine given to children to help treat nausea and vomiting. It is mainly given to treat nausea and vomiting associated with surgery, chemotherapy, radiotherapy, and stomach/intestinal infection. It also helps treat vomiting that is caused as a side effect of medicines like painkillers. Ondansentron Ondansetron 2mg Syrup may be given before or after meals. To control vomiting caused due to chemotherapy, give this medicine to your child 30 minutes before the procedure. Give it 1 to 2 hours before a radiotherapy session and 1 hour before surgery to prevent your child from vomiting post these procedures. If your child expels out the medicine within 30 minutes of the intake, help your child calm down and repeat the dose. Do not double dose if it is already time for the next dose. Ondansentron Ondansetron 2mg Syrup may cause some temporary side effects such as headache, constipation, diarrhea, and fatigue. These side effects usually subside once your child’s body adapts to the medicine. In case these side effects persist or become bothersome, do reach out to the doctor on a priority basis.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "In Treatment of Nausea Ondansentron Ondansetron 2mg Syrup blocks the action of chemicals in the body that can make you feel or be sick. It is often used to prevent nausea and vomiting that may be caused by cancer chemotherapy and radiation treatment (in adults and children aged 4 years and older). It is usually taken both before and after chemotherapy or radiation. This medicine helps you recover more comfortably from these treatments. It is also effective at preventing nausea and vomiting after an operation (in adults only). The dose will depend on what you are being treated for but always take this medicine as it is prescribed.",
+    sideEffectsHeading: "Side Effects of Ondansentron",
+    sideEffects:
+      "StayHappi Ondansetron 2mg Syrup does not pose serious side effects and is well-tolerated by children. In case the side effects do occur, they’re likely to subside once the body adapts to the medicine. Consult your child’s doctor if these side effects persist or bother your child. The most common side effects include- Constipation, Diarrhea, Fatigue,Headache.",
+    note: "It is important to take this medicine before consulting with doctors.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Ondansentron 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: true,
+    brandName: "Cholecal",
+    genericeName: "Cholecalciferol 800 IU",
+    packSize: "15 ml",
+    ageGroup: "2-11 years",
+    dosage: "",
+    composition: "Cholecalciferol 800 IU",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Cholecalciferol promotes your overall health and well-being. Vitamin D is a fat-soluble vitamin that helps the body fight against infections and supports a healthy immune system. It plays a vital role in developing and maintaining healthy bones and assists with the absorption of calcium, magnesium, and phosphorus.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "It is a vitamin D3 oral solution that promotes your overall health and well-being in children.Vitamin D is a fat-soluble vitamin that helps the body fight against infections and supports a healthy immune system.It helps the body absorb and retain calcium and phosphorus, which are essential for building and maintaining healthy bones.It also helps in recycling calcium that would generally be excreted from the kidneys to maintain healthy bones and teeth.It helps to support oral health and hygiene by lowering the risk of tooth decay and gum problems",
+    sideEffectsHeading: "Side Effects of Ondansentron",
+    sideEffects:
+      "Loss of bone density. Osteoporosis and fractures (broken bones). Rickets",
+    note: "Draw 0.5 ml with the help of a dropper and administer orally or as prescribed by your medical practitioner.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Ondansentron 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: false,
+    brandName: "Amoxcyillin",
+    genericeName: "Amoxcyillin (200mg) + Clavulanic Acid (28.5mg)",
+    packSize: "30 ml",
+    ageGroup: "Below 12 years",
+    dosage: "",
+    composition: "Amoxcyillin (200mg) + Clavulanic Acid (28.5mg)",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Amoxcyillin Amoxcyillin (200mg) + Clavulanic Acid (28.5mg) is a penicillin-type of antibiotic that helps your body fight infections caused by bacteria. It is used to treat infections of the lungs (e.g., pneumonia), ear, nasal sinus, urinary tract, skin, and soft tissue. It will not work for viral infections such as the common cold.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      "Amoxcyillin Amoxcyillin (200mg) + Clavulanic Acid (28.5mg) contains two different medicines, Amoxycillin and Clavulanic Acid, that work together to kill the bacteria that cause infections. Amoxycillin works by stopping the growth of bacteria. Clavulanic Acid reduces resistance and enhances the activity of Amoxycillin against bacteria.",
+    sideEffectsHeading: "Side Effects of Ondansentron",
+    sideEffects:
+      "Common side effects of this medicine include nausea, vomiting, diarrhea, and thrush. Additionally, you may notice some injection site reactions like pain, swelling, or redness. Please consult your doctor if these do not get better or persist for a longer duration of time. In cases of patients with severe liver or kidney disease, consult your doctor before you start with the treatment",
+    note: "Before using it, you should tell your doctor if you are allergic to any antibiotics or have any kidney or liver problems. Your doctor may change the dose or prescribe a different medicine. This medicine is generally regarded as safe to use during pregnancy and breastfeeding if used under a doctor’s supervision.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Amoxcyillin. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: false,
+    brandName: "Azithromcycin",
+    genericeName: "Azithromcycin 200 mg syrup-each ml contain 20mg",
+    packSize: "15 ml",
+    ageGroup: "10-18 years",
+    dosage: "",
+    composition: "Azithromcycin 200 mg syrup-each ml contain 20mg",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Azithromcycin is effective against a range of parasitic worm infections in children. It restrains the worms from absorbing the body's essential nutrients, causing them to lose their energy and leading to their eventual death. The dead worms are then removed from your child’s body through the stool.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      " A antibiotic medicine that helps treat many parasitic worm infections. It works by killing and stopping the further growth of parasites causing the infection. This medicine usually makes you feel better quite quickly. However, you should continue taking it as long as it is prescribed even when you feel better, to make sure that all parasites are killed and do not become resistant. This medicine is generally safe to use while pregnant or breastfeeding, but you should ask your doctor.",
+    sideEffectsHeading: "Side Effects of Azithromcycin",
+    sideEffects:
+      "Does not pose serious side effects and is well-tolerated by children. In case the side effects do occur, they’re likely to subside once the body adapts to the medicine. Consult your child’s doctor if these side effects persist or bother your child. The most common side effects include- Sore throat, Vomiting, Dizziness, Increased liver enzymes, Nausea, Loss of appetite.",
+    note: "",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Azithromcycin. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: false,
+    brandName: "Domper",
+    genericeName: "Domperidone 1mg/ml",
+    packSize: "30 ml",
+    ageGroup: "12 years of age and older and weighing 35 kgs or more.",
+    dosage: "",
+    composition: "Domperidone 1mg/ml",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Domper helps treat indigestion, gastroesophageal reflux disease, nausea, and vomiting in children. It increases the movement of food through the stomach and intestines, thereby relieving bloating, fullness, and gastric discomfort.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      " In Treatment of Gastroesophageal reflux disease (Acid reflux). Gastroesophageal reflux disease (GERD) is a chronic (long-term) condition that is like having heartburn consistently rather than just occasionally. It happens because a muscle above the stomach relaxes too much and allows stomach contents to come back up into the esophagus and mouth. Domstal Suspension helps treat this condition by increasing the tone of the lower end of the food pipe and preventing the entry of acid. You should give it to your child exactly as prescribed for it to be effective.",
+    sideEffectsHeading: "Side Effects of Domper",
+    sideEffects:
+      "Domper does not pose serious side effects and is well-tolerated by children. In case the side effects do occur, they’re likely to subside once the body adapts to the medicine. Consult your child’s doctor if these side effects persist or bother your child. The most common side effects include- Dryness in mouth, Headache, Drowsiness,Stomach cramp,Diarrhea.",
+    note: "",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Domper. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: false,
+    brandName: "Domper",
+    genericeName: "Domperidone 10mg",
+    packSize: "5 ml",
+    ageGroup: "12 years old and older/10ml (3 times)",
+    dosage: "",
+    composition: "Domperidone 1mg/ml",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Domper helps treat indigestion, gastroesophageal reflux disease, nausea, and vomiting in children. It increases the movement of food through the stomach and intestines, thereby relieving bloating, fullness, and gastric discomfort.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      " In Treatment of Gastroesophageal reflux disease (Acid reflux). Gastroesophageal reflux disease (GERD) is a chronic (long-term) condition that is like having heartburn consistently rather than just occasionally. It happens because a muscle above the stomach relaxes too much and allows stomach contents to come back up into the esophagus and mouth. Domstal Suspension helps treat this condition by increasing the tone of the lower end of the food pipe and preventing the entry of acid. You should give it to your child exactly as prescribed for it to be effective.",
+    sideEffectsHeading: "Side Effects of Domper",
+    sideEffects:
+      "Domper does not pose serious side effects and is well-tolerated by children. In case the side effects do occur, they’re likely to subside once the body adapts to the medicine. Consult your child’s doctor if these side effects persist or bother your child. The most common side effects include- Dryness in mouth, Headache, Drowsiness,Stomach cramp,Diarrhea.",
+    note: "",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Domper. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: false,
+    brandName: "Dicyclomine",
+    genericeName: "Dicyclomine Hydrochloride (10mg) + Simethicone USP (40mg)",
+    packSize: "10 ml",
+    ageGroup: "0-6 mpnths",
+    dosage: "",
+    composition: "Dicyclomine Hydrochloride (10mg) + Simethicone USP (40mg)",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Dicyclomine is an antispasmodic which works by relaxing the muscles in your stomach and gut (intestine). It stops sudden muscle contractions (spasms), thereby relieving abdominal cramps and pain. Simethicone is an antifoaming medicine which disintegrates gas bubbles and allows easy passage of gas.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      " May help reduce gas bubbles in the stomach and intestines, helping to alleviate bloating and discomfort. Alleviates symptoms of flatulence by breaking down gas bubbles, providing relief from gas pain. Provides relief from abdominal discomfort caused by excess gas and bloating. Improves overall digestive comfort by facilitating the natural passage of gas through the intestin",
+    sideEffectsHeading: "Side Effects of Dicyclomine",
+    sideEffects: "Abdominal discomfort, Bloating, Flatulence",
+    note: "As directed by the physician.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Dicyclomine. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+  {
+    isOTC: false,
+    brandName: "Fexofenadine",
+    genericeName: "Fexofenadine (30mg/5ml)",
+    packSize: "60 ml",
+    ageGroup: "2 - 11 years",
+    dosage: "",
+    composition: "Fexofenadine (30mg/5ml)",
+    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    productInto:
+      "Fexofenadine oral suspension. Fexofenadine is an antihistamine used to relieve allergy symptoms such as watery eyes, runny nose, itching eyes/nose, sneezing, hives, and itching.",
+    // benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefits:
+      " Fexofenadine is an antihistamine used to relieve allergy symptoms such as watery eyes, runny nose, itching eyes/nose, sneezing, hives, and itching. It works by blocking a certain natural substance (histamine) that your body makes during an allergic reaction.",
+    sideEffectsHeading: "Side Effects of Fexofenadine",
+    sideEffects:
+      "Cough, fever, or stomach upset may occur. If any of these effects last or get worse, tell your doctor or pharmacist promptly. If your doctor has prescribed this medication, remember that your doctor has judged that the benefit to you is greater than the risk of side effects. Many people using this medication do not have serious side effects. A very serious allergic reaction to this drug is rare. However, get medical help right away if you notice any symptoms of a serious allergic reaction, including: rash, itching/swelling (especially of the face/tongue/throat), severe dizziness, trouble breathing",
+    note: "If you miss a dose, take it as soon as you remember. If it is near the time of the next dose, skip the missed dose. Take your next dose at the regular time. Do not double the dose to catch up.",
+    storage:
+      " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
+    disclaimer:
+      "Please consult your healthcare provider before using Fexofenadine. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+  },
+];
