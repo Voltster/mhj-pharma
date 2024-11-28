@@ -31,6 +31,7 @@ const Regulatory = lazy(() => import("./page/Regulatory"));
 const ClinicalServices = lazy(() => import("./page/ClinicalServices"));
 const ArtworkServices = lazy(() => import("./page/ArtworkServices"));
 const Pharmacovigilance = lazy(() => import("./page/Pharmacovigilance"));
+const Contact = lazy(() => import("./page/Contact"));
 const Error404 = lazy(() => import("./components/common/Error404"));
 import ScrollToTop from "./hook/ScrollToTop";
 import whatsappIcon from "./assets/whatsapp.svg";
@@ -131,10 +132,10 @@ function App() {
                 element={<QualityControls />}
               />
               <Route path="/globalfootprint" element={<GlobalPresence />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="/loader" element={<Loader />} />
               <Route path="*" element={<Error404 />} />
             </Routes>
-            {/* <QRCodeSection /> */}
             <Footer />
           </div>
         </AnimatePresence>

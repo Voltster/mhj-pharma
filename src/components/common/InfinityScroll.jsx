@@ -58,7 +58,7 @@ const InfinityScroll = () => {
                 src={e.img}
                 alt={e.img}
                 loading="lazy"
-                className="w-auto md:h-[15vh] mix-blend-multiply py-2"
+                className="w-[100%] md:h-[15vh] mix-blend-multiply py-2"
               />
               <p className="text-base text-center text-gray-800 text-nowrap">
                 {e.name}

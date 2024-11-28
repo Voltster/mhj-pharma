@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import giraffe from "../../assets/jumi/jumiGiraffe.png";
 import lion from "../../assets/jumi/jumiLion.png";
 import jumiMonkey from "../../assets/jumi/jumiMonkey.png";
@@ -10,13 +10,7 @@ const ProductDetails = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/");
-    setTimeout(() => {
-      const element = document.getElementById("contact");
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 100);
+    navigate("/contact");
   };
 
   const location = useLocation();
@@ -36,16 +30,17 @@ const ProductDetails = () => {
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          <h2 className="text-3xl font-bold text-[#B31815] mb-4">
+          <h2 className="text-3xl font-bold text-[#B31815] mb-4 uppercase">
             {product.brandName}
           </h2>
           <p className="text-xl text-wrap">
-            <strong>Generice Name:</strong>  {product.composition}
+            <strong>Generice Name:</strong> {product.composition}
           </p>
           <p>
             <strong>Pack Size: </strong>
             {product.packSize}
           </p>
+
           <button
             onClick={handleClick}
             className={`secondaryButton text-[#B81B15] relative leading-7 z-10 hover:text-gray-50 overflow-hidden rounded-lg border border-[#B81B15]  bg-transparent after:bg-gradient-to-r from-[#B81B15] to-[#B81B15] hover:shadow-md h-auto  py-2 px-4 mt-4`}
@@ -53,12 +48,11 @@ const ProductDetails = () => {
             Quick Enquiry
           </button>
         </m.div>
-        <div className="md:w-1/2 mr-4">
+        <div className="md:w-1/2  mr-4   flex justify-center  rounded-xl  overflow-hidden">
           <m.img
             src={product.img}
             alt={product.brandName}
-            className="mb-4 float-right rounded-2xl"
-            width={400}
+            className="mb-4 float-left w-auto rounded-md mx-auto  "
             initial={{ y: [0], opacity: 0 }}
             whileInView={{ y: [30, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}

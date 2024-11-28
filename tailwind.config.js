@@ -23,6 +23,10 @@ export default {
           },
         },
       },
+      colors: {
+        brown: "#9f2a00",
+        snow: "#f7fcff",
+      },
     },
   },
   plugins: [

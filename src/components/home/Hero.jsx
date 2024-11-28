@@ -47,7 +47,7 @@ const Hero = () => {
             muted
             className="cursor-pointer w-full -full relative z-0 backdrop-blur-sm"
           />
-          <div className="absolute w-full  sm:h-full  top-0 left-0 bg-gradient-to-b from-gray-800/10 via-gray-950/40 to-slate-50/0 z-10"></div>
+          <div className="absolute w-full  sm:h-full  -top-10 left-0 bg-gradient-to-b from-gray-800/10 via-gray-950/40 to-slate-50/0 z-10"></div>
         </m.div>
       </m.div>
       <OncologyTable tableData={tableData} color={"red"} />

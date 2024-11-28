@@ -1330,22 +1330,36 @@ export const pediatrics = [
   },
 ];
 
+import parloc from "../assets/jumi/Packshot/parcol.png";
+import parcolplus from "../assets/jumi/Packshot/parcol+.png";
+import kidominic from "../assets/jumi/Packshot/kidominic.png";
+import kidominicplus from "../assets/jumi/Packshot/kidominic+.png";
+import kidmox from "../assets/jumi/Packshot/kidmox.png";
+import kudofen from "../assets/jumi/Packshot/kudofen.png";
+import ondec from "../assets/jumi/Packshot/ondec.png";
+import cholec from "../assets/jumi/Packshot/cholec.png";
+
+import expient from "../assets/jumi/Packshot/expient.png";
+import vomaway from "../assets/jumi/Packshot/vomaway.png";
+import gutifxx from "../assets/jumi/Packshot/gutifxx.png";
+import fexokid from "../assets/jumi/Packshot/fexokid.png";
+
 export const pediatricsProducts = [
   {
     isOTC: true,
-    brandName: "Paramol",
+    brandName: "Parcol",
     genericeName: "Paracetamol 120mg/5ml",
     packSize: "60ml",
     ageGroup: "1-5 years",
     dosage: "5 ml",
     composition: "Paracetamol 120mg/5ml",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: parloc,
     productInto:
-      "Paramol Tablet helps relieve pain and fever by blocking the release of certain chemical messengers responsible for fever and pain. It is used to treat headaches, migraine, toothaches, sore throats, period (menstrual) pains, arthritis, muscle aches, and the common cold. Paramol Tablet has been one of the most widely prescribed paracetamol-based medications during the COVID-19 pandemic. It should be taken regularly as per the doctor’s advice. Take it with food to avoid an upset stomach. It may be taken alone or in combination with other medications. However, no more than four doses of Paramol Tablet can be taken in 24 hours with a gap of at least 4 hours between two doses. Please do not take it for longer than recommended",
+      "Parcol Tablet helps relieve pain and fever by blocking the release of certain chemical messengers responsible for fever and pain. It is used to treat headaches, migraine, toothaches, sore throats, period (menstrual) pains, arthritis, muscle aches, and the common cold. Parcol Tablet has been one of the most widely prescribed paracetamol-based medications during the COVID-19 pandemic. It should be taken regularly as per the doctor’s advice. Take it with food to avoid an upset stomach. It may be taken alone or in combination with other medications. However, no more than four doses of Parcol Tablet can be taken in 24 hours with a gap of at least 4 hours between two doses. Please do not take it for longer than recommended",
     uses: "Pain Relief, Treatment of Fever",
-    benefitsh: "Benefits of Paramol  120mg Tablet",
+    benefitsh: "Benefits of Parcol  120mg Tablet",
     benefits:
-      "Paramol Tablet is a common painkiller for treating aches and pains. It is widely used and rarely causes any side effects if taken properly. To get the most benefits, take it as prescribed. Do not take more or for longer than needed as that can be dangerous.",
+      "Parcol Tablet is a common painkiller for treating aches and pains. It is widely used and rarely causes any side effects if taken properly. To get the most benefits, take it as prescribed. Do not take more or for longer than needed as that can be dangerous.",
     sideEffectsHeading:
       "Side Effects of Paracetamol Oral Suspension on Children",
     sideEffects:
@@ -1358,19 +1372,19 @@ export const pediatricsProducts = [
   },
   {
     isOTC: true,
-    brandName: "Paramol",
+    brandName: "Parcol+",
     genericeName: "Paracetamol 240mg/5ml",
     packSize: "60ml",
     ageGroup: "5-12 years",
     dosage: "5 ml",
     composition: "Paracetamol 240mg/5ml",
-    img: "https://img.freepik.com/free-vector/realistic-cough-syrup-illustration-with-spoon_52683-78259.jpg?t=st=1729497478~exp=1729501078~hmac=44370ae6c9ed9a4b979c5608a25b6e6ba6abfe30c7bbecdbfbeac9db65ab307d&w=826",
+    img: parcolplus,
     productInto:
-      "Paramol Tablet helps relieve pain and fever by blocking the release of certain chemical messengers responsible for fever and pain. It is used to treat headaches, migraine, toothaches, sore throats, period (menstrual) pains, arthritis, muscle aches, and the common cold.  Paramol Tablet has been one of the most widely prescribed paracetamol-based medications during the COVID-19 pandemic. It should be taken regularly as per the doctor’s advice. Take it with food to avoid an upset stomach. It may be taken alone or in combination with other medications. However, no more than four doses of Paramol Tablet can be taken in 24 hours with a gap of at least 4 hours between two doses. Please do not take it for longer than recommended.",
+      "Parcol+ Tablet helps relieve pain and fever by blocking the release of certain chemical messengers responsible for fever and pain. It is used to treat headaches, migraine, toothaches, sore throats, period (menstrual) pains, arthritis, muscle aches, and the common cold.  Parcol+ Tablet has been one of the most widely prescribed paracetamol-based medications during the COVID-19 pandemic. It should be taken regularly as per the doctor’s advice. Take it with food to avoid an upset stomach. It may be taken alone or in combination with other medications. However, no more than four doses of Parcol+ Tablet can be taken in 24 hours with a gap of at least 4 hours between two doses. Please do not take it for longer than recommended.",
     uses: "Pain Relief, Treatment of Fever",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
     benefits:
-      "Paramol Tablet is a common painkiller for treating aches and pains. It is widely used and rarely causes any side effects if taken properly. To get the most benefits, take it as prescribed. Do not take more or for longer than needed as that can be dangerous.",
+      "Parcol+ Tablet is a common painkiller for treating aches and pains. It is widely used and rarely causes any side effects if taken properly. To get the most benefits, take it as prescribed. Do not take more or for longer than needed as that can be dangerous.",
     sideEffectsHeading:
       "Side Effects of Paracetamol Oral Suspension on Children",
     sideEffects:
@@ -1383,7 +1397,7 @@ export const pediatricsProducts = [
   },
   {
     isOTC: true,
-    brandName: "Chlorpheniramine",
+    brandName: "Kidominic",
     genericeName:
       "Chlorpheniramine Maleate (1mg/5ml) + Paracetamol (125mg/5ml) + phenylephrine (5mg/5ml)",
     packSize: "60ml",
@@ -1391,25 +1405,25 @@ export const pediatricsProducts = [
     dosage: "2.5 ml,5 ml, 10 ml",
     composition:
       "Chlorpheniramine Maleate (1mg/5ml) + Paracetamol (125mg/5ml) + phenylephrine (5mg/5ml)",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: kidominic,
     productInto:
-      "Chlorpheniramine New Tablet is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat, runny nose, muscular pain, and fever. Chlorpheniramine New Tablet can be taken with or without food. The dose and duration will depend on the severity of your condition. You should keep taking the medicine even if you feel better until the doctor says it is alright to stop using it.Using this medicine may cause a few common side effects such as nausea, vomiting, sleepiness, dizziness, and headache. If any of these side effects do not resolve with time or get worse, you should let your doctor know. Your doctor may be able to suggest ways of preventing or reducing the side effects. In general, you should try to use the smallest amount necessary to control your symptoms.",
+      "Kidominic New Tablet is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat, runny nose, muscular pain, and fever. Kidominic New Tablet can be taken with or without food. The dose and duration will depend on the severity of your condition. You should keep taking the medicine even if you feel better until the doctor says it is alright to stop using it.Using this medicine may cause a few common side effects such as nausea, vomiting, sleepiness, dizziness, and headache. If any of these side effects do not resolve with time or get worse, you should let your doctor know. Your doctor may be able to suggest ways of preventing or reducing the side effects. In general, you should try to use the smallest amount necessary to control your symptoms.",
     uses: "Treatment of Common cold",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
     benefits:
-      "In Treatment of Common cold Chlorpheniramine New Tablet is a combination medicine that effectively relieves symptoms of common cold such as blocked nose, runny nose, watery eyes, sneezing, and congestion or stuffiness. It helps to loosen thick mucus, making it easier to cough out. This makes it easier for air to move in and out. It shrinks the blood vessels and provides rapid relief that lasts for several hours.Chlorpheniramine New Tablet usually starts to work within a few minutes and the effects can last up to several hours. Take it as prescribed by the doctor. Do not stop using it unless you are advised to by your doctor. Taking this medicine enables you to live your life more freely without worrying so much about things that set off your symptoms.",
-    sideEffectsHeading: "Side Effects of Chlorpheniramine ",
+      "In Treatment of Common cold Kidominic New Tablet is a combination medicine that effectively relieves symptoms of common cold such as blocked nose, runny nose, watery eyes, sneezing, and congestion or stuffiness. It helps to loosen thick mucus, making it easier to cough out. This makes it easier for air to move in and out. It shrinks the blood vessels and provides rapid relief that lasts for several hours.Kidominic New Tablet usually starts to work within a few minutes and the effects can last up to several hours. Take it as prescribed by the doctor. Do not stop using it unless you are advised to by your doctor. Taking this medicine enables you to live your life more freely without worrying so much about things that set off your symptoms.",
+    sideEffectsHeading: "Side Effects of Kidominic ",
     sideEffects:
       "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Dizziness, Nausea, Headache, Insomnia (difficulty in sleeping), Tachycardia, Palpitations, Fear, Anxiety, Restlessness, Tremors, Weakness.",
     note: "It is important to take this medicine before consulting with doctors.",
     storage:
       " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
     disclaimer:
-      "Please consult your healthcare provider before using Chlorpheniramine 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+      "Please consult your healthcare provider before using Kidominic 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
   },
   {
     isOTC: true,
-    brandName: "Chlorpheniramine",
+    brandName: "Kidominic Drop",
     genericeName:
       "Chlorpheniramine Maleate (1mg/5ml) + Paracetamol (125mg/5ml) + phenylephrine (5mg/5ml)",
     packSize: "15 ml",
@@ -1417,51 +1431,51 @@ export const pediatricsProducts = [
     dosage: "2.5 ml,5 ml, 10 ml",
     composition:
       "Chlorpheniramine Maleate (1mg) + Paracetamol (125mg) + phenylephrine (2.5mg)",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: kidominicplus,
     productInto:
-      "Chlorpheniramine New Tablet is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat, runny nose, muscular pain, and fever. Chlorpheniramine New Tablet can be taken with or without food. The dose and duration will depend on the severity of your condition. You should keep taking the medicine even if you feel better until the doctor says it is alright to stop using it.Using this medicine may cause a few common side effects such as nausea, vomiting, sleepiness, dizziness, and headache. If any of these side effects do not resolve with time or get worse, you should let your doctor know. Your doctor may be able to suggest ways of preventing or reducing the side effects. In general, you should try to use the smallest amount necessary to control your symptoms.",
+      "Kidominic Drop New Tablet is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat, runny nose, muscular pain, and fever. Kidominic Drop New Tablet can be taken with or without food. The dose and duration will depend on the severity of your condition. You should keep taking the medicine even if you feel better until the doctor says it is alright to stop using it.Using this medicine may cause a few common side effects such as nausea, vomiting, sleepiness, dizziness, and headache. If any of these side effects do not resolve with time or get worse, you should let your doctor know. Your doctor may be able to suggest ways of preventing or reducing the side effects. In general, you should try to use the smallest amount necessary to control your symptoms.",
     uses: "Treatment of Common cold",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
     benefits:
-      "In Treatment of Common cold Chlorpheniramine New Tablet is a combination medicine that effectively relieves symptoms of common cold such as blocked nose, runny nose, watery eyes, sneezing, and congestion or stuffiness. It helps to loosen thick mucus, making it easier to cough out. This makes it easier for air to move in and out. It shrinks the blood vessels and provides rapid relief that lasts for several hours.Chlorpheniramine New Tablet usually starts to work within a few minutes and the effects can last up to several hours. Take it as prescribed by the doctor. Do not stop using it unless you are advised to by your doctor. Taking this medicine enables you to live your life more freely without worrying so much about things that set off your symptoms.",
-    sideEffectsHeading: "Side Effects of Chlorpheniramine ",
+      "In Treatment of Common cold Kidominic Drop New Tablet is a combination medicine that effectively relieves symptoms of common cold such as blocked nose, runny nose, watery eyes, sneezing, and congestion or stuffiness. It helps to loosen thick mucus, making it easier to cough out. This makes it easier for air to move in and out. It shrinks the blood vessels and provides rapid relief that lasts for several hours.Kidominic Drop New Tablet usually starts to work within a few minutes and the effects can last up to several hours. Take it as prescribed by the doctor. Do not stop using it unless you are advised to by your doctor. Taking this medicine enables you to live your life more freely without worrying so much about things that set off your symptoms.",
+    sideEffectsHeading: "Side Effects of Kidominic Drop ",
     sideEffects:
       "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Dizziness, Nausea, Headache, Insomnia (difficulty in sleeping), Tachycardia, Palpitations, Fear, Anxiety, Restlessness, Tremors, Weakness.",
     note: "It is important to take this medicine before consulting with doctors.",
     storage:
       " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
     disclaimer:
-      "Please consult your healthcare provider before using Chlorpheniramine 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+      "Please consult your healthcare provider before using Kidominic Drop 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
   },
   {
     isOTC: true,
-    brandName: "Phenylephrin",
+    brandName: "Kidominic+",
     genericeName:
-      "Phenylephrin (2.5ml/5ml) + Chlorphenirame Maleate (1mg / 5mg) + Dextromethorphan hydrobromide (5mg/5ml)",
+      "Phenylephirne (2.5ml/5ml) + Chlorphenirame Maleate (1mg / 5mg) + Dextromethorphan hydrobromide (5mg/5ml)",
     packSize: "60 ml",
     ageGroup: "above 12 years",
     dosage: "2.5 ml,5 ml, 10 ml",
     composition:
-      "Phenylephrin (2.5ml/5ml)+Chlorphenirame Maleate (1mg / 5mg)+Dextromethorphan hydrobromide (5mg/5ml)",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+      "Phenylephirne (2.5ml/5ml)+Chlorphenirame Maleate (1mg / 5mg)+Dextromethorphan hydrobromide (5mg/5ml)",
+    img: kidominicplus,
     productInto:
-      "Phenylephrin New Tablet is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat, runny nose, muscular pain, and fever. Phenylephrin New Tablet can be taken with or without food. The dose and duration will depend on the severity of your condition. You should keep taking the medicine even if you feel better until the doctor says it is alright to stop using it.Using this medicine may cause a few common side effects such as nausea, vomiting, sleepiness, dizziness, and headache. If any of these side effects do not resolve with time or get worse, you should let your doctor know. Your doctor may be able to suggest ways of preventing or reducing the side effects. In general, you should try to use the smallest amount necessary to control your symptoms.",
+      "Kidominic+ New Tablet is a medicine used in the treatment of common cold symptoms. It provides relief from symptoms such as headache, sore throat, runny nose, muscular pain, and fever. Kidominic+ New Tablet can be taken with or without food. The dose and duration will depend on the severity of your condition. You should keep taking the medicine even if you feel better until the doctor says it is alright to stop using it.Using this medicine may cause a few common side effects such as nausea, vomiting, sleepiness, dizziness, and headache. If any of these side effects do not resolve with time or get worse, you should let your doctor know. Your doctor may be able to suggest ways of preventing or reducing the side effects. In general, you should try to use the smallest amount necessary to control your symptoms.",
     uses: "Treatment of Common cold",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
     benefits:
       "In Treatment of Common cold Sinarest New Tablet is a combination medicine that effectively relieves symptoms of common cold such as blocked nose, runny nose, watery eyes, sneezing, and congestion or stuffiness. It helps to loosen thick mucus, making it easier to cough out. This makes it easier for air to move in and out. It shrinks the blood vessels and provides rapid relief that lasts for several hours.Sinarest New Tablet usually starts to work within a few minutes and the effects can last up to several hours. Take it as prescribed by the doctor. Do not stop using it unless you are advised to by your doctor. Taking this medicine enables you to live your life more freely without worrying so much about things that set off your symptoms.",
-    sideEffectsHeading: "Side Effects of Phenylephrin",
+    sideEffectsHeading: "Side Effects of Kidominic+",
     sideEffects:
       "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Dizziness, Nausea, Headache, Insomnia (difficulty in sleeping), Tachycardia, Palpitations, Fear, Anxiety, Restlessness, Tremors, Weakness",
     note: "It is important to take this medicine before consulting with doctors.",
     storage:
       " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
     disclaimer:
-      "Please consult your healthcare provider before using Phenylephrin 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+      "Please consult your healthcare provider before using Kidominic+ 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
   },
   {
     isOTC: true,
-    brandName: "Ambroxol",
+    brandName: "Kidmox",
     genericeName:
       "Ambroxol (15mg/5ml) + Levosalbutamol (0.5mg/5ml) + Guaifenesin (50mg/5ml)",
     packSize: "60 ml",
@@ -1469,13 +1483,13 @@ export const pediatricsProducts = [
     dosage: "2.5 ml,5 ml, 10 ml",
     composition:
       "Ambroxol (15mg/5ml) + Levosalbutamol (0.5mg/5ml) + Guaifenesin (50mg/5ml)",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: kidmox,
     productInto:
-      "Ambroxol LS Syrup is a combination medicine used in the treatment of cough with mucus. It thins mucus in the nose, windpipe, and lungs, making it easier to cough out. It also provides relief from runny nose, sneezing, itching, and watery eyes.Ambroxol LS Syrup is taken with or without food in a dose and duration as advised by the doctor. The dose you are given will depend on your condition and how you respond to the medicine. You should keep taking this medicine for as long as your doctor recommends. If you stop treatment too early your symptoms may come back and your condition may worsen. Let your healthcare team know about all other medications you are taking as some may affect, or be affected by this medicine.The most common side effects are nausea, diarrhea, stomach pain, vomiting, muscle cramp, headache, skin rash, and increased heart rate. Most of these are temporary and usually resolve with time. Contact your doctor straight away if you are at all concerned about any of these side effects. This medicine can also cause sleepiness, so do not drive or do anything that requires mental focus until you know how this medicine affects you. Avoid drinking alcohol while taking this medicine as it can make sleepiness worse.",
+      "Kidmox LS Syrup is a combination medicine used in the treatment of cough with mucus. It thins mucus in the nose, windpipe, and lungs, making it easier to cough out. It also provides relief from runny nose, sneezing, itching, and watery eyes.Kidmox LS Syrup is taken with or without food in a dose and duration as advised by the doctor. The dose you are given will depend on your condition and how you respond to the medicine. You should keep taking this medicine for as long as your doctor recommends. If you stop treatment too early your symptoms may come back and your condition may worsen. Let your healthcare team know about all other medications you are taking as some may affect, or be affected by this medicine.The most common side effects are nausea, diarrhea, stomach pain, vomiting, muscle cramp, headache, skin rash, and increased heart rate. Most of these are temporary and usually resolve with time. Contact your doctor straight away if you are at all concerned about any of these side effects. This medicine can also cause sleepiness, so do not drive or do anything that requires mental focus until you know how this medicine affects you. Avoid drinking alcohol while taking this medicine as it can make sleepiness worse.",
     uses: "Treatment of Common cold",
-    // benefitsh: "Benefits of Paramol  120mg Tablet",
+
     benefits:
-      "In Treatment of Cough with mucus Ambroxol LS Syrup gives relief from cough with mucus. It helps to loosen thick mucus, making it easier to cough out. This makes breathing easy and reduces the frequency of coughing. Ambroxol LS Syrup will also relieve allergy symptoms like watery eyes, sneezing, runny nose or throat irritation. Along with medications, drink enough luke warm water and gargle with warm salt water to ease the symptoms.",
+      "In Treatment of Cough with mucus Kidmox LS Syrup gives relief from cough with mucus. It helps to loosen thick mucus, making it easier to cough out. This makes breathing easy and reduces the frequency of coughing. Kidmox LS Syrup will also relieve allergy symptoms like watery eyes, sneezing, runny nose or throat irritation. Along with medications, drink enough luke warm water and gargle with warm salt water to ease the symptoms.",
     sideEffectsHeading: "Side Effects of Phenylephrin",
     sideEffects:
       "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Nausea, Vomiting, Diarrhea, Upset stomach, Stomach pain, Allergic reaction, Dizziness, Headache, Rash, Hives, Tremors, Palpitations, Muscle cramp, Increased heart rate.",
@@ -1487,49 +1501,49 @@ export const pediatricsProducts = [
   },
   {
     isOTC: true,
-    brandName: "Ibuprofen",
+    brandName: "Kudofen",
     genericeName: "Ibuprofen 100mg +  Paracetamol 162mg",
     packSize: "60 ml",
     ageGroup: "6 months - 1 years, 1 - 4 years, 4 - 7 years, 7 - 12 years",
     dosage: "2.5 ml,5 ml, 7.5ml, 10 ml",
     composition: "Ibuprofen 100mg+Paracetamol 162mg",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: kudofen,
     productInto:
       "Combiflam Tablet contains two painkiller medicines. They work together to reduce pain, fever, and inflammation. It is used to treat many conditions such as headache, muscle pain, pain during periods, toothache, and joint pain. Combiflam Tablet is best taken with food to reduce side effects. The dose and how often you need it will be decided by your doctor. You should take it regularly as advised by your doctor. Medicines used to treat pain are usually best taken at the first sign of pain. It is meant for short-term use only. Consult your doctor if the symptoms persist or worsen or if the medicine is required for use beyond 3 days. Side effects are rare if this medicine is used correctly but it may cause heartburn, indigestion, nausea, vomiting, headache, and stomach pain. Consult your doctor if any of these bother you or do not go away.",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
     benefits:
-      "In Pain relief Combiflam Tablet contains two medicines: Paracetamol and Ibuprofen both of which are widely used as pain killers. They work in different ways to reduce pain, swelling, and inflammation. This medicine is very effective in treating mild to moderate pain associated with migraine, headache, backache, period (menstrual) pain, dental pain, and rheumatic and muscular pain. The anti-inflammatory component makes this medicine more effective in treating strains, sprains, and muscle pains. Take it as it is prescribed to get the most benefit. Do not take too much as this can be dangerous and do not take it for longer than you need it. In general, you should take the lowest dose that works, for the shortest possible time.",
-    sideEffectsHeading: "Side Effects of Ibuprofen",
+      "In Pain relief Combiflam Tablet contains two medicines: Paracetamol and Kudofen both of which are widely used as pain killers. They work in different ways to reduce pain, swelling, and inflammation. This medicine is very effective in treating mild to moderate pain associated with migraine, headache, backache, period (menstrual) pain, dental pain, and rheumatic and muscular pain. The anti-inflammatory component makes this medicine more effective in treating strains, sprains, and muscle pains. Take it as it is prescribed to get the most benefit. Do not take too much as this can be dangerous and do not take it for longer than you need it. In general, you should take the lowest dose that works, for the shortest possible time.",
+    sideEffectsHeading: "Side Effects of Kudofen",
     sideEffects:
       "Most side effects do not require any medical attention and disappear as your body adjusts to the medicine. Consult your doctor if they persist or if you’re worried about them Heartburn, Indigestion, Nausea, Stomach pain, Vomiting, Headache, Sleepiness.",
     note: "It is important to take this medicine before consulting with doctors.",
     storage:
       " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
     disclaimer:
-      "Please consult your healthcare provider before using Ibuprofen 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+      "Please consult your healthcare provider before using Kudofen 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
   },
   {
     isOTC: true,
-    brandName: "Ondansentron",
-    genericeName: "Ondansentron (2mg/5ml)",
+    brandName: "Ondec",
+    genericeName: "Ondansetron (2mg/5ml)",
     packSize: "30 ml",
     ageGroup: "6 months - 12 years",
     dosage: "2.5 ml,5 ml, 7.5ml, 10 ml",
-    composition: "Ondansentron (2mg/5ml)",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    composition: "Ondansetron (2mg/5ml)",
+    img: ondec,
     productInto:
-      "Ondansentron Ondansetron 2mg Syrup is a medicine given to children to help treat nausea and vomiting. It is mainly given to treat nausea and vomiting associated with surgery, chemotherapy, radiotherapy, and stomach/intestinal infection. It also helps treat vomiting that is caused as a side effect of medicines like painkillers. Ondansentron Ondansetron 2mg Syrup may be given before or after meals. To control vomiting caused due to chemotherapy, give this medicine to your child 30 minutes before the procedure. Give it 1 to 2 hours before a radiotherapy session and 1 hour before surgery to prevent your child from vomiting post these procedures. If your child expels out the medicine within 30 minutes of the intake, help your child calm down and repeat the dose. Do not double dose if it is already time for the next dose. Ondansentron Ondansetron 2mg Syrup may cause some temporary side effects such as headache, constipation, diarrhea, and fatigue. These side effects usually subside once your child’s body adapts to the medicine. In case these side effects persist or become bothersome, do reach out to the doctor on a priority basis.",
+      "Ondec Ondansetron 2mg Syrup is a medicine given to children to help treat nausea and vomiting. It is mainly given to treat nausea and vomiting associated with surgery, chemotherapy, radiotherapy, and stomach/intestinal infection. It also helps treat vomiting that is caused as a side effect of medicines like painkillers. Ondec Ondansetron 2mg Syrup may be given before or after meals. To control vomiting caused due to chemotherapy, give this medicine to your child 30 minutes before the procedure. Give it 1 to 2 hours before a radiotherapy session and 1 hour before surgery to prevent your child from vomiting post these procedures. If your child expels out the medicine within 30 minutes of the intake, help your child calm down and repeat the dose. Do not double dose if it is already time for the next dose. Ondec Ondansetron 2mg Syrup may cause some temporary side effects such as headache, constipation, diarrhea, and fatigue. These side effects usually subside once your child’s body adapts to the medicine. In case these side effects persist or become bothersome, do reach out to the doctor on a priority basis.",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
     benefits:
-      "In Treatment of Nausea Ondansentron Ondansetron 2mg Syrup blocks the action of chemicals in the body that can make you feel or be sick. It is often used to prevent nausea and vomiting that may be caused by cancer chemotherapy and radiation treatment (in adults and children aged 4 years and older). It is usually taken both before and after chemotherapy or radiation. This medicine helps you recover more comfortably from these treatments. It is also effective at preventing nausea and vomiting after an operation (in adults only). The dose will depend on what you are being treated for but always take this medicine as it is prescribed.",
-    sideEffectsHeading: "Side Effects of Ondansentron",
+      "In Treatment of Nausea Ondec Ondansetron 2mg Syrup blocks the action of chemicals in the body that can make you feel or be sick. It is often used to prevent nausea and vomiting that may be caused by cancer chemotherapy and radiation treatment (in adults and children aged 4 years and older). It is usually taken both before and after chemotherapy or radiation. This medicine helps you recover more comfortably from these treatments. It is also effective at preventing nausea and vomiting after an operation (in adults only). The dose will depend on what you are being treated for but always take this medicine as it is prescribed.",
+    sideEffectsHeading: "Side Effects of Ondec",
     sideEffects:
       "StayHappi Ondansetron 2mg Syrup does not pose serious side effects and is well-tolerated by children. In case the side effects do occur, they’re likely to subside once the body adapts to the medicine. Consult your child’s doctor if these side effects persist or bother your child. The most common side effects include- Constipation, Diarrhea, Fatigue,Headache.",
     note: "It is important to take this medicine before consulting with doctors.",
     storage:
       " Store this medication in a cool place at room temperature away from the reach of direct sunlight. Keep it away from children and pets.",
     disclaimer:
-      "Please consult your healthcare provider before using Ondansentron 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
+      "Please consult your healthcare provider before using Ondec 1mg 125mg 5mg. Suspension use. Follow the recommended dosage strictly and do not exceed the prescribed amount.",
   },
   {
     isOTC: true,
@@ -1564,7 +1578,7 @@ export const pediatricsProducts = [
     ageGroup: "2-11 years",
     dosage: "",
     composition: "Cholecalciferol 800 IU",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: cholec,
     productInto:
       "Cholecalciferol promotes your overall health and well-being. Vitamin D is a fat-soluble vitamin that helps the body fight against infections and supports a healthy immune system. It plays a vital role in developing and maintaining healthy bones and assists with the absorption of calcium, magnesium, and phosphorus.",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
@@ -1581,13 +1595,13 @@ export const pediatricsProducts = [
   },
   {
     isOTC: false,
-    brandName: "Amoxcyillin",
+    brandName: "EXPIENT",
     genericeName: "Amoxcyillin (200mg) + Clavulanic Acid (28.5mg)",
     packSize: "30 ml",
     ageGroup: "Below 12 years",
     dosage: "",
     composition: "Amoxcyillin (200mg) + Clavulanic Acid (28.5mg)",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: expient,
     productInto:
       "Amoxcyillin Amoxcyillin (200mg) + Clavulanic Acid (28.5mg) is a penicillin-type of antibiotic that helps your body fight infections caused by bacteria. It is used to treat infections of the lungs (e.g., pneumonia), ear, nasal sinus, urinary tract, skin, and soft tissue. It will not work for viral infections such as the common cold.",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
@@ -1650,13 +1664,13 @@ export const pediatricsProducts = [
   },
   {
     isOTC: false,
-    brandName: "Domper",
+    brandName: "VOMAWAY",
     genericeName: "Domperidone 10mg",
     packSize: "5 ml",
     ageGroup: "12 years old and older/10ml (3 times)",
     dosage: "",
     composition: "Domperidone 1mg/ml",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: vomaway,
     productInto:
       "Domper helps treat indigestion, gastroesophageal reflux disease, nausea, and vomiting in children. It increases the movement of food through the stomach and intestines, thereby relieving bloating, fullness, and gastric discomfort.",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
@@ -1673,13 +1687,13 @@ export const pediatricsProducts = [
   },
   {
     isOTC: false,
-    brandName: "Dicyclomine",
+    brandName: "gutifxx",
     genericeName: "Dicyclomine Hydrochloride (10mg) + Simethicone USP (40mg)",
     packSize: "10 ml",
     ageGroup: "0-6 mpnths",
     dosage: "",
     composition: "Dicyclomine Hydrochloride (10mg) + Simethicone USP (40mg)",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: gutifxx,
     productInto:
       "Dicyclomine is an antispasmodic which works by relaxing the muscles in your stomach and gut (intestine). It stops sudden muscle contractions (spasms), thereby relieving abdominal cramps and pain. Simethicone is an antifoaming medicine which disintegrates gas bubbles and allows easy passage of gas.",
     // benefitsh: "Benefits of Paramol  120mg Tablet",
@@ -1695,13 +1709,13 @@ export const pediatricsProducts = [
   },
   {
     isOTC: false,
-    brandName: "Fexofenadine",
+    brandName: "fexokid",
     genericeName: "Fexofenadine (30mg/5ml)",
     packSize: "60 ml",
     ageGroup: "2 - 11 years",
     dosage: "",
     composition: "Fexofenadine (30mg/5ml)",
-    img: "https://img.freepik.com/free-photo/white-pills-arrangement-blue-background_23-2148506741.jpg?t=st=1729150153~exp=1729153753~hmac=eadfe38631bde4c687cff292d050eb6cc422c437522f9a6eed0e958b437e123d&w=740",
+    img: fexokid,
     productInto:
       "Fexofenadine oral suspension. Fexofenadine is an antihistamine used to relieve allergy symptoms such as watery eyes, runny nose, itching eyes/nose, sneezing, hives, and itching.",
     // benefitsh: "Benefits of Paramol  120mg Tablet",

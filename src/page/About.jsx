@@ -45,6 +45,7 @@ const smarts = [
       "Set within a specific timeframe, such as meeting regulatory approvals by a certain date.",
   },
 ];
+
 const About = () => {
   return (
     <main className="min-h-screen relative w-full mx-auto bg-inherit">
@@ -84,8 +85,8 @@ const About = () => {
             designed to address the unmet medical needs of patients and
             healthcare professionals, and we are committed to ongoing innovation
             to stay ahead of the curve in the industry.
-          </p>
-          <p className="mt-4 text-gray-600 text-justify">
+            <br />
+            <br />
             We take pride in our robust COPPs program, which has resulted in
             over 200 certificates till date. Our COPPs program ensures the
             authenticity and integrity of our products, and we are committed to

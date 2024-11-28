@@ -5,7 +5,6 @@ import logo from "../../assets/mhjlogo.png";
 import PrimaryButton from "./PrimaryButton";
 import { AnimatePresence, motion as m } from "framer-motion";
 import GoogleTranslate from "./GoogleTranslate ";
-// import LanguageSwitcher from "./LanguageSwitcher";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -78,7 +77,7 @@ function Navbar() {
           <div className="flex justify-center items-center">
             <div className="hidden md:block ">
               <PrimaryButton
-                to="/#contact"
+                to="/contact"
                 className="ml-4"
                 onClick={handleClick}
               >
@@ -86,7 +85,6 @@ function Navbar() {
               </PrimaryButton>
             </div>
             <GoogleTranslate />
-            {/* <LanguageSwitcher /> */}
           </div>
           <div className="md:hidden">
             <button
@@ -117,17 +115,16 @@ function Navbar() {
                 onDropdownToggle={handleDropdownToggle}
               />
             </div>
-            <div className="pt-4 pb-3 border-t border-gray-200">
-              {/* <GoogleTranslate /> */}
+            {/* <div className="pt-4 pb-3 border-t border-gray-200">
               <div className="px-2 flex">
                 <button
                   onClick={handleClick}
-                  className={`inline-block text-white uppercase px-4 py-2 xl:py-3 xl:px-6 transition-all duration-500 rounded-[30px] focus:outline-none primaryButton bg-transparent hover:shadow-lg text-nowrap text-sm hover:scale-[1.02] active:scale-[0.9] ${className}`}
+                  className={`inline-block text-white uppercase px-4 py-2 xl:py-3 xl:px-6 transition-all duration-500 rounded-[30px] focus:outline-none primaryButton bg-transparent hover:shadow-lg text-nowrap text-sm hover:scale-[1.02] active:scale-[0.9]`}
                 >
                   {children}
                 </button>
               </div>
-            </div>
+            </div> */}
           </m.div>
         )}
       </AnimatePresence>
@@ -152,32 +149,7 @@ function NavLinks({ mobile, closeMenu, openDropdown, onDropdownToggle }) {
         closeMenu={closeMenu}
       />
       <NavItem to="/kids" label="Kids" mobile={mobile} closeMenu={closeMenu} />
-      {/* <DropdownNavItem
-        label="Kids"
-        mobile={mobile}
-        closeMenu={closeMenu}
-        isOpen={openDropdown === "Technology"}
-        onToggle={() => onDropdownToggle("kids")}
-      >
-        <NavItem
-          to="/technology/research-development"
-          label="Kids Jumi"
-          mobile={mobile}
-          closeMenu={closeMenu}
-        />
-        <NavItem
-          to="/technology/manufacture-unit"
-          label="Kids gummies"
-          mobile={mobile}
-          closeMenu={closeMenu}
-        />
-        <NavItem
-          to="/technology/quality-control"
-          label="Quality Control"
-          mobile={mobile}
-          closeMenu={closeMenu}
-        />
-      </DropdownNavItem> */}
+
       <DropdownNavItem
         label="Products"
         mobile={mobile}

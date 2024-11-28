@@ -104,7 +104,7 @@ const PediatricProducts = () => {
             <tbody>
               {filteredProducts.map((product, i) => (
                 <tr
-                  className="odd:bg-white  even:bg-gray-200  border-b  border-gray-300  relative"
+                  className="odd:bg-white  even:bg-orange-200  border-b  border-gray-300  relative"
                   key={i}
                 >
                   {/* <td className="px-6 text-gray-800">
@@ -112,19 +112,19 @@ const PediatricProducts = () => {
                   </td> */}
                   <th
                     scope="row"
-                    className="px-6 py-2 font-medium text-gray-800 "
+                    className="px-6 py-4 font-medium text-gray-800 uppercase"
                   >
                     {product.brandName}
                   </th>
                   <th
                     scope="row"
-                    className="px-6 py-2 font-medium text-gray-800 whitespace-nowrap"
+                    className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap"
                   >
                     {product.packSize}
                   </th>
                   <th
                     scope="row"
-                    className="px-6 py-2 font-medium text-gray-800 "
+                    className="px-6 py-4 font-medium text-gray-800 "
                   >
                     {product.composition}
                   </th>

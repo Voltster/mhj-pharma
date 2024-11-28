@@ -5,7 +5,7 @@ import { FaInstagramSquare, FaLinkedin, FaBuilding } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion as m } from "framer-motion";
 
-const Contact = () => {
+const Contact = ({ title }) => {
   return (
     <>
       <m.section
@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
                 <h2 className=" mb-6 text-2xl  font-semibold uppercase text-[#B71B15] sm:text-4xl">
-                  Contact Us
+                  {title}
                 </h2>
                 <div className="relative">
                   <p className="font-semibold uppercase ">
@@ -31,34 +31,34 @@ const Contact = () => {
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875.202179102035!2d77.15817927804135!3d28.665445602364084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d038897063403%3A0xb2521ab27b90e4cc!2sMHJ%20PHARMACONCEPTS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1722246084453!5m2!1sen!2sin"
                     width="450"
                     height="205"
-                    className="rounded-md w-full  mb-6 shadow-lg border "
+                    className="rounded-md w-full  mb-6 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] border "
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     title="MHJ PHARMACONCEPTS Location"
                   ></iframe>
                 </div>
-                <ul className="text-gray-800 flex flex-col md:flex-row gap-4">
-                  <li>
-                    <Link
-                      to={"tel:+999-943-6570"}
-                      className="flex  items-center gap-2 text-sm"
-                    >
-                      <FaPhoneVolume className="text-2xl md:text-xl cursor-pointer text-[#941616]" />
-                      +91 9999 436 570
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to={"mailto:info@mhjpharma.com"}
-                      className="flex  items-center gap-2 text-sm"
-                    >
-                      <IoIosMail className="text-2xl md:text-xl cursor-pointer text-[#941616]" />
-                      info@mhjpharma.com
-                    </Link>
-                  </li>
-                </ul>
-                <div className="flex md:justify-end mt-4">
+                <div className="flex justify-between">
+                  <ul className="text-gray-800 flex flex-col md:flex-row gap-4">
+                    <li>
+                      <Link
+                        to={"tel:+999-943-6570"}
+                        className="flex  items-center gap-2 text-sm"
+                      >
+                        <FaPhoneVolume className="text-2xl md:text-xl cursor-pointer text-[#941616]" />
+                        +91 9999 436 570
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to={"mailto:info@mhjpharma.com"}
+                        className="flex  items-center gap-2 text-sm lowwercase"
+                      >
+                        <IoIosMail className="text-3xl md:text-xl cursor-pointer text-[#941616] " />
+                        info@mhjpharma.com
+                      </Link>
+                    </li>
+                  </ul>
                   <ul className="flex text-red-800 gap-x-2  md:gap-x-8 text-2xl hover:text-red-800">
                     <li className="hover:scale-[1.2] transition-all">
                       <Link
@@ -70,7 +70,9 @@ const Contact = () => {
                     </li>
                     <li className="hover:scale-[1.2] transition-all">
                       <Link
-                        to={"https://in.linkedin.com/in/mhj-pharmaconcepts?"}
+                        to={
+                          "https://in.linkedin.com/company/mhj-pharmaconcepts"
+                        }
                         target="blank"
                       >
                         <FaLinkedin />
@@ -78,7 +80,7 @@ const Contact = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="grid grid-cols-2 gap-4 sm:flex-row justify-around mt-6">
+                <div className="grid grid-cols-1 gap-4 sm:flex-col justify-around mt-6">
                   <div className="uppercase text-base flex-col flex text-gray-800 w-1/2">
                     <span className="font-semibold flex items-center text-[#941616] gap-2">
                       <FaBuilding />

@@ -38,7 +38,7 @@ const Kids = () => {
 
       <section
         // style={{ backgroundImage: `url(${bg})` }}
-        className=" py-20 bg-local bg-[#F0D9BD] relative"
+        className=" py-20 bg-local bg-white relative"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -95,13 +95,10 @@ const Kids = () => {
             viewport={{ once: true, amount: 0.5 }}
           >
             <img
-              // src={
-              //   "https://img.freepik.com/premium-photo/cute-baby-eating-while-being-accompanied-by-her-mother_13339-52521.jpg?w=740"
-              // }
               src={PediatricAbout}
               alt="Pediatri Kid"
               width={500}
-              className="border-b-4 border-[#E5BF92] mx-auto"
+              className="border-b-4 border-[#E5BF92]  mx-auto"
             />
           </m.div>
           <div className="md:w-1/2  md:p-10">
@@ -137,7 +134,7 @@ const Kids = () => {
           </div>
         </div>
       </section>
-      <div className="bg-[#F0D9BD] pb-10">
+      <div className=" bg-white pb-10">
         <div className=" w-full md:w-10/12 mx-auto gap-4 p-12 contactBg flex flex-col md:flex-row justify-center bg-[#ebd1b1] rounded-lg border border-[#fce5cc] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
           <m.h2
             className="text-4xl md:text-5xl md:font-medium antialiased text-[#BE2013] md:w-1/2"
@@ -167,7 +164,7 @@ const Kids = () => {
             <img
               src={lion}
               alt=""
-              className="absolute -bottom-12 md:-bottom-10 -right-2 md:right-40 pediatric"
+              className="absolute hidden md:block -bottom-12 md:-bottom-10 -right-2 md:right-40 pediatric"
               width={100}
             />
           </div>

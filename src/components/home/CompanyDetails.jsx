@@ -63,7 +63,7 @@ const CompanyDetails = () => {
           {cards.map((e, i) => (
             <m.div
               key={i}
-              className="text-center border backdrop-blur-md bg-white/20 rounded-lg p-1"
+              className="text-center md:border backdrop-blur-md bg-white/20 rounded-lg p-1"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.2, duration: 0.5 }}

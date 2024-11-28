@@ -30,7 +30,7 @@ const CountingNumber = ({ target, duration = 2 }) => {
 const YourComponent = ({ tableData, color }) => {
   return (
     <motion.div
-      className="w-full sm:w-8/12 max-xl:w-9/12 mx-auto rounded-sm shadow-md relative bg-white grid grid-cols-2 xl:flex xl:items-center xl:justify-center xl:h-40 mt-10 xl:mt-0"
+      className="w-full  sm:w-8/12 max-xl:w-9/12 mx-auto rounded-lg shadow-md relative bg-white grid grid-cols-2 xl:flex xl:items-center xl:justify-center xl:h-40 mt-10 xl:mt-0"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}

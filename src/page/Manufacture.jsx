@@ -5,7 +5,7 @@ const Manufacture = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
       <div
-        className="mt-16 w-full md:h-full relative text-gray-900 bg-cover bg-no-repeat bg-center"
+        className="w-full md:h-full relative text-gray-900 bg-cover bg-no-repeat bg-center"
         style={{
           backgroundImage: `url('https://img.freepik.com/premium-photo/worker-filling-bottles-with-water-factory-generative-ai_843410-3620.jpg?w=740')`,
         }}
@@ -14,7 +14,7 @@ const Manufacture = () => {
           Manufacturing Unit
         </m.h2>
       </div>
-      <div className="w-11/12 mx-auto flex-col-reverse md:flex-row flex items-center justify-center gap-8 py-10">
+      <div className="w-11/12 mx-auto flex-col-reverse md:flex-row flex items-center justify-center gap-8 md:gap-14 py-10">
         <m.div
           className="md:w-1/2  text-justify"
           initial={{ x: [0], opacity: 0 }}
@@ -44,18 +44,18 @@ const Manufacture = () => {
             src={
               "https://img.freepik.com/premium-photo/quotfactory-worker-pharmaceutical-facility-carefully-handling-equipmentquot_1280275-244851.jpg?w=740"
             }
-            className="w-[80%] mx-auto rounded-md"
+            className="w-[100%] mx-auto rounded-md"
             loading="lazy"
           />
         </div>
       </div>
-      <div className="w-11/12 mx-auto flex-col md:flex-row  flex items-center justify-center gap-8 py-10 ">
+      <div className="w-11/12 mx-auto flex-col md:flex-row  flex items-center justify-center gap-8 md:gap-14 py-10 ">
         <div className="md:w-1/2">
           <m.img
             src={
               "https://img.freepik.com/premium-photo/long-track-with-white-blue-lines-some-white-caps-it_793248-14186.jpg?w=740"
             }
-            className="w-[80%] mx-auto rounded-md "
+            className="w-[100%] mx-auto rounded-md "
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [-150, 0], opacity: 1 }}
@@ -99,7 +99,7 @@ const Manufacture = () => {
           </ul>
         </m.div>
       </div>
-      <div className="w-11/12 mx-auto  flex-col-reverse md:flex-row flex items-center justify-center gap-8 py-10 ">
+      <div className="w-11/12 mx-auto  flex-col-reverse md:flex-row flex items-center justify-center gap-8 md:gap-14 py-10 ">
         <m.div
           className="md:w-1/2  text-justify"
           initial={{ x: [0], opacity: 0 }}
@@ -128,7 +128,7 @@ const Manufacture = () => {
             src={
               "https://img.freepik.com/premium-photo/automated-pill-bottle-filling-line-pharmaceutical-factory_1034924-40578.jpg?w=826"
             }
-            className="w-[80%] mx-auto rounded-md"
+            className="w-[100%] mx-auto rounded-md"
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [150, 0], opacity: 1 }}

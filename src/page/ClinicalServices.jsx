@@ -6,11 +6,13 @@ const ClinicalServices = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
       <div
-        className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
-        style={{ backgroundImage: `url('https://img.freepik.com/free-photo/portrait-scientist-nurse-looking-tired-camera-sitting-modern-equipped-laboratory-late-night-team-specialists-examining-virus-evolution-using-high-tech-research-vaccine-development_482257-13616.jpg?t=st=1726491655~exp=1726495255~hmac=9f6df225761ac45e03bd7331de45e8904dde76bb63752fd7c54c922f641693cb&w=826')` }}
+        className=" w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
+        style={{
+          backgroundImage: `url('https://img.freepik.com/free-photo/portrait-scientist-nurse-looking-tired-camera-sitting-modern-equipped-laboratory-late-night-team-specialists-examining-virus-evolution-using-high-tech-research-vaccine-development_482257-13616.jpg?t=st=1726491655~exp=1726495255~hmac=9f6df225761ac45e03bd7331de45e8904dde76bb63752fd7c54c922f641693cb&w=826')`,
+        }}
       >
         <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
-          Clinical Regulatory  Affairs
+          Clinical Regulatory Affairs
         </h2>
       </div>
       <m.h2

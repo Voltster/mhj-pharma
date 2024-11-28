@@ -227,43 +227,44 @@ const ContactForm = () => {
             </div>
           </div>
 
-          <div className="w-full mb-6">
-            <label
-              htmlFor="clientMail"
-              className="block mb-2 text-sm text-gray-900"
-            >
-              Email Address
-            </label>
-            <input
-              type="email"
-              name="clientMail"
-              id="clientMail"
-              placeholder="you@company.com"
-              value={formData.clientMail}
-              onChange={handleChange}
-              required
-              className="w-full px-3 py-2 placeholder-gray-300 border border-gray-400 rounded-md focus:outline-none focus:border-red-500"
-            />
+          <div className="flex  justify-center gap-4">
+            <div className="w-full mb-6">
+              <label
+                htmlFor="clientMail"
+                className="block mb-2 text-sm text-gray-900"
+              >
+                Email Address
+              </label>
+              <input
+                type="email"
+                name="clientMail"
+                id="clientMail"
+                placeholder="you@company.com"
+                value={formData.clientMail}
+                onChange={handleChange}
+                required
+                className="w-full px-3 py-2 placeholder-gray-300 border border-gray-400 rounded-md focus:outline-none focus:border-red-500"
+              />
+            </div>
+            <div className="w-full mb-6">
+              <label
+                htmlFor="number"
+                className="block mb-2 text-sm text-gray-900"
+              >
+                Phone Number
+              </label>
+              <input
+                type="text"
+                name="number"
+                id="number"
+                placeholder="+91 1234567890"
+                value={formData.number}
+                onChange={handleChange}
+                required
+                className="w-full px-3 py-2 placeholder-gray-300 border border-gray-400 rounded-md focus:outline-none focus:border-red-500"
+              />
+            </div>
           </div>
-          <div className="w-full mb-6">
-            <label
-              htmlFor="number"
-              className="block mb-2 text-sm text-gray-900"
-            >
-              Phone Number
-            </label>
-            <input
-              type="text"
-              name="number"
-              id="number"
-              placeholder="+91 1234567890"
-              value={formData.number}
-              onChange={handleChange}
-              required
-              className="w-full px-3 py-2 placeholder-gray-300 border border-gray-400 rounded-md focus:outline-none focus:border-red-500"
-            />
-          </div>
-
           <div className="mb-6">
             <label htmlFor="text" className="block mb-2 text-sm text-gray-900">
               Your Message

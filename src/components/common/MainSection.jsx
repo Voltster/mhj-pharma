@@ -2,7 +2,7 @@ const MainSection = ({ title, videoSrc, className, heading }) => {
   return (
     <section className="py-1 xl:h-screen h-[50%]  relative p-0  md:pb-24">
       <div
-        className={` pt-1 mt-14 md:mb-10 md:h-[100vh] flex flex-col xl:flex-row justify-center items-center gap-x-16  w-full mx-auto relative ${className}  relative`}
+        className={` pt-1 md:mb-10 md:h-[100vh] flex flex-col xl:flex-row justify-center items-center gap-x-16  w-full mx-auto relative ${className}  relative`}
       >
         <div className="w-[100%] h-full overflow-hidden relative">
           <video src={videoSrc} autoPlay loop muted className="w-full" />

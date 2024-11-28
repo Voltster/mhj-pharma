@@ -7,16 +7,16 @@ const Regulatory = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
       <div
-        className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
+        className=" w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${regulatoryBg})` }}
       >
         <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
           Regulatory Services
         </h2>
       </div>
-      <div className="w-11/12 mx-auto flex md:flex-row flex-col-reverse items-center justify-center gap-4 py-10">
+      <div className="w-11/12 mx-auto flex md:flex-row flex-col-reverse items-center justify-center gap-4 md:space-x-14 py-10">
         <m.div
-          className="md:w-1/2 text-justify"
+          className="md:w-1/2 text-justify "
           initial={{ x: [0], opacity: 0 }}
           whileInView={{ x: [-150, 0], opacity: 1 }}
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
@@ -39,12 +39,12 @@ const Regulatory = () => {
             maintaining compliance with regulatory requirements.
           </p>
         </m.div>
-        <div className="md:w-1/2">
+        <div className="w-full  md:w-1/2">
           <m.img
             src={
               "https://img.freepik.com/premium-photo/skilled-multicultural-businesspeople-discuss-about-business-idea-tracery_31965-477024.jpg?w=740"
             }
-            className="w-[80%] mx-auto rounded-md "
+            className="md:w-[100%]  mx-auto rounded-md "
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [150, 0], opacity: 1 }}
@@ -53,7 +53,7 @@ const Regulatory = () => {
           />
         </div>
       </div>
-      <div className="w-11/12 mx-auto flex  flex-col-reverse items-center justify-center gap-4 md:flex-row-reverse">
+      <div className="w-11/12 mx-auto flex  flex-col-reverse items-center justify-center gap-4 md:gap-14 md:flex-row-reverse ">
         <m.div
           className="md:w-1/2  text-justify"
           initial={{ x: [0], opacity: 0 }}
@@ -62,22 +62,24 @@ const Regulatory = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <p>
-            At MHJ Pharmaconcepts, our regulatory affairs services
-            include a wide range of activities, such as dossier preparation
-            (regional-specific formats), analytical method
-            validation (assay validation, RS, cleaning validation, etc.),
-            Drug Master File(DMF),Product Development Report (PDR), Anayltical method validation Reports (AMV)
-            Process Validation protocol And Report (PVPR), stability studies, etc., Artwork designs, bioequivalent
-            studies (bio waiver/BE study/PSUR data), Non-clinical and Clinical Studies.
+            At MHJ Pharmaconcepts, our regulatory affairs services include a
+            wide range of activities, such as dossier preparation
+            (regional-specific formats), analytical method validation (assay
+            validation, RS, cleaning validation, etc.), Drug Master
+            File(DMF),Product Development Report (PDR), Anayltical method
+            validation Reports (AMV) Process Validation protocol And Report
+            (PVPR), stability studies, etc., Artwork designs, bioequivalent
+            studies (bio waiver/BE study/PSUR data), Non-clinical and Clinical
+            Studies.
             <br />
-            Our regulatory affairs services help pharmaceutical
-            companies launch new products to the desired market by ensuring
-            compliance with regulations, regardless of their complexity. Our
-            services include developing strategic plans, compiling and
-            submitting required documents, liaising with competent authorities,
-            and staying informed of recent regulatory updates. Additionally, our
-            services help mitigate compliance and financial risks, expedite
-            product approvals, and maintain lifecycle management.
+            Our regulatory affairs services help pharmaceutical companies launch
+            new products to the desired market by ensuring compliance with
+            regulations, regardless of their complexity. Our services include
+            developing strategic plans, compiling and submitting required
+            documents, liaising with competent authorities, and staying informed
+            of recent regulatory updates. Additionally, our services help
+            mitigate compliance and financial risks, expedite product approvals,
+            and maintain lifecycle management.
           </p>
         </m.div>
         <div className="md:w-1/2">
@@ -85,7 +87,7 @@ const Regulatory = () => {
             src={
               "https://img.freepik.com/free-photo/man-making-his-move_53876-40353.jpg?t=st=1725534550~exp=1725538150~hmac=dab3a480971716e459059f1a188021252ddf884f2a46735d9e09054d0648feab&w=740"
             }
-            className="w-[80%] mx-auto rounded-md "
+            className="w-[100%] mx-auto rounded-md "
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [-150, 0], opacity: 1 }}
@@ -94,7 +96,7 @@ const Regulatory = () => {
           />
         </div>
       </div>
-      <div className="w-11/12 mx-auto flex flex-col md:flex-row  items-center justify-center gap-4 py-10">
+      <div className="w-11/12 mx-auto flex flex-col md:flex-row  items-center justify-center gap-4 md:space-x-14 py-10">
         <m.div
           className="md:w-1/2  text-justify"
           initial={{ x: [0], opacity: 0 }}
@@ -131,7 +133,6 @@ const Regulatory = () => {
               <FaCheck className="text-red-600" />
               Registration Strategy in Emerging Markets{" "}
             </li>
-
           </ul>
         </m.div>
         <div className="md:w-1/2">
@@ -139,7 +140,7 @@ const Regulatory = () => {
             src={
               "https://img.freepik.com/free-photo/person-office-analyzing-checking-finance-graphs_23-2150377128.jpg?t=st=1726659514~exp=1726663114~hmac=61b1d8f5767de2d747d69f365eb88f2faaeca2e28567d2eb154c96c4cb00fdbc&w=740"
             }
-            className="w-[80%] mx-auto rounded-md"
+            className="w-[100%] mx-auto rounded-md"
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [150, 0], opacity: 1 }}
@@ -149,12 +150,12 @@ const Regulatory = () => {
         </div>
       </div>
 
-      <div className="flex justify-center md:flex-row flex-col-reverse  items-center w-11/12 mx-auto gap-4 my-5 md:my-20">
+      <div className="flex justify-center md:flex-row flex-col-reverse  items-center w-11/12 mx-auto gap-4 md:space-x-14 my-5 mb-10">
         <div className="md:w-1/2 mx-auto">
           <m.img
             src={regulatoryBg}
             alt=""
-            className=" rounded-md  w-[80%] mx-auto hidden sm:block"
+            className=" rounded-md  w-[100%] mx-auto hidden sm:block"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [-150, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}

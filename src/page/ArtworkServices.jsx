@@ -6,8 +6,10 @@ const ArtworkServices = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
       <div
-        className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
-        style={{ backgroundImage: `url('https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595847.jpg?t=st=1726491458~exp=1726495058~hmac=90c013434df2e4da571482b5062082deb4c1035106cbbc626b9113d4538c6679&w=740')` }}
+        className=" w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
+        style={{
+          backgroundImage: `url('https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595847.jpg?t=st=1726491458~exp=1726495058~hmac=90c013434df2e4da571482b5062082deb4c1035106cbbc626b9113d4538c6679&w=740')`,
+        }}
       >
         <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
           Artwork Management
@@ -22,7 +24,7 @@ const ArtworkServices = () => {
         }
         className={"w-11/12 mx-auto container"}
       />
-      <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 md:py-8 px-4">
+      <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-14 md:py-8 px-4">
         <div className="md:w-1/2 ">
           <m.img
             src="https://img.freepik.com/premium-photo/concept-service-main-connections-with-it-wooden-blocks_102583-1992.jpg?w=740"

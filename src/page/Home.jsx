@@ -45,7 +45,7 @@ const Home = () => {
           }
           className={"xl:flex-row-reverse"}
         />
-        <Contact />
+        <Contact title={"Contact Us"} />
         <div className="flex sm:justify-around items-center flex-wrap gap-4">
           <m.div
             className=" mb-2 "

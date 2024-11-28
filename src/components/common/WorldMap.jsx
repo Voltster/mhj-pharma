@@ -32,7 +32,6 @@ const markers = [
   { name: "Venezuela", coordinates: [-66.5897, 6.4238], countryCode: "VE" },
   { name: "Bolivia", coordinates: [-63.5887, -16.2902], countryCode: "BO" },
   { name: "Burkina Faso", coordinates: [-1.5616, 12.2383], countryCode: "BF" },
-  // { name: "Ivory Coast", coordinates: [-5.5471, 7.5399], countryCode: "CI" },
   {
     name: "United States of America",
     title: "MHJ PHARMACONCEPTS LLC",
@@ -83,7 +82,7 @@ const WorldMap = ({ color }) => {
       <ComposableMap
         projection="geoMercator"
         projectionConfig={{
-          scale: 100,
+          scale: 80,
         }}
         className="w-full md:w-[90%] mx-auto object-contain"
       >

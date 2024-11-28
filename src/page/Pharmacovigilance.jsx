@@ -7,7 +7,7 @@ const Pharmacovigilance = () => {
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1">
       <div
-        className="mt-16 w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
+        className=" w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
         style={{
           backgroundImage: `url('https://img.freepik.com/free-photo/young-man-wearing-protective-face-mask-while-holding-online-classes-computer-coronavirus-epidemic_637285-6141.jpg?t=st=1726491250~exp=1726494850~hmac=22ef1ddf0638828f3695c0c75fb65673aa1c20f71a30aea32953b8fde25d107c&w=740')`,
         }}
@@ -17,8 +17,6 @@ const Pharmacovigilance = () => {
         </h2>
       </div>
       <SectionLayout
-        // heading={"Pharmacovigilance Consulting Services"}
-        // title={"Pharmacovigilance"}
         customClass={"pt-0 pb-10 md:pb-20"}
         description={`At MHJ Pharmaconcepts, we prioritize innovation, quality, and customer-centricity. We integrate cutting-edge technology to optimize pharmacovigilance processes, ensuring compliance and timely responses to safety and regulatory challenges. Our seasoned pharmacovigilance teams, comprising regulatory affairs and pharmacovigilance experts, guarantee meticulous adherence to global standards. We foster strong client relationships through transparency, collaboration, and regular updates, empowering clients with insights and expertise.
 `}
@@ -37,7 +35,7 @@ const Pharmacovigilance = () => {
         Risk Management Plan (RMP)
       </m.h4>
 
-      <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-12 md:py-8 px-4">
+      <div className="w-11/12 mx-auto  flex justify-center items-center flex-col md:flex-row gap-14 md:py-8 px-4">
         <div className="md:w-1/2 ">
           <m.img
             src="https://img.freepik.com/free-photo/man-wooden-cubes-table-management-concept_155003-13881.jpg?t=st=1726659731~exp=1726663331~hmac=fec565db9ec9594c3f51770225b254f0a76e5f692250a6166bcee436559e0b9b&w=740"
@@ -60,7 +58,7 @@ const Pharmacovigilance = () => {
             MHJ Pharmaconcepts Risk Management Pharmacovigilance Expertise
             Includes
           </h3>
-          <ul className="text-justify list-disc">
+          <ul className="text-justify list-disc w-11/12 mx-auto">
             <li>
               Drafting, reviewing, and maintaining RMPs and REMS while providing
               support through submission methods

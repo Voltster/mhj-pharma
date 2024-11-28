@@ -13,7 +13,6 @@ const imageData = [
   { img: sample3 },
   { img: sample5 },
   { img: sample6 },
-
 ];
 
 const Oncology = () => {
@@ -28,7 +27,7 @@ const Oncology = () => {
             "We're dedicated to developing innovative treatments that transform oncology care. Our comprehensive range of products includes cutting-edge chemotherapy drugs, targeted therapies, and immunotherapies designed to effectively combat multiple cancer indications. With a focus on improving patient outcomes and quality of life, our treatments have been shown to deliver significant benefits, including improved survival rates and reduced side effects. We're committed to staying at the forefront of research and innovation, collaborating with leading experts in the field and leveraging the latest discoveries to drive progress in oncology."
           }
           image={
-            "https://img.freepik.com/free-photo/medical-banner-with-doctor-wearing-stethoscope_23-2149611228.jpg?t=st=1725944719~exp=1725948319~hmac=ca545e7ff3d020f5dd6a9ddde93eebacc28a2b52dbbcf8baa7c10e3bf6162bc6&w=740"
+            "https://img.freepik.com/premium-photo/male-doctor-his-office-looking-virtual-dna-coming-out-tablet_306105-1431.jpg?w=826"
           }
           customClass={"bg-[#f8bbd0]"}
           titleColor={"text-[#E91E63]"}
