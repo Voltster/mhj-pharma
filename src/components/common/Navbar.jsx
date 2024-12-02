@@ -148,7 +148,7 @@ function NavLinks({ mobile, closeMenu, openDropdown, onDropdownToggle }) {
         mobile={mobile}
         closeMenu={closeMenu}
       />
-      <NavItem to="/kids" label="Kids" mobile={mobile} closeMenu={closeMenu} />
+      {/* <NavItem to="/kids" label="Kids" mobile={mobile} closeMenu={closeMenu} /> */}
 
       <DropdownNavItem
         label="Products"

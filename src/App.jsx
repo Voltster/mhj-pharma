@@ -7,13 +7,13 @@ const Export = lazy(() => import("./page/Export"));
 const QualifiedTeam = lazy(() => import("./page/QualifiedTeam"));
 const About = lazy(() => import("./page/About"));
 const Oncology = lazy(() => import("./page/Oncology"));
-const Kids = lazy(() => import("./page/Kids"));
-const PediatricProducts = lazy(
-  () => import("./components/products/PediatricProducts")
-);
-const ProductsDetails = lazy(
-  () => import("./components/products/ProductsDetails")
-);
+// const Kids = lazy(() => import("./page/Kids"));
+// const PediatricProducts = lazy(
+//   () => import("./components/products/PediatricProducts")
+// );
+// const ProductsDetails = lazy(
+//   () => import("./components/products/ProductsDetails")
+// );
 const Research = lazy(() => import("./page/Research"));
 const Manufacture = lazy(() => import("./page/Manufacture"));
 const QualityControls = lazy(() => import("./page/QualityControls"));
@@ -60,7 +60,7 @@ function App() {
               <Route path="/export" element={<Export />} />
               <Route path="/qualified-team" element={<QualifiedTeam />} />
               <Route path="/about" element={<About />} />
-              <Route path="/kids" element={<Kids />} />
+              {/* <Route path="/kids" element={<Kids />} />
               <Route
                 path="/pediatric-products"
                 element={<PediatricProducts />}
@@ -68,7 +68,7 @@ function App() {
               <Route
                 path="/pediatric-products/:id"
                 element={<ProductsDetails />}
-              />
+              /> */}
               <Route path="/regulatory-services" element={<Regulatory />} />
               <Route
                 path="regulatory/clinical-services"

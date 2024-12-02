@@ -84,7 +84,7 @@ const Contact = ({ title }) => {
                   <div className="uppercase text-base flex-col flex text-gray-800 w-1/2">
                     <span className="font-semibold flex items-center text-[#941616] gap-2">
                       <FaBuilding />
-                      Unit-1
+                      Unit-I
                     </span>
                     <p className="text-sm text-nowrap">
                       440/3, Katha, Baddi, <br />
@@ -94,7 +94,7 @@ const Contact = ({ title }) => {
                   <div className="uppercase text-base flex-col flex text-gray-800">
                     <span className="font-semibold flex items-center text-[#941616] gap-2">
                       <FaBuilding />
-                      Unit-2
+                      Unit-II
                     </span>
                     <p className="text-sm text-nowrap">
                       Plot No. 61, Sector-6A, IIE, Sidcul
@@ -104,7 +104,7 @@ const Contact = ({ title }) => {
                   <div className="uppercase text-base flex-col flex text-gray-800">
                     <span className="font-semibold flex items-center text-[#941616] gap-2">
                       <FaBuilding />
-                      Unit-3 (Oncology Division)
+                      Unit-III (Oncology Division)
                     </span>
                     <p className="text-sm text-nowrap">
                       Plot no 107, EPIP Phase 1, jharmajri,
