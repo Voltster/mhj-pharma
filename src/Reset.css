@@ -56,17 +56,21 @@ img {
 ::-webkit-scrollbar {
   width: 2px;
 }
-
+.productList::-webkit-scrollbar {
+  width: 8px;
+  background-color: #b81c1c;
+}
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(119, 153, 119, 0.167) 79;
+  background: #b81c1c;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #b81c1c;
+  cursor: grab;
 }
 
 html {

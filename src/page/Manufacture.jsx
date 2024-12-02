@@ -1,13 +1,17 @@
 import React from "react";
 import { motion as m } from "framer-motion";
+import Manufacturing1 from "../assets/Manufacturing1.webp";
+import ManufacturingBg from "../assets/ManufacturingBg.webp";
+import Manufacturing2 from "../assets/Manufacturing2.webp";
+import Manufacturing3 from "../assets/Manufacturing3.webp";
 
 const Manufacture = () => {
   return (
-    <div className="min-h-screen relative w-full mx-auto pt-1">
+    <div className="min-h-screen relative w-full mx-auto pt-1 mb-20" >
       <div
         className="w-full md:h-full relative text-gray-900 bg-cover bg-no-repeat bg-center"
         style={{
-          backgroundImage: `url('https://img.freepik.com/premium-photo/worker-filling-bottles-with-water-factory-generative-ai_843410-3620.jpg?w=740')`,
+          backgroundImage: `url('${ManufacturingBg}')`,
         }}
       >
         <m.h2 className=" text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[100vh] text-center flex justify-center items-center bg-black/60">
@@ -41,9 +45,7 @@ const Manufacture = () => {
             whileInView={{ x: [150, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
             viewport={{ once: true, amount: 0.5 }}
-            src={
-              "https://img.freepik.com/premium-photo/quotfactory-worker-pharmaceutical-facility-carefully-handling-equipmentquot_1280275-244851.jpg?w=740"
-            }
+            src={Manufacturing1}
             className="w-[100%] mx-auto rounded-md"
             loading="lazy"
           />
@@ -52,9 +54,7 @@ const Manufacture = () => {
       <div className="w-11/12 mx-auto flex-col md:flex-row  flex items-center justify-center gap-8 md:gap-14 py-10 ">
         <div className="md:w-1/2">
           <m.img
-            src={
-              "https://img.freepik.com/premium-photo/long-track-with-white-blue-lines-some-white-caps-it_793248-14186.jpg?w=740"
-            }
+            src={Manufacturing2}
             className="w-[100%] mx-auto rounded-md "
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
@@ -125,9 +125,7 @@ const Manufacture = () => {
         </m.div>
         <div className="md:w-1/2">
           <m.img
-            src={
-              "https://img.freepik.com/premium-photo/automated-pill-bottle-filling-line-pharmaceutical-factory_1034924-40578.jpg?w=826"
-            }
+            src={Manufacturing3}
             className="w-[100%] mx-auto rounded-md"
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}

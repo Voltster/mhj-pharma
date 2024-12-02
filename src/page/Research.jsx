@@ -5,7 +5,7 @@ import MainSection from "../components/common/MainSection";
 import SectionLayout from "../components/common/SectionLayout";
 const Research = () => {
   return (
-    <main className="min-h-screen relative w-full mx-auto ">
+    <main className="min-h-screen relative w-full mx-auto  md:mb-24">
       <MainSection
         heading={"Research & Development"}
         title={"Research"}
@@ -23,6 +23,7 @@ const Research = () => {
         description={`Our analytical research lab plays a critical role in our development process, where we rigorously test and analyze methods to ensure that every product we bring to market is not only effective but also safe for use. Our commitment to quality is further reinforced by our dedicated stability study area, where we evaluate the stability of our products under various environmental conditions.<br />This ensures that our products maintain their efficacy, even in extreme settings, delivering consistent and reliable healthcare solutions. Our stability study area allows us to:<br />* Evaluate the shelf life of our products <br />* Determine the optimal storage conditions<br />* Confirm the product's stability under various environmental conditions`}
         src={ManufacturingUnit}
         className={"w-11/12 mx-auto container xl:flex-row-reverse mb-8"}
+        floatLeft={true}
       />
     </main>
   );

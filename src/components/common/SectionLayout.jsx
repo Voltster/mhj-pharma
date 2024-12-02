@@ -9,6 +9,7 @@ const SectionLayout = ({
   subheading,
   id,
   headingClass,
+  floatLeft,
 }) => {
   const formatedDescription = description
     .split("<br />")
@@ -16,7 +17,7 @@ const SectionLayout = ({
 
   return (
     <section
-      className={`flex flex-col-reverse xl:flex-row justify-center items-center xl:gap-x-16  ${className}`}
+      className={`flex flex-col-reverse xl:flex-row justify-center items-center lg:gap-x-16 ${className}`}
       id={id}
     >
       <m.div
@@ -50,7 +51,7 @@ const SectionLayout = ({
           src={src}
           alt={alt}
           loading="lazy"
-          className="mx-auto rounded-lg"
+          className={`mx-auto rounded-lg ${floatLeft == true ? "md:float-left" : "md:float-right"}`}
         />
       </m.div>
     </section>

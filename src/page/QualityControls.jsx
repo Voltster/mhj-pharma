@@ -6,7 +6,7 @@ import SectionLayout from "../components/common/SectionLayout";
 
 const QualityControls = () => {
   return (
-    <main className="min-h-screen relative w-full mx-auto ">
+    <main className="min-h-screen relative w-full mx-auto mb-10">
       <MainSection
         title={"Quality"}
         heading={"Quality Control"}
@@ -24,11 +24,12 @@ const QualityControls = () => {
       <SectionLayout
         description={`In our commitment to global quality standards, MHJ Pharmaconcepts conducts
         Accelerated and Real-Time Stability Studies in accordance with guidelines from the International Council for Harmonization (ICH) and the World Health Organization (WHO). These studies are essential in determining the shelf life of our products across various climatic zones, ensuring they maintain their quality and efficacy throughout their lifespan. From research and development to final production, we adhere to stringent regulatory standards to guarantee that every product we manufacture meets or exceeds industry requirements. Our dedication to quality extends beyond our products, as we are committed to providing exceptional customer service and reliable information to our internal teams and external partners alike.
-`}
+        `}
         src={QualityControl2}
         className={
           "w-11/12 mx-auto container xl:flex-row-reverse md:pb-20 pt-10 md:pt-0"
         }
+        floatLeft={true}
       />
     </main>
   );

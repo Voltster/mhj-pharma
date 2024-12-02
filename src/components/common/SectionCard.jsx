@@ -36,7 +36,7 @@ const SectionCard = ({
 
   return (
     <m.div
-      className={`w-full flex flex-col-reverse lg:flex-row items-center text-white sm:h-[30rem] ${className}`}
+      className={`w-full flex flex-col-reverse lg:flex-row items-center text-white sm:h-[30rem]  ${className}`}
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
@@ -49,7 +49,7 @@ const SectionCard = ({
         <m.img
           src={image}
           alt={title}
-          className={`w-[100%] h-[100%] ${
+          className={`w-[100%] h-[100%] object-cover ${
             paraColor === "invert" ? "" : "object-contain"
           }`}
           whileHover={{ scale: 1.05 }}

@@ -14,11 +14,10 @@ const PediatricProducts = () => {
       state: { product },
     });
   };
-  // State for search query and filter
+
   const [searchQuery, setSearchQuery] = useState("");
   const [filter, setFilter] = useState("all");
 
-  // Function to handle the search query change
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
   };
@@ -51,12 +50,11 @@ const PediatricProducts = () => {
           >
             our Pediatric Products
           </m.h2>
-
-          <div className="w-full  flex flex-col md:flex-row justify-end gap-4 mb-4 relative z-50">
+          <div className="w-full  flex flex-col md:flex-row justify-end gap-4 mb-4 relative z-0 ">
             <select
               value={filter}
               onChange={handleFilterChange}
-              className="px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 hover:cursor-pointer"
+              className="px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 hover:cursor-pointer "
             >
               <option value="all">All Products</option>
               <option value="otc">OTC </option>
@@ -67,36 +65,36 @@ const PediatricProducts = () => {
                 Search:{" "}
               </label>
               <input
-                type="text"
+                type="search"
                 value={searchQuery}
                 onChange={handleSearchChange}
                 placeholder="Search for products..."
                 id="search"
-                className="px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
+                className="px-4  border-2 border-gray-400 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 relative z-[999]"
               />
             </div>
           </div>
         </div>
-        <div className="relative  border-none overflow-auto sm:rounded-lg  h-[80%] mx-auto ">
-          <table className="mx-auto text-sm text-left rtl:text-right text-gray-500  w-7/12  h-[80%] productBg overflow-scroll scroll">
-            <thead className="text-xs text-[#ffffff] uppercase bg-[#B31815] w-full  sticky top-0 z-40 ">
+        <div className="relative h-[500px] sm:rounded-lg mx-auto w-11/12 md:w-7/12 overflow-auto productList">
+          <table className="w-full text-sm text-left rtl:text-right relative text-gray-500 border-2 border-[#F0D9BD] ">
+            <thead className="text-xs text-white uppercase bg-[#B31815]  sticky top-0 z-40">
               <tr>
-                {/* <th
+                <th
                   scope="col"
-                  className="px-6 py-3 whitespace-nowrap text-center"
+                  className="px-4 py-2 text-center whitespace-nowrap"
                 >
                   Image
-                </th> */}
-                <th scope="col" className="px-6 py-3">
-                  Product name
                 </th>
-                <th scope="col" className="px-6 py-3 whitespace-nowrap">
+                <th scope="col" className="px-4 py-2">
+                  Product Name
+                </th>
+                <th scope="col" className="px-4 py-2 whitespace-nowrap">
                   Pack Size
                 </th>
-                <th scope="col" className="px-6 py-3 whitespace-nowrap">
-                  Generice Name
+                <th scope="col" className="px-4 py-2 whitespace-nowrap">
+                  Generic Name
                 </th>
-                <th scope="col" className="px-6 py-3 whitespace-nowrap">
+                <th scope="col" className="px-4 py-2 whitespace-nowrap">
                   Details
                 </th>
               </tr>
@@ -104,38 +102,33 @@ const PediatricProducts = () => {
             <tbody>
               {filteredProducts.map((product, i) => (
                 <tr
-                  className="odd:bg-white  even:bg-orange-200  border-b  border-gray-300  relative"
+                  className="odd:bg-white even:bg-gray-200 border-b border-gray-300"
                   key={i}
                 >
-                  {/* <td className="px-6 text-gray-800">
-                    <img src={product.img} alt="" width={100} />
-                  </td> */}
-                  <th
-                    scope="row"
-                    className="px-6 py-4 font-medium text-gray-800 uppercase"
-                  >
+                  <td className="px-4 py-2 text-center">
+                    <img
+                      src={product.img}
+                      alt=""
+                      className="max-w-[80px] mx-auto"
+                    />
+                  </td>
+                  <td className="px-4 py-2 font-medium text-gray-800 uppercase">
                     {product.brandName}
-                  </th>
-                  <th
-                    scope="row"
-                    className="px-6 py-4 font-medium text-gray-800 whitespace-nowrap"
-                  >
+                  </td>
+                  <td className="px-4 py-2 font-medium text-gray-800">
                     {product.packSize}
-                  </th>
-                  <th
-                    scope="row"
-                    className="px-6 py-4 font-medium text-gray-800 "
-                  >
+                  </td>
+                  <td className="px-4 py-2 font-medium text-gray-800">
                     {product.composition}
-                  </th>
-                  <th className="text-center">
+                  </td>
+                  <td className="px-4 py-2 text-center">
                     <button
                       onClick={() => handleDetailsClick(product)}
-                      className="text-gray-800 hover:underline"
+                      className="text-blue-600 hover:underline"
                     >
-                      Details
+                      More Details
                     </button>
-                  </th>
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -162,12 +155,6 @@ const PediatricProducts = () => {
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
         viewport={{ once: true, amount: 0.5 }}
       />
-      {/* <img
-        src={jumiSnake}
-        alt=""
-        className="absolute bottom-0 z-0"
-        width={300}
-      /> */}
       <m.img
         src={bird}
         alt=""

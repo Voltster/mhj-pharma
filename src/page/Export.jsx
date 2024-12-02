@@ -1,5 +1,6 @@
 import React from "react";
 import SectionLayout from "./../components/regulatory/SectionLayout";
+import ExportImg from "../assets/Export.webp";
 import { motion as m } from "framer-motion";
 const Export = () => {
   return (
@@ -35,7 +36,7 @@ const Export = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <img
-            src="https://img.freepik.com/premium-photo/global-logistics-network-motion_197463-21755.jpg?w=740"
+            src={ExportImg}
             alt="Team"
             loading="lazy"
             className=" rounded-md aspect-video w-[95%] mx-auto"

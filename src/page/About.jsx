@@ -2,16 +2,14 @@ import SectionLayout from "../components/common/SectionLayout";
 import companyOverview from "../assets/companyOverview.png";
 import companyOverview2 from "../assets/companyOverview2.png";
 import InfinityScroll from "../components/common/InfinityScroll";
-import ourMission from "../assets/ourMission1.png";
-import ourVision from "../assets/Vision.png";
-import ourGoal from "../assets/ourGoal.png";
+import ourMission from "../assets/ourMission1.jpg";
+import ourVision from "../assets/Vision.jpg";
 import SectionCard from "../components/common/SectionCard";
 import Therapeutic from "../components/about/Therapeutic";
 import MainSection from "../components/about/MainSection";
-import smart from "../assets/smart3.png";
-import smartBg from "../assets/smartBg2.png";
 import { motion as m } from "framer-motion";
 import Certificates from "../components/about/Certificates";
+import goal from "../assets/goal.webp";
 
 const smarts = [
   {
@@ -48,7 +46,7 @@ const smarts = [
 
 const About = () => {
   return (
-    <main className="min-h-screen relative w-full mx-auto bg-inherit">
+    <main className="min-h-screen relative w-full mx-auto bg-inherit ">
       <MainSection />
       <h1 className="p-10  md:pt-20  mt-10 text-4xl text-center text-[#B51915] font-semibold">
         We Work SMART
@@ -61,24 +59,6 @@ const About = () => {
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          {/* <svg id="text" width="200" height="100" className="absolute top-[50%] left-[50%] w-full h-[250px] translate-x-[-50%] translate-y-[-50%]">
-
-            <text x="52%" y="55%" text-anchor="middle" dominant-baseline="middle" fill="url(#gradient1)" className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent text-[7.4rem]">
-              SMART
-            </text>
-          </svg> */}
-
-          {/* <use clink:href="#text"></use> */}
-          {/* <h1 className="gradient-text text-[5rem] md:text-[8rem] font-bold absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20 cursor-pointer shadow-letters ">SMART</h1> */}
-          {/* <m.img
-            initial={{ x: [0], opacity: 0 }}
-            whileInView={{ x: [-150, 0], opacity: 1 }}
-            transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
-            viewport={{ once: true, amount: 0.5 }}
-            src={smartBg}
-            alt="smart"
-            className="mix-blend-multiply"
-          /> */}
           <p className="text-gray-600 text-justify">
             We have a diverse portfolio of over 150 registered products
             worldwide, catering to various therapeutic areas. Our products are
@@ -144,26 +124,28 @@ const About = () => {
       <section className="my-20 mx-auto w-11/12">
         <InfinityScroll />
         <Certificates />
-        <SectionCard
-          title={"Our Mission"}
-          description={
-            "Our mission is to improve global health by delivering high-quality, affordable medications through innovation and rigorous standards. We are dedicated to enhancing patient care and empowering healthcare professionals worldwide."
-          }
-          image={ourMission}
-        />
-        <SectionCard
-          title={"Our Vision"}
-          description={
-            "Our Vision is to be a global leader in innovative and sustainable pharmaceutical manufacturing, driving better health outcomes through cutting-edge technology, exceptional quality, and a commitment to patient safety. We envision accessible medicines produced with the highest environmental standards, setting new industry benchmarks and making a lasting impact on global health."
-          }
-          image={ourVision}
-          className={"lg:flex-row-reverse"}
-        />
-        <SectionCard
-          title="Our Goal"
-          description="To achieve 99.9% compliance with global regulatory standards while reducing production costs by 15% over the next five years through the implementation of advanced manufacturing technologies and sustainable practices. “This goal is specific, measurable, achievable, relevant, and time-bound (SMART), focusing on regulatory compliance, cost efficiency, and sustainability."
-          image={ourGoal}
-        />
+        <div className="md:rounded-2xl overflow-hidden ">
+          <SectionCard
+            title={"Our Mission"}
+            description={
+              "Our mission is to improve global health by delivering high-quality, affordable medications through innovation and rigorous standards. We are dedicated to enhancing patient care and empowering healthcare professionals worldwide."
+            }
+            image={ourMission}
+          />
+          <SectionCard
+            title={"Our Vision"}
+            description={
+              "Our Vision is to be a global leader in innovative and sustainable pharmaceutical manufacturing, driving better health outcomes through cutting-edge technology, exceptional quality, and a commitment to patient safety. We envision accessible medicines produced with the highest environmental standards, setting new industry benchmarks and making a lasting impact on global health."
+            }
+            image={ourVision}
+            className={"lg:flex-row-reverse"}
+          />
+          <SectionCard
+            title="Our Goal"
+            description="To achieve 99.9% compliance with global regulatory standards while reducing production costs by 15% over the next five years through the implementation of advanced manufacturing technologies and sustainable practices. “This goal is specific, measurable, achievable, relevant, and time-bound (SMART), focusing on regulatory compliance, cost efficiency, and sustainability."
+            image={goal}
+          />
+        </div>
       </section>
     </main>
   );

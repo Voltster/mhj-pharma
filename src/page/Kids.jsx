@@ -7,7 +7,7 @@ import { motion as m } from "framer-motion";
 
 const Kids = () => {
   return (
-    <div className="min-h-screen relative w-full mx-auto pt-1">
+    <div className="min-h-screen relative w-full mx-auto pt-1  md:mb-24">
       <div className=" mt-20 md:mt-8 w-full md:h-[90vh] relative text-gray-900  flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-t from-[#D0AE85] via-[#CFAD89] to-[#C9AA83] brightness-[1.1]">
         <m.div
           className=" md:w-1/2"
@@ -36,14 +36,11 @@ const Kids = () => {
         </m.div>
       </div>
 
-      <section
-        // style={{ backgroundImage: `url(${bg})` }}
-        className=" py-20 bg-local bg-white relative"
-      >
+      <section className="py-20 bg-local bg-white relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
           xmlns:svgjs="http://svgjs.dev/svgjs"
           viewBox="0 0 2400 550"
           opacity="1"
@@ -58,11 +55,11 @@ const Kids = () => {
               id="sssurf-grad"
             >
               <stop
-                stop-color="hsl(208, 77%, 50%)"
-                stop-opacity="1"
+                stopColor="hsl(208, 77%, 50%)"
+                stopOpacity="1"
                 offset="0%"
               ></stop>
-              <stop stop-color="#E5BF92)" stop-opacity="1" offset="100%"></stop>
+              <stop stopColor="#E5BF92)" stopOpacity="1" offset="100%"></stop>
             </linearGradient>
           </defs>
           <g
@@ -86,7 +83,7 @@ const Kids = () => {
             ></path>
           </g>
         </svg>
-        <div className="flex flex-col mt-4  justify-center md:flex-row items-center gap-14 w-11/12 mx-auto">
+        <div className="flex flex-col md:mt-20  justify-center md:flex-row items-center gap-14 w-11/12 mx-auto ">
           <m.div
             className="md:w-1/2 "
             initial={{ y: [0], opacity: 0 }}
@@ -138,8 +135,8 @@ const Kids = () => {
         <div className=" w-full md:w-10/12 mx-auto gap-4 p-12 contactBg flex flex-col md:flex-row justify-center bg-[#ebd1b1] rounded-lg border border-[#fce5cc] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
           <m.h2
             className="text-4xl md:text-5xl md:font-medium antialiased text-[#BE2013] md:w-1/2"
-            initial={{ y: [0], opacity: 0 }}
-            whileInView={{ y: [150, 0], opacity: 1 }}
+            initial={{ x: [0], opacity: 0 }}
+            whileInView={{ x: [-50, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
             viewport={{ once: true, amount: 0.5 }}
           >
@@ -148,8 +145,8 @@ const Kids = () => {
           <div className="md:w-1/2 relative">
             <m.p
               className="mb-4 text-gray-900 text-justify"
-              initial={{ y: [0], opacity: 0 }}
-              whileInView={{ y: [150, 0], opacity: 1 }}
+              initial={{ x: [0], opacity: 0 }}
+              whileInView={{ x: [50, 0], opacity: 1 }}
               transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
               viewport={{ once: true, amount: 0.5 }}
             >

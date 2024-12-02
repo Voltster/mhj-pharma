@@ -18,15 +18,6 @@ const Research = lazy(() => import("./page/Research"));
 const Manufacture = lazy(() => import("./page/Manufacture"));
 const QualityControls = lazy(() => import("./page/QualityControls"));
 const GlobalPresence = lazy(() => import("./page/GlobalPresence"));
-const Injections = lazy(() => import("./components/products/Injections"));
-const Tablets = lazy(() => import("./components/products/Tablets"));
-const Capsules = lazy(() => import("./components/products/Capsules"));
-const OralLiquids = lazy(() => import("./components/products/OralLiquids"));
-const Infusions = lazy(() => import("./components/products/Infusions"));
-const OTC = lazy(() => import("./components/products/OTC"));
-const Injection = lazy(() => import("./components/oncology/Injection"));
-const OralCapsules = lazy(() => import("./components/oncology/Capsules"));
-const OralTables = lazy(() => import("./components/oncology/OncoTables"));
 const Regulatory = lazy(() => import("./page/Regulatory"));
 const ClinicalServices = lazy(() => import("./page/ClinicalServices"));
 const ArtworkServices = lazy(() => import("./page/ArtworkServices"));
@@ -43,7 +34,17 @@ import OncologyModal from "./components/oncology/OncologyModal";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
-
+import {
+  injections,
+  tablets,
+  capsules,
+  oralLiquids,
+  infusions,
+  otc,
+} from "./utils/ProductData";
+import { tabletData, capsuleData, oncoInjections } from "./utils/OncologyData";
+import ProductLists from "./components/products/ProductLists";
+import OncoProductList from "./components/oncology/OncoProductList";
 function App() {
   return (
     <>
@@ -84,41 +85,72 @@ function App() {
               <Route path="/oncology" element={<Oncology />} />
               <Route
                 path="/products/oncology/injectables"
-                element={<Injection />}
+                element={
+                  <OncoProductList
+                    data={oncoInjections}
+                    heading="OncoLogy Injectables"
+                  />
+                }
               />
               <Route
                 path="/oncology/oral-solid/capsules"
-                element={<OralCapsules />}
+                element={
+                  <OncoProductList
+                    data={capsuleData}
+                    heading="Oral solid / capsules"
+                  />
+                }
               />
               <Route
                 path="/oncology/oral-solid/tablets"
-                element={<OralTables />}
+                element={
+                  <OncoProductList
+                    data={tabletData}
+                    heading="Oral solid / Tablets"
+                  />
+                }
               />
               <Route
                 path="/products/exports/injectables"
-                element={<Injections />}
+                element={
+                  <ProductLists data={injections} heading={"Injectables"} />
+                }
               />
               <Route
                 path="/products/exports/oral-solids/tablets"
-                element={<Tablets />}
+                element={
+                  <ProductLists
+                    data={tablets}
+                    heading={"Oral Solids / Tablets"}
+                  />
+                }
               />
               <Route
                 path="/products/exports/oral-solids/capsules"
-                element={<Capsules />}
+                element={
+                  <ProductLists
+                    data={capsules}
+                    heading={"Oral Solids / Capsules"}
+                  />
+                }
               />
               <Route
                 path="/products/exports/oral-liquids"
-                element={<OralLiquids />}
+                element={
+                  <ProductLists data={oralLiquids} heading={"Oral Liquids"} />
+                }
               />
               <Route
                 path="/products/exports/infusions"
-                element={<Infusions />}
+                element={
+                  <ProductLists data={infusions} heading={"infusions"} />
+                }
               />
-              <Route path="/products/exports/nutraceutical" element={<OTC />} />
-              {/* <Route
-                path="/products/domestic/pediatrics"
-                element={<Pediatrics />}
-              /> */}
+              <Route
+                path="/products/exports/nutraceutical"
+                element={<ProductLists data={otc} heading={"nutraceutical"} />}
+              />
+
               <Route
                 path="/technology/research-development"
                 element={<Research />}

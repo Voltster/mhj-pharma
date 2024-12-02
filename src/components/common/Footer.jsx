@@ -38,12 +38,12 @@ const Footer = () => {
   ];
 
   const location = useLocation();
-  const isOncology = location.pathname === "/oncology";
+  const isOncology = location.pathname.includes("/oncology");
 
   return (
     <>
       <m.footer
-        className={`relative z-10 bg-white  w-full 2xl:w-11/12 mx-auto bg-no-repeat bg-bottom md:border-2 border-[#941616] md:rounded-full overflow-hidden ${
+        className={`relative z-10 bg-white  w-full  mx-auto bg-no-repeat bg-bottom md:border-2 border-[#941616] md:rounded-full overflow-hidden md:shadow-[0_3px_10px_rgb(0,0,0,0.2)] ${
           isOncology ? "border-[#F38DA9]" : "border-[#941616]"
         }`}
         initial={{ y: 0, opacity: 0 }}
@@ -64,7 +64,7 @@ const Footer = () => {
                       className=" max-w-full"
                     />
                   </Link>
-                  <p className="mb-7 text-base text-body-color ">
+                  <p className="mb-7 text-sm text-body-color ">
                     MHJ Pharmaconcepts, today symbolizes a name Maintaining
                     Health Judiciously.
                   </p>
@@ -80,10 +80,10 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="mx-4">
+              <div className="mx-4 flex mb-4 md:mb-0">
                 <div className="w-full ">
                   <h4
-                    className={`text-lg font-semibold ${
+                    className={`text-base font-semibold ${
                       isOncology ? "text-[#F38DA9]" : "text-red-700 "
                     }`}
                   >
@@ -94,7 +94,7 @@ const Footer = () => {
                       <li key={index}>
                         <Link
                           to={item.link}
-                          className={`inline-block text-base leading-loose text-body-color  hover:ml-2 transition-all ${
+                          className={`inline-block text-sm leading-loose text-body-color  hover:ml-2 transition-all ${
                             isOncology
                               ? "hover:text-[#F38DA9]"
                               : "hover:text-red-700"
@@ -106,6 +106,29 @@ const Footer = () => {
                     ))}
                   </ul>
                 </div>
+                <div className="md:w-1/2 px-4 block md:hidden">
+                  <div className="mb-10 w-full">
+                    <h4
+                      className={`text-base font-semibold ${
+                        isOncology ? "text-[#F38DA9]" : "text-red-700 "
+                      }`}
+                    >
+                      Products
+                    </h4>
+                    <ul>
+                      {quickLinks.map((item, index) => (
+                        <li key={index}>
+                          <Link
+                            to={item.link}
+                            className="inline-block text-gray-800 text-sm leading-loose text-body-color  hover:ml-2 hover:text-white transition-all"
+                          >
+                            {item.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -114,17 +137,17 @@ const Footer = () => {
                 isOncology ? "bg-[#F38DA9]" : "bg-[#941616]"
               }`}
             >
-              <div className="md:w-1/2 px-4">
+              <div className="md:w-1/2 px-4 hidden md:block">
                 <div className="mb-10 w-full">
-                  <h4 className=" text-lg font-medium text-gray-50">
+                  <h4 className=" text-base font-medium text-gray-50">
                     Products
                   </h4>
-                  <ul className="">
+                  <ul>
                     {quickLinks.map((item, index) => (
                       <li key={index}>
                         <Link
                           to={item.link}
-                          className="inline-block text-gray-100  text-base leading-loose text-body-color  hover:ml-2 hover:text-white transition-all"
+                          className="inline-block text-gray-100 text-sm leading-loose text-body-color  hover:ml-2 hover:text-white transition-all"
                         >
                           {item.title}
                         </Link>
@@ -136,11 +159,13 @@ const Footer = () => {
 
               <div className="w-1/2 md:mr-4">
                 <div className="mb-10 w-full">
-                  <h4 className=" text-lg font-medium text-gray-50">
+                  <h4 className=" text-base font-medium text-gray-50">
                     Opening Hours
                   </h4>
-                  <p className="mb-6 text-gray-100">10:00 AM to 07:00 PM</p>
-                  <h4 className=" text-lg font-medium text-gray-50">
+                  <p className="mb-6 text-sm text-gray-100">
+                    10:00 AM to 07:00 PM
+                  </p>
+                  <h4 className=" text-base font-medium text-gray-50">
                     Follow Us On
                   </h4>
                   <div className="mb-6 flex items-center">

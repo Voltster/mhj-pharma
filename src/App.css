@@ -242,6 +242,10 @@ footer a:hover:after {
   width: 50%;
 }
 
+.productBg {
+  position: relative;
+}
+
 .productBg::after {
   content: "";
   position: fixed;
@@ -250,12 +254,13 @@ footer a:hover:after {
   left: 50%;
   top: 60%;
   transform: translate(-50%, -50%) rotate(-45deg);
-  /* background: url("./assets/mhjlogo.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 10%;
   z-index: 1;
+  pointer-events: none;
+  background-image: url("D:\Website\Website\MHJ Website\src\assets\mhjlogo.png");
 }
 
 svg text {
@@ -275,10 +280,8 @@ svg text {
 }
 
 .gradient-text {
-  /* Fallback: Set a background color. */
   background-color: #ca4246;
 
-  /* Create the gradient. */
   background-image: linear-gradient(
     45deg,
     #ca4246 16.666%,
@@ -293,18 +296,13 @@ svg text {
     #a74848 83.333%
   );
 
-  /* Set the background size and repeat properties. */
   background-size: 100%;
   background-repeat: repeat;
 
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  /* Animate the text when loading the element. */
-  /* This animates it on page load and when hovering out. */
   animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
 }
 
@@ -313,8 +311,6 @@ svg text {
     alternate;
 }
 
-/* Move the background and make it smaller. */
-/* Animation shown when entering the page and after the hover animation. */
 @keyframes rainbow-text-simple-animation-rev {
   0% {
     background-size: 650%;
@@ -327,8 +323,6 @@ svg text {
   }
 }
 
-/* Move the background and make it larger. */
-/* Animation shown when hovering over the text. */
 @keyframes rainbow-text-simple-animation {
   0% {
     background-size: 100%;

@@ -48,7 +48,7 @@ const Products = ({ imageData, customClass }) => {
               transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
               src={e.img}
               alt={e}
-              className="aspect-square object-contain block h-[80%] w-[80%] mx-auto mix-blend-multiply"
+              className="aspect-square object-contain block h-[80%] w-[80%] px-4 mx-auto mix-blend-multiply"
               loading="lazy"
             />
           </SwiperSlide>

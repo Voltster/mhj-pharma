@@ -1,6 +1,8 @@
 import React from "react";
-import SectionLayout from "./../components/regulatory/SectionLayout";
 import { motion as m } from "framer-motion";
+import Clinical1 from "../assets/Clinical1.webp";
+import Clinical2 from "../assets/Clinical2.webp";
+import ClinicalBg from "../assets/ClinicalBg.webp";
 
 const ClinicalServices = () => {
   return (
@@ -8,7 +10,7 @@ const ClinicalServices = () => {
       <div
         className=" w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
         style={{
-          backgroundImage: `url('https://img.freepik.com/free-photo/portrait-scientist-nurse-looking-tired-camera-sitting-modern-equipped-laboratory-late-night-team-specialists-examining-virus-evolution-using-high-tech-research-vaccine-development_482257-13616.jpg?t=st=1726491655~exp=1726495255~hmac=9f6df225761ac45e03bd7331de45e8904dde76bb63752fd7c54c922f641693cb&w=826')`,
+          backgroundImage: `url('${ClinicalBg}')`,
         }}
       >
         <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
@@ -25,9 +27,9 @@ const ClinicalServices = () => {
         MHJ Pharmaconcepts Expertise in Clinical Regulatory Affairs Services
         Includes
       </m.h2>
-      <div className="w-11/12 mx-auto pb-10 md:pb-20 flex flex-col-reverse xl:flex-row justify-center items-center gap-y-4 gap-x-12 xl:gap-x-16">
+      <div className="w-11/12 mx-auto pb-10 md:pb-20 flex flex-col-reverse xl:flex-row justify-center items-center gap-y-4 gap-x-12 xl:gap-x-16 ">
         <m.div
-          className="md:w-1/2"
+          className="md:w-1/2 "
           initial={{ x: [0], opacity: 0 }}
           whileInView={{ x: [-150, 0], opacity: 1 }}
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
@@ -52,33 +54,24 @@ const ClinicalServices = () => {
             with relevant regulations and guidelines.
           </p>
         </m.div>
-        <div className="xl:w-1/2 rounded-lg mb-4 xl:mb-0">
+        <div className="xl:w-1/2   rounded-lg mb-4 xl:mb-0 ">
           <m.img
-            src="https://img.freepik.com/free-photo/medical-banner-with-doctor-wearing-stethoscope_23-2149611228.jpg?t=st=1725520547~exp=1725524147~hmac=69e9322c173439f10469c08c9b716b695c4a874f381754fe189ba06e8f9651fc&w=740"
-            alt=""
-            className="rounded-md"
+            src={Clinical1}
+            alt="Regulatory Compliance Services"
+            className="rounded-md "
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [150, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
             viewport={{ once: true, amount: 0.5 }}
           />
         </div>
-        <div></div>
       </div>
-      {/* <h4 className="text-4xl font-semibold w-11/12 md:w-10/12 mx-auto text-center text-[#B51915] ">
-        Regulatory Due Diligence and Protocol Support
-      </h4>
-      <p className="w-11/12 md:w-8/12 mt-2 mx-auto text-center">
-        We conduct meticulous regulatory due diligence for clinical trial
-        applications and early phase clinical protocols, ensuring compliance
-        with relevant regulations and guidelines.
-      </p> */}
-      <div className="w-11/12 mx-auto  flex justify-center items-center md:flex-row flex-col gap-y-4 gap-x-12 xl:gap-x-16 md:py-8 px-4">
+      <div className="w-11/12 mx-auto  flex justify-center items-center md:flex-row flex-col gap-y-4 gap-x-12 xl:gap-x-16 md:py-8  md:mb-24">
         <div className="md:w-1/2">
           <m.img
-            src="https://img.freepik.com/premium-photo/documents-concept-doctor-use-computer-connection-server-data-base-patient-technology-treatment-hospitalin-documents-concept-management_10541-13611.jpg?w=740"
-            alt=""
-            className="rounded-md"
+            src={Clinical2}
+            alt="Clinical Documentation Development And Review"
+            className="rounded-md md:float-left"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [150, 0], opacity: 1 }}
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
@@ -95,7 +88,7 @@ const ClinicalServices = () => {
           <h3 className="text-xl font-semibold mb-4 mx-auto text-[#B51915]">
             Clinical Documentation Development And Review
           </h3>
-          <ul className="list-disc">
+          <ul className="list-disc w-11/12 mx-auto">
             <li className="font-semibold list-none">
               Our team develops and reviews clinical documentation, including:
             </li>

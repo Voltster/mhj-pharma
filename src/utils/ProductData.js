@@ -1018,88 +1018,88 @@ export const oralLiquids = [
 
 export const infusions = [
   {
-    name: "Ciprofloxacin Intravenous Infusion BP",
-    strength: "0.2 mg / 100 ml",
+    productName: "Ciprofloxacin Intravenous Infusion BP",
+    strengths: "0.2 mg / 100 ml",
   },
   {
-    name: "Dextrose",
-    strength: "25% W/v 100 ml",
+    productName: "Dextrose",
+    strengths: "25% W/v 100 ml",
   },
   {
-    name: "Dextrose and Sodium Chloride Injection",
-    strength: "5%& 0.9% USP 500ml",
+    productName: "Dextrose and Sodium Chloride Injection",
+    strengths: "5%& 0.9% USP 500ml",
   },
   {
-    name: "Fluconazole Injection",
-    strength: "2 mg/ml 100 ml",
+    productName: "Fluconazole Injection",
+    strengths: "2 mg/ml 100 ml",
   },
   {
-    name: "Glucose Infusion BP",
-    strength: "10% w/v 500ml",
+    productName: "Glucose Infusion BP",
+    strengths: "10% w/v 500ml",
   },
   {
-    name: "Glucose Infusion BP",
-    strength: "5% w/v 500ml",
+    productName: "Glucose Infusion BP",
+    strengths: "5% w/v 500ml",
   },
   {
-    name: "Glucose Intravenous Injection",
-    strength: "10%w/v 500ml",
+    productName: "Glucose Intravenous Injection",
+    strengths: "10%w/v 500ml",
   },
   {
-    name: "Ibuprofen Infusion",
-    strength: "600mg/100ml",
+    productName: "Ibuprofen Infusion",
+    strengths: "600mg/100ml",
   },
   {
-    name: "Levofloxacin Infusion",
-    strength: "5mg/ml 100 ml",
+    productName: "Levofloxacin Infusion",
+    strengths: "5mg/ml 100 ml",
   },
   {
-    name: "Linezolid Injection",
-    strength: "(2mg/ml) 300 ml",
+    productName: "Linezolid Injection",
+    strengths: "(2mg/ml) 300 ml",
   },
   {
-    name: "Mannitol & glycerin infusion",
-    strength: "10% w/v 100ml",
+    productName: "Mannitol & glycerin infusion",
+    strengths: "10% w/v 100ml",
   },
   {
-    name: "Metronidazole Injection",
-    strength: "(5mg/ml) 100ml",
+    productName: "Metronidazole Injection",
+    strengths: "(5mg/ml) 100ml",
   },
   {
-    name: "Moxifloxacin infusion",
-    strength: "4mg/ml 100 ml",
+    productName: "Moxifloxacin infusion",
+    strengths: "4mg/ml 100 ml",
   },
   {
-    name: "Nimodipin Infusion",
-    strength: "10 mg/50 ml",
+    productName: "Nimodipin Infusion",
+    strengths: "10 mg/50 ml",
   },
   {
-    name: "Ofloxacin Intravenous Infusion",
-    strength: "200 mg/ 100ml",
+    productName: "Ofloxacin Intravenous Infusion",
+    strengths: "200 mg/ 100ml",
   },
   {
-    name: "Ornidazole",
-    strength: "5mg/ml 100ml",
+    productName: "Ornidazole",
+    strengths: "5mg/ml 100ml",
   },
   {
-    name: "Paracetamol Infusion",
-    strength: "1.0% w/v 100 ml",
+    productName: "Paracetamol Infusion",
+    strengths: "1.0% w/v 100 ml",
   },
   {
-    name: "Ringer Lactate Solution USP",
-    strength: "500ml",
+    productName: "Ringer Lactate Solution USP",
+    strengths: "500ml",
   },
   {
-    name: "Sodium Chloride Injection",
-    strength: "0.9%W/v 100 ml",
+    productName: "Sodium Chloride Injection",
+    strengths: "0.9%W/v 100 ml",
   },
   {
-    name: "Sodium Chloride Injection",
-    strength: "0.9%W/v 500ml",
+    productName: "Sodium Chloride Injection",
+    strengths: "0.9%W/v 500ml",
   },
   {
-    name: "Tinidazole Infusion",
-    strength: "400ml",
+    productName: "Tinidazole Infusion",
+    strengths: "400ml",
   },
 ];
 

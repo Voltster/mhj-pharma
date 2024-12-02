@@ -1,11 +1,14 @@
 import React from "react";
 import regulatoryBg from "../assets/RegulatoryBg.jpg";
+import Regulatory1 from "../assets/Regulatory1.jpg";
+import Regulatory2 from "../assets/Regulatory2.jpg";
+import Regulatory3 from "../assets/Regulatory3.jpeg";
 import { FaCheck } from "react-icons/fa6";
 import { motion as m } from "framer-motion";
 
 const Regulatory = () => {
   return (
-    <div className="min-h-screen relative w-full mx-auto pt-1">
+    <div className="min-h-screen relative w-full mx-auto pt-1  md:mb-24">
       <div
         className=" w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${regulatoryBg})` }}
@@ -41,9 +44,7 @@ const Regulatory = () => {
         </m.div>
         <div className="w-full  md:w-1/2">
           <m.img
-            src={
-              "https://img.freepik.com/premium-photo/skilled-multicultural-businesspeople-discuss-about-business-idea-tracery_31965-477024.jpg?w=740"
-            }
+            src={Regulatory2}
             className="md:w-[100%]  mx-auto rounded-md "
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
@@ -84,9 +85,7 @@ const Regulatory = () => {
         </m.div>
         <div className="md:w-1/2">
           <m.img
-            src={
-              "https://img.freepik.com/free-photo/man-making-his-move_53876-40353.jpg?t=st=1725534550~exp=1725538150~hmac=dab3a480971716e459059f1a188021252ddf884f2a46735d9e09054d0648feab&w=740"
-            }
+            src={Regulatory3}
             className="w-[100%] mx-auto rounded-md "
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
@@ -137,9 +136,7 @@ const Regulatory = () => {
         </m.div>
         <div className="md:w-1/2">
           <m.img
-            src={
-              "https://img.freepik.com/free-photo/person-office-analyzing-checking-finance-graphs_23-2150377128.jpg?t=st=1726659514~exp=1726663114~hmac=61b1d8f5767de2d747d69f365eb88f2faaeca2e28567d2eb154c96c4cb00fdbc&w=740"
-            }
+            src={Regulatory1}
             className="w-[100%] mx-auto rounded-md"
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}

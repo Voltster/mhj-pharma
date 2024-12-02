@@ -9,14 +9,14 @@ const Contact = ({ title }) => {
   return (
     <>
       <m.section
-        className="relative z-10 overflow-hidden bg-white py-10 lg:py-[60px]"
+        className="relative z-10 overflow-hidden bg-white py-10 lg:py-[60px] "
         initial={{ scale: 0.8, opacity: 0.4 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
         viewport={{ once: true, amount: 0.5 }}
         id="contact"
       >
-        <div className="container">
+        <div className="container mx-auto">
           <div className="flex flex-wrap lg:justify-around ">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
@@ -30,7 +30,7 @@ const Contact = ({ title }) => {
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875.202179102035!2d77.15817927804135!3d28.665445602364084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d038897063403%3A0xb2521ab27b90e4cc!2sMHJ%20PHARMACONCEPTS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1722246084453!5m2!1sen!2sin"
                     width="450"
-                    height="205"
+                    height="145"
                     className="rounded-md w-full  mb-6 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] border "
                     allowFullScreen=""
                     loading="lazy"

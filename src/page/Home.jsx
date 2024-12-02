@@ -8,7 +8,7 @@ import Products from "../components/common/Products";
 import indiaFlag from "../assets/IndianFlag.png";
 import usaFlag from "../assets/UsaFlag.png";
 import UkFlag from "../assets/UkFlag.png";
-import sample2 from "../assets/Packshot/gapine.webp";
+import sample2 from "../assets/Packshot/gapine.jpg";
 import sample3 from "../assets/Packshot/icane.webp";
 import sample4 from "../assets/Packshot/merrin.webp";
 import sample5 from "../assets/Packshot/timoc.webp";

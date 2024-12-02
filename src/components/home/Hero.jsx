@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion as m } from "framer-motion";
-import HeroVideo from "../../assets/Hero2.mp4";
+import HeroVideo from "../../assets/Hero.mp4";
 import OncologyTable from "../oncology/OnclologyTable";
 
 const tableData = [
@@ -45,7 +45,7 @@ const Hero = () => {
             autoPlay
             loop
             muted
-            className="cursor-pointer w-full -full relative z-0 backdrop-blur-sm"
+            className="cursor-pointer w-full -full relative z-0 backdrop-blur-sm scale-105"
           />
           <div className="absolute w-full  sm:h-full  -top-10 left-0 bg-gradient-to-b from-gray-800/10 via-gray-950/40 to-slate-50/0 z-10"></div>
         </m.div>
