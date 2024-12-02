@@ -49,12 +49,12 @@ const Contact = ({ title }) => {
                         +91 9999 436 570
                       </Link>
                     </li>
-                    <li>
+                    <li className="lowercase">
                       <Link
                         to={"mailto:info@mhjpharma.com"}
-                        className="flex  items-center gap-2 text-sm lowwercase"
+                        className="flex  items-center gap-2 text-sm  "
                       >
-                        <IoIosMail className="text-3xl md:text-xl cursor-pointer text-[#941616] " />
+                        <IoIosMail className="text-3xl md:text-xl cursor-pointer text-[#941616]" />
                         info@mhjpharma.com
                       </Link>
                     </li>
