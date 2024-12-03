@@ -9,7 +9,7 @@ import Therapeutic from "../components/about/Therapeutic";
 import MainSection from "../components/about/MainSection";
 import { motion as m } from "framer-motion";
 import Certificates from "../components/about/Certificates";
-import goal from "../assets/goal.webp";
+import goal from "../assets/goal.jpeg";
 
 const smarts = [
   {

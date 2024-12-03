@@ -108,31 +108,24 @@ const Hero = () => {
           whileInView={{ x: [-50, 0], opacity: 1 }}
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
         >
-          We are a dedicated team focused on advancing oncology research and
-          treatment. Our goal is to develop innovative immunotherapies and
-          targeted therapies that improve patient outcomes and reduce side
-          effects. By leveraging cutting-edge technology and collaborating with
-          leading researchers, we aim to enhance survival rates and the quality
-          of life for cancer patients.
-          {/* We are a team of dedicated professionals committed to pushing the
+          We are a team of dedicated professionals committed to pushing the
           boundaries of oncology research and treatment. Our team is focused on
           developing innovative immunotherapies and targeted therapies to
-          improve patient outcomes and reduce treatment side effects. */}
-          {/* We're
+          improve patient outcomes and reduce treatment side effects. We're
           working towards the goal of increasing patient survival rates and
           improving quality of life with our oncological support. By leveraging
           cutting-edge technology and collaborating with top researchers in the
           field, we're driven to make a meaningful difference in the fight
-          against evil. */}
+          against evil.
         </m.p>
-        <PrimaryButton
+        {/* <PrimaryButton
           to={"/products/oncology/injectables"}
           className={
             "mt-10 bg-gradient-to-r from-[#e91e63] via-pink-400 to-pink-600 animate-custom-bounce hover:animate-none transition-all"
           }
         >
           Products
-        </PrimaryButton>
+        </PrimaryButton> */}
       </div>
       <OncologyTable tableData={tableData} />
     </div>

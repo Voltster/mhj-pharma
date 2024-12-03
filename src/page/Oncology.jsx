@@ -41,7 +41,7 @@ const Oncology = () => {
           }
           image={onco2}
           className={"lg:flex-row-reverse"}
-          customClass={"bg-[#f8bbd0]"}
+          customClass={"bg-[#FCE1E8]"}
           titleColor={"text-[#E91E63]"}
           paraColor={"invert"}
         />
@@ -51,7 +51,7 @@ const Oncology = () => {
             "We are committed to the highest standards of quality and safety in our manufacturing processes. Our state-of-the-art facilities and rigorous quality control measures ensure that every product we produce meets the strictest safety and efficacy standards, giving healthcare professionals and patient’s confidence in our medications."
           }
           image={onco3}
-          customClass={"bg-[#f8bbd0]"}
+          customClass={"bg-[#FCE1E8]"}
           titleColor={"text-[#E91E63]"}
           paraColor={"invert"}
         />
@@ -62,7 +62,7 @@ const Oncology = () => {
           }
           image={onco4}
           className={"lg:flex-row-reverse"}
-          customClass={"bg-[#f8bbd0]"}
+          customClass={"bg-[#FCE1E8]"}
           titleColor={"text-[#E91E63]"}
           paraColor={"invert"}
         />

@@ -5,6 +5,7 @@ import logo from "../../assets/mhjlogo.png";
 import PrimaryButton from "./PrimaryButton";
 import { AnimatePresence, motion as m } from "framer-motion";
 import GoogleTranslate from "./GoogleTranslate ";
+import { Squash as Hamburger } from "hamburger-react";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -91,8 +92,8 @@ function Navbar() {
               onClick={toggleMenu}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
             >
-              <span className="sr-only">Open main menu</span>
-              {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+              {/* <span className="sr-only">Open main menu</span> */}
+              <Hamburger toggled={isOpen} toggle={setIsOpen} />
             </button>
           </div>
         </div>
@@ -110,21 +111,21 @@ function Navbar() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <NavLinks
                 mobile
-                closeMenu={closeMenu}
+                onClick={closeMenu}
+                // closeMenu={closeMenu}
                 openDropdown={openDropdown}
                 onDropdownToggle={handleDropdownToggle}
               />
-            </div>
-            {/* <div className="pt-4 pb-3 border-t border-gray-200">
-              <div className="px-2 flex">
-                <button
+              <div className="px-2 pt-4 pb-3 border-t border-gray-200">
+                <PrimaryButton
+                  to="/contact"
                   onClick={handleClick}
-                  className={`inline-block text-white uppercase px-4 py-2 xl:py-3 xl:px-6 transition-all duration-500 rounded-[30px] focus:outline-none primaryButton bg-transparent hover:shadow-lg text-nowrap text-sm hover:scale-[1.02] active:scale-[0.9]`}
+                  className="block w-full text-center"
                 >
-                  {children}
-                </button>
+                  Contact Us
+                </PrimaryButton>
               </div>
-            </div> */}
+            </div>
           </m.div>
         )}
       </AnimatePresence>
