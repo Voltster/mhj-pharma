@@ -45,6 +45,7 @@ import {
 import { tabletData, capsuleData, oncoInjections } from "./utils/OncologyData";
 import ProductLists from "./components/products/ProductLists";
 import OncoProductList from "./components/oncology/OncoProductList";
+import Products from "./page/Products";
 function App() {
   return (
     <>
@@ -70,6 +71,7 @@ function App() {
                 element={<ProductsDetails />}
               /> */}
               <Route path="/regulatory-services" element={<Regulatory />} />
+              <Route path="/products" element={<Products />} />
               <Route
                 path="regulatory/clinical-services"
                 element={<ClinicalServices />}
@@ -111,13 +113,13 @@ function App() {
                 }
               />
               <Route
-                path="/products/exports/injectables"
+                path="/products/general/injectables"
                 element={
                   <ProductLists data={injections} heading={"Injectables"} />
                 }
               />
               <Route
-                path="/products/exports/oral-solids/tablets"
+                path="/products/general/oral-solids/tablets"
                 element={
                   <ProductLists
                     data={tablets}
@@ -126,7 +128,7 @@ function App() {
                 }
               />
               <Route
-                path="/products/exports/oral-solids/capsules"
+                path="/products/general/oral-solids/capsules"
                 element={
                   <ProductLists
                     data={capsules}
@@ -135,19 +137,19 @@ function App() {
                 }
               />
               <Route
-                path="/products/exports/oral-liquids"
+                path="/products/general/oral-liquids"
                 element={
                   <ProductLists data={oralLiquids} heading={"Oral Liquids"} />
                 }
               />
               <Route
-                path="/products/exports/infusions"
+                path="/products/general/infusions"
                 element={
                   <ProductLists data={infusions} heading={"infusions"} />
                 }
               />
               <Route
-                path="/products/exports/nutraceutical"
+                path="/products/general/nutraceutical"
                 element={<ProductLists data={otc} heading={"nutraceutical"} />}
               />
 

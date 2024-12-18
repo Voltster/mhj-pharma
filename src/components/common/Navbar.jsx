@@ -160,39 +160,39 @@ function NavLinks({ mobile, closeMenu, openDropdown, onDropdownToggle }) {
       >
         <NestedDropdown label="General" mobile={mobile}>
           <NavItem
-            to="/products/exports/injectables"
+            to="/products/general/injectables"
             label="Injectables"
             mobile={mobile}
             closeMenu={closeMenu}
           />
           <NestedDropdown label="Oral Solids" mobile={mobile}>
             <NavItem
-              to="/products/exports/oral-solids/tablets"
+              to="/products/general/oral-solids/tablets"
               label="Tablets"
               mobile={mobile}
               closeMenu={closeMenu}
             />
             <NavItem
-              to="/products/exports/oral-solids/capsules"
+              to="/products/general/oral-solids/capsules"
               label="Capsules"
               mobile={mobile}
               closeMenu={closeMenu}
             />
           </NestedDropdown>
           <NavItem
-            to="/products/exports/oral-liquids"
+            to="/products/general/oral-liquids"
             label="Oral Liquids"
             mobile={mobile}
             closeMenu={closeMenu}
           />
           <NavItem
-            to="/products/exports/infusions"
+            to="/products/general/infusions"
             label="Infusions"
             mobile={mobile}
             closeMenu={closeMenu}
           />
           <NavItem
-            to="/products/exports/nutraceutical"
+            to="/products/general/nutraceutical"
             label="Nutraceutical"
             mobile={mobile}
             closeMenu={closeMenu}
@@ -330,9 +330,8 @@ function DropdownNavItem({
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className={`${
-              mobile ? "mt-2" : "absolute left-0 mt-2 w-48"
-            } bg-white rounded-md shadow-lg py-1`}
+            className={`${mobile ? "mt-2" : "absolute left-0 mt-2 w-48"
+              } bg-white rounded-md shadow-lg py-1`}
           >
             {children}
           </m.div>
@@ -365,9 +364,8 @@ function NestedDropdown({ label, children, mobile }) {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className={`${
-              mobile ? "ml-4" : "absolute left-full top-0 w-48"
-            } bg-white rounded-md shadow-lg py-1`}
+            className={`${mobile ? "ml-4" : "absolute left-full top-0 w-48"
+              } bg-white rounded-md shadow-lg py-1`}
           >
             {children}
           </m.div>

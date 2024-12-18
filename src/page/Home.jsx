@@ -48,7 +48,7 @@ const Home = () => {
         <Contact title={"Contact Us"} />
         <div className="flex sm:justify-around items-center flex-wrap gap-4">
           <m.div
-            className=" mb-2 "
+            className="mb-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}

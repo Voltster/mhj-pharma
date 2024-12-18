@@ -95,7 +95,7 @@ const Regulatory = () => {
           />
         </div>
       </div>
-      <div className="w-11/12 mx-auto flex flex-col md:flex-row  items-center justify-center gap-4 md:space-x-14 py-10">
+      <div className="w-11/12 mx-auto flex flex-col md:flex-row items-center justify-center gap-4 md:space-x-14 py-10">
         <m.div
           className="md:w-1/2  text-justify"
           initial={{ x: [0], opacity: 0 }}
