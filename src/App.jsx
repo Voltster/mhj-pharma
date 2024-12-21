@@ -143,7 +143,11 @@ function App() {
               <Route
                 path="/products/general/oral-solids/tablets"
                 element={
-                <><SEO title={"Oral Solid Tablets for Healthcare | MHJ Pharmaconcepts"} description={" MHJ Pharmaconcepts specializes in manufacturing oral solid tablets, ensuring high-quality standards and innovative solutions for global healthcare markets"} keywords={"General Oral Solid Tablets, Pharmaceutical Oral Tablets, Oral Tablets for Healthcare Solid Dosage Tablets, High-Quality Oral Tablets"}/></>
+                <><SEO title={"Oral Solid Tablets for Healthcare | MHJ Pharmaconcepts"} description={" MHJ Pharmaconcepts specializes in manufacturing oral solid tablets, ensuring high-quality standards and innovative solutions for global healthcare markets"} keywords={"General Oral Solid Tablets, Pharmaceutical Oral Tablets, Oral Tablets for Healthcare Solid Dosage Tablets, High-Quality Oral Tablets"}/>
+                 <ProductLists
+                data={tablets}
+                heading={"Oral Solids / Tablets"}
+              /></>
                 }
               />
               <Route
