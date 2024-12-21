@@ -20,8 +20,8 @@ const Products = () => {
             <h3 className='text-3xl text-[#B51915] mb-2 font-medium text-center mt-10 w-8/12 mx-auto'>Global Reach, Local Impact</h3>
             <p className='text-x text-center   md:w-8/12 mx-auto'>With a strong presence in India and international markets, our products are trusted by healthcare professionals globally. Through custom pharmaceutical services, we develop tailored solutions to meet the specific needs of patients, healthcare providers, and partners worldwide.
             </p>
-            <div className=' md:w-6/12 mx-auto flex  justify-around my-8 text-xl  text-blue-700 rounded-md border  border-gray-100 p-4 bg-gray-50'>
-                <ul className='list-decimal flex flex-col gap-2' >
+            {/* <div className=' md:w-6/12 mx-auto flex  justify-around my-8 text-xl  text-blue-700 rounded-md border  border-gray-100 p-4 bg-gray-50 '>
+                <ul className='list-decimal flex flex-col gap-2 ' >
                     <li>
                         <Link to={"/products/general/injectables"}>Injectables</Link>
                     </li>
@@ -44,7 +44,71 @@ const Products = () => {
                         </ul>
                     </li>
                 </ul>
+            </div> */}
+            <div className="md:w-6/12 mx-auto my-8 text-xl text-blue-700 rounded-md border border-gray-100 p-4 bg-gray-50">
+            <table className="w-full border border-gray-200 text-left">
+                <thead>
+                <tr>
+                    <th className="border border-gray-200 px-4 py-2 bg-gray-100 text-[#0e0e0e]">Category</th>
+                    <th className="border border-gray-200 px-4 py-2 bg-gray-100 text-[#0e0e0e]">Subcategory</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td className="border border-gray-200 px-4 py-2">General</td>
+                    <td className="border border-gray-200 px-4 py-2">
+                    <ul className="list-disc ml-4">
+                        <li>
+                        <Link to="/products/general/injectables" className='hover:underline'>Injectables</Link>
+                        </li>
+                        <li>
+                        Oral Solids
+                        <ul className="list-disc ml-4">
+                            <li>
+                            <Link to="/products/general/oral-solids/tablets" className='hover:underline'>Tablets</Link>
+                            </li>
+                            <li>
+                            <Link to="/products/general/oral-solids/capsules" className='hover:underline'>Capsules</Link>
+                            </li>
+                        </ul>
+                        </li>
+                        <li>
+                        <Link to="/products/general/oral-liquids" className='hover:underline'>Oral Liquids</Link>
+                        </li>
+                        <li>
+                        <Link to="/products/general/infusions" className='hover:underline'>Infusions</Link>
+                        </li>
+                        <li>
+                        <Link to="/products/general/nutraceutical" className='hover:underline'>Nutraceutical</Link>
+                        </li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="border border-gray-200 px-4 py-2">Oncology</td>
+                    <td className="border border-gray-200 px-4 py-2">
+                    <ul className="list-disc ml-4">
+                        <li>
+                        <Link to="/products/oncology/injectables" className='hover:underline'>Injectables</Link>
+                        </li>
+                        <li>
+                        Oral Solid
+                        <ul className="list-disc ml-4">
+                            <li>
+                            <Link to="/oncology/oral-solid/tablets" className='hover:underline'>Tablets</Link>
+                            </li>
+                            <li>
+                            <Link to="/oncology/oral-solid/capsules" className='hover:underline'>Capsules</Link>
+                            </li>
+                        </ul>
+                        </li>
+                    </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>  
             </div>
+
             <div className="w-11/12 mx-auto flex flex-col md:flex-row items-center justify-center gap-4 md:space-x-14 py-10">
                 <m.div
                     className="md:w-1/2  text-justify"
