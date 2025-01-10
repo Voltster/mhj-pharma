@@ -67,8 +67,7 @@ const Regulatory = () => {
             wide range of activities, such as dossier preparation
             (regional-specific formats), analytical method validation (assay
             validation, RS, cleaning validation, etc.), Drug Master
-            File(DMF),Product Development Report (PDR), Anayltical method
-            validation Reports (AMV) Process Validation protocol And Report
+            File(DMF),Product Development Report (PDR), Process Validation protocol And Report
             (PVPR), stability studies, etc., Artwork designs, bioequivalent
             studies (bio waiver/BE study/PSUR data), Non-clinical and Clinical
             Studies.

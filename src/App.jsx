@@ -47,6 +47,9 @@ import ProductLists from "./components/products/ProductLists";
 import OncoProductList from "./components/oncology/OncoProductList";
 import Products from "./page/Products";
 import { Helmet } from "react-helmet";
+import PackshotInfoPage from "./components/products/PackshotInfoPage"
+import Texel from "./components/products/Texel";
+import VitaminB from "./components/products/VitaminB";
 
 // meta coponent
 const SEO = ({title,description,keywords}) => (
@@ -75,7 +78,7 @@ function App() {
               
               <Route path="/qualified-team" element={<><SEO title={"Expert Team in Pharmaceuticals | MHJ Pharmaconcepts"} description={" Meet the highly qualified professionals at MHJ Pharmaconcepts, committed to delivering world-class pharmaceutical products and services"} keywords={"Highly Qualified Pharmaceutical Team, Expert Team in Pharmaceuticals, Skilled Healthcare Professionals, Pharmaceutical Expertise, Global Healthcare Team"} /><QualifiedTeam /></>} />
 
-              <Route path="/about" element={<><SEO title={"Products - Innovative Differentiated Formulations"} description={"MHJ Pharmaconcepts Pvt Ltd offers differentiated formulations with cutting-edge technology to address unmet medical needs and improve patient care."} keywords={"Generic Branded Formulations, Advanced Drug Delivery Systems, Biosimilars Manufacturer India, Differentiated Pharmaceutical Formulations, Custom Pharmaceutical Solutions"}/> <About /></>} />
+              <Route path="/about" element={<><SEO title={"About us - Innovative Differentiated Formulations"} description={"MHJ Pharmaconcepts Pvt Ltd offers differentiated formulations with cutting-edge technology to address unmet medical needs and improve patient care."} keywords={"Generic Branded Formulations, Advanced Drug Delivery Systems, Biosimilars Manufacturer India, Differentiated Pharmaceutical Formulations, Custom Pharmaceutical Solutions"}/> <About /></>} />
               {/* <Route path="/kids" element={<Kids />} />
               <Route
                 path="/pediatric-products"
@@ -186,6 +189,12 @@ function App() {
               />
               <Route path="/globalfootprint" element={<><SEO title={" Global Footprint - Delivering Healthcare Worldwide"} description={" Explore MHJ Pharmaconcepts' global footprint, providing innovative pharmaceutical solutions across major international markets with a commitment to improving global health"} keywords={"Global Pharmaceutical Reach, MHJ Pharmaconcepts Worldwide International Healthcare Solutions, Pharmaceutical Global Footprint,  Global Pharmaceutical Presence"} /> <GlobalPresence /></>} />
               <Route path="/contact" element={<><SEO title={"Contact US - MHJ Pharmaconcepts"} description={" Connect with MHJ Pharmaconcepts for pharmaceutical inquiries, product support, or to explore potential partnerships. We're ready to help!"} keywords={"Contact Pharmaceutical Company, Pharmaceutical Customer Support, Contact MHJ Pharmaconcepts, Contact for Pharma Inquiries, Pharmaceutical Partnership Inquiries"}/> <Contact /></>} />
+              <Route path="/product-detail/imvast-20" element={ <PackshotInfoPage />} />
+              <Route path="/product-detail/trexel" element={ <Texel />} />
+              <Route path="/product-detail/vitamin-b-complex-injection" element={ <VitaminB />} />
+              {/* <Route path="/products-details/:brand" element={<ProductDetailsPage />} /> */}
+
+              
               <Route path="/loader" element={<Loader />} />
               <Route path="*" element={<Error404 />} />
             </Routes>
