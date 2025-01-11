@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { porductInfo } from "../../utils/ProductInfo";
 
-const ProductDetailsPage = () => {
+const ProductDetailsPage = ({product}) => {
   const { brand } = useParams();
   const product = porductInfo.find((item) => item.brand.toLowerCase() === brand.toLowerCase());
 

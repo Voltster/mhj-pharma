@@ -39,7 +39,7 @@ const ClinicalServices = () => {
             Regulatory Compliance Services
           </h2>
           <p className="text-justify text-gray-800">
-            We provide expert support in clinical study report writing, ensuring
+            We provide expert support in clinical study report (theoretical), ensuring
             compliance with country-specific regulations and guidelines. Our
             team also offers strategic advice on clinical trial applications for
             target markets, helping to minimize agency queries and ensure a
@@ -86,15 +86,13 @@ const ClinicalServices = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <h3 className="text-xl font-semibold mb-4 mx-auto text-[#B51915]">
-            Clinical Documentation Development And Review
+          Clinical Data Management
           </h3>
           <ul className="list-disc w-11/12 mx-auto">
-            <li className="font-semibold list-none">
-              Our team develops and reviews clinical documentation, including:
-            </li>
-            <li>Investigator's Brochure (IB)</li>
-            <li>Information Consent Form (ICF)</li>
-            <li className="list-none">
+            <li>Independent double data entry verification and cross-checking.</li>
+            <li>Complete data validation and generation of data validation report.</li>
+            <li>Comprehensive clinical data management services.</li>
+            <li className="list-none mt-4">
               We also author, compile, review, and submit clinical trial
               application packages, ensuring that all necessary documents are
               complete and accurate.

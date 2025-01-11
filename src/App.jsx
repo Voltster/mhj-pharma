@@ -50,6 +50,8 @@ import { Helmet } from "react-helmet";
 import PackshotInfoPage from "./components/products/PackshotInfoPage"
 import Texel from "./components/products/Texel";
 import VitaminB from "./components/products/VitaminB";
+// import { useProducts } from "./contexts/ProductContext";
+// import Abcd from "./components/products/Abcd";
 
 // meta coponent
 const SEO = ({title,description,keywords}) => (
@@ -62,6 +64,22 @@ const SEO = ({title,description,keywords}) => (
 
 
 function App() {
+  // const { products , loading , error } = useProducts
+  // if(loading){
+  //   return (
+  //     <Loader/>
+  //   )
+  // }
+
+  // console.log("all product info",products )
+  // if(error){
+  //   return(
+  //     <div className="flex justify-center items-center min-h-screen">
+  //       <div className="text-red-500">{error}</div>
+  //     </div>
+  //   )
+  // }
+
   return (
     <>
       <Suspense fallback={<Loader />}>
@@ -193,6 +211,15 @@ function App() {
               <Route path="/product-detail/trexel" element={ <Texel />} />
               <Route path="/product-detail/vitamin-b-complex-injection" element={ <VitaminB />} />
               {/* <Route path="/products-details/:brand" element={<ProductDetailsPage />} /> */}
+
+                {/* {
+                  products &&
+                  products.map((product)=>(
+                    <Route path={product.pageUrl}  element={ <ProductDetailsPage product={product} />} />
+                    
+                  ))
+               
+                } */}
 
               
               <Route path="/loader" element={<Loader />} />

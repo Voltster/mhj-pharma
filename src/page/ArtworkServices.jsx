@@ -65,7 +65,7 @@ const ArtworkServices = () => {
           <p className="text-justify">
             With our expertise in pharmaceutical regulatory consulting and
             pharmaceutical artwork management, we are your trusted partner for
-            regulatory artwork management services. Contact us today to learn
+            regulatory artwork management services. Contact us to learn
             more about how we can help you streamline your package artwork
             management process and ensure compliance with regulatory
             requirements.
