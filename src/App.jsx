@@ -14,6 +14,9 @@ const Oncology = lazy(() => import("./page/Oncology"));
 // const ProductsDetails = lazy(
 //   () => import("./components/products/ProductsDetails")
 // );
+const  ProductDetailsPage = lazy(
+  () => import("./components/products/ProductDetailsPage")
+);
 const Research = lazy(() => import("./page/Research"));
 const Manufacture = lazy(() => import("./page/Manufacture"));
 const QualityControls = lazy(() => import("./page/QualityControls"));
@@ -50,6 +53,7 @@ import { Helmet } from "react-helmet";
 import PackshotInfoPage from "./components/products/PackshotInfoPage"
 import Texel from "./components/products/Texel";
 import VitaminB from "./components/products/VitaminB";
+import {productData} from "./utils/Data"
 // import { useProducts } from "./contexts/ProductContext";
 // import Abcd from "./components/products/Abcd";
 
@@ -108,7 +112,7 @@ function App() {
               /> */}
               <Route path="/regulatory-services" element={<><SEO title={"Regulatory Services for Global Pharma Solutions | MHJ Pharmaconcepts"} description={"MHJ Pharmaconcepts offers regulatory services designed to accelerate the approval process for pharmaceutical products, ensuring global market entry and compliance"} keywords={"Pharmaceutical Regulatory Services, Global Pharma Compliance, Regulatory Affairs in Pharma, Pharma Regulatory Consulting, International Pharmaceutical Approvals"}/><Regulatory /></>} />
 
-              <Route path="/products" element={<><SEO title={" Global Pharmaceutical Solutions for Better Health"} description={"MHJ Pharmaconcepts offers global pharmaceutical solutions with cutting-edge products, including generics, advanced formulations, and biotechnology, improving healthcare outcomes"} keywords={" High-Quality Pharmaceutical Products, Pharmaceutical Solutions for Healthcare Global Pharmaceutical Manufacturers, Generics and Biosimilars, Innovative Drug Delivery Systems"}/>  <Products /></>} />
+              <Route path="/products" element={<><SEO title={"Product - Global Pharmaceutical Solutions for Better Health"} description={"MHJ Pharmaconcepts offers global pharmaceutical solutions with cutting-edge products, including generics, advanced formulations, and biotechnology, improving healthcare outcomes"} keywords={" High-Quality Pharmaceutical Products, Pharmaceutical Solutions for Healthcare Global Pharmaceutical Manufacturers, Generics and Biosimilars, Innovative Drug Delivery Systems"}/>  <Products /></>} />
 
               <Route
                 path="regulatory/clinical-services"
@@ -206,20 +210,23 @@ function App() {
                 element={<><SEO title={"Quality Control - Ensuring Pharmaceutical Beats Benchmarks"} description={" MHJ Pharmaconcepts follows rigorous quality control procedures for all our pharmaceutical products, ensuring the highest level of quality and patient safety globally"} keywords={"Pharmaceutical Quality Control, Quality Assurance in Pharma, Global Pharma Quality Standards, Rigorous Quality Control Processes, Compliance in Pharmaceutical Manufacturing"}/> <QualityControls /></>}
               />
               <Route path="/globalfootprint" element={<><SEO title={" Global Footprint - Delivering Healthcare Worldwide"} description={" Explore MHJ Pharmaconcepts' global footprint, providing innovative pharmaceutical solutions across major international markets with a commitment to improving global health"} keywords={"Global Pharmaceutical Reach, MHJ Pharmaconcepts Worldwide International Healthcare Solutions, Pharmaceutical Global Footprint,  Global Pharmaceutical Presence"} /> <GlobalPresence /></>} />
-              <Route path="/contact" element={<><SEO title={"Contact US - MHJ Pharmaconcepts"} description={" Connect with MHJ Pharmaconcepts for pharmaceutical inquiries, product support, or to explore potential partnerships. We're ready to help!"} keywords={"Contact Pharmaceutical Company, Pharmaceutical Customer Support, Contact MHJ Pharmaconcepts, Contact for Pharma Inquiries, Pharmaceutical Partnership Inquiries"}/> <Contact /></>} />
+              <Route path="/contact" element={<><SEO title={"Contact Us - MHJ Pharmaconcepts"} description={" Connect with MHJ Pharmaconcepts for pharmaceutical inquiries, product support, or to explore potential partnerships. We're ready to help!"} keywords={"Contact Pharmaceutical Company, Pharmaceutical Customer Support, Contact MHJ Pharmaconcepts, Contact for Pharma Inquiries, Pharmaceutical Partnership Inquiries"}/> <Contact /></>} />
               <Route path="/product-detail/imvast-20" element={ <PackshotInfoPage />} />
               <Route path="/product-detail/trexel" element={ <Texel />} />
               <Route path="/product-detail/vitamin-b-complex-injection" element={ <VitaminB />} />
               {/* <Route path="/products-details/:brand" element={<ProductDetailsPage />} /> */}
 
-                {/* {
-                  products &&
-                  products.map((product)=>(
-                    <Route path={product.pageUrl}  element={ <ProductDetailsPage product={product} />} />
-                    
+                {
+                  // product && 
+                  productData.map((product, i)=>(
+                    <Route 
+                    key={i} 
+                    path={`${product.pageUrl.toLowerCase()}`}
+                    element={
+                      <ProductDetailsPage product={product}/>
+                    }/>
                   ))
-               
-                } */}
+                }
 
               
               <Route path="/loader" element={<Loader />} />
