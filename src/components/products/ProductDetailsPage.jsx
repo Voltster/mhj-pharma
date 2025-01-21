@@ -57,23 +57,23 @@ const ProductDetailsPage = ({product}) => {
            <td className="border px-4 py-2 text-gray-700">Product Image</td>
            <td className="border px-4 py-2 text-gray-600">
            <PhotoProvider>
-            <PhotoView src={product.images}>
-               <img src={product.images} alt="" className='border p-2 h-32 cursor-pointer' />
+            <PhotoView src={product.productImg}>
+               <img src={product.productImg} alt="" className='border p-2 h-32 cursor-pointer' />
              </PhotoView>
             </PhotoProvider>
           </td>
          </tr>
         
-         <tr >
+         <tr  className="text-left">
            <td className="border px-4 py-2 text-gray-700">Description</td>
            <td className="border px-4 py-2 text-gray-600 whitespace-pre-wrap">
            Generic Name : {product.description.genericName} <br/><br/>
            Composition: {product.description.composition}<br/><br/>
            {/* Each Vial Contains: {product.description.eachVialContains}   <br/><br/> */}
            Store at below  {product.description.storePoint}<br/><br/>
-           Dosage : {product.description.Dosage}<br/><br/>
-         <div className='uppercase'>
-         Exported by:  {product.description.exportedBy}<br/><br/>
+           Dosage : {product.description.dosage}<br/><br/>
+         <div className='uppercase left'>
+           Exported by:  {product.description.exportedBy}<br/><br/>
            Imported By :  {product.description.importedBy}<br/><br/>
            Manufactured By :  {product.description.manufacturedBy}<br/><br/>
          </div>

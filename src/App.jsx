@@ -1,7 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom";
 import Navbar from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 const Home = lazy(() => import("./page/Home"));
 const Export = lazy(() => import("./page/Export"));
 const QualifiedTeam = lazy(() => import("./page/QualifiedTeam"));
@@ -53,7 +53,7 @@ import { Helmet } from "react-helmet";
 import PackshotInfoPage from "./components/products/PackshotInfoPage"
 import Texel from "./components/products/Texel";
 import VitaminB from "./components/products/VitaminB";
-import {productData} from "./utils/Data"
+// import {productData} from "./utils/Data"
 // import { useProducts } from "./contexts/ProductContext";
 // import Abcd from "./components/products/Abcd";
 
@@ -68,21 +68,23 @@ const SEO = ({title,description,keywords}) => (
 
 
 function App() {
-  // const { products , loading , error } = useProducts
-  // if(loading){
-  //   return (
-  //     <Loader/>
-  //   )
-  // }
+  
+  const [productData, setProductData] = useState([]);
+  // console.log("New Product Data", productData.data);
 
-  // console.log("all product info",products )
-  // if(error){
-  //   return(
-  //     <div className="flex justify-center items-center min-h-screen">
-  //       <div className="text-red-500">{error}</div>
-  //     </div>
-  //   )
-  // }
+useEffect(() => {
+  fetch('https://all-products-api.onrender.com/productsDetails')
+    .then(res => res.json())
+    .then(data => {
+      // console.log("Product Data", data);
+      setProductData(data.data);
+    })
+    .catch(error => {
+      console.error('Error fetching product data:', error);
+      // Handle the error, e.g., display an error message to the user
+    });
+}, []);
+ 
 
   return (
     <>
@@ -216,8 +218,8 @@ function App() {
               <Route path="/product-detail/vitamin-b-complex-injection" element={ <VitaminB />} />
               {/* <Route path="/products-details/:brand" element={<ProductDetailsPage />} /> */}
 
-                {
-                  // product && 
+                {/* {
+                  // productData && 
                   productData.map((product, i)=>(
                     <Route 
                     key={i} 
@@ -226,8 +228,22 @@ function App() {
                       <ProductDetailsPage product={product}/>
                     }/>
                   ))
-                }
+                } */}
 
+
+{
+  // Conditional rendering to prevent errors if productData is empty
+  productData.length > 0 && 
+  productData.map((product, i) => (
+    
+    <Route 
+      key={product._id} // Use a unique identifier for the key
+      path={`/${product.pageUrl.toLowerCase()}`} 
+      element={<ProductDetailsPage product={product} />} 
+    />
+  ))
+ 
+}
               
               <Route path="/loader" element={<Loader />} />
               <Route path="*" element={<Error404 />} />
@@ -252,4 +268,4 @@ function App() {
     </>
   );
 }
-export default App;
+export default App
