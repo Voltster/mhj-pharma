@@ -19,8 +19,14 @@ const Footer = () => {
 
   const quickLinks = [
     { title: "Injectables", link: "/products/general/injectables" },
-    { title: "Oral Solid/ Tablets", link: "/products/general/oral-solids/tablets" },
-    { title: "Oral Solid/ Capsules", link: "/products/general/oral-solids/capsules" },
+    {
+      title: "Oral Solid/ Tablets",
+      link: "/products/general/oral-solids/tablets",
+    },
+    {
+      title: "Oral Solid/ Capsules",
+      link: "/products/general/oral-solids/capsules",
+    },
     { title: "Oral Liquids", link: "/products/general/oral-liquids" },
     { title: "Infusions", link: "/products/general/infusions" },
     { title: "Nutraceutical", link: "/products/general/nutraceutical" },
@@ -45,8 +51,9 @@ const Footer = () => {
   return (
     <>
       <m.footer
-        className={`relative z-10 bg-white  w-full  mx-auto bg-no-repeat bg-bottom md:border-2 border-[#941616] md:rounded-full overflow-hidden md:shadow-[0_3px_10px_rgb(0,0,0,0.2)] ${isOncology ? "border-[#F38DA9]" : "border-[#941616]"
-          }`}
+        className={`relative z-10 bg-white  w-full  mx-auto bg-no-repeat bg-bottom md:border-2 border-[#941616] md:rounded-full overflow-hidden md:shadow-[0_3px_10px_rgb(0,0,0,0.2)] ${
+          isOncology ? "border-[#F38DA9]" : "border-[#941616]"
+        }`}
         initial={{ y: 0, opacity: 0 }}
         whileInView={{ y: [10, 0], opacity: 1 }}
         transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
@@ -72,8 +79,9 @@ const Footer = () => {
                   <p className="flex items-center text-sm font-medium">
                     <span className="mr-3 text-primary">
                       <FaPhone
-                        className={`${isOncology ? "text-[#F38DA9]" : "text-[#941616]"
-                          }`}
+                        className={`${
+                          isOncology ? "text-[#F38DA9]" : "text-[#941616]"
+                        }`}
                       />
                     </span>
                     <span>+011-430-16300</span>
@@ -83,8 +91,9 @@ const Footer = () => {
               <div className="mx-4 flex mb-4 md:mb-0">
                 <div className="w-full ">
                   <h4
-                    className={`text-base font-semibold ${isOncology ? "text-[#F38DA9]" : "text-red-700 "
-                      }`}
+                    className={`text-base font-semibold ${
+                      isOncology ? "text-[#F38DA9]" : "text-red-700 "
+                    }`}
                   >
                     Company
                   </h4>
@@ -93,10 +102,11 @@ const Footer = () => {
                       <li key={index}>
                         <Link
                           to={item.link}
-                          className={`inline-block text-sm leading-loose text-body-color  hover:ml-2 transition-all ${isOncology
-                            ? "hover:text-[#F38DA9]"
-                            : "hover:text-red-700"
-                            }`}
+                          className={`inline-block text-sm leading-loose text-body-color  hover:ml-2 transition-all ${
+                            isOncology
+                              ? "hover:text-[#F38DA9]"
+                              : "hover:text-red-700"
+                          }`}
                         >
                           {item.title}
                         </Link>
@@ -107,8 +117,9 @@ const Footer = () => {
                 <div className="md:w-1/2 px-4 block md:hidden">
                   <div className="mb-10 w-full">
                     <h4
-                      className={`text-base font-semibold ${isOncology ? "text-[#F38DA9]" : "text-red-700 "
-                        }`}
+                      className={`text-base font-semibold ${
+                        isOncology ? "text-[#F38DA9]" : "text-red-700 "
+                      }`}
                     >
                       Products
                     </h4>
@@ -130,8 +141,9 @@ const Footer = () => {
             </div>
 
             <div
-              className={`flex justify-center md:w-1/2 pt-4 ${isOncology ? "bg-[#F38DA9]" : "bg-[#941616]"
-                }`}
+              className={`flex justify-center md:w-1/2 pt-4 ${
+                isOncology ? "bg-[#F38DA9]" : "bg-[#941616]"
+              }`}
             >
               <div className="md:w-1/2 px-4 hidden md:block">
                 <div className="mb-10 w-full">
@@ -177,6 +189,7 @@ const Footer = () => {
                     ))}
                   </div>
                 </div>
+               
               </div>
             </div>
           </div>
@@ -186,7 +199,7 @@ const Footer = () => {
       <div className="w-full sm:h-8 flex relative">
         <span className="text-gray-800 w-full h-full flex items-center justify-center relative z-10 text-center">
           &copy; {new Date().getFullYear()} MHJ PHARMACONCEPTS PVT. LTD | All
-          Rights Reserved
+          Rights Reserved |  &nbsp;<Link to={"/terms&conditions"} className="hover:underline">Terms & Conditions</Link>
         </span>
       </div>
     </>
