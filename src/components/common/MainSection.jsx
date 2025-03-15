@@ -7,7 +7,7 @@ const MainSection = ({ title, videoSrc, className, heading }) => {
         <div className="w-[100%] h-full overflow-hidden relative">
           <video src={videoSrc} autoPlay loop muted className="w-full" />
           <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  text-white w-full bg-black/30 h-full flex flex-col justify-center items-center">
-            <h3 className="text-2xl md:text-6xl font-bold uppercase ">
+            <h3 className="text-2xl md:text-6xl font-bold">
               {heading}
             </h3>
           </div>

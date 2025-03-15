@@ -100,7 +100,7 @@ const Hero = () => {
           whileInView={{ x: [-50, 0], opacity: 1 }}
           transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
         >
-          WELCOME TO OUR ONCOLOGY DIVISION
+          Welcome To Our Oncology Division
         </m.h1>
         <m.p
           className="text-[#111111] text-justify"

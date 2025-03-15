@@ -14,9 +14,9 @@ const Manufacture = () => {
           backgroundImage: `url('${ManufacturingBg}')`,
         }}
       >
-        <m.h2 className=" text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[100vh] text-center flex justify-center items-center bg-black/60">
+        <m.h1 className=" text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[100vh] text-center flex justify-center items-center bg-black/60 ">
           Manufacturing Unit
-        </m.h2>
+        </m.h1>
       </div>
       <div className="w-11/12 mx-auto flex-col-reverse md:flex-row flex items-center justify-center gap-8 md:gap-14 py-10">
         <m.div

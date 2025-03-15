@@ -15,7 +15,6 @@ const ProductsDetails = lazy(
   () => import("./components/products/ProductsDetails")
 );
 import ProductDetailsPage from "./components/products/ProductDetailsPage";
-
 const Research = lazy(() => import("./page/Research"));
 const Manufacture = lazy(() => import("./page/Manufacture"));
 const QualityControls = lazy(() => import("./page/QualityControls"));
@@ -138,7 +137,6 @@ function App() {
                   </>
                 }
               />
-
               <Route
                 path="/qualified-team"
                 element={
@@ -158,7 +156,6 @@ function App() {
                   </>
                 }
               />
-
               <Route
                 path="/about"
                 element={
@@ -256,10 +253,10 @@ function App() {
                         " Packaging Artwork & Labeling Services | MHJ Pharmaconcepts Pvt Ltd"
                       }
                       description={
-                        "MHJ Pharmaconcepts specializes in pharmaceutical artwork management, ensuring accurate and compliant labeling and packaging for products in global markets"
+                        "MHJ Pharmaconcepts specializes in pharmaceutical artwork services, ensuring accurate and compliant labeling and packaging for products in global markets"
                       }
                       keywords={
-                        " Pharmaceutical Artwork Management, Packaging and Labeling Services Regulatory-Compliant Artwork, Pharmaceutical Packaging Solutions, Artwork and Labeling Compliance"
+                        " Pharmaceutical Artwork Services, Packaging and Labeling Services Regulatory-Compliant Artwork, Pharmaceutical Packaging Solutions, Artwork and Labeling Compliance"
                       }
                     />
                     <ArtworkServices />
@@ -590,6 +587,7 @@ function App() {
                 path="/terms&conditions"
                 element={<TermsAndConditions />}
               />
+
               {/* <Route path="/product-detail/trexel" element={ <Texel />} /> */}
               {/* <Route path="/product-detail/vitamin-b-complex-injection" element={ <VitaminB />} /> */}
               {/* <Route path="/products-details/:brand" element={<ProductDetailsPage />} /> */}

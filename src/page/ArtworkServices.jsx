@@ -15,7 +15,7 @@ const ArtworkServices = () => {
         }}
       >
         <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
-          Artwork Management
+          Artwork Services
         </h2>
       </div>
       <SectionLayout
@@ -65,10 +65,9 @@ const ArtworkServices = () => {
           <p className="text-justify">
             With our expertise in pharmaceutical regulatory consulting and
             pharmaceutical artwork management, we are your trusted partner for
-            regulatory artwork management services. Contact us to learn
-            more about how we can help you streamline your package artwork
-            management process and ensure compliance with regulatory
-            requirements.
+            regulatory artwork management services. Contact us to learn more
+            about how we can help you streamline your package artwork management
+            process and ensure compliance with regulatory requirements.
           </p>
         </m.div>
       </div>

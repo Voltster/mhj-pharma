@@ -13,7 +13,7 @@ const Regulatory = () => {
         className=" w-full md:h-[90vh] relative text-gray-900 bg-cover  bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${regulatoryBg})` }}
       >
-        <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60">
+        <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/60 ">
           Regulatory Services
         </h2>
       </div>

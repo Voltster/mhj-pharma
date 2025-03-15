@@ -7,7 +7,11 @@ const MainSection = () => {
       >
         <div className="w-[100%] h-full overflow-hidden relative">
           <video src={video} autoPlay loop muted className="w-full" />
-          <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  text-white w-full bg-black/30 h-full flex flex-col justify-center items-center"></div>
+          <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  text-white w-full bg-black/30 h-full flex flex-col justify-center items-center">
+            <h2 className="text-2xl md:text-6xl font-semibold text-white w-full min-h-[50vw] md:min-h-[90vh] h-full text-center flex justify-center items-center bg-black/10">
+              About Us
+            </h2>
+          </div>
         </div>
       </div>
     </section>
