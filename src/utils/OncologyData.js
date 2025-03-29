@@ -64,7 +64,7 @@ export const capsuleData = [
   { productName: "Thalidomide Capsules USP", strengths: "100 mg" },
   { productName: "Thalidomide Capsules USP", strengths: "200 mg" },
   { productName: "Temozolomide Capsules", strengths: "100 mg" },
-  { productName: "Imatinib Capsules", strengths: "" }, // No strengths provided
+  { productName: "Imatinib Capsules", strengths: "" }, 
   { productName: "Lenalidomide Capsules", strengths: "5.0 mg" },
   { productName: "Lenalidomide Capsules", strengths: "10 mg" },
   { productName: "Lenalidomide Capsules", strengths: "15 mg" },

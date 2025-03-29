@@ -64,6 +64,7 @@ const Contact = ({ title }) => {
                       <Link
                         to={"https://www.instagram.com/mhjpharmaconcepts/"}
                         target="blank"
+                        aria-label={"Instaram icons"}
                       >
                         <FaInstagramSquare />
                       </Link>
@@ -74,6 +75,7 @@ const Contact = ({ title }) => {
                           "https://in.linkedin.com/company/mhj-pharmaconcepts"
                         }
                         target="blank"
+                        aria-label={"linkedin icons"}
                       >
                         <FaLinkedin />
                       </Link>

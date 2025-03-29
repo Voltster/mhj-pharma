@@ -1,5 +1,5 @@
 import React from "react";
-import SectionLayout from "./../components/regulatory/SectionLayout";
+// import SectionLayout from "./../components/regulatory/SectionLayout";
 import ExportImg from "../assets/Export.webp";
 import { motion as m } from "framer-motion";
 const Export = () => {

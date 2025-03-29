@@ -14,6 +14,10 @@ import sample4 from "../assets/Packshot/merrin.webp";
 import sample5 from "../assets/Packshot/timoc.webp";
 import sample6 from "../assets/Packshot/valpoc.webp";
 import sample7 from "../assets/Packshot/zatron.webp";
+import sample8 from "../assets/Packshot/bortiz.png";
+import sample9 from "../assets/Packshot/CHLOROQ.png";
+import sample10 from "../assets/Packshot/CROLEM1.png";
+import sample11 from "../assets/Packshot/LOSAK.png";
 
 import { motion as m } from "framer-motion";
 
@@ -24,6 +28,10 @@ const imageData = [
   { img: sample5 },
   { img: sample6 },
   { img: sample7 },
+  { img: sample8 },
+  { img: sample9 },
+  { img: sample10 },
+  { img: sample11 },
 ];
 
 const Home = () => {
@@ -109,7 +117,7 @@ const Home = () => {
             <span className="flex items-center ">
               <img
                 src={UkFlag}
-                alt="USA Flag"
+                alt="Uk Flag"
                 className=" h-8 mr-2"
                 loading="lazy"
               />

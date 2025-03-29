@@ -24,7 +24,7 @@ export default {
         },
       },
       colors: {
-        brown: "#9f2a00",
+        brown: "#800000",
         snow: "#f7fcff",
       },
     },

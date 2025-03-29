@@ -45,6 +45,7 @@ const Regulatory = () => {
         <div className="w-full  md:w-1/2">
           <m.img
             src={Regulatory2}
+            alt="Regulatory Services"
             className="md:w-[100%]  mx-auto rounded-md "
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
@@ -67,10 +68,10 @@ const Regulatory = () => {
             wide range of activities, such as dossier preparation
             (regional-specific formats), analytical method validation (assay
             validation, RS, cleaning validation, etc.), Drug Master
-            File(DMF),Product Development Report (PDR), Process Validation protocol And Report
-            (PVPR), stability studies, etc., Artwork designs, bioequivalent
-            studies (bio waiver/BE study/PSUR data), Non-clinical and Clinical
-            Studies.
+            File(DMF),Product Development Report (PDR), Process Validation
+            protocol And Report (PVPR), stability studies, etc., Artwork
+            designs, bioequivalent studies (bio waiver/BE study/PSUR data),
+            Non-clinical and Clinical Studies.
             <br />
             Our regulatory affairs services help pharmaceutical companies launch
             new products to the desired market by ensuring compliance with
@@ -86,6 +87,7 @@ const Regulatory = () => {
           <m.img
             src={Regulatory3}
             className="w-[100%] mx-auto rounded-md "
+            alt="Regulatory Services"
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [-150, 0], opacity: 1 }}
@@ -137,6 +139,7 @@ const Regulatory = () => {
           <m.img
             src={Regulatory1}
             className="w-[100%] mx-auto rounded-md"
+            alt="Regulatory Services"
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [150, 0], opacity: 1 }}
@@ -150,7 +153,7 @@ const Regulatory = () => {
         <div className="md:w-1/2 mx-auto">
           <m.img
             src={regulatoryBg}
-            alt=""
+            alt="Regulatory Services"
             className=" rounded-md  w-[100%] mx-auto hidden sm:block"
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [-150, 0], opacity: 1 }}

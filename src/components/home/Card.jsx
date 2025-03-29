@@ -1,7 +1,5 @@
 import CardData from "./CardData";
-
 import contract from "../../assets/card1.jfif";
-import Accredited from "../../assets/card2.jfif";
 import Highly from "../../assets/card3.jfif";
 
 const cardsData = [
@@ -12,13 +10,6 @@ const cardsData = [
       "MHJ Pharmaconcepts is a trusted partner for pharmaceutical companies seeking to expand their global reach.",
     link: "export",
   },
-  // {
-  //   image: Accredited,
-  //   title: "Regulatory Endorsements",
-  //   description:
-  //     "Our expert regulatory affairs team ensures that all products manufactured at our facilities are fully compliant with the regulatory requirements of the target markets",
-  //   link: "/technology/research-development",
-  // },
   {
     image: Highly,
     title: "Highly Qualified Team",

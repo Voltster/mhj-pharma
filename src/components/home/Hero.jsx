@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { motion as m } from "framer-motion";
 import HeroVideo from "../../assets/Hero.mp4";
 import OncologyTable from "../oncology/OnclologyTable";

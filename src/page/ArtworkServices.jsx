@@ -23,13 +23,14 @@ const ArtworkServices = () => {
         title={"Exceptional Regulatory Artwork Management Services"}
         description={`At MHJ Pharmaconcepts, we pride ourselves on delivering exceptional regulatory artwork management services to our clients. With our extensive expertise in pharmaceutical regulatory consulting and pharmaceutical artwork management, we have successfully submitted new product authorization applications to over 23+ countries and responded to related inquiries.<br /> Expertise in Package Artwork Management<br />Our team specializes in mitigating the risks associated with package artwork, ensuring that all labeling and packaging comply with regulatory requirements. We understand the importance of accuracy and attention to detail, and our services are designed to minimize the likelihood of errors or labelling inconsistencies.`}
         src={Artwork1}
+        alt={"Exceptional Regulatory Artwork Management Services"}
         className={"w-11/12 mx-auto container"}
       />
       <div className="w-11/12 container mx-auto  flex justify-center items-center flex-col md:flex-row gap-14 md:py-8 px-4 ">
         <div className="md:w-1/2 ">
           <m.img
             src={Artwork2}
-            alt=""
+            alt="Benefits Of Our Services"
             className="rounded-md "
             initial={{ x: [0], opacity: 0 }}
             whileInView={{ x: [-150, 0], opacity: 1 }}

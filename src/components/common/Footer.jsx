@@ -51,8 +51,8 @@ const Footer = () => {
   return (
     <>
       <m.footer
-        className={`relative z-10 bg-white  w-full  mx-auto bg-no-repeat bg-bottom md:border-2 border-[#941616] md:rounded-full overflow-hidden md:shadow-[0_3px_10px_rgb(0,0,0,0.2)] ${
-          isOncology ? "border-[#F38DA9]" : "border-[#941616]"
+        className={`relative z-10 bg-white  w-full  mx-auto bg-no-repeat bg-bottom md:border-2  md:rounded-full overflow-hidden md:shadow-[0_3px_10px_rgb(0,0,0,0.2)] ${
+          isOncology ? "border-[#F38DA9]" : "border-[#800000]"
         }`}
         initial={{ y: 0, opacity: 0 }}
         whileInView={{ y: [10, 0], opacity: 1 }}
@@ -80,7 +80,7 @@ const Footer = () => {
                     <span className="mr-3 text-primary">
                       <FaPhone
                         className={`${
-                          isOncology ? "text-[#F38DA9]" : "text-[#941616]"
+                          isOncology ? "text-[#F38DA9]" : "text-[#800000]"
                         }`}
                       />
                     </span>
@@ -142,7 +142,7 @@ const Footer = () => {
 
             <div
               className={`flex justify-center md:w-1/2 pt-4 ${
-                isOncology ? "bg-[#F38DA9]" : "bg-[#941616]"
+                isOncology ? "bg-[#F38DA9]" : "bg-[#800000]"
               }`}
             >
               <div className="md:w-1/2 px-4 hidden md:block">
@@ -181,6 +181,7 @@ const Footer = () => {
                       <Link
                         key={index}
                         to={item.link}
+                        aria-label={"Social media icons"}
                         target="blank"
                         className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke hover:border-white-50 hover:bg-primary mt-4 hover:mt-2 transition-all text-gray-100 sm:mr-4 lg:mr-3 xl:mr-4 dark:border-dark-3 dark:hover:border-primary"
                       >
@@ -189,7 +190,6 @@ const Footer = () => {
                     ))}
                   </div>
                 </div>
-               
               </div>
             </div>
           </div>
@@ -199,7 +199,10 @@ const Footer = () => {
       <div className="w-full sm:h-8 flex relative">
         <span className="text-gray-800 w-full h-full flex items-center justify-center relative z-10 text-center">
           &copy; {new Date().getFullYear()} MHJ PHARMACONCEPTS PVT. LTD | All
-          Rights Reserved |  &nbsp;<Link to={"/terms&conditions"} className="hover:underline">Terms & Conditions</Link>
+          Rights Reserved | &nbsp;
+          <Link to={"/terms&conditions"} className="hover:underline">
+            Terms & Conditions
+          </Link>
         </span>
       </div>
     </>

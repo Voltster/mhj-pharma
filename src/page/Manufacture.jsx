@@ -7,7 +7,7 @@ import Manufacturing3 from "../assets/Manufacturing3.webp";
 
 const Manufacture = () => {
   return (
-    <div className="min-h-screen relative w-full mx-auto pt-1 mb-20" >
+    <div className="min-h-screen relative w-full mx-auto pt-1 mb-20">
       <div
         className="w-full md:h-full relative text-gray-900 bg-cover bg-no-repeat bg-center"
         style={{
@@ -46,6 +46,7 @@ const Manufacture = () => {
             transition={{ duration: 1, ease: [0.45, 0, 0.55, 1] }}
             viewport={{ once: true, amount: 0.5 }}
             src={Manufacturing1}
+            alt="mhj pharmama manufacturing"
             className="w-[100%] mx-auto rounded-md"
             loading="lazy"
           />
@@ -55,6 +56,7 @@ const Manufacture = () => {
         <div className="md:w-1/2">
           <m.img
             src={Manufacturing2}
+            alt="mhj pharmama manufacturing"
             className="w-[100%] mx-auto rounded-md "
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}
@@ -126,6 +128,8 @@ const Manufacture = () => {
         <div className="md:w-1/2">
           <m.img
             src={Manufacturing3}
+            alt="high-quality
+            pharmaceutical products"
             className="w-[100%] mx-auto rounded-md"
             loading="lazy"
             initial={{ x: [0], opacity: 0 }}

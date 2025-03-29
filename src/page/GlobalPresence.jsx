@@ -1,6 +1,5 @@
 import React from "react";
 import GlobalReach from "../components/common/WorldMap";
-import Test from "../components/common/Test";
 
 const GlobalPresence = () => {
   return (

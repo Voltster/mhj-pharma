@@ -24,6 +24,7 @@ const Pharmacovigilance = () => {
         description={`At MHJ Pharmaconcepts, we prioritize innovation, quality, and customer-centricity. We integrate cutting-edge technology to optimize pharmacovigilance processes, ensuring compliance and timely responses to safety and regulatory challenges. Our seasoned pharmacovigilance teams, comprising regulatory affairs and pharmacovigilance experts, guarantee meticulous adherence to global standards. We foster strong client relationships through transparency, collaboration, and regular updates, empowering clients with insights and expertise.
 `}
         src={Pharmacovigilance1}
+        alt="Regulatory Compliance Services"
         className={"w-11/12 mx-auto container"}
       />
       <m.h4
@@ -98,6 +99,7 @@ const Pharmacovigilance = () => {
         description={`At MHJ Pharmaconcepts, we utilize a strategic approach to global adverse event reporting, ensuring compliance with international regulations and post-market safety requirements. Our team has expertise in working with reporting systems that facilitate timely and compliant reporting across various jurisdictions, adhering to stringent regulatory standards worldwide.<br />We are capable of working with global adverse event reporting systems, international pharmacovigilance databases, and regulatory platforms, enabling real-time information dissemination and proactive responses to emerging safety concerns. Our commitment to compliance spans regions, addressing diverse regulatory landscapes and reporting nuances.<br />
 `}
         src={globalPharmacovigilance}
+        alt={"Global Pharmacovigilance "}
         className={"w-11/12 mx-auto container flex-row-reverse "}
         customClass={"mt-0"}
       />
@@ -106,6 +108,7 @@ const Pharmacovigilance = () => {
         description={`At MHJ Pharmaconcepts, our PV & drug safety team supports clients in navigating complex PV regulations and post-marketing safety requirements for regulated and emerging markets. Our global network of local partners and physicians enables us to conduct post-market safety surveillance in accordance with the latest regulations.<br />We offer regulatory consulting services to help clients understand and interpret diverse PV regulations, conduct compliance audits to identify gaps and discrepancies, and provide real-time updates on changing PV regulations. Our team combines its deep understanding of product portfolios and requirements to ensure compliance with healthcare authority regulations.<br />With experience in 20+ markets, including working with stringent authorities, we are the preferred partner for compliant solutions in global drug safety. Our expertise spans a broad range of products, including generics, biologics, biosimilars.
 `}
         src={Pharmacovigilance3}
+        alt={"Regulations And Post Marketing Safety Requirements"}
         className={"w-11/12 mx-auto container xl:flex-row-reverse"}
         customClass={"mt-0 pb-10"}
       />

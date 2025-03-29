@@ -5,7 +5,6 @@ const SectionLayout = ({
   src,
   alt,
   className,
-  display,
   subheading,
   id,
   headingClass,

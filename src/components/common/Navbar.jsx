@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { FaTimes, FaBars, FaCaretDown } from "react-icons/fa";
+import { FaCaretDown } from "react-icons/fa";
 import logo from "../../assets/mhjlogo.png";
 import PrimaryButton from "./PrimaryButton";
 import { AnimatePresence, motion as m } from "framer-motion";
