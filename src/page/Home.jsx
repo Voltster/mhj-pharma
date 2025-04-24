@@ -14,10 +14,10 @@ import sample4 from "../assets/Packshot/merrin.webp";
 import sample5 from "../assets/Packshot/timoc.webp";
 import sample6 from "../assets/Packshot/valpoc.webp";
 import sample7 from "../assets/Packshot/zatron.webp";
-import sample8 from "../assets/Packshot/bortiz.png";
-import sample9 from "../assets/Packshot/CHLOROQ.png";
-import sample10 from "../assets/Packshot/CROLEM1.png";
-import sample11 from "../assets/Packshot/LOSAK.png";
+import sample8 from "../assets/Packshot/bortiz.webp";
+import sample9 from "../assets/Packshot/CHLOROQ.webp";
+import sample10 from "../assets/Packshot/CROLEM1.webp";
+import sample11 from "../assets/Packshot/LOSAK.webp";
 
 import { motion as m } from "framer-motion";
 

@@ -1,6 +1,5 @@
-import QualityControl from "../assets/QualityControl.png";
-import QualityControl2 from "../assets/QualityControl2.png";
-import video from "../assets/Research.mp4";
+import QualityControl from "../assets/img/QualityControl.webp";
+import QualityControl2 from "../assets/img/QualityControl2.webp";
 import MainSection from "../components/common/MainSection";
 import SectionLayout from "../components/common/SectionLayout";
 
@@ -10,7 +9,9 @@ const QualityControls = () => {
       <MainSection
         title={"Quality"}
         heading={"Quality Control"}
-        videoSrc={video}
+        videoSrc={
+          "https://res.cloudinary.com/mhjproduct/video/upload/v1745486243/Research_wrdvud.mp4"
+        }
       />
       <SectionLayout
         title={"Quality Control"}

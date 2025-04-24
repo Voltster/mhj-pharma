@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import productBg from "../../assets/productBg.jpg";
+import productBg from "../../assets/img/productBg.webp";
 
 const ProductLists = ({ data, heading }) => {
   const [searchQuery, setSearchQuery] = useState("");

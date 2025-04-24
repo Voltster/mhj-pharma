@@ -1,5 +1,4 @@
 import { motion as m } from "framer-motion";
-import HeroVideo from "../../assets/Hero.mp4";
 import OncologyTable from "../oncology/OnclologyTable";
 
 const tableData = [
@@ -40,10 +39,13 @@ const Hero = () => {
           className="w-full -mt-4 md:-mt-0 overflow-hidden mb-4 xl:mb-0 "
         >
           <video
-            src={HeroVideo}
+            src={
+              "https://res.cloudinary.com/mhjproduct/video/upload/v1745483116/Hero_kztal1.mp4"
+            }
             autoPlay
             loop
             muted
+            loading="lazy"
             className="cursor-pointer w-full -full relative z-0 backdrop-blur-sm scale-105"
           />
           <div className="absolute w-full  sm:h-full  -top-10 left-0 bg-gradient-to-b from-gray-800/10 via-gray-950/40 to-slate-50/0 z-10"></div>

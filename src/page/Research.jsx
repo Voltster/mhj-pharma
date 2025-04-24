@@ -1,6 +1,5 @@
-import ResearchAndDevelopment from "../assets/R&D.jpg";
+import ResearchAndDevelopment from "../assets/img/R&D.webp";
 import ManufacturingUnit from "../assets/ManufacturingUnit.png";
-import video from "../assets/R&D.mp4";
 import MainSection from "../components/common/MainSection";
 import SectionLayout from "../components/common/SectionLayout";
 const Research = () => {
@@ -9,7 +8,9 @@ const Research = () => {
       <MainSection
         heading={"Research & Development"}
         title={"Research"}
-        videoSrc={video}
+        videoSrc={
+          "https://res.cloudinary.com/mhjproduct/video/upload/v1745486252/R_D_krhacx.mp4"
+        }
         className={"flex-row-reverse"}
       />
       <SectionLayout

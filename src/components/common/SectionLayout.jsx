@@ -48,7 +48,7 @@ const SectionLayout = ({
       >
         <img
           src={src}
-          alt={alt}
+          alt={alt || "picture of doctor"}
           loading="lazy"
           className={`mx-auto rounded-lg ${floatLeft == true ? "md:float-left" : "md:float-right"}`}
         />

@@ -22,7 +22,7 @@
     "react-parallax-tilt": "^1.7.235",
     "react-photo-view": "^1.2.6",
     "react-router-dom": "^7.4.1",
-    "react-simple-maps": "^3.0.0",
+    "react-simple-maps": "^1.0.0",
     "react-toastify": "^10.0.5",
     "react-tooltip": "^5.28.0",
     "react-world-flags": "^1.6.0",

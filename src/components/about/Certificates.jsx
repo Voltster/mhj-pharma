@@ -1,10 +1,9 @@
 import React from "react";
-import certificate1 from "../../assets/certificates1.png";
-import certificate2 from "../../assets/certificates2.png";
-import certificate3 from "../../assets/certificates3.png";
-import certificate4 from "../../assets/certificates4.png";
-import certificate5 from "../../assets/certificates5.png";
-import certificate6 from "../../assets/certificates6.png";
+import certificate1 from "../../assets/img/certificates1.webp";
+import certificate2 from "../../assets/img/certificates2.webp";
+import certificate3 from "../../assets/img/certificates3.webp";
+import certificate4 from "../../assets/img/certificates4.webp";
+import certificate5 from "../../assets/img/certificates5.webp";
 import { motion as m } from "framer-motion";
 
 const Certificates = () => {
