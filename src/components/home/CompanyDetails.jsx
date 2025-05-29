@@ -1,4 +1,4 @@
-import hero2 from "../../assets/MHJ.jpg";
+import hero2 from "../../assets/MHJ.webp";
 import Authenticity from "../../assets/Authenticity.png";
 import QualityCredibility from "../../assets/Quality&Credibility.png";
 import Integrity from "../../assets/Integrity.png";

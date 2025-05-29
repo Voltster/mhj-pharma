@@ -10,7 +10,7 @@ const QualityControls = () => {
         title={"Quality"}
         heading={"Quality Control"}
         videoSrc={
-          "https://res.cloudinary.com/mhjproduct/video/upload/v1745486243/Research_wrdvud.mp4"
+          "https://res.cloudinary.com/mhjproduct/video/upload/v1745486243/Research_wrdvud.mp4?f_auto&q_auto"
         }
       />
       <SectionLayout

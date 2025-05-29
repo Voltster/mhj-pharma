@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaTimes } from "react-icons/fa";
-import modalBg from "../../assets/modalBg1.jpg";
+import modalBg from "../../assets/modalBg1.webp";
 
 const OncologyModal = () => {
   const [isOpen, setIsOpen] = useState(false);

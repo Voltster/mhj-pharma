@@ -1,5 +1,12 @@
 import { Link, Route, Routes } from "react-router-dom";
-import { lazy, Suspense, useEffect, useState } from "react";
+import {
+  lazy,
+  Suspense,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import { AnimatePresence } from "framer-motion";
 import { ToastContainer } from "react-toastify";
 import { Helmet } from "react-helmet-async";
@@ -60,6 +67,7 @@ import { tabletData, capsuleData, oncoInjections } from "./utils/OncologyData";
 import ProductLists from "./components/products/ProductLists";
 import OncoProductList from "./components/oncology/OncoProductList";
 import Products from "./page/Products";
+import Clarity from "@microsoft/clarity";
 
 // meta coponent
 const SEO = ({ title, description, keywords }) => (
@@ -70,37 +78,125 @@ const SEO = ({ title, description, keywords }) => (
   </Helmet>
 );
 
+const CACHE_DURATION = 5 * 60 * 1000;
+let cachedProductData = null;
+let cacheTimestamp = null;
+
 function App() {
   const [productData, setProductData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const projectId = "rcoxrzkjd5";
 
   useEffect(() => {
-    // Consider moving this to a custom hook
+    Clarity.init(projectId);
+  }, [projectId]);
+
+  const fetchProductData = useCallback(async () => {
+    // Check if we have valid cached data
+    const now = Date.now();
+    if (
+      cachedProductData &&
+      cacheTimestamp &&
+      now - cacheTimestamp < CACHE_DURATION
+    ) {
+      setProductData(cachedProductData);
+      setLoading(false);
+      return;
+    }
+
+    // Set up abort controller for cleanup
     const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 8000); // 8 second timeout
 
-    fetch("https://all-products-api.onrender.com/productsDetails", {
-      signal: controller.signal,
-    })
-      .then((res) => {
-        if (!res.ok) throw new Error("Network response was not ok");
-        return res.json();
-      })
-      .then((data) => {
-        setProductData(data.data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        if (error.name !== "AbortError") {
-          console.error("Error fetching product data:", error);
-          setLoading(false);
+    try {
+      const response = await fetch(
+        "https://all-products-api.onrender.com/productsDetails",
+        {
+          signal: controller.signal,
+          headers: {
+            Accept: "application/json",
+          },
+
+          cache: "default",
         }
-      });
+      );
 
-    return () => controller.abort();
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        throw new Error(`Network response was not ok: ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      // Update cache and state
+      cachedProductData = data.data;
+      cacheTimestamp = now;
+      setProductData(data.data);
+      setLoading(false);
+      setError(null);
+    } catch (error) {
+      if (error.name !== "AbortError") {
+        console.error("Error fetching product data:", error);
+        setError(error.message);
+
+        // Use cached data as fallback if available
+        if (cachedProductData) {
+          setProductData(cachedProductData);
+        }
+      }
+      setLoading(false);
+    } finally {
+      clearTimeout(timeoutId);
+    }
+
+    return () => {
+      controller.abort();
+      clearTimeout(timeoutId);
+    };
   }, []);
+
+  // Call fetch only once with useEffect
+  useEffect(() => {
+    fetchProductData();
+  }, [fetchProductData]);
+
+  // Memoize product routes to prevent unnecessary re-renders
+  const productRoutes = useMemo(() => {
+    return productData && productData.length > 0
+      ? productData.map((product) => (
+          <Route
+            key={product._id}
+            path={`/${product.pageUrl}`}
+            element={<ProductDetailsPage product={product} />}
+          />
+        ))
+      : null;
+  }, [productData]);
+
   if (loading) {
     return <Loader />;
   }
+
+  // Show error message if fetch failed and no cached data
+  if (error && !productData.length) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-screen p-4">
+        <h2 className="text-2xl font-bold text-red-600 mb-4">
+          Failed to load data
+        </h2>
+        <p className="text-gray-600 mb-4">{error}</p>
+        <button
+          onClick={fetchProductData}
+          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        >
+          Try Again
+        </button>
+      </div>
+    );
+  }
+
   return (
     <>
       <Suspense fallback={<Loader />}>
@@ -601,14 +697,15 @@ function App() {
                 path="/terms&conditions"
                 element={<TermsAndConditions />}
               />
-              {productData &&
+              {/* {productData &&
                 productData.map((product) => (
                   <Route
                     key={product._id}
                     path={`/${product.pageUrl}`}
                     element={<ProductDetailsPage product={product} />}
                   />
-                ))}
+                ))} */}
+              {productRoutes}
               <Route path="/loader" element={<Loader />} />
               <Route path="*" element={<Error404 />} />
             </Routes>

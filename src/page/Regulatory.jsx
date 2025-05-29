@@ -1,8 +1,8 @@
 import React from "react";
 import regulatoryBg from "../assets/img/RegulatoryBg.webp";
-import Regulatory1 from "../assets/Regulatory1.jpg";
-import Regulatory2 from "../assets/Regulatory2.jpg";
-import Regulatory3 from "../assets/Regulatory3.jpeg";
+import Regulatory1 from "../assets/Regulatory1.webp";
+import Regulatory2 from "../assets/Regulatory2.webp";
+import Regulatory3 from "../assets/Regulatory3.webp";
 import { FaCheck } from "react-icons/fa6";
 import { motion as m } from "framer-motion";
 

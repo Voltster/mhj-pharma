@@ -18,6 +18,7 @@ import sample8 from "../assets/Packshot/bortiz.webp";
 import sample9 from "../assets/Packshot/CHLOROQ.webp";
 import sample10 from "../assets/Packshot/CROLEM1.webp";
 import sample11 from "../assets/Packshot/LOSAK.webp";
+import comprehensive from "../assets/img/healthcare.webp";
 
 import { motion as m } from "framer-motion";
 
@@ -48,9 +49,8 @@ const Home = () => {
           description={
             "An extensive range of Prescription Drugs and Over The Counter medications are manufactured at our manufacturing plant, with an outsized product portfolio of over 600 molecules in Tablets, Capsules (Soft & Hard Gelatin), Injections (Dry Powders, Liquid & PFS), Oral Liquids. MHJ Pharmaconcepts has its International existence with its branches in USA and UK .We have prolonged our presence in key markets of LATAM , CIS and  AFRICA, among other rising economies to make healthcare more affordable globally."
           }
-          src={
-            "https://img.freepik.com/premium-photo/healthcare-medicine-covid19-doctor-holding-tablet-electronic-medical-record-graph-statistics-infection-outbreak-with-coronavirus-pandemic-spread-global-network_1028938-124417.jpg?w=900"
-          }
+          src={comprehensive}
+          alt="healthcare-medicine-covi"
           className={"xl:flex-row-reverse"}
         />
         <Contact title={"Contact Us"} />

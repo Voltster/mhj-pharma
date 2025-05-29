@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Error404 = () => {
   return (
-    <div className="w-full h-screen flex flex-col lg:flex-row items-center justify-center space-y-16 lg:space-y-0 space-x-8 2xl:space-x-0 z-[99] fixed heroBg  top-0 px-2">
+    <div className="w-full h-screen flex flex-col lg:flex-row items-center justify-center space-y-16 lg:space-y-0 space-x-8 2xl:space-x-0 z-[99] fixed heroBg  top-0 px-2 bg-white">
       <div className="w-full lg:w-1/2 flex flex-col items-center justify-center lg:px-2 xl:px-0 text-center ">
         <p className="text-7xl md:text-8xl lg:text-9xl font-bold tracking-wider text-[#B61A15]">
           404

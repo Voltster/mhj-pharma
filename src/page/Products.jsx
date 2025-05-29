@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion as m } from "framer-motion";
-import productImg from "../assets/productImg.jpg";
+import productImg from "../assets/productImg.webp";
+import bg from "../assets/img/laboratory-banner.webp";
 
 const Products = () => {
-  const bg =
-    "https://img.freepik.com/premium-photo/petri-dishes-flasks-test-tubes-light-background-laboratory-banner-empty-space-advertising_722504-5662.jpg?w=826";
   return (
     <div className="min-h-screen relative w-full mx-auto pt-1 mb-20">
       <div

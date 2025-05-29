@@ -2,14 +2,14 @@ import SectionLayout from "../components/common/SectionLayout";
 import companyOverview from "../assets/img/companyOverview.webp";
 import companyOverview2 from "../assets/img/companyOverview2.webp";
 import InfinityScroll from "../components/common/InfinityScroll";
-import ourMission from "../assets/ourMission1.jpg";
-import ourVision from "../assets/Vision.jpg";
+import ourMission from "../assets/ourMission1.webp";
+import ourVision from "../assets/Vision.webp";
 import SectionCard from "../components/common/SectionCard";
 import Therapeutic from "../components/about/Therapeutic";
 import MainSection from "../components/about/MainSection";
 import { motion as m } from "framer-motion";
 import Certificates from "../components/about/Certificates";
-import goal from "../assets/goal.jpeg";
+import goal from "../assets/goal.webp";
 
 const smarts = [
   {

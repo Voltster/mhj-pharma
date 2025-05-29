@@ -52,7 +52,7 @@ const Products = ({ imageData, customClass }) => {
               loading="lazy"
             />
           </SwiperSlide>
-        ))}
+        ))} 
       </Swiper>
     </div>
   );

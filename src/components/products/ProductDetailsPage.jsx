@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 
 import { PhotoProvider, PhotoView } from "react-photo-view";
@@ -16,12 +15,11 @@ const ProductDetailsPage = ({ product }) => {
       </div>
     );
   }
-  // console.log(product.pageUrl.toLowerCase())
+  console.log(product.pageUrl.toLowerCase());
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString("en-US", { year: "numeric", month: "long" });
-    // Output: "January 2025"
   };
 
   return (

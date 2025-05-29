@@ -1,20 +1,20 @@
-import who from "../../assets/infinityScroll/who.png";
-import Ecuador from "../../assets/infinityScroll/Ecuador.jpg";
-import Kyrgyzstan from "../../assets/infinityScroll/kyrgyzstan.png";
-import uzbek from "../../assets/infinityScroll/uzbek.png";
-import tazkistan from "../../assets/infinityScroll/tazkistan.png";
-import frn from "../../assets/infinityScroll/frn.jpg";
-import ukraine from "../../assets/infinityScroll/ukraine.jpg";
-import pics from "../../assets/infinityScroll/pics.jpg";
-import COSTRICA from "../../assets/infinityScroll/COSTRICA.png";
-import DominicanRepublic from "../../assets/infinityScroll/dominicanRepublic.png";
-import eaeu from "../../assets/infinityScroll/eaeu.png";
-import agemed from "../../assets/infinityScroll/agemed.png";
-import ppbKenya from "../../assets/infinityScroll/ppbKenya.png";
-import gobiero from "../../assets/infinityScroll/gobiero.png";
-import peru from "../../assets/infinityScroll/peru.png";
-import honduras from "../../assets/infinityScroll/honduras.png";
-import Venezuela from "../../assets/infinityScroll/Venezuela.png";
+import who from "../../assets/infinityScroll/who.webp";
+import Ecuador from "../../assets/infinityScroll/Ecuador.webp";
+import Kyrgyzstan from "../../assets/infinityScroll/kyrgyzstan.webp";
+import uzbek from "../../assets/infinityScroll/uzbek.webp";
+import tazkistan from "../../assets/infinityScroll/tazkistan.webp";
+import frn from "../../assets/infinityScroll/frn.webp";
+import ukraine from "../../assets/infinityScroll/ukraine.webp";
+import pics from "../../assets/infinityScroll/pics.webp";
+import COSTRICA from "../../assets/infinityScroll/COSTRICA.webp";
+import DominicanRepublic from "../../assets/infinityScroll/dominicanRepublic.webp";
+import eaeu from "../../assets/infinityScroll/eaeu.webp";
+import agemed from "../../assets/infinityScroll/agemed.webp";
+import ppbKenya from "../../assets/infinityScroll/ppbKenya.webp";
+import gobiero from "../../assets/infinityScroll/gobiero.webp";
+import peru from "../../assets/infinityScroll/peru.webp";
+import honduras from "../../assets/infinityScroll/honduras.webp";
+import Venezuela from "../../assets/infinityScroll/Venezuela.webp";
 
 const images = [
   { img: who, name: "WHO-GMP" },
@@ -50,7 +50,8 @@ const InfinityScroll = () => {
                 src={e.img}
                 alt={e.img}
                 loading="lazy"
-                className="w-full mx-auto h-[10vh] md:h-[15vh] mix-blend-multiply py-2"
+                draggable={false}
+                className="w-full mx-auto h-[10vh] md:h-[15vh] mix-blend-multiply py-2 noselect"
               />
               <p className="text-base text-center text-gray-800 text-nowrap">
                 {e.name}
@@ -63,7 +64,8 @@ const InfinityScroll = () => {
                 src={e.img}
                 alt={e.img}
                 loading="lazy"
-                className="w-full mx-auto h-[10vh] md:h-[15vh] mix-blend-multiply py-2 "
+                draggable={false}
+                className="w-full mx-auto h-[10vh] md:h-[15vh] mix-blend-multiply py-2 noselect"
               />
               <p className="text-base text-center text-gray-800 text-nowrap">
                 {e.name}

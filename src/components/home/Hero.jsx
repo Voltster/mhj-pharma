@@ -1,5 +1,6 @@
 import { motion as m } from "framer-motion";
 import OncologyTable from "../oncology/OnclologyTable";
+import heroBg from "../../assets/img/heroBg.webp";
 
 const tableData = [
   { number: "600+", title: "Molecules" },
@@ -40,11 +41,14 @@ const Hero = () => {
         >
           <video
             src={
-              "https://res.cloudinary.com/mhjproduct/video/upload/v1745483116/Hero_kztal1.mp4"
+              "https://res.cloudinary.com/mhjproduct/video/upload/v1745483116/Hero_kztal1.mp4?f_auto&q_auto"
             }
+            poster={heroBg}
             autoPlay
             loop
             muted
+            playsInline
+            preload="none"
             loading="lazy"
             className="cursor-pointer w-full -full relative z-0 backdrop-blur-sm scale-105"
           />

@@ -1,5 +1,5 @@
 import ResearchAndDevelopment from "../assets/img/R&D.webp";
-import ManufacturingUnit from "../assets/ManufacturingUnit.png";
+import ManufacturingUnit from "../assets/ManufacturingUnit.webp";
 import MainSection from "../components/common/MainSection";
 import SectionLayout from "../components/common/SectionLayout";
 const Research = () => {
@@ -9,7 +9,7 @@ const Research = () => {
         heading={"Research & Development"}
         title={"Research"}
         videoSrc={
-          "https://res.cloudinary.com/mhjproduct/video/upload/v1745486252/R_D_krhacx.mp4"
+          "https://res.cloudinary.com/mhjproduct/video/upload/v1745486252/R_D_krhacx.mp4?f_auto&q_auto"
         }
         className={"flex-row-reverse"}
       />

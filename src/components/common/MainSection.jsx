@@ -9,7 +9,8 @@ const MainSection = ({ title, videoSrc, className, heading }) => {
             src={videoSrc}
             autoPlay
             loop
-            muted
+            mutedplaysInline
+            preload="none"
             loading="lazy"
             className="w-full"
           />

@@ -84,7 +84,7 @@ const Footer = () => {
                         }`}
                       />
                     </span>
-                    <span>+011-430-16300</span>
+                    <span>+011-430-18600</span>
                   </p>
                 </div>
               </div>

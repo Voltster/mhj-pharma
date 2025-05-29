@@ -1,14 +1,13 @@
-import Otc from "../../assets/Otc.png";
-import Tilt from "react-parallax-tilt";
+import Otc from "../../assets/Otc.webp";
 import { motion as m } from "framer-motion";
 import { cards } from "../common/Animation";
-import Antibiotics from "../../assets/Antibiotics.jpg";
+import Antibiotics from "../../assets/Antibiotics.webp";
 import Pulmonology from "../../assets/Pulmonology.jpg";
 import Gastro from "../../assets/Gastro.jpg";
-import Pain from "../../assets/Pain.jpg";
+import Pain from "../../assets/Pain.webp";
 import Otalaryngology from "../../assets/Otalaryngology.jpg";
-import Pediatrics from "../../assets/Pediatrics.jpg";
-import Infectives from "../../assets/Infectives.jpg";
+import Pediatrics from "../../assets/Pediatrics.webp";
+import Infectives from "../../assets/Infectives.webp";
 
 const cardsData = [
   {

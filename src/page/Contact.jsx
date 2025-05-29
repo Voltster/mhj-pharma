@@ -27,7 +27,7 @@ const Contact = () => {
           <div className="md:w-1/3 border border-gray-200 p-6 bg-[#F3F3F5]  text-gray-50  flex flex-col justify-center items-center gap-2 rounded-lg overflow-hidden relative shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
             <FaPhone className="text-3xl text-[#941616]" />
             <p className="text-2xl text-gray-900">Phone</p>
-            <Link className="text-gray-700 text-sm">+011-430-16300</Link>
+            <Link className="text-gray-700 text-sm">+011-430-18600</Link>
           </div>
           <div className="md:w-1/3 border p-6 bg-[#F3F3F5] text-gray-50  flex flex-col justify-center items-center gap-2 rounded-lg overflow-hidden relative shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
             <IoIosMail className="text-3xl text-[#941616]" />

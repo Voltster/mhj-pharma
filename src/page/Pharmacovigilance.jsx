@@ -1,6 +1,6 @@
 import React from "react";
 import SectionLayout from "./../components/regulatory/SectionLayout";
-import globalPharmacovigilance from "../assets/GlobalPharmacovigilance.jpeg";
+import globalPharmacovigilance from "../assets/GlobalPharmacovigilance.webp";
 import Pharmacovigilance1 from "../assets/Pharmacovigilance1.webp";
 import Pharmacovigilance2 from "../assets/Pharmacovigilance2.webp";
 import Pharmacovigilance3 from "../assets/Pharmacovigilance3.webp";

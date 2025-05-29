@@ -1,6 +1,6 @@
 import CardData from "./CardData";
-import contract from "../../assets/card1.jfif";
-import Highly from "../../assets/card3.jfif";
+import contract from "../../assets/card1.webp";
+import Highly from "../../assets/card3.webp";
 
 const cardsData = [
   {

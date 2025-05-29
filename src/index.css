@@ -50,3 +50,9 @@ h6 {
     -1px 1px 0 slategray,
     1px 1px 0 slategray;
 }
+
+img,
+.noselect {
+  user-select: none;
+  -webkit-user-drag: none;
+}
